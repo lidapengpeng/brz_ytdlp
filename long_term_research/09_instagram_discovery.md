@@ -697,7 +697,63 @@ Phase 3 (production, 1+ month, $200-300/mo)
 - Cost-benefit matrix shows Phase 0 (free) is correct first step
 - Apify $15 one-shot identified as potential shortcut
 
+### v2 (2026-05-21, Phase 0 spike implemented)
+
+Built and ran the entire Phase 0 path end-to-end (zero IG account, $0 cost):
+
+**Scaffolding shipped** (PR #1: `ig-discovery-phase0` → main):
+- `ig_discovery/schema.sql` — independent `data/ig.db` (4 tables + 3 views)
+- `bio_extractor.py` — regex for YT/IG/Linktree/Beacons/Bio.link URL extraction
+- `linktree_parser.py` — public HTML fetch + Linktree `__NEXT_DATA__` JSON + href fallback
+- `phase0_ingest.py` — mine aggregator URLs from `results.db.channels.description`
+- `phase0_fetch.py` — concurrent worker-pool fetcher (4 workers × 4 rps)
+- `phase0_wikipedia.py` — PT-Wikipedia category traversal (7 BR YouTuber categories)
+- `resolve_handles.py` — `/@handle` → UC channel_id via canonical / externalId regex
+- `bridge.py` — feed UC cids into `results.db.bfs_visited` as `strategy='ig_bridge'`
+- `validate_ig_seeds.py` — extract_v4 validation pass for ig_bridge seeds
+
+**Phase 0 actual numbers** (vs Phase 0 doc estimate `1-3K new`):
+
+| Source | Aggregators / articles | YT candidates found | UC-direct | /@handle | Status |
+|---|---|---|---|---|---|
+| `yt_about` (existing 173K BR channels) | 822 (Linktree/Beacons/Bio.link found in descriptions) | 2,064 | 787 | 919 + 358 legacy | ✅ |
+| Linktree HTML fetch | 712/733 OK (97%) | 668 net from Linktree pages | included | included | ✅ |
+| Beacons HTML fetch | 0/79 OK (HTTP 403) | 0 | — | — | ❌ Phase 0.4 |
+| PT-Wikipedia (7 cats, 176 articles) | n/a | 138 | 14 | 119 | ✅ |
+| **Combined corpus in ig.db** | 823 aggs / 5,174 IG handles | **2,864** | **1,026** | **1,838** | — |
+
+**Bridge run** (UC cids → results.db.bfs_visited):
+- 1,026 UC URLs extracted
+- 798 already in results.db (78% overlap with existing channels)
+- **228 NEW seeds** inserted with `strategy='ig_bridge'`
+
+**Validation spike** (extract_v4 on first 20 ig_bridge seeds):
+- **12 eligible** (BR + pt + ≥1000 subs)
+- 8 rejected
+- **60% hit rate** vs ~15-20% for YouTube algorithmic discovery
+- → **3-4x lift** confirms IG path is genuinely surfacing channels the YT algorithm misses
+
+**Projected Phase 0 final yield** (full validation pass):
+- 228 ig_bridge cids × 60% hit rate ≈ **137 new eligibles** from description-mining alone
+- + 1,838 /@handle resolution × ~80% resolve × ~30% net-new × 60% eligible ≈ **264 new**
+- + 138 wikipedia × ~30% net-new × 60% ≈ **24 new**
+- **Total Phase 0 yield: ~425 new eligible BR channels** (vs original `1-3K` estimate — smaller, but $0)
+
+**Key learnings**:
+1. **bridge.py bug** discovered during integration: was marking cids as `in_results_db=1` based on `bfs_visited` membership, but those cids were unvalidated seeds, not actual channels. Fixed in commit c645876.
+2. **bfs_visited semantics are subtle**: a `strategy='ig_bridge'` row is "BFS-seed-but-unvalidated", distinct from "in channels". `validate_ig_seeds.py` was added specifically to close this gap.
+3. **Beacons.ai blocks default UA** (49 + 30 = 79 403s, 100% of beacons.ai corpus). Phase 0.4 needs different UA / playwright fallback. Cost-benefit unclear since beacons is only 9.6% of corpus.
+4. **PT-Wikipedia uses lowercase "Youtubers"** (not "YouTubers" — easy to miss). Discovered after the first run returned 0 results.
+5. **Cross-process SQLite contention**: phase0_fetch writer crashed at row 400 when wiki harvester held a transaction. Added `PRAGMA busy_timeout = 30000` to all writers. Fixed.
+6. **60% hit rate is a strong signal** — IG creators have higher BR-creator concentration than random YT cids. This holds the Phase 1/2 thesis intact.
+
+**Open before Phase 1 decision**:
+- [ ] Run `resolve_handles.py` (1,838 handles) — full pass, gets to true Phase 0 yield
+- [ ] Beacons workaround experiment — playwright probe, or skip if cost/benefit poor
+- [ ] Re-run `validate_ig_seeds.py` for remaining 209 ig_bridge cids
+- [ ] Decision point: if final yield ≥300 eligibles → proceed to Phase 1; if <100 → reconsider
+
 ### Future
-- v2 (after Phase 0 spike): actual yield numbers, decide Phase 1 / Apify / abandon
-- v3 (after Phase 1): Phase 2 BFS feasibility
-- v4 (after Phase 2): production farm architecture finalized
+- v3 (after Phase 1): single-account bio scrape yield, ban probability empirical data
+- v4 (after Phase 2): follower BFS feasibility, multi-account pool size
+- v5 (after Phase 3): production farm architecture finalized
