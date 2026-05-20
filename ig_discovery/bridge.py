@@ -54,14 +54,17 @@ def main() -> None:
     res_conn = sqlite3.connect(RESULTS_DB, timeout=60)
     res_conn.execute("PRAGMA busy_timeout = 60000")
 
-    # Known cids from results.db (channels + bfs_visited)
+    # Known cids: split into two sets so we don't conflate "validated channel" with "BFS-seeded but unvalidated".
     print("[bridge] loading known cids from results.db...")
-    known_cids: set[str] = set()
-    for (cid,) in res_conn.execute("SELECT channel_id FROM channels"):
-        known_cids.add(cid)
-    for (cid,) in res_conn.execute("SELECT seed_cid FROM bfs_visited"):
-        known_cids.add(cid)
-    print(f"[bridge] known cids in results.db: {len(known_cids):,}")
+    channels_cids: set[str] = {row[0] for row in res_conn.execute("SELECT channel_id FROM channels")}
+    bfs_cids: set[str] = {row[0] for row in res_conn.execute("SELECT seed_cid FROM bfs_visited")}
+    # `known_cids` = union, used only to decide whether to INSERT a new bfs_visited row.
+    # `channels_cids` alone gates in_results_db=1.
+    known_cids: set[str] = channels_cids | bfs_cids
+    print(
+        f"[bridge] known cids — channels: {len(channels_cids):,}  "
+        f"bfs_visited: {len(bfs_cids):,}  union: {len(known_cids):,}"
+    )
 
     # Pull unbridged yt_candidates with /channel/UC URLs
     where = ["bridged_at IS NULL"]
@@ -145,22 +148,25 @@ def main() -> None:
                 )
         ig_conn.commit()
 
-    # Mark in_results_db = 1 for any candidate whose cid is now known
+    # Mark in_results_db = 1 ONLY for cids actually present in channels table
+    # (a row in bfs_visited as 'ig_bridge' means "BFS-seeded but unvalidated", NOT "in DB").
     if not args.dry_run:
+        ig_conn.execute("CREATE TEMP TABLE IF NOT EXISTS _channels_cids (cid TEXT PRIMARY KEY)")
+        ig_conn.execute("DELETE FROM _channels_cids")
+        ig_conn.executemany(
+            "INSERT OR IGNORE INTO _channels_cids VALUES (?)", [(c,) for c in channels_cids]
+        )
         ig_conn.execute(
             "UPDATE yt_candidates SET in_results_db = 1 "
-            "WHERE channel_id IS NOT NULL AND channel_id IN ("
-            + ",".join("?" * len(known_cids - {x[0] for x in to_insert}))
-            + ")"
-        ) if False else None  # too many params; do alternative below
-        # Alternative: use temp table
-        ig_conn.execute("CREATE TEMP TABLE IF NOT EXISTS _known_cids (cid TEXT PRIMARY KEY)")
-        ig_conn.execute("DELETE FROM _known_cids")
-        ig_conn.executemany("INSERT OR IGNORE INTO _known_cids VALUES (?)", [(c,) for c in known_cids])
-        ig_conn.execute(
-            "UPDATE yt_candidates SET in_results_db = 1 "
-            "WHERE channel_id IN (SELECT cid FROM _known_cids) "
+            "WHERE channel_id IN (SELECT cid FROM _channels_cids) "
             "  AND in_results_db = 0"
+        )
+        # Reset rows that previous buggy bridge runs marked incorrectly
+        ig_conn.execute(
+            "UPDATE yt_candidates SET in_results_db = 0 "
+            "WHERE in_results_db = 1 "
+            "  AND channel_id IS NOT NULL "
+            "  AND channel_id NOT IN (SELECT cid FROM _channels_cids)"
         )
         ig_conn.commit()
 
