@@ -53,6 +53,7 @@ Goal: discover 700K Brazilian (pt-BR) YouTube channels with ≥1000 subscribers.
 | `RATE_LIMIT_INVESTIGATION.md` | 800-line write-up of throttling investigation |
 | `long_term_research/` | 4 deep-dive docs (query bank, BFS, cookies, IPv6 VPS) |
 | `colab/spike_colab.ipynb` | Google Colab spike notebook for cloud-IP scraping |
+| `ig_discovery/` | Instagram-driven YouTube discovery (Phase 0 spike, see §09 long_term_research) |
 
 ## Setup
 
@@ -86,11 +87,37 @@ bash run.sh
 
 ## Long-term research
 
-See `long_term_research/INDEX.md` for 4 deep investigations:
+See `long_term_research/INDEX.md` for 5 deep investigations:
 - 05 Query bank diversity (Suggest API BFS — IMPLEMENTED)
 - 06 BFS discovery (grid + watchnext — IMPLEMENTED, depth-2 — natural via DB growth)
 - 07 Cookie pool (4x quota — pending, requires BR YouTube accounts + 24h aging)
 - 08 IPv6 VPS rotation (Hetzner + TREVORproxy — pending, €3.79/mo)
+- 09 Instagram discovery (Phase 0 spike — IMPLEMENTED, 60% hit rate vs 15-20% for YT algo)
+
+## Phase 0 Instagram spike (run order)
+
+```bash
+# 1. Init ig.db
+sqlite3 data/ig.db < ig_discovery/schema.sql
+
+# 2. Mine aggregators from existing channel descriptions
+./.venv/bin/python -m ig_discovery.phase0_ingest
+
+# 3. Fetch Linktree pages (4 workers, 4 rps)
+./.venv/bin/python -m ig_discovery.phase0_fetch --workers 4 --rps 4
+
+# 4. Harvest PT-Wikipedia BR YouTuber categories
+./.venv/bin/python -m ig_discovery.phase0_wikipedia --rps 3
+
+# 5. Resolve /@handle URLs to UC channel_id (hits youtube.com — pause production)
+./.venv/bin/python -m ig_discovery.resolve_handles --rps 1 --workers 4
+
+# 6. Bridge UC cids into results.db.bfs_visited
+./.venv/bin/python -m ig_discovery.bridge
+
+# 7. Validate ig_bridge seeds via extract_v4
+./.venv/bin/python -m ig_discovery.validate_ig_seeds --workers 2
+```
 
 ## Cloud experiment
 
