@@ -1,0 +1,415 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - button "导视" [ref=e9] [cursor=pointer]:
+          - generic [ref=e12]:
+            - img
+        - link "YouTube 首页" [ref=e14] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e19]:
+            - img
+        - button "跳过导航" [ref=e23] [cursor=pointer]:
+          - generic [ref=e24]: 跳过导航
+      - generic [ref=e28]:
+        - search [ref=e29]:
+          - generic [ref=e30]:
+            - combobox "搜索" [expanded] [ref=e33]
+            - button "Search" [ref=e34] [cursor=pointer]:
+              - generic [ref=e37]:
+                - img
+        - generic [ref=e39]:
+          - button "通过语音搜索内容" [ref=e41] [cursor=pointer]
+          - tooltip "tooltip"
+      - generic [ref=e48]:
+        - button "设置" [ref=e53] [cursor=pointer]
+        - link "登录" [ref=e57] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fchannel%252FUCTY2ITOT0Om-TH1UczZ0-Qg%252Fabout&hl=zh-CN&ec=65620
+          - generic [ref=e60]: 登录
+  - navigation [ref=e64]
+  - main [ref=e66]:
+    - generic [ref=e73]:
+      - generic [ref=e89]:
+        - heading "Bebeto Kamayura" [level=1] [ref=e91]
+        - generic [ref=e92]:
+          - group [ref=e93]:
+            - generic [ref=e94]: "@BebetoKamayura"
+          - generic [ref=e95]: •
+          - group [ref=e96]:
+            - generic "13.7万位订阅者" [ref=e97]
+            - generic [ref=e98]: •
+            - generic [ref=e99]: 1197 个视频
+        - generic [ref=e101] [cursor=pointer]:
+          - generic [ref=e102]: Indígena do Xingu-MT da etnia kamayura,Língua tupi
+          - button "说明。Indígena do Xingu-MT da etnia kamayura,Língua tupi…点按即可了解详情。" [ref=e103]:
+            - generic [ref=e104]: …更多
+        - generic [ref=e105]:
+          - button "订阅" [ref=e108] [cursor=pointer]:
+            - generic [ref=e109]: 订阅
+          - button "加入此频道" [ref=e115] [cursor=pointer]:
+            - generic [ref=e118]: 加入
+      - tablist [ref=e125]:
+        - tablist [ref=e129]:
+          - tab "首页" [selected] [ref=e130] [cursor=pointer]:
+            - generic [ref=e131]: 首页
+          - tab "视频" [ref=e132] [cursor=pointer]:
+            - generic [ref=e133]: 视频
+          - tab "Shorts" [ref=e134] [cursor=pointer]:
+            - generic [ref=e135]: Shorts
+          - tab "直播" [ref=e136] [cursor=pointer]:
+            - generic [ref=e137]: 直播
+          - tab "帖子" [ref=e138] [cursor=pointer]:
+            - generic [ref=e139]: 帖子
+          - button "搜索" [ref=e143] [cursor=pointer]:
+            - generic [ref=e146]:
+              - img
+    - generic [ref=e153]:
+      - generic [ref=e157]:
+        - heading "视频" [level=2] [ref=e160]:
+          - link "视频" [ref=e163] [cursor=pointer]:
+            - /url: /@BebetoKamayura/videos?view=0&sort=dd&shelf_id=1
+            - generic [ref=e164]: 视频
+        - generic [ref=e166]:
+          - generic [ref=e169]:
+            - generic [ref=e171] [cursor=pointer]:
+              - link [ref=e172]:
+                - /url: /watch?v=mNUAj0dht3c
+                - generic [ref=e179]: 0:26
+              - generic [ref=e181]:
+                - generic [ref=e182]:
+                  - heading "Cerimônia kwarup está chegando 26秒钟" [level=3] [ref=e183]:
+                    - link "Cerimônia kwarup está chegando 26秒钟" [ref=e184]:
+                      - /url: /watch?v=mNUAj0dht3c
+                      - text: Cerimônia kwarup está chegando
+                  - group [ref=e187]:
+                    - generic [ref=e188]: 498次观看
+                    - generic [ref=e189]: •
+                    - generic [ref=e190]: 1个月前
+                - button "其他操作" [ref=e193]
+            - generic [ref=e200] [cursor=pointer]:
+              - link [ref=e201]:
+                - /url: /watch?v=5_qkgjnZs8g
+                - generic [ref=e208]: 1:09
+              - generic [ref=e210]:
+                - generic [ref=e211]:
+                  - heading "Churrascaria tradicional do povo originário 1分钟9秒钟" [level=3] [ref=e212]:
+                    - link "Churrascaria tradicional do povo originário 1分钟9秒钟" [ref=e213]:
+                      - /url: /watch?v=5_qkgjnZs8g
+                      - text: Churrascaria tradicional do povo originário
+                  - group [ref=e216]:
+                    - generic [ref=e217]: 439次观看
+                    - generic [ref=e218]: •
+                    - generic [ref=e219]: 1个月前
+                - button "其他操作" [ref=e222]
+            - generic [ref=e229] [cursor=pointer]:
+              - link [ref=e230]:
+                - /url: /watch?v=BDp2CW4azJQ
+                - generic [ref=e237]: 1:04
+              - generic [ref=e239]:
+                - generic [ref=e240]:
+                  - heading "Pescaria coletivo 🦾🛖🏹 1分钟4秒钟" [level=3] [ref=e241]:
+                    - link "Pescaria coletivo 🦾🛖🏹 1分钟4秒钟" [ref=e242]:
+                      - /url: /watch?v=BDp2CW4azJQ
+                      - text: Pescaria coletivo 🦾🛖🏹
+                  - group [ref=e245]:
+                    - generic [ref=e246]: 680次观看
+                    - generic [ref=e247]: •
+                    - generic [ref=e248]: 2个月前
+                - button "其他操作" [ref=e251]
+            - generic [ref=e258] [cursor=pointer]:
+              - link [ref=e259]:
+                - /url: /watch?v=7_mGj89j_3M&pp=0gcJCQQLAYcqIYzv
+                - generic [ref=e266]: 0:37
+              - generic [ref=e268]:
+                - generic [ref=e269]:
+                  - heading "Flautistas e as dançarinas só alegria 🤩 37秒钟" [level=3] [ref=e270]:
+                    - link "Flautistas e as dançarinas só alegria 🤩 37秒钟" [ref=e271]:
+                      - /url: /watch?v=7_mGj89j_3M&pp=0gcJCQQLAYcqIYzv
+                      - text: Flautistas e as dançarinas só alegria 🤩
+                  - group [ref=e274]:
+                    - generic [ref=e275]: 7748次观看
+                    - generic [ref=e276]: •
+                    - generic [ref=e277]: 3个月前
+                - button "其他操作" [ref=e280]
+            - generic [ref=e287] [cursor=pointer]:
+              - link [ref=e288]:
+                - /url: /watch?v=8WEqAJC0rQw
+                - generic [ref=e295]: 1:35
+              - generic [ref=e297]:
+                - generic [ref=e298]:
+                  - heading "Na beira da lagoa e vem chuva forte 😇🏹 1分钟35秒钟" [level=3] [ref=e299]:
+                    - link "Na beira da lagoa e vem chuva forte 😇🏹 1分钟35秒钟" [ref=e300]:
+                      - /url: /watch?v=8WEqAJC0rQw
+                      - text: Na beira da lagoa e vem chuva forte 😇🏹
+                  - group [ref=e303]:
+                    - generic [ref=e304]: 804次观看
+                    - generic [ref=e305]: •
+                    - generic [ref=e306]: 3个月前
+                - button "其他操作" [ref=e309]
+            - generic [ref=e316] [cursor=pointer]:
+              - link [ref=e317]:
+                - /url: /watch?v=tXKzs0yYet0
+                - generic [ref=e324]: 1:36
+              - generic [ref=e326]:
+                - generic [ref=e327]:
+                  - 'heading "Cada aldeia tem seus lutadores 🤼‍♂️ #lutahukahuka 1分钟36秒钟" [level=3] [ref=e328]':
+                    - 'link "Cada aldeia tem seus lutadores 🤼‍♂️ #lutahukahuka 1分钟36秒钟" [ref=e329]':
+                      - /url: /watch?v=tXKzs0yYet0
+                      - text: "Cada aldeia tem seus lutadores 🤼‍♂️ #lutahukahuka"
+                  - group [ref=e332]:
+                    - generic [ref=e333]: 1786次观看
+                    - generic [ref=e334]: •
+                    - generic [ref=e335]: 3个月前
+                - button "其他操作" [ref=e338]
+          - button "下一页" [ref=e346] [cursor=pointer]
+      - generic [ref=e354]:
+        - generic [ref=e355]:
+          - heading "Shorts" [level=2] [ref=e359]:
+            - generic [ref=e361]: Shorts
+          - button "其他操作" [ref=e365] [cursor=pointer]
+        - generic [ref=e368]:
+          - generic [ref=e371]:
+            - generic [ref=e373]:
+              - link [ref=e374] [cursor=pointer]:
+                - /url: /shorts/UH24_5-7JJ4
+              - generic [ref=e378] [cursor=pointer]:
+                - link "Ele já sabe lê" [ref=e379]:
+                  - /url: /shorts/UH24_5-7JJ4
+                - generic [ref=e380]: 2499次观看
+              - button "其他操作" [ref=e382] [cursor=pointer]
+            - generic [ref=e389]:
+              - link [ref=e390] [cursor=pointer]:
+                - /url: /shorts/iWqAJXP1kLg
+              - generic [ref=e394] [cursor=pointer]:
+                - link "Final do dia ❤️💚" [ref=e395]:
+                  - /url: /shorts/iWqAJXP1kLg
+                - generic [ref=e396]: 3万次观看
+              - button "其他操作" [ref=e398] [cursor=pointer]
+            - generic [ref=e405]:
+              - link [ref=e406] [cursor=pointer]:
+                - /url: /shorts/5BythS6h4ZQ
+              - generic [ref=e410] [cursor=pointer]:
+                - link "Atravessando carro 🚙" [ref=e411]:
+                  - /url: /shorts/5BythS6h4ZQ
+                - generic [ref=e412]: 2344次观看
+              - button "其他操作" [ref=e414] [cursor=pointer]
+            - generic [ref=e421]:
+              - link [ref=e422] [cursor=pointer]:
+                - /url: /shorts/TtsKRJ-T9-c
+              - generic [ref=e426] [cursor=pointer]:
+                - link "Palmeirense no Xingu" [ref=e427]:
+                  - /url: /shorts/TtsKRJ-T9-c
+                - generic [ref=e428]: 1974次观看
+              - button "其他操作" [ref=e430] [cursor=pointer]
+            - generic [ref=e437]:
+              - link [ref=e438] [cursor=pointer]:
+                - /url: /shorts/56MiUf85K6M
+              - generic [ref=e442] [cursor=pointer]:
+                - link "Meu filho jogando futebol ⚽️" [ref=e443]:
+                  - /url: /shorts/56MiUf85K6M
+                - generic [ref=e444]: 4644次观看
+              - button "其他操作" [ref=e446] [cursor=pointer]
+            - generic [ref=e453]:
+              - link [ref=e454] [cursor=pointer]:
+                - /url: /shorts/Iga2XVqIcwM
+              - generic [ref=e458] [cursor=pointer]:
+                - link "Time da Diamantha jogando bola ⚽️" [ref=e459]:
+                  - /url: /shorts/Iga2XVqIcwM
+                - generic [ref=e460]: 1107次观看
+              - button "其他操作" [ref=e462] [cursor=pointer]
+          - button "下一批" [ref=e470] [cursor=pointer]
+      - generic [ref=e479]:
+        - heading "帖子" [level=2] [ref=e482]:
+          - link "帖子" [ref=e485] [cursor=pointer]:
+            - /url: /channel/UCTY2ITOT0Om-TH1UczZ0-Qg/posts
+            - generic [ref=e486]: 帖子
+        - generic [ref=e488]:
+          - generic [ref=e491]:
+            - link "Bebeto Kamayura • 7个月前 Lutando 为这个帖子点赞，已有 45 人点赞 tooltip 45 次赞 不喜欢这个帖子 tooltip 分享 tooltip 4 条评论 tooltip" [ref=e493] [cursor=pointer]:
+              - generic [ref=e494]:
+                - link [ref=e496]:
+                  - /url: /@BebetoKamayura
+                - link "Bebeto Kamayura" [ref=e499]:
+                  - /url: /@BebetoKamayura
+                - generic [ref=e500]: •
+                - link "7个月前" [ref=e502]:
+                  - /url: /post/UgkxppU3QINRTprag0Sb47BU5JlIRpgCsCsB
+              - generic [ref=e503]:
+                - generic [ref=e505]: Lutando
+                - generic [ref=e506]:
+                  - group
+              - generic [ref=e512]:
+                - generic [ref=e513]:
+                  - link "为这个帖子点赞，已有 45 人点赞" [ref=e515]:
+                    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                  - tooltip "tooltip"
+                - generic "45 次赞" [ref=e521]: "45"
+                - generic [ref=e522]:
+                  - link "不喜欢这个帖子" [ref=e524]:
+                    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                  - tooltip "tooltip"
+                - generic [ref=e531]:
+                  - button "分享" [ref=e533]
+                  - tooltip "tooltip"
+                - generic [ref=e540]:
+                  - link "4 条评论" [ref=e542]:
+                    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252Fpost%252FUgkxppU3QINRTprag0Sb47BU5JlIRpgCsCsB&hl=zh-CN
+                    - generic [ref=e545]: "4"
+                  - tooltip "tooltip"
+            - link "Bebeto Kamayura • 11个月前 No Xingu 为这个帖子点赞，已有 54 人点赞 tooltip 54 次赞 不喜欢这个帖子 tooltip 分享 tooltip 1 条评论 tooltip" [ref=e550] [cursor=pointer]:
+              - generic [ref=e551]:
+                - link [ref=e553]:
+                  - /url: /@BebetoKamayura
+                - link "Bebeto Kamayura" [ref=e556]:
+                  - /url: /@BebetoKamayura
+                - generic [ref=e557]: •
+                - link "11个月前" [ref=e559]:
+                  - /url: /post/Ugkxro8s_YPbiZdkdSVhBH8yqqjx1C0Ml-RL
+              - generic [ref=e560]:
+                - generic [ref=e562]: No Xingu
+                - generic [ref=e563]:
+                  - group
+              - generic [ref=e569]:
+                - generic [ref=e570]:
+                  - link "为这个帖子点赞，已有 54 人点赞" [ref=e572]:
+                    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                  - tooltip "tooltip"
+                - generic "54 次赞" [ref=e578]: "54"
+                - generic [ref=e579]:
+                  - link "不喜欢这个帖子" [ref=e581]:
+                    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                  - tooltip "tooltip"
+                - generic [ref=e588]:
+                  - button "分享" [ref=e590]
+                  - tooltip "tooltip"
+                - generic [ref=e597]:
+                  - link "1 条评论" [ref=e599]:
+                    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252Fpost%252FUgkxro8s_YPbiZdkdSVhBH8yqqjx1C0Ml-RL&hl=zh-CN
+                    - generic [ref=e602]: "1"
+                  - tooltip "tooltip"
+            - link "Bebeto Kamayura • 1年前 Xingu MT 💚🇧🇷🥰 为这个帖子点赞，已有 69 人点赞 tooltip 69 次赞 不喜欢这个帖子 tooltip 分享 tooltip 2 条评论 tooltip" [ref=e607] [cursor=pointer]:
+              - generic [ref=e608]:
+                - link [ref=e610]:
+                  - /url: /@BebetoKamayura
+                - link "Bebeto Kamayura" [ref=e613]:
+                  - /url: /@BebetoKamayura
+                - generic [ref=e614]: •
+                - link "1年前" [ref=e616]:
+                  - /url: /post/UgkxJ8AIwNovlDpSuxxbZ3B4_vRMZ--tMR_3
+              - generic [ref=e617]:
+                - generic [ref=e619]: Xingu MT 💚🇧🇷🥰
+                - generic [ref=e620]:
+                  - group
+              - generic [ref=e626]:
+                - generic [ref=e627]:
+                  - link "为这个帖子点赞，已有 69 人点赞" [ref=e629]:
+                    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                  - tooltip "tooltip"
+                - generic "69 次赞" [ref=e635]: "69"
+                - generic [ref=e636]:
+                  - link "不喜欢这个帖子" [ref=e638]:
+                    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                  - tooltip "tooltip"
+                - generic [ref=e645]:
+                  - button "分享" [ref=e647]
+                  - tooltip "tooltip"
+                - generic [ref=e654]:
+                  - link "2 条评论" [ref=e656]:
+                    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252Fpost%252FUgkxJ8AIwNovlDpSuxxbZ3B4_vRMZ--tMR_3&hl=zh-CN
+                    - generic [ref=e659]: "2"
+                  - tooltip "tooltip"
+            - link "Bebeto Kamayura • 1年前 Seja membro deste canal https://www.youtube.com/channel/UCTY2... 为这个帖子点赞，已有 9 人点赞 tooltip 9 次赞 不喜欢这个帖子 tooltip 分享 tooltip 评论 tooltip" [ref=e664] [cursor=pointer]:
+              - generic [ref=e665]:
+                - link [ref=e667]:
+                  - /url: /@BebetoKamayura
+                - link "Bebeto Kamayura" [ref=e670]:
+                  - /url: /@BebetoKamayura
+                - generic [ref=e671]: •
+                - link "1年前" [ref=e673]:
+                  - /url: /post/Ugkx0QVwUK2tcQ1SQE4PZudSxM8GufhJWCKB
+              - generic [ref=e674]:
+                - generic [ref=e676]:
+                  - text: Seja membro deste canal
+                  - link "https://www.youtube.com/channel/UCTY2..." [ref=e677]:
+                    - /url: https://www.youtube.com/channel/UCTY2ITOT0Om-TH1UczZ0-Qg/join
+                - generic:
+                  - group
+              - generic [ref=e680]:
+                - generic [ref=e681]:
+                  - link "为这个帖子点赞，已有 9 人点赞" [ref=e683]:
+                    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                  - tooltip "tooltip"
+                - generic "9 次赞" [ref=e689]: "9"
+                - generic [ref=e690]:
+                  - link "不喜欢这个帖子" [ref=e692]:
+                    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                  - tooltip "tooltip"
+                - generic [ref=e699]:
+                  - button "分享" [ref=e701]
+                  - tooltip "tooltip"
+                - generic [ref=e708]:
+                  - link "评论" [ref=e710]:
+                    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252Fpost%252FUgkx0QVwUK2tcQ1SQE4PZudSxM8GufhJWCKB&hl=zh-CN
+                  - tooltip "tooltip"
+            - link "Bebeto Kamayura • 1年前 Depois da luta huka huka 为这个帖子点赞，已有 89 人点赞 tooltip 89 次赞 不喜欢这个帖子 tooltip 分享 tooltip 评论 tooltip" [ref=e717] [cursor=pointer]:
+              - generic [ref=e718]:
+                - link [ref=e720]:
+                  - /url: /@BebetoKamayura
+                - link "Bebeto Kamayura" [ref=e723]:
+                  - /url: /@BebetoKamayura
+                - generic [ref=e724]: •
+                - link "1年前" [ref=e726]:
+                  - /url: /post/Ugkxxs926jvWQS9KBMxtcW1JB30wY9H43oWt
+              - generic [ref=e727]:
+                - generic [ref=e729]: Depois da luta huka huka
+                - generic [ref=e730]:
+                  - group
+              - generic [ref=e736]:
+                - generic [ref=e737]:
+                  - link "为这个帖子点赞，已有 89 人点赞" [ref=e739]:
+                    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                  - tooltip "tooltip"
+                - generic "89 次赞" [ref=e745]: "89"
+                - generic [ref=e746]:
+                  - link "不喜欢这个帖子" [ref=e748]:
+                    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                  - tooltip "tooltip"
+                - generic [ref=e755]:
+                  - button "分享" [ref=e757]
+                  - tooltip "tooltip"
+                - generic [ref=e764]:
+                  - link "评论" [ref=e766]:
+                    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252Fpost%252FUgkxxs926jvWQS9KBMxtcW1JB30wY9H43oWt&hl=zh-CN
+                  - tooltip "tooltip"
+            - link "Bebeto Kamayura • 1年前 Pronto 为这个帖子点赞，已有 55 人点赞 tooltip 55 次赞 不喜欢这个帖子 tooltip 分享 tooltip 2 条评论 tooltip" [ref=e773] [cursor=pointer]:
+              - generic [ref=e774]:
+                - link [ref=e776]:
+                  - /url: /@BebetoKamayura
+                - link "Bebeto Kamayura" [ref=e779]:
+                  - /url: /@BebetoKamayura
+                - generic [ref=e780]: •
+                - link "1年前" [ref=e782]:
+                  - /url: /post/UgkxJ4x3sn-bijT0vhNIzLYOHiGmSOu2I6Jl
+              - generic [ref=e783]:
+                - generic [ref=e785]: Pronto
+                - generic [ref=e786]:
+                  - group
+              - generic [ref=e792]:
+                - generic [ref=e793]:
+                  - link "为这个帖子点赞，已有 55 人点赞" [ref=e795]:
+                    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                  - tooltip "tooltip"
+                - generic "55 次赞" [ref=e801]: "55"
+                - generic [ref=e802]:
+                  - link "不喜欢这个帖子" [ref=e804]:
+                    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                  - tooltip "tooltip"
+                - generic [ref=e811]:
+                  - button "分享" [ref=e813]
+                  - tooltip "tooltip"
+                - generic [ref=e820]:
+                  - link "2 条评论" [ref=e822]:
+                    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252Fpost%252FUgkxJ4x3sn-bijT0vhNIzLYOHiGmSOu2I6Jl&hl=zh-CN
+                    - generic [ref=e825]: "2"
+                  - tooltip "tooltip"
+          - button "下一页" [ref=e831] [cursor=pointer]

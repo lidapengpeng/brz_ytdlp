@@ -1,0 +1,480 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - button "导视" [ref=e9] [cursor=pointer]:
+            - generic [ref=e12]:
+              - img
+          - link "YouTube 首页" [ref=e14] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e19]:
+              - img
+          - button "跳过导航" [ref=e23] [cursor=pointer]:
+            - generic [ref=e24]: 跳过导航
+        - generic [ref=e28]:
+          - search [ref=e29]:
+            - generic [ref=e30]:
+              - combobox "搜索" [expanded] [ref=e33]
+              - button "Search" [ref=e34] [cursor=pointer]:
+                - generic [ref=e37]:
+                  - img
+          - generic [ref=e39]:
+            - button "通过语音搜索内容" [ref=e41] [cursor=pointer]:
+              - generic [ref=e45]:
+                - img
+            - tooltip "tooltip"
+        - generic [ref=e50]:
+          - button "设置" [ref=e55] [cursor=pointer]:
+            - generic [ref=e58]:
+              - img
+          - link "登录" [ref=e61] [cursor=pointer]:
+            - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fchannel%252FUCCgr0Hp8Rs0ynVD2tjXFnIQ%252Fabout&hl=zh-CN&ec=65620
+            - generic [ref=e65]:
+              - img
+            - generic [ref=e66]: 登录
+    - navigation [ref=e70]:
+      - generic [ref=e71]:
+        - link "首页" [ref=e73] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e76]:
+            - img
+          - generic [ref=e77]: 首页
+        - link "Shorts" [ref=e79] [cursor=pointer]:
+          - /url: /shorts/
+          - generic [ref=e82]:
+            - img
+          - generic [ref=e83]: Shorts
+        - link "订阅" [ref=e85] [cursor=pointer]:
+          - /url: /feed/subscriptions
+          - generic [ref=e88]:
+            - img
+          - generic [ref=e89]: 订阅
+        - link "我" [ref=e91] [cursor=pointer]:
+          - /url: /feed/you
+          - generic [ref=e94]:
+            - img
+          - generic [ref=e95]: 我
+    - generic [ref=e96]:
+      - main [ref=e97]:
+        - generic [ref=e104]:
+          - generic [ref=e120]:
+            - heading "Cortes do Mylon" [level=1] [ref=e122]
+            - generic [ref=e123]:
+              - group [ref=e124]:
+                - generic [ref=e125]: "@CortesdoMylon"
+              - generic [ref=e126]: •
+              - group [ref=e127]:
+                - generic "16.6万位订阅者" [ref=e128]
+                - generic [ref=e129]: •
+                - generic [ref=e130]: 246 个视频
+            - generic [ref=e132] [cursor=pointer]:
+              - generic [ref=e133]: Canal oficial de cortes do Mylon
+              - button "说明。Canal oficial de cortes do Mylon…点按即可了解详情。" [ref=e134]:
+                - generic [ref=e135]: …更多
+            - generic [ref=e137]:
+              - link "youtube.com/@Mylonzete" [ref=e140] [cursor=pointer]:
+                - /url: https://www.youtube.com/@Mylonzete
+              - button "和另外 2 个链接" [ref=e143] [cursor=pointer]
+            - button "订阅" [ref=e147] [cursor=pointer]:
+              - generic [ref=e148]: 订阅
+          - tablist [ref=e155]:
+            - tablist [ref=e159]:
+              - tab "首页" [selected] [ref=e160] [cursor=pointer]:
+                - generic [ref=e161]: 首页
+              - tab "视频" [ref=e162] [cursor=pointer]:
+                - generic [ref=e163]: 视频
+              - tab "Shorts" [ref=e164] [cursor=pointer]:
+                - generic [ref=e165]: Shorts
+              - tab "播放列表" [ref=e166] [cursor=pointer]:
+                - generic [ref=e167]: 播放列表
+              - button "搜索" [ref=e171] [cursor=pointer]:
+                - generic [ref=e174]:
+                  - img
+        - generic [ref=e181]:
+          - generic [ref=e185]:
+            - heading "视频" [level=2] [ref=e188]:
+              - link "视频" [ref=e191] [cursor=pointer]:
+                - /url: /@CortesdoMylon/videos?view=0&sort=dd&shelf_id=1
+                - generic [ref=e192]: 视频
+            - generic [ref=e194]:
+              - generic [ref=e197]:
+                - generic [ref=e199] [cursor=pointer]:
+                  - link [ref=e200]:
+                    - /url: /watch?v=uZTTY4hRNhk
+                    - generic [ref=e207]: 16:51
+                  - generic [ref=e209]:
+                    - generic [ref=e210]:
+                      - heading "AS MELHORES APARIÇÕES DE PROPLAYERS NA TV BRASILEIRA - MYLON REACT 16分钟" [level=3] [ref=e211]:
+                        - link "AS MELHORES APARIÇÕES DE PROPLAYERS NA TV BRASILEIRA - MYLON REACT 16分钟" [ref=e212]:
+                          - /url: /watch?v=uZTTY4hRNhk
+                          - text: AS MELHORES APARIÇÕES DE PROPLAYERS NA TV BRASILEIRA - MYLON REACT
+                      - group [ref=e215]:
+                        - generic [ref=e216]: 3.8万次观看
+                        - generic [ref=e217]: •
+                        - generic [ref=e218]: 1天前
+                    - button "其他操作" [ref=e221]:
+                      - generic [ref=e225]:
+                        - img
+                - generic [ref=e230] [cursor=pointer]:
+                  - link [ref=e231]:
+                    - /url: /watch?v=mdWyn2yAtsw
+                    - generic [ref=e238]: 10:41
+                  - generic [ref=e240]:
+                    - generic [ref=e241]:
+                      - 'heading "A POPPY MAIS DIFERENCIADA DO PLANETA - MYLON REACT Filipoppy - Mono poppy nas streams #20 10分钟41秒钟" [level=3] [ref=e242]':
+                        - 'link "A POPPY MAIS DIFERENCIADA DO PLANETA - MYLON REACT Filipoppy - Mono poppy nas streams #20 10分钟41秒钟" [ref=e243]':
+                          - /url: /watch?v=mdWyn2yAtsw
+                          - text: "A POPPY MAIS DIFERENCIADA DO PLANETA - MYLON REACT Filipoppy - Mono poppy nas streams #20"
+                      - group [ref=e246]:
+                        - generic [ref=e247]: 4.6万次观看
+                        - generic [ref=e248]: •
+                        - generic [ref=e249]: 8天前
+                    - button "其他操作" [ref=e252]:
+                      - generic [ref=e256]:
+                        - img
+                - generic [ref=e261] [cursor=pointer]:
+                  - link [ref=e262]:
+                    - /url: /watch?v=T8rwrDEjyl4
+                    - generic [ref=e269]: 17:41
+                  - generic [ref=e271]:
+                    - generic [ref=e272]:
+                      - heading "COMO OS BRONZES REALMENTE JOGAM LEAGUE OF LEGENDS - MYLON REACT BRONZIOCRE CBLOW 17分钟" [level=3] [ref=e273]:
+                        - link "COMO OS BRONZES REALMENTE JOGAM LEAGUE OF LEGENDS - MYLON REACT BRONZIOCRE CBLOW 17分钟" [ref=e274]:
+                          - /url: /watch?v=T8rwrDEjyl4
+                          - text: COMO OS BRONZES REALMENTE JOGAM LEAGUE OF LEGENDS - MYLON REACT BRONZIOCRE CBLOW
+                      - group [ref=e277]:
+                        - generic [ref=e278]: 11万次观看
+                        - generic [ref=e279]: •
+                        - generic [ref=e280]: 2周前
+                    - button "其他操作" [ref=e283]:
+                      - generic [ref=e287]:
+                        - img
+                - generic [ref=e292] [cursor=pointer]:
+                  - link [ref=e293]:
+                    - /url: /watch?v=uLDEu1sf9gI
+                    - generic [ref=e300]: 11:21
+                  - generic [ref=e302]:
+                    - generic [ref=e303]:
+                      - heading "EU ADMITO, LOL EM 2026 ESTÁ DIVERTIDO! - MYLON REACT 11分钟21秒钟" [level=3] [ref=e304]:
+                        - link "EU ADMITO, LOL EM 2026 ESTÁ DIVERTIDO! - MYLON REACT 11分钟21秒钟" [ref=e305]:
+                          - /url: /watch?v=uLDEu1sf9gI
+                          - text: EU ADMITO, LOL EM 2026 ESTÁ DIVERTIDO! - MYLON REACT
+                      - group [ref=e308]:
+                        - generic [ref=e309]: 6.4万次观看
+                        - generic [ref=e310]: •
+                        - generic [ref=e311]: 4周前
+                    - button "其他操作" [ref=e314]:
+                      - generic [ref=e318]:
+                        - img
+                - generic [ref=e323] [cursor=pointer]:
+                  - link [ref=e324]:
+                    - /url: /watch?v=-Gk6WX2DJkc
+                    - generic [ref=e331]: 11:46
+                  - generic [ref=e333]:
+                    - generic [ref=e334]:
+                      - heading "NUNCA MAIS JOGO DOTA 2! ENTENDA O PQ - MYLON REACT 11分钟46秒钟" [level=3] [ref=e335]:
+                        - link "NUNCA MAIS JOGO DOTA 2! ENTENDA O PQ - MYLON REACT 11分钟46秒钟" [ref=e336]:
+                          - /url: /watch?v=-Gk6WX2DJkc
+                          - text: NUNCA MAIS JOGO DOTA 2! ENTENDA O PQ - MYLON REACT
+                      - group [ref=e339]:
+                        - generic [ref=e340]: 13万次观看
+                        - generic [ref=e341]: •
+                        - generic [ref=e342]: 1个月前
+                    - button "其他操作" [ref=e345]:
+                      - generic [ref=e349]:
+                        - img
+                - generic [ref=e354] [cursor=pointer]:
+                  - link [ref=e355]:
+                    - /url: /watch?v=SpxbFHVZDI0
+                    - generic [ref=e362]: 13:51
+                  - generic [ref=e364]:
+                    - generic [ref=e365]:
+                      - heading "XYNO FAZENDO o ROBO se APOSENTAR e 5 BRs HUMILHANDO COREANOS- MYLON REACT CBLOL DA ZUEIRA BRONZIOCRE 13分钟51秒钟" [level=3] [ref=e366]:
+                        - link "XYNO FAZENDO o ROBO se APOSENTAR e 5 BRs HUMILHANDO COREANOS- MYLON REACT CBLOL DA ZUEIRA BRONZIOCRE 13分钟51秒钟" [ref=e367]:
+                          - /url: /watch?v=SpxbFHVZDI0
+                          - text: XYNO FAZENDO o ROBO se APOSENTAR e 5 BRs HUMILHANDO COREANOS- MYLON REACT CBLOL DA ZUEIRA BRONZIOCRE
+                      - group [ref=e370]:
+                        - generic [ref=e371]: 4.3万次观看
+                        - generic [ref=e372]: •
+                        - generic [ref=e373]: 1个月前
+                    - button "其他操作" [ref=e376]:
+                      - generic [ref=e380]:
+                        - img
+              - button "下一页" [ref=e386] [cursor=pointer]:
+                - generic [ref=e390]:
+                  - img
+          - generic [ref=e397]:
+            - heading "Canal principal 全部播放" [level=2] [ref=e400]:
+              - link "Canal principal" [ref=e403] [cursor=pointer]:
+                - /url: /playlist?list=PLgY_Nh4ipFAHM2KkMZk3cxNyRhFPmlVsA
+                - generic [ref=e404]: Canal principal
+              - link "全部播放" [ref=e408] [cursor=pointer]:
+                - /url: /watch?v=GCGfnnAadrk&list=PLgY_Nh4ipFAHM2KkMZk3cxNyRhFPmlVsA
+                - generic [ref=e412]:
+                  - img
+                - generic [ref=e413]: 全部播放
+            - generic [ref=e418]:
+              - generic [ref=e421]:
+                - generic [ref=e423] [cursor=pointer]:
+                  - link [ref=e424]:
+                    - /url: /watch?v=GCGfnnAadrk
+                    - generic [ref=e431]: 13:50
+                  - generic [ref=e433]:
+                    - generic [ref=e434]:
+                      - heading "LULU TOP FULL AP É O ÚNICO JEITO QUE JOGO COM ELA DEPOIS DOS BUFFS! 13分钟50秒钟" [level=3] [ref=e435]:
+                        - link "LULU TOP FULL AP É O ÚNICO JEITO QUE JOGO COM ELA DEPOIS DOS BUFFS! 13分钟50秒钟" [ref=e436]:
+                          - /url: /watch?v=GCGfnnAadrk
+                          - text: LULU TOP FULL AP É O ÚNICO JEITO QUE JOGO COM ELA DEPOIS DOS BUFFS!
+                      - generic [ref=e438]:
+                        - group [ref=e439]:
+                          - link "Mylon" [ref=e442]:
+                            - /url: /@Mylonzete
+                            - text: Mylon
+                            - img [ref=e445]:
+                              - generic [ref=e447]:
+                                - img
+                        - group [ref=e448]:
+                          - generic [ref=e449]: 25万次观看
+                          - generic [ref=e450]: •
+                          - generic [ref=e451]: 2年前
+                    - button "其他操作" [ref=e454]:
+                      - generic [ref=e458]:
+                        - img
+                - generic [ref=e463] [cursor=pointer]:
+                  - link [ref=e464]:
+                    - /url: /watch?v=QUvbswB3dL8
+                    - generic [ref=e471]: 10:10
+                  - generic [ref=e473]:
+                    - generic [ref=e474]:
+                      - heading "FOI CRIADA A SITUAÇÃO PERFEITA PARA O YORICK DE LETALIDADE DO MYLIN 10分钟10秒钟" [level=3] [ref=e475]:
+                        - link "FOI CRIADA A SITUAÇÃO PERFEITA PARA O YORICK DE LETALIDADE DO MYLIN 10分钟10秒钟" [ref=e476]:
+                          - /url: /watch?v=QUvbswB3dL8
+                          - text: FOI CRIADA A SITUAÇÃO PERFEITA PARA O YORICK DE LETALIDADE DO MYLIN
+                      - generic [ref=e478]:
+                        - group [ref=e479]:
+                          - link "Mylon" [ref=e482]:
+                            - /url: /@Mylonzete
+                            - text: Mylon
+                            - img [ref=e485]:
+                              - generic [ref=e487]:
+                                - img
+                        - group [ref=e488]:
+                          - generic [ref=e489]: 27万次观看
+                          - generic [ref=e490]: •
+                          - generic [ref=e491]: 2年前
+                    - button "其他操作" [ref=e494]:
+                      - generic [ref=e498]:
+                        - img
+                - generic [ref=e503] [cursor=pointer]:
+                  - link [ref=e504]:
+                    - /url: /watch?v=yoC9cggaWHA
+                    - generic [ref=e511]: 11:32
+                  - generic [ref=e513]:
+                    - generic [ref=e514]:
+                      - heading "COM ESSES ITENS PARECE QUE ESTOU JOGANDO DE JARVAN NO URF! ELE FAZ DE TUDO 11分钟32秒钟" [level=3] [ref=e515]:
+                        - link "COM ESSES ITENS PARECE QUE ESTOU JOGANDO DE JARVAN NO URF! ELE FAZ DE TUDO 11分钟32秒钟" [ref=e516]:
+                          - /url: /watch?v=yoC9cggaWHA
+                          - text: COM ESSES ITENS PARECE QUE ESTOU JOGANDO DE JARVAN NO URF! ELE FAZ DE TUDO
+                      - generic [ref=e518]:
+                        - group [ref=e519]:
+                          - link "Mylon" [ref=e522]:
+                            - /url: /@Mylonzete
+                            - text: Mylon
+                            - img [ref=e525]:
+                              - generic [ref=e527]:
+                                - img
+                        - group [ref=e528]:
+                          - generic [ref=e529]: 21万次观看
+                          - generic [ref=e530]: •
+                          - generic [ref=e531]: 2年前
+                    - button "其他操作" [ref=e534]:
+                      - generic [ref=e538]:
+                        - img
+                - generic [ref=e543] [cursor=pointer]:
+                  - link [ref=e544]:
+                    - /url: /watch?v=WkY86A2avBk
+                    - generic [ref=e551]: 10:29
+                  - generic [ref=e553]:
+                    - generic [ref=e554]:
+                      - heading "SE VOCÊ USA O CÉREBRO PRA JOGAR, CONSEGUE AMASSAR NA MID LANE DE GALIO! 10分钟29秒钟" [level=3] [ref=e555]:
+                        - link "SE VOCÊ USA O CÉREBRO PRA JOGAR, CONSEGUE AMASSAR NA MID LANE DE GALIO! 10分钟29秒钟" [ref=e556]:
+                          - /url: /watch?v=WkY86A2avBk
+                          - text: SE VOCÊ USA O CÉREBRO PRA JOGAR, CONSEGUE AMASSAR NA MID LANE DE GALIO!
+                      - generic [ref=e558]:
+                        - group [ref=e559]:
+                          - link "Mylon" [ref=e562]:
+                            - /url: /@Mylonzete
+                            - text: Mylon
+                            - img [ref=e565]:
+                              - generic [ref=e567]:
+                                - img
+                        - group [ref=e568]:
+                          - generic [ref=e569]: 21万次观看
+                          - generic [ref=e570]: •
+                          - generic [ref=e571]: 2年前
+                    - button "其他操作" [ref=e574]:
+                      - generic [ref=e578]:
+                        - img
+                - generic [ref=e583] [cursor=pointer]:
+                  - link [ref=e584]:
+                    - /url: /watch?v=vmtgKRLSkDA
+                    - generic [ref=e591]: 10:59
+                  - generic [ref=e593]:
+                    - generic [ref=e594]:
+                      - heading "A BRIAR NÃO É TROLL, A GALERA SÓ NÃO SABE AINDA JOGAR COM ELA! 10分钟59秒钟" [level=3] [ref=e595]:
+                        - link "A BRIAR NÃO É TROLL, A GALERA SÓ NÃO SABE AINDA JOGAR COM ELA! 10分钟59秒钟" [ref=e596]:
+                          - /url: /watch?v=vmtgKRLSkDA
+                          - text: A BRIAR NÃO É TROLL, A GALERA SÓ NÃO SABE AINDA JOGAR COM ELA!
+                      - generic [ref=e598]:
+                        - group [ref=e599]:
+                          - link "Mylon" [ref=e602]:
+                            - /url: /@Mylonzete
+                            - text: Mylon
+                            - img [ref=e605]:
+                              - generic [ref=e607]:
+                                - img
+                        - group [ref=e608]:
+                          - generic [ref=e609]: 25万次观看
+                          - generic [ref=e610]: •
+                          - generic [ref=e611]: 2年前
+                    - button "其他操作" [ref=e614]:
+                      - generic [ref=e618]:
+                        - img
+                - generic [ref=e623] [cursor=pointer]:
+                  - link [ref=e624]:
+                    - /url: /watch?v=Z4u4I8nPE5c
+                    - generic [ref=e631]: 14:34
+                  - generic [ref=e633]:
+                    - generic [ref=e634]:
+                      - heading "SEGUINDO OS ENSINAMENTOS DO MONO RENEKTON QUE PEGOU DESAFIANTE COM 87% DE WINRATE 14分钟34秒钟" [level=3] [ref=e635]:
+                        - link "SEGUINDO OS ENSINAMENTOS DO MONO RENEKTON QUE PEGOU DESAFIANTE COM 87% DE WINRATE 14分钟34秒钟" [ref=e636]:
+                          - /url: /watch?v=Z4u4I8nPE5c
+                          - text: SEGUINDO OS ENSINAMENTOS DO MONO RENEKTON QUE PEGOU DESAFIANTE COM 87% DE WINRATE
+                      - generic [ref=e638]:
+                        - group [ref=e639]:
+                          - link "Mylon" [ref=e642]:
+                            - /url: /@Mylonzete
+                            - text: Mylon
+                            - img [ref=e645]:
+                              - generic [ref=e647]:
+                                - img
+                        - group [ref=e648]:
+                          - generic [ref=e649]: 25万次观看
+                          - generic [ref=e650]: •
+                          - generic [ref=e651]: 2年前
+                    - button "其他操作" [ref=e654]:
+                      - generic [ref=e658]:
+                        - img
+              - button "下一页" [ref=e664] [cursor=pointer]:
+                - generic [ref=e668]:
+                  - img
+          - generic [ref=e675]:
+            - heading "Canal Principal" [level=2] [ref=e678]:
+              - link "Canal Principal" [ref=e681] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e682]: Canal Principal
+            - generic [ref=e689]:
+              - link "Mylon 48.7万位订阅者" [ref=e690] [cursor=pointer]:
+                - /url: /@Mylonzete
+                - generic [ref=e692]: Mylon
+                - generic [ref=e693]: 48.7万位订阅者
+              - button "订阅" [ref=e697] [cursor=pointer]:
+                - generic [ref=e698]: 订阅
+          - generic [ref=e704]:
+            - generic [ref=e705]:
+              - generic [ref=e709]:
+                - img
+              - heading "Shorts" [level=2] [ref=e711]:
+                - generic [ref=e713]: Shorts
+              - button "其他操作" [ref=e717] [cursor=pointer]:
+                - generic [ref=e720]:
+                  - img
+            - generic [ref=e727]:
+              - link [ref=e728] [cursor=pointer]:
+                - /url: /shorts/7fkN3Lu8YnY
+              - generic [ref=e732] [cursor=pointer]:
+                - 'link "croc, ainda dói... 😭 #leagueoflegends #loud #shorts #mylonzete #mylon #cblol #ilhadaslendas" [ref=e733]':
+                  - /url: /shorts/7fkN3Lu8YnY
+                - generic [ref=e734]: 26万次观看
+              - button "其他操作" [ref=e736] [cursor=pointer]:
+                - generic [ref=e740]:
+                  - img
+      - text: •
+  - dialog [active] [ref=e744]:
+    - generic [ref=e745]:
+      - generic [ref=e748]:
+        - heading "Cortes do Mylon" [level=2] [ref=e750]:
+          - generic "Cortes do Mylon" [ref=e751]
+        - button "关闭" [ref=e755] [cursor=pointer]:
+          - generic [ref=e759]:
+            - img
+      - generic [ref=e769]:
+        - generic [ref=e771]: 说明
+        - generic [ref=e772]: Canal oficial de cortes do Mylon
+        - generic [ref=e773]:
+          - generic [ref=e775]: 链接
+          - generic [ref=e776]:
+            - generic [ref=e778]:
+              - generic [ref=e779]: Canal principal
+              - link "youtube.com/@Mylonzete" [ref=e781] [cursor=pointer]:
+                - /url: https://www.youtube.com/@Mylonzete
+            - generic [ref=e783]:
+              - generic [ref=e784]: Instagram
+              - link "instagram.com/mylonzete" [ref=e786] [cursor=pointer]:
+                - /url: https://www.youtube.com/redirect?event=channel_description&redir_token=QUFFLUhqbjZQaC00cUlnYkVXRWpmcmdDNE1Gb3d4RTlvZ3xBQ3Jtc0trdE82aUxHNTkxdG9XZDh4Zmx2dDQ1ZC0yVUh3TmNDQVZqTEs0Uk54cG5lWFlaMHpVc3JFekRMY3V6MGVJUVRyTlprWVh3WjJwbWRUWUNkeHpMMDNXNjFDUzdKVklaZmJZVk83ZEVHOFJFQ0IxVDA5cw&q=https%3A%2F%2Fwww.instagram.com%2Fmylonzete
+            - generic [ref=e788]:
+              - generic [ref=e789]: Twitter
+              - link "twitter.com/mylonzete" [ref=e791] [cursor=pointer]:
+                - /url: https://www.youtube.com/redirect?event=channel_description&redir_token=QUFFLUhqbWtrM1BKaTRQV3lzbkFQcjY5ckp5VEdrQWtXd3xBQ3Jtc0tuUklyeGJ2eEZKWllrUFlWUDB0a0l5M3R3MUZNTUF0WlNqOERwREY3MkU4Sm55a2lOUDhtUDB3QUx2WElZY1NVcUlOUmRRSGVNQlY5Nlc2akMzYkJaSnJnNk9PdHdoNC1adzFEaGFqUHBkbzZDZ1I1bw&q=https%3A%2F%2Ftwitter.com%2Fmylonzete
+        - generic [ref=e792]:
+          - generic [ref=e794]: 更多信息
+          - table [ref=e795]:
+            - rowgroup [ref=e796]:
+              - row "需登录才能查看电子邮件地址" [ref=e797]:
+                - cell [ref=e798]:
+                  - generic [ref=e801]:
+                    - img
+                - cell "需登录才能查看电子邮件地址" [ref=e802]:
+                  - generic [ref=e805]:
+                    - text: 需
+                    - link "登录" [ref=e806] [cursor=pointer]:
+                      - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F%2540CortesdoMylon&hl=zh-CN
+                    - text: 才能查看电子邮件地址
+              - row "www.youtube.com/@CortesdoMylon" [ref=e807]:
+                - cell [ref=e808]:
+                  - generic [ref=e811]:
+                    - img
+                - cell "www.youtube.com/@CortesdoMylon" [ref=e812]:
+                  - link "www.youtube.com/@CortesdoMylon" [ref=e813] [cursor=pointer]:
+                    - /url: http://www.youtube.com/@CortesdoMylon
+              - row "巴西" [ref=e814]:
+                - cell [ref=e815]:
+                  - generic [ref=e818]:
+                    - img
+                - cell "巴西" [ref=e819]
+              - row "2023年9月10日注册" [ref=e820]:
+                - cell [ref=e821]:
+                  - generic [ref=e824]:
+                    - img
+                - cell "2023年9月10日注册" [ref=e825]:
+                  - generic [ref=e827]: 2023年9月10日注册
+              - row "16.6万位订阅者" [ref=e828]:
+                - cell [ref=e829]:
+                  - generic [ref=e832]:
+                    - img
+                - cell "16.6万位订阅者" [ref=e833]
+              - row "246 个视频" [ref=e834]:
+                - cell [ref=e835]:
+                  - generic [ref=e838]:
+                    - img
+                - cell "246 个视频" [ref=e839]
+              - row "42,016,967次观看" [ref=e840]:
+                - cell [ref=e841]:
+                  - generic [ref=e844]:
+                    - img
+                - cell "42,016,967次观看" [ref=e845]
+        - button "分享频道" [ref=e850] [cursor=pointer]:
+          - generic [ref=e854]:
+            - img
+          - generic [ref=e855]: 分享频道

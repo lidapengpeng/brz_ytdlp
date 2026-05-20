@@ -1,0 +1,651 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - button "导视" [ref=e9] [cursor=pointer]:
+            - generic [ref=e12]:
+              - img
+          - link "YouTube 首页" [ref=e14] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e19]:
+              - img
+          - button "跳过导航" [ref=e23] [cursor=pointer]:
+            - generic [ref=e24]: 跳过导航
+        - generic [ref=e28]:
+          - search [ref=e29]:
+            - generic [ref=e30]:
+              - combobox "搜索" [expanded] [ref=e33]
+              - button "Search" [ref=e34] [cursor=pointer]:
+                - generic [ref=e37]:
+                  - img
+          - generic [ref=e39]:
+            - button "通过语音搜索内容" [ref=e41] [cursor=pointer]:
+              - generic [ref=e45]:
+                - img
+            - tooltip "tooltip"
+        - generic [ref=e50]:
+          - button "设置" [ref=e55] [cursor=pointer]:
+            - generic [ref=e58]:
+              - img
+          - link "登录" [ref=e61] [cursor=pointer]:
+            - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fchannel%252FUC8NP2dKJ-G9dVuLbSqhBPEA%252Fabout&hl=zh-CN&ec=65620
+            - generic [ref=e65]:
+              - img
+            - generic [ref=e66]: 登录
+    - navigation [ref=e70]:
+      - generic [ref=e71]:
+        - link "首页" [ref=e73] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e76]:
+            - img
+          - generic [ref=e77]: 首页
+        - link "Shorts" [ref=e79] [cursor=pointer]:
+          - /url: /shorts/
+          - generic [ref=e82]:
+            - img
+          - generic [ref=e83]: Shorts
+        - link "订阅" [ref=e85] [cursor=pointer]:
+          - /url: /feed/subscriptions
+          - generic [ref=e88]:
+            - img
+          - generic [ref=e89]: 订阅
+        - link "我" [ref=e91] [cursor=pointer]:
+          - /url: /feed/you
+          - generic [ref=e94]:
+            - img
+          - generic [ref=e95]: 我
+    - generic [ref=e96]:
+      - main [ref=e97]:
+        - generic [ref=e104]:
+          - generic [ref=e120]:
+            - heading "Kamila e Daniel" [level=1] [ref=e122]
+            - generic [ref=e123]:
+              - group [ref=e124]:
+                - generic [ref=e125]: "@kamilaraiff"
+              - generic [ref=e126]: •
+              - group [ref=e127]:
+                - generic "3.38万位订阅者" [ref=e128]
+                - generic [ref=e129]: •
+                - generic [ref=e130]: 385 个视频
+            - generic [ref=e132] [cursor=pointer]:
+              - generic [ref=e133]: SEJAM BEM-VINDOS AO NOSSO CANAL! SE INSCREVA E SEJA UM MEMBRO DO CANAL
+              - button "说明。SEJAM BEM-VINDOS AO NOSSO CANAL! SE INSCREVA E SEJA UM MEMBR…点按即可了解详情。" [ref=e134]:
+                - generic [ref=e135]: …更多
+            - generic [ref=e137]:
+              - link "tiktok.com/@kamilaedaniel?is_from_webapp=1&sender_device=pc" [ref=e140] [cursor=pointer]:
+                - /url: https://www.youtube.com/redirect?event=channel_header&redir_token=QUFFLUhqa25aSTRZbjhJd3BveGMzZUhiNTFGNlE1SE9zQXxBQ3Jtc0trVG9rU0Nta3NEcDhPWTZnZzZFUXNjM3ZucEQ3YVh0Y2RmRGh1b1lvR0ppSTM2c3htLUN6YXZpT1JET2tlb0NjZ3QtVWg5OGJVSXNVS0lGWkdIT0xELWJkOUg3ZnNJdWRjREVhUzlxN1h4c1FoUmZDUQ&q=https%3A%2F%2Fwww.tiktok.com%2F%40kamilaedaniel%3Fis_from_webapp%3D1%26sender_device%3Dpc
+              - button "和另外 4 个链接" [ref=e143] [cursor=pointer]
+            - generic [ref=e144]:
+              - button "订阅" [ref=e147] [cursor=pointer]:
+                - generic [ref=e148]: 订阅
+              - button "加入此频道" [ref=e154] [cursor=pointer]:
+                - generic [ref=e158]:
+                  - img
+                - generic [ref=e159]: 加入
+              - link "社区" [ref=e165] [cursor=pointer]:
+                - /url: /@kamilaraiff/community
+                - generic [ref=e169]:
+                  - img
+                - generic [ref=e170]: 社区
+          - tablist [ref=e177]:
+            - tablist [ref=e181]:
+              - tab "首页" [selected] [ref=e182] [cursor=pointer]:
+                - generic [ref=e183]: 首页
+              - tab "视频" [ref=e184] [cursor=pointer]:
+                - generic [ref=e185]: 视频
+              - tab "Shorts" [ref=e186] [cursor=pointer]:
+                - generic [ref=e187]: Shorts
+              - tab "直播" [ref=e188] [cursor=pointer]:
+                - generic [ref=e189]: 直播
+              - tab "播放列表" [ref=e190] [cursor=pointer]:
+                - generic [ref=e191]: 播放列表
+              - tab "帖子" [ref=e192] [cursor=pointer]:
+                - generic [ref=e193]: 帖子
+              - button "搜索" [ref=e197] [cursor=pointer]:
+                - generic [ref=e200]:
+                  - img
+        - generic [ref=e207]:
+          - generic [ref=e214]:
+            - generic [ref=e215]:
+              - heading "REACT ATLÉTICO MG 3 x 0 CRUZEIRO CRUZEIRENSE REVOLTADO COM A DERROTA 10分钟31秒钟" [level=3] [ref=e216]:
+                - link "REACT ATLÉTICO MG 3 x 0 CRUZEIRO CRUZEIRENSE REVOLTADO COM A DERROTA" [ref=e217] [cursor=pointer]:
+                  - /url: /watch?v=shPBmCmN22E
+              - generic [ref=e220]:
+                - generic [ref=e221]: 30,468次观看
+                - generic [ref=e222]: •2年前
+            - generic [ref=e223]:
+              - generic [ref=e225]:
+                - text: REACT ATLÉTICO MG 3 x 0 CRUZEIRO CRUZEIRENSE REVOLTADO COM A DERROTA
+                - link "#react" [ref=e226] [cursor=pointer]:
+                  - /url: /hashtag/react
+                - link "#galo" [ref=e227] [cursor=pointer]:
+                  - /url: /hashtag/galo
+                - link "#cruzeiro" [ref=e228] [cursor=pointer]:
+                  - /url: /hashtag/cruzeiro
+                - text: React. do Atlético Mineiro contra o Cruzeiro | Golaço de Zaracho na Arena MRV contra o Cruzeiro | Gol de Guilherme Arena contra o Cruzeiro na Arena MRV | gol de Paulinho na Arena MRV | React Atlético Mineiro e Cruzeiro | React Cruzeiro x Atlético Mineiro| React Atlético Mineiro venceu o Cruzeiro na Arena MRV por três a zero
+              - button "了解详情" [ref=e229] [cursor=pointer]:
+                - link "了解详情" [ref=e231]:
+                  - /url: /watch?v=shPBmCmN22E
+          - generic [ref=e235]:
+            - generic [ref=e236]:
+              - generic [ref=e237]: 我们的会员
+              - text: 频道会员们，感谢你们！
+            - button "加入此频道" [ref=e250] [cursor=pointer]:
+              - generic [ref=e251]: 加入
+          - generic [ref=e257]:
+            - generic [ref=e258]:
+              - generic [ref=e262]:
+                - img
+              - heading "Shorts" [level=2] [ref=e264]:
+                - generic [ref=e266]: Shorts
+              - button "其他操作" [ref=e270] [cursor=pointer]:
+                - generic [ref=e273]:
+                  - img
+            - generic [ref=e275]:
+              - generic [ref=e278]:
+                - generic [ref=e280]:
+                  - link [ref=e281] [cursor=pointer]:
+                    - /url: /shorts/EkmhkTstJdo
+                  - generic [ref=e285] [cursor=pointer]:
+                    - 'link "Tem Maria on-line aí ??? #react #futebol #atleticomineiro #viral #shortvideo #gym" [ref=e286]':
+                      - /url: /shorts/EkmhkTstJdo
+                    - generic [ref=e287]: 4736次观看
+                  - button "其他操作" [ref=e289] [cursor=pointer]:
+                    - generic [ref=e293]:
+                      - img
+                - generic [ref=e298]:
+                  - link [ref=e299] [cursor=pointer]:
+                    - /url: /shorts/eSJMZqQb99g
+                  - generic [ref=e303] [cursor=pointer]:
+                    - 'link "Tem Maria on-line aí ? #futebol #react #galo #viral #shortvideo #shorts" [ref=e304]':
+                      - /url: /shorts/eSJMZqQb99g
+                    - generic [ref=e305]: 9063次观看
+                  - button "其他操作" [ref=e307] [cursor=pointer]:
+                    - generic [ref=e311]:
+                      - img
+                - generic [ref=e316]:
+                  - link [ref=e317] [cursor=pointer]:
+                    - /url: /shorts/WNn_49BwV8k
+                  - generic [ref=e321] [cursor=pointer]:
+                    - 'link "Despedida d HULK#hulk #viral #react #gym #shorts #galo #reels" [ref=e322]':
+                      - /url: /shorts/WNn_49BwV8k
+                    - generic [ref=e323]: 2690次观看
+                  - button "其他操作" [ref=e325] [cursor=pointer]:
+                    - generic [ref=e329]:
+                      - img
+                - generic [ref=e334]:
+                  - link [ref=e335] [cursor=pointer]:
+                    - /url: /shorts/gwRz7J3gm-k
+                  - generic [ref=e339] [cursor=pointer]:
+                    - 'link "REACT Cruzeiro 1x0 Boca Juniors na Libertadores #react #futebol #viral #gym #shorts #fyp" [ref=e340]':
+                      - /url: /shorts/gwRz7J3gm-k
+                    - generic [ref=e341]: 9647次观看
+                  - button "其他操作" [ref=e343] [cursor=pointer]:
+                    - generic [ref=e347]:
+                      - img
+                - generic [ref=e352]:
+                  - link [ref=e353] [cursor=pointer]:
+                    - /url: /shorts/v6mP79zHRyQ
+                  - generic [ref=e357] [cursor=pointer]:
+                    - 'link "HULK VAI PARA O FLUMINENSE? #react #futebol #hulk #viral #galo" [ref=e358]':
+                      - /url: /shorts/v6mP79zHRyQ
+                    - generic [ref=e359]: 2.1万次观看
+                  - button "其他操作" [ref=e361] [cursor=pointer]:
+                    - generic [ref=e365]:
+                      - img
+                - generic [ref=e370]:
+                  - link [ref=e371] [cursor=pointer]:
+                    - /url: /shorts/l5UH5rBK7KU
+                  - generic [ref=e375] [cursor=pointer]:
+                    - link "REACT ATLETICANO SOFRENDO COM VITÓRIA DO RIVAL" [ref=e376]:
+                      - /url: /shorts/l5UH5rBK7KU
+                    - generic [ref=e377]: 8749次观看
+                  - button "其他操作" [ref=e379] [cursor=pointer]:
+                    - generic [ref=e383]:
+                      - img
+              - button "下一批" [ref=e389] [cursor=pointer]:
+                - generic [ref=e393]:
+                  - img
+          - generic [ref=e400]:
+            - heading "视频" [level=2] [ref=e403]:
+              - link "视频" [ref=e406] [cursor=pointer]:
+                - /url: /@kamilaraiff/videos?view=0&sort=dd&shelf_id=4
+                - generic [ref=e407]: 视频
+            - generic [ref=e409]:
+              - generic [ref=e412]:
+                - generic [ref=e414] [cursor=pointer]:
+                  - link [ref=e415]:
+                    - /url: /watch?v=HSQFmcZ5cIo
+                    - generic [ref=e422]: 12:40
+                  - generic [ref=e424]:
+                    - generic [ref=e425]:
+                      - heading "REACT CLASSIFICAÇÃO DI GALO NA COPA DO BRASIL NOS PÊNALTI | ATLÉTICO (4)1x2(2)Ceará Everson Herói 12分钟40秒钟" [level=3] [ref=e426]:
+                        - link "REACT CLASSIFICAÇÃO DI GALO NA COPA DO BRASIL NOS PÊNALTI | ATLÉTICO (4)1x2(2)Ceará Everson Herói 12分钟40秒钟" [ref=e427]:
+                          - /url: /watch?v=HSQFmcZ5cIo
+                          - text: REACT CLASSIFICAÇÃO DI GALO NA COPA DO BRASIL NOS PÊNALTI | ATLÉTICO (4)1x2(2)Ceará Everson Herói
+                      - group [ref=e430]:
+                        - generic [ref=e431]: 1.5万次观看
+                        - generic [ref=e432]: •
+                        - generic [ref=e433]: 2天前
+                    - button "其他操作" [ref=e436]:
+                      - generic [ref=e440]:
+                        - img
+                - generic [ref=e445] [cursor=pointer]:
+                  - link [ref=e446]:
+                    - /url: /watch?v=vPBWzW626Oc
+                    - generic [ref=e453]: 9:00
+                  - generic [ref=e455]:
+                    - generic [ref=e456]:
+                      - heading "REACT CRUZEIRO 1x0 GOIÁS MELHORES MOMENTOS COPA DO BRASIL | VAMO MEU CABULOSO 9分钟" [level=3] [ref=e457]:
+                        - link "REACT CRUZEIRO 1x0 GOIÁS MELHORES MOMENTOS COPA DO BRASIL | VAMO MEU CABULOSO 9分钟" [ref=e458]:
+                          - /url: /watch?v=vPBWzW626Oc
+                          - text: REACT CRUZEIRO 1x0 GOIÁS MELHORES MOMENTOS COPA DO BRASIL | VAMO MEU CABULOSO
+                      - group [ref=e461]:
+                        - generic [ref=e462]: 3516次观看
+                        - generic [ref=e463]: •
+                        - generic [ref=e464]: 3天前
+                    - button "其他操作" [ref=e467]:
+                      - generic [ref=e471]:
+                        - img
+                - generic [ref=e476] [cursor=pointer]:
+                  - link [ref=e477]:
+                    - /url: /watch?v=dsVkgRZwPCw
+                    - generic [ref=e484]: 13:37
+                  - generic [ref=e486]:
+                    - generic [ref=e487]:
+                      - heading "REACT CRUZEIRENSE REVOLTADA COM A DERROTA NO CLÁSSICO | ATLÉTICO MG 3x1 CRUZEIRO 13分钟37秒钟" [level=3] [ref=e488]:
+                        - link "REACT CRUZEIRENSE REVOLTADA COM A DERROTA NO CLÁSSICO | ATLÉTICO MG 3x1 CRUZEIRO 13分钟37秒钟" [ref=e489]:
+                          - /url: /watch?v=dsVkgRZwPCw
+                          - text: REACT CRUZEIRENSE REVOLTADA COM A DERROTA NO CLÁSSICO | ATLÉTICO MG 3x1 CRUZEIRO
+                      - group [ref=e492]:
+                        - generic [ref=e493]: 3.4万次观看
+                        - generic [ref=e494]: •
+                        - generic [ref=e495]: 2周前
+                    - button "其他操作" [ref=e498]:
+                      - generic [ref=e502]:
+                        - img
+                - generic [ref=e507] [cursor=pointer]:
+                  - link [ref=e508]:
+                    - /url: /watch?v=ST27RZjdzKY
+                    - generic [ref=e515]: 8:02
+                  - generic [ref=e517]:
+                    - generic [ref=e518]:
+                      - heading "REACT CRUZEIRENSE ZOANDO ATLETICANO COPA SUL AMERICANA | REACT CIENCIANO 1x0 ATLÉTICO MG 8分钟2秒钟" [level=3] [ref=e519]:
+                        - link "REACT CRUZEIRENSE ZOANDO ATLETICANO COPA SUL AMERICANA | REACT CIENCIANO 1x0 ATLÉTICO MG 8分钟2秒钟" [ref=e520]:
+                          - /url: /watch?v=ST27RZjdzKY
+                          - text: REACT CRUZEIRENSE ZOANDO ATLETICANO COPA SUL AMERICANA | REACT CIENCIANO 1x0 ATLÉTICO MG
+                      - group [ref=e523]:
+                        - generic [ref=e524]: 7564次观看
+                        - generic [ref=e525]: •
+                        - generic [ref=e526]: 2周前
+                    - button "其他操作" [ref=e529]:
+                      - generic [ref=e533]:
+                        - img
+                - generic [ref=e538] [cursor=pointer]:
+                  - link [ref=e539]:
+                    - /url: /watch?v=szhqu7GNNas
+                    - generic [ref=e546]: 8:58
+                  - generic [ref=e548]:
+                    - generic [ref=e549]:
+                      - heading "REACT CRUZEIRO 1x0 BOCA JUNIORS MELHORES MOMENTOS | ARGENTINOS NÃO ACEITAM A DERROTA 8分钟58秒钟" [level=3] [ref=e550]:
+                        - link "REACT CRUZEIRO 1x0 BOCA JUNIORS MELHORES MOMENTOS | ARGENTINOS NÃO ACEITAM A DERROTA 8分钟58秒钟" [ref=e551]:
+                          - /url: /watch?v=szhqu7GNNas
+                          - text: REACT CRUZEIRO 1x0 BOCA JUNIORS MELHORES MOMENTOS | ARGENTINOS NÃO ACEITAM A DERROTA
+                      - group [ref=e554]:
+                        - generic [ref=e555]: 1.2万次观看
+                        - generic [ref=e556]: •
+                        - generic [ref=e557]: 2周前
+                    - button "其他操作" [ref=e560]:
+                      - generic [ref=e564]:
+                        - img
+                - generic [ref=e569] [cursor=pointer]:
+                  - link [ref=e570]:
+                    - /url: /watch?v=UGeV8i8j2hw
+                    - generic [ref=e577]: 5:31
+                  - generic [ref=e579]:
+                    - generic [ref=e580]:
+                      - heading "😱Esclarecimento do vídeo FLAMENGO 4x0 ATLÉTICO MG | POR QUE NÃO REAGIMOS O JOGO 5分钟31秒钟" [level=3] [ref=e581]:
+                        - link "😱Esclarecimento do vídeo FLAMENGO 4x0 ATLÉTICO MG | POR QUE NÃO REAGIMOS O JOGO 5分钟31秒钟" [ref=e582]:
+                          - /url: /watch?v=UGeV8i8j2hw
+                          - text: 😱Esclarecimento do vídeo FLAMENGO 4x0 ATLÉTICO MG | POR QUE NÃO REAGIMOS O JOGO
+                      - group [ref=e585]:
+                        - generic [ref=e586]: 1.1万次观看
+                        - generic [ref=e587]: •
+                        - generic [ref=e588]: 2周前
+                    - button "其他操作" [ref=e591]:
+                      - generic [ref=e595]:
+                        - img
+              - button "下一页" [ref=e601] [cursor=pointer]:
+                - generic [ref=e605]:
+                  - img
+          - generic [ref=e612]:
+            - heading "帖子" [level=2] [ref=e615]:
+              - link "帖子" [ref=e618] [cursor=pointer]:
+                - /url: /channel/UC8NP2dKJ-G9dVuLbSqhBPEA/posts
+                - generic [ref=e619]: 帖子
+            - generic [ref=e621]:
+              - generic [ref=e624]:
+                - link "Kamila e Daniel • 1个月前 EU TE AMOOO GALOOOOOO🐓🎊🎊🎊🎊🎊. 为这个帖子点赞，已有 80 人点赞 tooltip 80 次赞 不喜欢这个帖子 tooltip 分享 tooltip 12 条评论 tooltip" [ref=e626] [cursor=pointer]:
+                  - generic [ref=e627]:
+                    - link [ref=e629]:
+                      - /url: /@kamilaraiff
+                    - link "Kamila e Daniel" [ref=e632]:
+                      - /url: /@kamilaraiff
+                    - generic [ref=e633]: •
+                    - link "1个月前" [ref=e635]:
+                      - /url: /post/UgkxDGdt6S0X93VUwIUiKNM3lR85M6UbKchA
+                  - generic [ref=e636]:
+                    - generic [ref=e638]: EU TE AMOOO GALOOOOOO🐓🎊🎊🎊🎊🎊.
+                    - generic [ref=e639]:
+                      - group
+                  - generic [ref=e645]:
+                    - generic [ref=e646]:
+                      - link "为这个帖子点赞，已有 80 人点赞" [ref=e648]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                        - generic [ref=e652]:
+                          - img
+                      - tooltip "tooltip"
+                    - generic "80 次赞" [ref=e656]: "80"
+                    - generic [ref=e657]:
+                      - link "不喜欢这个帖子" [ref=e659]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                        - generic [ref=e663]:
+                          - img
+                      - tooltip "tooltip"
+                    - generic [ref=e668]:
+                      - button "分享" [ref=e670]:
+                        - generic [ref=e674]:
+                          - img
+                      - tooltip "tooltip"
+                    - generic [ref=e679]:
+                      - link "12 条评论" [ref=e681]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252Fpost%252FUgkxDGdt6S0X93VUwIUiKNM3lR85M6UbKchA&hl=zh-CN
+                        - generic [ref=e685]:
+                          - img
+                        - generic [ref=e686]: "12"
+                      - tooltip "tooltip"
+                - 'link "Kamila e Daniel • 8个月前 🚨 LANÇAMENTO DA NOSSA RIFA EXCLUSIVA! 🚨 A partir de hoje você terá a chance de concorrer a camisas personalizadas oficiais do canal Kamila e Daniel! 🔥👕 👉 O link de compra da rifa será liberado HOJE, às 19h30, durante a nossa live especial. ⚡❗ MAS ATENÇÃO: quem é MEMBRO DO CANAL já garante ACESSO ANTECIPADO e IMEDIATO ao link para adquirir seus números da rifa antes de todo mundo! 💡 Não perca essa oportunidade ÚNICA E DE OURO: vire membro, aumente suas chances e entre nessa com a gente! ➡️ Garanta já seu lugar e prepare-se: hoje às 19h30 TEMOS LIVE E CLÁSSICO. ESSES SÃO OS MODELOS DAS NOSSAS CAMISAS! O GANHADOR DA RIFA PODERÁ ESCOLHER O QUE QUISER. 为这个帖子点赞，已有 68 人点赞 tooltip 68 次赞 不喜欢这个帖子 tooltip 分享 tooltip 24 条评论 tooltip" [ref=e691] [cursor=pointer]':
+                  - generic [ref=e692]:
+                    - link [ref=e694]:
+                      - /url: /@kamilaraiff
+                    - link "Kamila e Daniel" [ref=e697]:
+                      - /url: /@kamilaraiff
+                    - generic [ref=e698]: •
+                    - link "8个月前" [ref=e700]:
+                      - /url: /post/UgkxYru8A7YQ_9sPS-qhtwwT598ejoroEzDz
+                  - generic [ref=e701]:
+                    - generic [ref=e703]: "🚨 LANÇAMENTO DA NOSSA RIFA EXCLUSIVA! 🚨 A partir de hoje você terá a chance de concorrer a camisas personalizadas oficiais do canal Kamila e Daniel! 🔥👕 👉 O link de compra da rifa será liberado HOJE, às 19h30, durante a nossa live especial. ⚡❗ MAS ATENÇÃO: quem é MEMBRO DO CANAL já garante ACESSO ANTECIPADO e IMEDIATO ao link para adquirir seus números da rifa antes de todo mundo! 💡 Não perca essa oportunidade ÚNICA E DE OURO: vire membro, aumente suas chances e entre nessa com a gente! ➡️ Garanta já seu lugar e prepare-se: hoje às 19h30 TEMOS LIVE E CLÁSSICO. ESSES SÃO OS MODELOS DAS NOSSAS CAMISAS! O GANHADOR DA RIFA PODERÁ ESCOLHER O QUE QUISER."
+                    - generic [ref=e704]:
+                      - group
+                  - generic [ref=e710]:
+                    - generic [ref=e711]:
+                      - link "为这个帖子点赞，已有 68 人点赞" [ref=e713]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                        - generic [ref=e717]:
+                          - img
+                      - tooltip "tooltip"
+                    - generic "68 次赞" [ref=e721]: "68"
+                    - generic [ref=e722]:
+                      - link "不喜欢这个帖子" [ref=e724]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                        - generic [ref=e728]:
+                          - img
+                      - tooltip "tooltip"
+                    - generic [ref=e733]:
+                      - button "分享" [ref=e735]:
+                        - generic [ref=e739]:
+                          - img
+                      - tooltip "tooltip"
+                    - generic [ref=e744]:
+                      - link "24 条评论" [ref=e746]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252Fpost%252FUgkxYru8A7YQ_9sPS-qhtwwT598ejoroEzDz&hl=zh-CN
+                        - generic [ref=e750]:
+                          - img
+                        - generic [ref=e751]: "24"
+                      - tooltip "tooltip"
+                - link "Kamila e Daniel • 8个月前（修改过） Obrigada pelo carinho Gabriel e Ana, um cruzeirense e uma atleticana. Encontro com dois seguidores lá no evento da Arena. Deus abençoe vcs sempre. 为这个帖子点赞，已有 312 人点赞 tooltip 312 次赞 不喜欢这个帖子 tooltip 分享 tooltip 11 条评论 tooltip" [ref=e756] [cursor=pointer]:
+                  - generic [ref=e757]:
+                    - link [ref=e759]:
+                      - /url: /@kamilaraiff
+                    - link "Kamila e Daniel" [ref=e762]:
+                      - /url: /@kamilaraiff
+                    - generic [ref=e763]: •
+                    - link "8个月前（修改过）" [ref=e765]:
+                      - /url: /post/UgkxAdPgKbGJiHLSOiulfAH1KcnRBG_HXgMr
+                  - generic [ref=e766]:
+                    - generic [ref=e768]: Obrigada pelo carinho Gabriel e Ana, um cruzeirense e uma atleticana. Encontro com dois seguidores lá no evento da Arena. Deus abençoe vcs sempre.
+                    - generic [ref=e769]:
+                      - generic [ref=e776]:
+                        - img
+                      - group
+                  - generic [ref=e779]:
+                    - generic [ref=e780]:
+                      - link "为这个帖子点赞，已有 312 人点赞" [ref=e782]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                        - generic [ref=e786]:
+                          - img
+                      - tooltip "tooltip"
+                    - generic "312 次赞" [ref=e790]: "312"
+                    - generic [ref=e791]:
+                      - link "不喜欢这个帖子" [ref=e793]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                        - generic [ref=e797]:
+                          - img
+                      - tooltip "tooltip"
+                    - generic [ref=e802]:
+                      - button "分享" [ref=e804]:
+                        - generic [ref=e808]:
+                          - img
+                      - tooltip "tooltip"
+                    - generic [ref=e813]:
+                      - link "11 条评论" [ref=e815]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252Fpost%252FUgkxAdPgKbGJiHLSOiulfAH1KcnRBG_HXgMr&hl=zh-CN
+                        - generic [ref=e819]:
+                          - img
+                        - generic [ref=e820]: "11"
+                      - tooltip "tooltip"
+                - link "Kamila e Daniel • 8个月前（修改过） A arena tem do novo dono heim! Cruzeiro cabuloso. Evento ORE comigo 23/08/25 为这个帖子点赞，已有 173 人点赞 tooltip 173 次赞 不喜欢这个帖子 tooltip 分享 tooltip 56 条评论 tooltip" [ref=e825] [cursor=pointer]:
+                  - generic [ref=e826]:
+                    - link [ref=e828]:
+                      - /url: /@kamilaraiff
+                    - link "Kamila e Daniel" [ref=e831]:
+                      - /url: /@kamilaraiff
+                    - generic [ref=e832]: •
+                    - link "8个月前（修改过）" [ref=e834]:
+                      - /url: /post/UgkxkyZZY2NFDQnhvhiI8AGmLoAnwPVBZ8ot
+                  - generic [ref=e835]:
+                    - generic [ref=e837]: A arena tem do novo dono heim! Cruzeiro cabuloso. Evento ORE comigo 23/08/25
+                    - generic [ref=e838]:
+                      - group
+                  - generic [ref=e844]:
+                    - generic [ref=e845]:
+                      - link "为这个帖子点赞，已有 173 人点赞" [ref=e847]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                        - generic [ref=e851]:
+                          - img
+                      - tooltip "tooltip"
+                    - generic "173 次赞" [ref=e855]: "173"
+                    - generic [ref=e856]:
+                      - link "不喜欢这个帖子" [ref=e858]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                        - generic [ref=e862]:
+                          - img
+                      - tooltip "tooltip"
+                    - generic [ref=e867]:
+                      - button "分享" [ref=e869]:
+                        - generic [ref=e873]:
+                          - img
+                      - tooltip "tooltip"
+                    - generic [ref=e878]:
+                      - link "56 条评论" [ref=e880]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252Fpost%252FUgkxkyZZY2NFDQnhvhiI8AGmLoAnwPVBZ8ot&hl=zh-CN
+                        - generic [ref=e884]:
+                          - img
+                        - generic [ref=e885]: "56"
+                      - tooltip "tooltip"
+                - link "Kamila e Daniel • 1年前 Vamos interagir, nos digam ai o que você gostariam para esse Domingão de CLÁSSICO!!!!1 156 票 立即投票 为这个帖子点赞，已有 32 人点赞 tooltip 32 次赞 不喜欢这个帖子 tooltip 分享 tooltip 4 条评论 tooltip" [ref=e890] [cursor=pointer]:
+                  - generic [ref=e891]:
+                    - link [ref=e893]:
+                      - /url: /@kamilaraiff
+                    - link "Kamila e Daniel" [ref=e896]:
+                      - /url: /@kamilaraiff
+                    - generic [ref=e897]: •
+                    - link "1年前" [ref=e899]:
+                      - /url: /post/Ugkxryt519hvltnKRH9Yrf1OP6jybgitQSGV
+                  - generic [ref=e900]:
+                    - generic [ref=e902]: Vamos interagir, nos digam ai o que você gostariam para esse Domingão de CLÁSSICO!!!!1
+                    - generic [ref=e903]:
+                      - generic [ref=e904]: 156 票
+                      - link "立即投票" [ref=e908]:
+                        - /url: /post/Ugkxryt519hvltnKRH9Yrf1OP6jybgitQSGV
+                        - generic [ref=e909]: 立即投票
+                  - generic [ref=e915]:
+                    - generic [ref=e916]:
+                      - link "为这个帖子点赞，已有 32 人点赞" [ref=e918]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                        - generic [ref=e922]:
+                          - img
+                      - tooltip "tooltip"
+                    - generic "32 次赞" [ref=e926]: "32"
+                    - generic [ref=e927]:
+                      - link "不喜欢这个帖子" [ref=e929]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                        - generic [ref=e933]:
+                          - img
+                      - tooltip "tooltip"
+                    - generic [ref=e938]:
+                      - button "分享" [ref=e940]:
+                        - generic [ref=e944]:
+                          - img
+                      - tooltip "tooltip"
+                    - generic [ref=e949]:
+                      - link "4 条评论" [ref=e951]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252Fpost%252FUgkxryt519hvltnKRH9Yrf1OP6jybgitQSGV&hl=zh-CN
+                        - generic [ref=e955]:
+                          - img
+                        - generic [ref=e956]: "4"
+                      - tooltip "tooltip"
+                - link "Kamila e Daniel • 1年前 Então Domingo dia 09/02 dia de Clássico, nos digam ai vocês gostariam de uma LIVE conosco, ou so o REACT está bom. Respondam a enquete a seguir. 为这个帖子点赞，已有 46 人点赞 tooltip 46 次赞 不喜欢这个帖子 tooltip 分享 tooltip 5 条评论 tooltip" [ref=e961] [cursor=pointer]:
+                  - generic [ref=e962]:
+                    - link [ref=e964]:
+                      - /url: /@kamilaraiff
+                    - link "Kamila e Daniel" [ref=e967]:
+                      - /url: /@kamilaraiff
+                    - generic [ref=e968]: •
+                    - link "1年前" [ref=e970]:
+                      - /url: /post/UgkxLZ-br2Jhz3zfurQeUGs8x0yz4FrH9L6l
+                  - generic [ref=e971]:
+                    - generic [ref=e973]: Então Domingo dia 09/02 dia de Clássico, nos digam ai vocês gostariam de uma LIVE conosco, ou so o REACT está bom. Respondam a enquete a seguir.
+                    - generic [ref=e974]:
+                      - group
+                  - generic [ref=e980]:
+                    - generic [ref=e981]:
+                      - link "为这个帖子点赞，已有 46 人点赞" [ref=e983]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                        - generic [ref=e987]:
+                          - img
+                      - tooltip "tooltip"
+                    - generic "46 次赞" [ref=e991]: "46"
+                    - generic [ref=e992]:
+                      - link "不喜欢这个帖子" [ref=e994]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                        - generic [ref=e998]:
+                          - img
+                      - tooltip "tooltip"
+                    - generic [ref=e1003]:
+                      - button "分享" [ref=e1005]:
+                        - generic [ref=e1009]:
+                          - img
+                      - tooltip "tooltip"
+                    - generic [ref=e1014]:
+                      - link "5 条评论" [ref=e1016]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252Fpost%252FUgkxLZ-br2Jhz3zfurQeUGs8x0yz4FrH9L6l&hl=zh-CN
+                        - generic [ref=e1020]:
+                          - img
+                        - generic [ref=e1021]: "5"
+                      - tooltip "tooltip"
+              - button "下一页" [ref=e1027] [cursor=pointer]:
+                - generic [ref=e1031]:
+                  - img
+      - text: •
+  - dialog [active] [ref=e1035]:
+    - generic [ref=e1036]:
+      - generic [ref=e1039]:
+        - heading "Kamila e Daniel" [level=2] [ref=e1041]:
+          - generic "Kamila e Daniel" [ref=e1042]
+        - button "关闭" [ref=e1046] [cursor=pointer]:
+          - generic [ref=e1050]:
+            - img
+      - generic [ref=e1060]:
+        - generic [ref=e1062]: 说明
+        - generic [ref=e1063]: "SEJAM BEM-VINDOS AO NOSSO CANAL! SE INSCREVA E SEJA UM MEMBRO DO CANAL POSTAMOS REACT DO ATLÉTICO MINEIRO E REACT DO CRUZEIRO. |#atleticoxcruzeiro #react #reactatletico #reacoes #atleticomineiro #cruzeiroxatletico #cruzeiro #galo |melhores momentos do jogo do galo | reacoes atleticano | reacoes cruzeirense | mineiros rivais | Reagindo aos jogo do galo |Reagindo aos jogos do cruzeiro Melhores momentos Atlético Mineiro e Cruzeiro Reações de atleticano nos jogos do galo | Atleticano reagindo | React cruzeirense secando o galo | React atleticano zoando cruzeirense | Reações dos jogos Secando o galo Kamila Raiff"
+        - generic [ref=e1064]:
+          - generic [ref=e1066]: 链接
+          - generic [ref=e1067]:
+            - generic [ref=e1069]:
+              - generic [ref=e1070]: Tik Tok
+              - link "tiktok.com/@kamilaedaniel?is_from_webapp=1&sender_device=pc" [ref=e1072] [cursor=pointer]:
+                - /url: https://www.youtube.com/redirect?event=channel_description&redir_token=QUFFLUhqa1NoNUZYc1ZiWEtQSjJJZ0RXOWl0MWNReE04d3xBQ3Jtc0tsTnhzSFhrc2JOd0V2QW1sOU9SdlVzVVcyeVZBcmo1dkEtdlpDTkNJeHhVZVJVaUZyb3N6MEQ0dUI1OGhFZ1hKeUdGVkdEa2M4SGE2dUxLQ0QtWVpEWlUwQzljRDFiSUl3MmFBMEJ3dTZzdWU3SWxmZw&q=https%3A%2F%2Fwww.tiktok.com%2F%40kamilaedaniel%3Fis_from_webapp%3D1%26sender_device%3Dpc
+            - generic [ref=e1074]:
+              - generic [ref=e1075]: INSTAGRAM
+              - link "instagram.com/reel/DO6EohaDO5R/?igsh=MW1qM3BnNDh4dGk1bw==" [ref=e1077] [cursor=pointer]:
+                - /url: https://www.youtube.com/redirect?event=channel_description&redir_token=QUFFLUhqa2xJRDRmWTlkY21GNFhaN3Fqc0dZcE11aTE5d3xBQ3Jtc0ttN1BsSkE2dDdtLWVfazJqckJnWmZLeHdkYURpWHhNa2tnbU50emhyZkdDcUxYU2hnX3pTV3V5VHVtUE11ZTFPYjQ5SnFlY0tNbUZYcVJLRnh3MllacHJnSzNMdWVYMmsyaWJpOEJHanFGWmZVMGplNA&q=https%3A%2F%2Fwww.instagram.com%2Freel%2FDO6EohaDO5R%2F%3Figsh%3DMW1qM3BnNDh4dGk1bw%3D%3D
+            - generic [ref=e1079]:
+              - generic [ref=e1080]: Rifa Camisas
+              - link "kdcasal20.clickrifas.com/ganhe-uma-camisa-personalizada-do-nosso-canal-por-apenas-1000" [ref=e1082] [cursor=pointer]:
+                - /url: https://www.youtube.com/redirect?event=channel_description&redir_token=QUFFLUhqazFlTXhnNGNqUHVjdzhsRHR1SzRmNXJ0OWFxd3xBQ3Jtc0tsWTEySDJEaEtUbGhMZUF5cC1uaEVHdnphTWpZdVFwY0JQT0ZhYU5HbkZxSzB6X3VXM2hSQXNGMG05U0dwcmh4a2pMSlhfZTZ4OWxaTy1HelV3NEFlMHhBWkpBQ3EySldzVUlPNFNwOEhkSkh0dmVISQ&q=https%3A%2F%2Fkdcasal20.clickrifas.com%2Fganhe-uma-camisa-personalizada-do-nosso-canal-por-apenas-1000
+            - generic [ref=e1084]:
+              - generic [ref=e1085]: Instagram Kamila
+              - link "instagram.com/kamilaraiff?igsh=MWFiNWV1cWdocWtsaw==" [ref=e1087] [cursor=pointer]:
+                - /url: https://www.youtube.com/redirect?event=channel_description&redir_token=QUFFLUhqbmpJcGp6emlVdVc0N2kzeFNfelkxeDlKQ2Q3d3xBQ3Jtc0tuLWIxYnZYc0x6WU1hTlBxWkZnZ2lRZW5LS08zLXRWWXY2MmltSzFCMWgwTTFvdkRqdEpDU2dHMVVmWDVORTM5bGJFemJGYi1YN3ZKRVVndG1hU213LUd0dFoxc09qb2t0VXFOT0dQVzFyV2NLanRaVQ&q=https%3A%2F%2Fwww.instagram.com%2Fkamilaraiff%3Figsh%3DMWFiNWV1cWdocWtsaw%3D%3D
+            - generic [ref=e1089]:
+              - generic [ref=e1090]: Intagran Daniel
+              - link "instagram.com/danielpires.ofc?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" [ref=e1092] [cursor=pointer]:
+                - /url: https://www.youtube.com/redirect?event=channel_description&redir_token=QUFFLUhqbmJET0k4RDZkbkxBOWRUdGpQTV9PT0UxTUgtQXxBQ3Jtc0tuMWU1NzJfMHlzMWd3bnhneUxwM21lNlR2STZHNmNwcjhkNmh0SDNRbEhMekJGZDdHS2JzLTgxQVNWSG42RWIxdUZJbUw1WVExWUgwUkNKREw2c19SUDlPbzkxNVZPaVlCck5zX1UtbEhORHMzVURybw&q=https%3A%2F%2Fwww.instagram.com%2Fdanielpires.ofc%3Futm_source%3Dig_web_button_share_sheet%26igsh%3DZDNlZDc0MzIxNw%3D%3D
+        - generic [ref=e1093]:
+          - generic [ref=e1095]: 更多信息
+          - table [ref=e1096]:
+            - rowgroup [ref=e1097]:
+              - row "需登录才能查看电子邮件地址" [ref=e1098]:
+                - cell [ref=e1099]:
+                  - generic [ref=e1102]:
+                    - img
+                - cell "需登录才能查看电子邮件地址" [ref=e1103]:
+                  - generic [ref=e1106]:
+                    - text: 需
+                    - link "登录" [ref=e1107] [cursor=pointer]:
+                      - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F%2540kamilaraiff&hl=zh-CN
+                    - text: 才能查看电子邮件地址
+              - row "www.youtube.com/@kamilaraiff" [ref=e1108]:
+                - cell [ref=e1109]:
+                  - generic [ref=e1112]:
+                    - img
+                - cell "www.youtube.com/@kamilaraiff" [ref=e1113]:
+                  - link "www.youtube.com/@kamilaraiff" [ref=e1114] [cursor=pointer]:
+                    - /url: http://www.youtube.com/@kamilaraiff
+              - row "2014年2月21日注册" [ref=e1115]:
+                - cell [ref=e1116]:
+                  - generic [ref=e1119]:
+                    - img
+                - cell "2014年2月21日注册" [ref=e1120]:
+                  - generic [ref=e1122]: 2014年2月21日注册
+              - row "3.38万位订阅者" [ref=e1123]:
+                - cell [ref=e1124]:
+                  - generic [ref=e1127]:
+                    - img
+                - cell "3.38万位订阅者" [ref=e1128]
+              - row "385 个视频" [ref=e1129]:
+                - cell [ref=e1130]:
+                  - generic [ref=e1133]:
+                    - img
+                - cell "385 个视频" [ref=e1134]
+              - row "3,059,637次观看" [ref=e1135]:
+                - cell [ref=e1136]:
+                  - generic [ref=e1139]:
+                    - img
+                - cell "3,059,637次观看" [ref=e1140]
+        - button "分享频道" [ref=e1145] [cursor=pointer]:
+          - generic [ref=e1149]:
+            - img
+          - generic [ref=e1150]: 分享频道

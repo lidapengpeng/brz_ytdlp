@@ -1,0 +1,158 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - button "导视" [ref=e9] [cursor=pointer]:
+          - generic [ref=e12]:
+            - img
+        - link "YouTube 首页" [ref=e14] [cursor=pointer]:
+          - /url: /
+        - button "跳过导航" [ref=e21] [cursor=pointer]:
+          - generic [ref=e22]: 跳过导航
+      - generic [ref=e26]:
+        - search [ref=e27]:
+          - generic [ref=e28]:
+            - combobox "搜索" [expanded] [ref=e31]
+            - button "Search" [ref=e32] [cursor=pointer]:
+              - generic [ref=e35]:
+                - img
+        - generic [ref=e37]:
+          - button "通过语音搜索内容" [ref=e39] [cursor=pointer]
+          - tooltip "tooltip"
+      - generic [ref=e46]:
+        - button "设置" [ref=e51] [cursor=pointer]
+        - link "登录" [ref=e55] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fchannel%252FUCCfDcHKFBnWcCdUMAbj2nCQ%252Fabout&hl=zh-CN&ec=65620
+          - generic [ref=e58]: 登录
+  - navigation [ref=e62]
+  - main [ref=e64]:
+    - generic [ref=e71]:
+      - generic [ref=e87]:
+        - heading "Engenharia da Dança" [level=1] [ref=e89]
+        - generic [ref=e90]:
+          - group [ref=e91]:
+            - generic [ref=e92]: "@engenhariadadanca"
+          - generic [ref=e93]: •
+          - group [ref=e94]:
+            - generic "1.4万位订阅者" [ref=e95]
+            - generic [ref=e96]: •
+            - generic [ref=e97]: 518 个视频
+        - generic [ref=e99] [cursor=pointer]:
+          - generic [ref=e100]: Com a intenção de continuar crescendo, se atualizando e sempre com um diferencial, atualmente estão sendo realizados cursos de ballet clássico, jazz, patinação artística, sapateado e street dance. As aulas das diversas modalidades melhoram a postura, a resistência e a auto-disciplina.
+          - button "说明。Com a intenção de continuar crescendo, se atualizando e se…点按即可了解详情。" [ref=e101]:
+            - generic [ref=e102]: …更多
+        - link "engenhariadadanca.com.br" [ref=e107] [cursor=pointer]:
+          - /url: https://www.youtube.com/redirect?event=channel_header&redir_token=QUFFLUhqbTY0NE1HWGp3bDhfeUJwTkJOUWpUd042SXRpd3xBQ3Jtc0ttOE4zSDhWbmtTSEp2RmZJRllmbFV0LW5IR05mSTJkRXNRN0lKRmxLcVFWblA4T1hzY1N1dE5IdTRMT3liYmRzR3JpZUNrVnJteGVIQTNrN3BkNmFjUGR4WlJ5dWhMN01hUGxGajMyQWtLbHNKYS1xYw&q=http%3A%2F%2Fwww.engenhariadadanca.com.br
+        - button "订阅" [ref=e111] [cursor=pointer]:
+          - generic [ref=e112]: 订阅
+      - tablist [ref=e119]:
+        - tablist [ref=e123]:
+          - tab "首页" [selected] [ref=e124] [cursor=pointer]:
+            - generic [ref=e125]: 首页
+          - tab "视频" [ref=e126] [cursor=pointer]:
+            - generic [ref=e127]: 视频
+          - tab "直播" [ref=e128] [cursor=pointer]:
+            - generic [ref=e129]: 直播
+          - tab "播放列表" [ref=e130] [cursor=pointer]:
+            - generic [ref=e131]: 播放列表
+          - button "搜索" [ref=e135] [cursor=pointer]:
+            - generic [ref=e138]:
+              - img
+    - generic [ref=e149]:
+      - heading "视频" [level=2] [ref=e152]:
+        - link "视频" [ref=e155] [cursor=pointer]:
+          - /url: /@engenhariadadanca/videos?view=0&sort=dd&shelf_id=1
+          - generic [ref=e156]: 视频
+      - generic [ref=e158]:
+        - generic [ref=e161]:
+          - generic [ref=e163] [cursor=pointer]:
+            - link [ref=e164]:
+              - /url: /watch?v=n-CBELuhEHQ
+              - generic [ref=e172]: 1:28
+            - generic [ref=e174]:
+              - generic [ref=e175]:
+                - heading "Gulnara - bailarina Samyra Abbas 1分钟28秒钟" [level=3] [ref=e176]:
+                  - link "Gulnara - bailarina Samyra Abbas 1分钟28秒钟" [ref=e177]:
+                    - /url: /watch?v=n-CBELuhEHQ
+                    - text: Gulnara - bailarina Samyra Abbas
+                - group [ref=e180]:
+                  - generic [ref=e181]: 67次观看
+                  - generic [ref=e182]: •
+                  - generic [ref=e183]: 2个月前
+              - button "其他操作" [ref=e186]
+          - generic [ref=e193] [cursor=pointer]:
+            - link [ref=e194]:
+              - /url: /watch?v=vzsMba8fJ3A
+              - generic [ref=e201]: 1:24:07
+            - generic [ref=e203]:
+              - generic [ref=e204]:
+                - heading "Engenharia da Dança - Natal Espetacular 1小时24分钟" [level=3] [ref=e205]:
+                  - link "Engenharia da Dança - Natal Espetacular 1小时24分钟" [ref=e206]:
+                    - /url: /watch?v=vzsMba8fJ3A
+                    - text: Engenharia da Dança - Natal Espetacular
+                - group [ref=e209]:
+                  - generic [ref=e210]: 322次观看
+                  - generic [ref=e211]: •
+                  - generic [ref=e212]: 8个月前
+              - button "其他操作" [ref=e215]
+          - generic [ref=e222] [cursor=pointer]:
+            - link [ref=e223]:
+              - /url: /watch?v=PkwIPcEPTx4&pp=0gcJCQQLAYcqIYzv
+              - generic [ref=e230]: 1:21:13
+            - generic [ref=e232]:
+              - generic [ref=e233]:
+                - heading "Engenharia da Dança - Mamma Mia 1小时21分钟" [level=3] [ref=e234]:
+                  - link "Engenharia da Dança - Mamma Mia 1小时21分钟" [ref=e235]:
+                    - /url: /watch?v=PkwIPcEPTx4&pp=0gcJCQQLAYcqIYzv
+                    - text: Engenharia da Dança - Mamma Mia
+                - group [ref=e238]:
+                  - generic [ref=e239]: 659次观看
+                  - generic [ref=e240]: •
+                  - generic [ref=e241]: 9个月前
+              - button "其他操作" [ref=e244]
+          - generic [ref=e251] [cursor=pointer]:
+            - link [ref=e252]:
+              - /url: /watch?v=mIBLuhIAd0g
+              - generic [ref=e259]: 1:24:22
+            - generic [ref=e261]:
+              - generic [ref=e262]:
+                - heading "Engenharia da Dança - Mamma Mia 1小时24分钟" [level=3] [ref=e263]:
+                  - link "Engenharia da Dança - Mamma Mia 1小时24分钟" [ref=e264]:
+                    - /url: /watch?v=mIBLuhIAd0g
+                    - text: Engenharia da Dança - Mamma Mia
+                - group [ref=e267]:
+                  - generic [ref=e268]: 1941次观看
+                  - generic [ref=e269]: •
+                  - generic [ref=e270]: 9个月前
+              - button "其他操作" [ref=e273]
+          - generic [ref=e280] [cursor=pointer]:
+            - link [ref=e281]:
+              - /url: /watch?v=EFEXNyJ7Zgg
+              - generic [ref=e288]: 2:32
+            - generic [ref=e290]:
+              - generic [ref=e291]:
+                - heading "Engenharia da Dança - Desassossego 2分钟32秒钟" [level=3] [ref=e292]:
+                  - link "Engenharia da Dança - Desassossego 2分钟32秒钟" [ref=e293]:
+                    - /url: /watch?v=EFEXNyJ7Zgg
+                    - text: Engenharia da Dança - Desassossego
+                - group [ref=e296]:
+                  - generic [ref=e297]: 83次观看
+                  - generic [ref=e298]: •
+                  - generic [ref=e299]: 10个月前
+              - button "其他操作" [ref=e302]
+          - generic [ref=e309] [cursor=pointer]:
+            - link [ref=e310]:
+              - /url: /watch?v=nPpqH0yr0nI
+              - generic [ref=e317]: 2:59
+            - generic [ref=e319]:
+              - generic [ref=e320]:
+                - heading "Engenharia da Dança - Entediada 2分钟59秒钟" [level=3] [ref=e321]:
+                  - link "Engenharia da Dança - Entediada 2分钟59秒钟" [ref=e322]:
+                    - /url: /watch?v=nPpqH0yr0nI
+                    - text: Engenharia da Dança - Entediada
+                - group [ref=e325]:
+                  - generic [ref=e326]: 83次观看
+                  - generic [ref=e327]: •
+                  - generic [ref=e328]: 10个月前
+              - button "其他操作" [ref=e331]
+        - button "下一页" [ref=e339] [cursor=pointer]

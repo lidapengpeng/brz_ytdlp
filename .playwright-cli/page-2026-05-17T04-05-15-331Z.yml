@@ -1,0 +1,850 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - button "导视" [ref=e9] [cursor=pointer]:
+            - generic [ref=e12]:
+              - img
+          - link "YouTube 首页" [ref=e14] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e19]:
+              - img
+          - button "跳过导航" [ref=e23] [cursor=pointer]:
+            - generic [ref=e24]: 跳过导航
+        - generic [ref=e28]:
+          - search [ref=e29]:
+            - generic [ref=e30]:
+              - combobox "搜索" [expanded] [ref=e33]
+              - button "Search" [ref=e34] [cursor=pointer]:
+                - generic [ref=e37]:
+                  - img
+          - generic [ref=e39]:
+            - button "通过语音搜索内容" [ref=e41] [cursor=pointer]:
+              - generic [ref=e45]:
+                - img
+            - tooltip "tooltip"
+        - generic [ref=e50]:
+          - button "设置" [ref=e55] [cursor=pointer]:
+            - generic [ref=e58]:
+              - img
+          - link "登录" [ref=e61] [cursor=pointer]:
+            - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fchannel%252FUCWCqvXwHkjGnIAuVZM6Q8tA%252Fabout&hl=zh-CN&ec=65620
+            - generic [ref=e65]:
+              - img
+            - generic [ref=e66]: 登录
+    - navigation [ref=e70]:
+      - generic [ref=e71]:
+        - link "首页" [ref=e73] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e76]:
+            - img
+          - generic [ref=e77]: 首页
+        - link "Shorts" [ref=e79] [cursor=pointer]:
+          - /url: /shorts/
+          - generic [ref=e82]:
+            - img
+          - generic [ref=e83]: Shorts
+        - link "订阅" [ref=e85] [cursor=pointer]:
+          - /url: /feed/subscriptions
+          - generic [ref=e88]:
+            - img
+          - generic [ref=e89]: 订阅
+        - link "我" [ref=e91] [cursor=pointer]:
+          - /url: /feed/you
+          - generic [ref=e94]:
+            - img
+          - generic [ref=e95]: 我
+    - generic [ref=e96]:
+      - main [ref=e97]:
+        - generic [ref=e104]:
+          - generic [ref=e117]:
+            - heading "ROMANCES DE ÉPOCA" [level=1] [ref=e119]
+            - generic [ref=e120]:
+              - group [ref=e121]:
+                - generic [ref=e122]: "@RomancesDeEpocaTV"
+              - generic [ref=e123]: •
+              - group [ref=e124]:
+                - generic "9.28万位订阅者" [ref=e125]
+                - generic [ref=e126]: •
+                - generic [ref=e127]: 231 个视频
+            - generic [ref=e129] [cursor=pointer]:
+              - generic [ref=e130]: ✨🏰 ROMANCES DE ÉPOCA – Donde el amor nunca pasa de moda. ❤️📖
+              - button "说明。✨🏰 ROMANCES DE ÉPOCA – Donde el amor nunca pasa de m…点按即可了解详情。" [ref=e131]:
+                - generic [ref=e132]: …更多
+            - button "订阅" [ref=e136] [cursor=pointer]:
+              - generic [ref=e137]: 订阅
+          - tablist [ref=e144]:
+            - tablist [ref=e148]:
+              - tab "首页" [selected] [ref=e149] [cursor=pointer]:
+                - generic [ref=e150]: 首页
+              - tab "视频" [ref=e151] [cursor=pointer]:
+                - generic [ref=e152]: 视频
+              - tab "播放列表" [ref=e153] [cursor=pointer]:
+                - generic [ref=e154]: 播放列表
+              - tab "帖子" [ref=e155] [cursor=pointer]:
+                - generic [ref=e156]: 帖子
+              - button "搜索" [ref=e160] [cursor=pointer]:
+                - generic [ref=e163]:
+                  - img
+        - generic [ref=e170]:
+          - generic [ref=e174]:
+            - heading "视频" [level=2] [ref=e177]:
+              - link "视频" [ref=e180] [cursor=pointer]:
+                - /url: /@RomancesDeEpocaTV/videos?view=0&sort=dd&shelf_id=2
+                - generic [ref=e181]: 视频
+            - generic [ref=e183]:
+              - generic [ref=e186]:
+                - generic [ref=e188] [cursor=pointer]:
+                  - link [ref=e189]:
+                    - /url: /watch?v=iPcFHfVYe0I
+                    - generic [ref=e196]: 13:29
+                  - generic [ref=e198]:
+                    - generic [ref=e199]:
+                      - 'heading "EL BAILE QUE CAMBIÓ LA HISTORIA: La Venganza de ALVA VANDERBILT Contra la Reina de Nueva York 13分钟29秒钟" [level=3] [ref=e200]':
+                        - 'link "EL BAILE QUE CAMBIÓ LA HISTORIA: La Venganza de ALVA VANDERBILT Contra la Reina de Nueva York 13分钟29秒钟" [ref=e201]':
+                          - /url: /watch?v=iPcFHfVYe0I
+                          - text: "EL BAILE QUE CAMBIÓ LA HISTORIA: La Venganza de ALVA VANDERBILT Contra la Reina de Nueva York"
+                      - group [ref=e204]:
+                        - generic [ref=e205]: 1727次观看
+                        - generic [ref=e206]: •
+                        - generic [ref=e207]: 1个月前
+                    - button "其他操作" [ref=e210]:
+                      - generic [ref=e214]:
+                        - img
+                - generic [ref=e219] [cursor=pointer]:
+                  - link [ref=e220]:
+                    - /url: /watch?v=wW3TiZHZmBk
+                    - generic [ref=e227]: 9:40
+                  - generic [ref=e229]:
+                    - generic [ref=e230]:
+                      - 'heading "IA Restaura una Mansión Victoriana de 1860 ABANDONADA en Estados Unidos: ¡El Resultado es Increíble! 9分钟40秒钟" [level=3] [ref=e231]':
+                        - 'link "IA Restaura una Mansión Victoriana de 1860 ABANDONADA en Estados Unidos: ¡El Resultado es Increíble! 9分钟40秒钟" [ref=e232]':
+                          - /url: /watch?v=wW3TiZHZmBk
+                          - text: "IA Restaura una Mansión Victoriana de 1860 ABANDONADA en Estados Unidos: ¡El Resultado es Increíble!"
+                      - group [ref=e235]:
+                        - generic [ref=e236]: 803次观看
+                        - generic [ref=e237]: •
+                        - generic [ref=e238]: 1个月前
+                    - button "其他操作" [ref=e241]:
+                      - generic [ref=e245]:
+                        - img
+                - generic [ref=e250] [cursor=pointer]:
+                  - link [ref=e251]:
+                    - /url: /watch?v=E3I2_T4Un7c&pp=0gcJCQQLAYcqIYzv
+                    - generic [ref=e258]: 13:19
+                  - generic [ref=e260]:
+                    - generic [ref=e261]:
+                      - 'heading "🧼 LA ASQUEROSA REALIDAD: ¿Cómo era la HIGIENE en la ÉPOCA VICTORIANA? 13分钟19秒钟" [level=3] [ref=e262]':
+                        - 'link "🧼 LA ASQUEROSA REALIDAD: ¿Cómo era la HIGIENE en la ÉPOCA VICTORIANA? 13分钟19秒钟" [ref=e263]':
+                          - /url: /watch?v=E3I2_T4Un7c&pp=0gcJCQQLAYcqIYzv
+                          - text: "🧼 LA ASQUEROSA REALIDAD: ¿Cómo era la HIGIENE en la ÉPOCA VICTORIANA?"
+                      - group [ref=e266]:
+                        - generic [ref=e267]: 1638次观看
+                        - generic [ref=e268]: •
+                        - generic [ref=e269]: 2个月前
+                    - button "其他操作" [ref=e272]:
+                      - generic [ref=e276]:
+                        - img
+                - generic [ref=e281] [cursor=pointer]:
+                  - link [ref=e282]:
+                    - /url: /watch?v=7dyW3KCtM3c
+                    - generic [ref=e289]: 10:31
+                  - generic [ref=e291]:
+                    - generic [ref=e292]:
+                      - heading "La MENTIRA del Vestido de Novia Blanco | La Verdadera y Oscura Historia en la Era Victoriana 10分钟31秒钟" [level=3] [ref=e293]:
+                        - link "La MENTIRA del Vestido de Novia Blanco | La Verdadera y Oscura Historia en la Era Victoriana 10分钟31秒钟" [ref=e294]:
+                          - /url: /watch?v=7dyW3KCtM3c
+                          - text: La MENTIRA del Vestido de Novia Blanco | La Verdadera y Oscura Historia en la Era Victoriana
+                      - group [ref=e297]:
+                        - generic [ref=e298]: 1245次观看
+                        - generic [ref=e299]: •
+                        - generic [ref=e300]: 2个月前
+                    - button "其他操作" [ref=e303]:
+                      - generic [ref=e307]:
+                        - img
+                - generic [ref=e312] [cursor=pointer]:
+                  - link [ref=e313]:
+                    - /url: /watch?v=hIxxtnWZoDA
+                    - generic [ref=e320]: 15:25
+                  - generic [ref=e322]:
+                    - generic [ref=e323]:
+                      - heading "🩸 ¿Cómo era la NOCHE DE BODAS y la vida conyugal en la ERA VICTORIANA? 💍 15分钟" [level=3] [ref=e324]:
+                        - link "🩸 ¿Cómo era la NOCHE DE BODAS y la vida conyugal en la ERA VICTORIANA? 💍 15分钟" [ref=e325]:
+                          - /url: /watch?v=hIxxtnWZoDA
+                          - text: 🩸 ¿Cómo era la NOCHE DE BODAS y la vida conyugal en la ERA VICTORIANA? 💍
+                      - group [ref=e328]:
+                        - generic [ref=e329]: 1220次观看
+                        - generic [ref=e330]: •
+                        - generic [ref=e331]: 2个月前
+                    - button "其他操作" [ref=e334]:
+                      - generic [ref=e338]:
+                        - img
+                - generic [ref=e343] [cursor=pointer]:
+                  - link [ref=e344]:
+                    - /url: /watch?v=EPGoaFB1h_I
+                    - generic [ref=e351]: 21:03
+                  - generic [ref=e353]:
+                    - generic [ref=e354]:
+                      - heading "👗 ¿Cómo lograban las mujeres victorianas una CINTURA tan pequeña? No era solo el CORSÉ 21分钟" [level=3] [ref=e355]:
+                        - link "👗 ¿Cómo lograban las mujeres victorianas una CINTURA tan pequeña? No era solo el CORSÉ 21分钟" [ref=e356]:
+                          - /url: /watch?v=EPGoaFB1h_I
+                          - text: 👗 ¿Cómo lograban las mujeres victorianas una CINTURA tan pequeña? No era solo el CORSÉ
+                      - group [ref=e359]:
+                        - generic [ref=e360]: 1933次观看
+                        - generic [ref=e361]: •
+                        - generic [ref=e362]: 3个月前
+                    - button "其他操作" [ref=e365]:
+                      - generic [ref=e369]:
+                        - img
+              - button "下一页" [ref=e375] [cursor=pointer]:
+                - generic [ref=e379]:
+                  - img
+          - generic [ref=e386]:
+            - heading "创建的播放列表" [level=2] [ref=e389]:
+              - link "创建的播放列表" [ref=e392] [cursor=pointer]:
+                - /url: /@RomancesDeEpocaTV/playlists?view=1&sort=dd&shelf_id=5
+                - generic [ref=e393]: 创建的播放列表
+            - generic [ref=e395]:
+              - generic [ref=e398]:
+                - generic [ref=e400] [cursor=pointer]:
+                  - link [ref=e401]:
+                    - /url: /watch?v=iPcFHfVYe0I&list=PLayXZZFkSg1ScxSo1XMF9QYtTYOG5h7PO
+                    - generic [ref=e411]:
+                      - generic [ref=e414]:
+                        - img
+                      - generic [ref=e415]: 1 个视频
+                  - generic [ref=e418]:
+                    - heading "HISTORIAS DE LA GILDED AGE" [level=3] [ref=e419]:
+                      - link "HISTORIAS DE LA GILDED AGE" [ref=e420]:
+                        - /url: /watch?v=iPcFHfVYe0I&list=PLayXZZFkSg1ScxSo1XMF9QYtTYOG5h7PO
+                    - group [ref=e423]:
+                      - link "查看完整播放列表" [ref=e426]:
+                        - /url: /playlist?list=PLayXZZFkSg1ScxSo1XMF9QYtTYOG5h7PO
+                - generic [ref=e428] [cursor=pointer]:
+                  - link [ref=e429]:
+                    - /url: /watch?v=wW3TiZHZmBk&list=PLayXZZFkSg1QagcDq0mzaK5r-i5FVqNID
+                    - generic [ref=e439]:
+                      - generic [ref=e442]:
+                        - img
+                      - generic [ref=e443]: 1 个视频
+                  - generic [ref=e446]:
+                    - heading "RESTAURACIONES CON IA" [level=3] [ref=e447]:
+                      - link "RESTAURACIONES CON IA" [ref=e448]:
+                        - /url: /watch?v=wW3TiZHZmBk&list=PLayXZZFkSg1QagcDq0mzaK5r-i5FVqNID
+                    - group [ref=e451]:
+                      - link "查看完整播放列表" [ref=e454]:
+                        - /url: /playlist?list=PLayXZZFkSg1QagcDq0mzaK5r-i5FVqNID
+                - generic [ref=e456] [cursor=pointer]:
+                  - link [ref=e457]:
+                    - /url: /watch?v=wW3TiZHZmBk&list=PLayXZZFkSg1TsMsfcvGHkxpkGBAfoTQcJ
+                    - generic [ref=e467]:
+                      - generic [ref=e470]:
+                        - img
+                      - generic [ref=e471]: 9 个视频
+                  - generic [ref=e474]:
+                    - heading "CURIOSIDADES DE LA VIDA VICTORIANA" [level=3] [ref=e475]:
+                      - link "CURIOSIDADES DE LA VIDA VICTORIANA" [ref=e476]:
+                        - /url: /watch?v=wW3TiZHZmBk&list=PLayXZZFkSg1TsMsfcvGHkxpkGBAfoTQcJ
+                    - group [ref=e479]:
+                      - link "查看完整播放列表" [ref=e482]:
+                        - /url: /playlist?list=PLayXZZFkSg1TsMsfcvGHkxpkGBAfoTQcJ
+                - generic [ref=e484] [cursor=pointer]:
+                  - link [ref=e485]:
+                    - /url: /watch?v=1CHdEVlxIC8&list=PLayXZZFkSg1S3BCQikQUHtoOuZE3tZ7VJ
+                    - generic [ref=e495]:
+                      - generic [ref=e498]:
+                        - img
+                      - generic [ref=e499]: 1 个视频
+                  - generic [ref=e502]:
+                    - heading "ROMANCE DE ÉPOCA MEDIEVAL" [level=3] [ref=e503]:
+                      - link "ROMANCE DE ÉPOCA MEDIEVAL" [ref=e504]:
+                        - /url: /watch?v=1CHdEVlxIC8&list=PLayXZZFkSg1S3BCQikQUHtoOuZE3tZ7VJ
+                    - group [ref=e507]:
+                      - link "查看完整播放列表" [ref=e510]:
+                        - /url: /playlist?list=PLayXZZFkSg1S3BCQikQUHtoOuZE3tZ7VJ
+                - generic [ref=e512] [cursor=pointer]:
+                  - link [ref=e513]:
+                    - /url: /watch?v=ZutvvhBMVEM&list=PLayXZZFkSg1QjbpxLypPvvYKByFQbEgMp
+                    - generic [ref=e523]:
+                      - generic [ref=e526]:
+                        - img
+                      - generic [ref=e527]: 27 个视频
+                  - generic [ref=e530]:
+                    - heading "ROMANCES VICTORIANOS" [level=3] [ref=e531]:
+                      - link "ROMANCES VICTORIANOS" [ref=e532]:
+                        - /url: /watch?v=ZutvvhBMVEM&list=PLayXZZFkSg1QjbpxLypPvvYKByFQbEgMp
+                    - group [ref=e535]:
+                      - link "查看完整播放列表" [ref=e538]:
+                        - /url: /playlist?list=PLayXZZFkSg1QjbpxLypPvvYKByFQbEgMp
+                - generic [ref=e540] [cursor=pointer]:
+                  - link [ref=e541]:
+                    - /url: /watch?v=jdY0n12XVYw&list=PLayXZZFkSg1SsobLlIf-zHLOmzD9V44qF
+                    - generic [ref=e551]:
+                      - generic [ref=e554]:
+                        - img
+                      - generic [ref=e555]: 2 个视频
+                  - generic [ref=e558]:
+                    - heading "ROMANCES DE ÉPOCA NÓRDICOS" [level=3] [ref=e559]:
+                      - link "ROMANCES DE ÉPOCA NÓRDICOS" [ref=e560]:
+                        - /url: /watch?v=jdY0n12XVYw&list=PLayXZZFkSg1SsobLlIf-zHLOmzD9V44qF
+                    - group [ref=e563]:
+                      - link "查看完整播放列表" [ref=e566]:
+                        - /url: /playlist?list=PLayXZZFkSg1SsobLlIf-zHLOmzD9V44qF
+              - button "下一页" [ref=e569] [cursor=pointer]:
+                - generic [ref=e573]:
+                  - img
+          - generic [ref=e580]:
+            - heading "热门视频" [level=2] [ref=e583]:
+              - link "热门视频" [ref=e586] [cursor=pointer]:
+                - /url: /@RomancesDeEpocaTV/videos?view=0&sort=p&shelf_id=6
+                - generic [ref=e587]: 热门视频
+            - generic [ref=e589]:
+              - generic [ref=e592]:
+                - generic [ref=e594] [cursor=pointer]:
+                  - link [ref=e595]:
+                    - /url: /watch?v=RVw8zyhfbGk&pp=0gcJCQQLAYcqIYzv
+                    - generic [ref=e602]: 1:41:55
+                  - generic [ref=e604]:
+                    - generic [ref=e605]:
+                      - heading "💔 PROMETIDA POR CARTA ES RECHAZADA POR SER OBESA… HASTA QUE UN CONDE VIÚDO... 🌿 Historia Completa 1小时41分钟" [level=3] [ref=e606]:
+                        - link "💔 PROMETIDA POR CARTA ES RECHAZADA POR SER OBESA… HASTA QUE UN CONDE VIÚDO... 🌿 Historia Completa 1小时41分钟" [ref=e607]:
+                          - /url: /watch?v=RVw8zyhfbGk&pp=0gcJCQQLAYcqIYzv
+                          - text: 💔 PROMETIDA POR CARTA ES RECHAZADA POR SER OBESA… HASTA QUE UN CONDE VIÚDO... 🌿 Historia Completa
+                      - generic [ref=e609]:
+                        - group [ref=e610]:
+                          - generic [ref=e611]: ROMANCES DE ÉPOCA和CAJÓN DE SASTRE RETRO
+                        - group [ref=e612]:
+                          - generic [ref=e613]: 120万次观看
+                          - generic [ref=e614]: •
+                          - generic [ref=e615]: 1年前
+                    - button "其他操作" [ref=e618]:
+                      - generic [ref=e622]:
+                        - img
+                - generic [ref=e627] [cursor=pointer]:
+                  - link [ref=e628]:
+                    - /url: /watch?v=lWftMwecseE
+                    - generic [ref=e635]: 2:00:12
+                  - generic [ref=e637]:
+                    - generic [ref=e638]:
+                      - heading "🤠 VIUDO SOLITARIO COMPRÓ A UNA JOVEN DE 19 AÑOS QUE ESTABA SIENDO SUBASTADA POR SU PROPIO PADRE... 💔 2小时" [level=3] [ref=e639]:
+                        - link "🤠 VIUDO SOLITARIO COMPRÓ A UNA JOVEN DE 19 AÑOS QUE ESTABA SIENDO SUBASTADA POR SU PROPIO PADRE... 💔 2小时" [ref=e640]:
+                          - /url: /watch?v=lWftMwecseE
+                          - text: 🤠 VIUDO SOLITARIO COMPRÓ A UNA JOVEN DE 19 AÑOS QUE ESTABA SIENDO SUBASTADA POR SU PROPIO PADRE... 💔
+                      - group [ref=e643]:
+                        - generic [ref=e644]: 96万次观看
+                        - generic [ref=e645]: •
+                        - generic [ref=e646]: 1年前
+                    - button "其他操作" [ref=e649]:
+                      - generic [ref=e653]:
+                        - img
+                - generic [ref=e658] [cursor=pointer]:
+                  - link [ref=e659]:
+                    - /url: /watch?v=MKhkFrbBaYc
+                    - generic [ref=e666]: 1:46:25
+                  - generic [ref=e668]:
+                    - generic [ref=e669]:
+                      - heading "🏹 GUERRERO APACHE SALVA A UNA CAMPESINA VIUDA CON SUS TRILLIZOS… 💔 y desata la furia de su tribu 🏹 1小时46分钟" [level=3] [ref=e670]:
+                        - link "🏹 GUERRERO APACHE SALVA A UNA CAMPESINA VIUDA CON SUS TRILLIZOS… 💔 y desata la furia de su tribu 🏹 1小时46分钟" [ref=e671]:
+                          - /url: /watch?v=MKhkFrbBaYc
+                          - text: 🏹 GUERRERO APACHE SALVA A UNA CAMPESINA VIUDA CON SUS TRILLIZOS… 💔 y desata la furia de su tribu 🏹
+                      - group [ref=e674]:
+                        - generic [ref=e675]: 95万次观看
+                        - generic [ref=e676]: •
+                        - generic [ref=e677]: 1年前
+                    - button "其他操作" [ref=e680]:
+                      - generic [ref=e684]:
+                        - img
+                - generic [ref=e689] [cursor=pointer]:
+                  - link [ref=e690]:
+                    - /url: /watch?v=vT_CqBx_XcU&pp=0gcJCQQLAYcqIYzv
+                    - generic [ref=e697]: 1:22:01
+                  - generic [ref=e699]:
+                    - generic [ref=e700]:
+                      - heading "👑 FUI VENDIDO A UNA PRINCESA que nadie podía mirar… 🌹 Una hermosa y conmovedora historia de amor ❤️ 1小时22分钟" [level=3] [ref=e701]:
+                        - link "👑 FUI VENDIDO A UNA PRINCESA que nadie podía mirar… 🌹 Una hermosa y conmovedora historia de amor ❤️ 1小时22分钟" [ref=e702]:
+                          - /url: /watch?v=vT_CqBx_XcU&pp=0gcJCQQLAYcqIYzv
+                          - text: 👑 FUI VENDIDO A UNA PRINCESA que nadie podía mirar… 🌹 Una hermosa y conmovedora historia de amor ❤️
+                      - group [ref=e705]:
+                        - generic [ref=e706]: 68万次观看
+                        - generic [ref=e707]: •
+                        - generic [ref=e708]: 1年前
+                    - button "其他操作" [ref=e711]:
+                      - generic [ref=e715]:
+                        - img
+                - generic [ref=e720] [cursor=pointer]:
+                  - link [ref=e721]:
+                    - /url: /watch?v=fplPAgABTB4
+                    - generic [ref=e728]: 1:48:35
+                  - generic [ref=e730]:
+                    - generic [ref=e731]:
+                      - heading "❄️ ÉL LA SALVÓ, PERO FUE OBLIGADA A CASARSE CON ÉL TRAS SER ENCONTRADA EN SU CABAÑA 🌹 Bello Romance 1小时48分钟" [level=3] [ref=e732]:
+                        - link "❄️ ÉL LA SALVÓ, PERO FUE OBLIGADA A CASARSE CON ÉL TRAS SER ENCONTRADA EN SU CABAÑA 🌹 Bello Romance 1小时48分钟" [ref=e733]:
+                          - /url: /watch?v=fplPAgABTB4
+                          - text: ❄️ ÉL LA SALVÓ, PERO FUE OBLIGADA A CASARSE CON ÉL TRAS SER ENCONTRADA EN SU CABAÑA 🌹 Bello Romance
+                      - group [ref=e736]:
+                        - generic [ref=e737]: 52万次观看
+                        - generic [ref=e738]: •
+                        - generic [ref=e739]: 1年前
+                    - button "其他操作" [ref=e742]:
+                      - generic [ref=e746]:
+                        - img
+                - generic [ref=e751] [cursor=pointer]:
+                  - link [ref=e752]:
+                    - /url: /watch?v=N354pAbamzk
+                    - generic [ref=e759]: 1:15:44
+                  - generic [ref=e761]:
+                    - generic [ref=e762]:
+                      - heading "LA PROMETIDA DEL DUQUE VIUDO – Romance de Época que Te Hará Llorar | Historia de Amor Completa 1小时15分钟" [level=3] [ref=e763]:
+                        - link "LA PROMETIDA DEL DUQUE VIUDO – Romance de Época que Te Hará Llorar | Historia de Amor Completa 1小时15分钟" [ref=e764]:
+                          - /url: /watch?v=N354pAbamzk
+                          - text: LA PROMETIDA DEL DUQUE VIUDO – Romance de Época que Te Hará Llorar | Historia de Amor Completa
+                      - group [ref=e767]:
+                        - generic [ref=e768]: 51万次观看
+                        - generic [ref=e769]: •
+                        - generic [ref=e770]: 1年前
+                    - button "其他操作" [ref=e773]:
+                      - generic [ref=e777]:
+                        - img
+              - button "下一页" [ref=e783] [cursor=pointer]:
+                - generic [ref=e787]:
+                  - img
+          - generic [ref=e794]:
+            - heading "帖子" [level=2] [ref=e797]:
+              - link "帖子" [ref=e800] [cursor=pointer]:
+                - /url: /channel/UCWCqvXwHkjGnIAuVZM6Q8tA/posts
+                - generic [ref=e801]: 帖子
+            - generic [ref=e803]:
+              - generic [ref=e806]:
+                - 'link "ROMANCES DE ÉPOCA • 6个月前 📺 Nuevo Video: 💕 BEBÉ DEL BILLONARIO LLORABA A GRITOS EN EL CAFÉ… HASTA QUE UNA CAMARERA TÍMIDA HIZO ALGO INCREÍBLE ✨ ENLACE: https://youtu.be/BQ4FDGtciDo 为这个帖子点赞，已有 35 人点赞 tooltip 35 次赞 不喜欢这个帖子 tooltip 分享 tooltip 评论 tooltip" [ref=e808] [cursor=pointer]':
+                  - generic [ref=e809]:
+                    - link [ref=e811]:
+                      - /url: /@RomancesDeEpocaTV
+                    - link "ROMANCES DE ÉPOCA" [ref=e814]:
+                      - /url: /@RomancesDeEpocaTV
+                    - generic [ref=e815]: •
+                    - link "6个月前" [ref=e817]:
+                      - /url: /post/UgkxgoLuHRVWZ5YYulclBTRxsdT77TBSlDpl
+                  - generic [ref=e818]:
+                    - generic [ref=e820]:
+                      - text: "📺 Nuevo Video: 💕 BEBÉ DEL BILLONARIO LLORABA A GRITOS EN EL CAFÉ… HASTA QUE UNA CAMARERA TÍMIDA HIZO ALGO INCREÍBLE ✨ ENLACE:"
+                      - link "https://youtu.be/BQ4FDGtciDo" [ref=e821]:
+                        - /url: /watch?v=BQ4FDGtciDo
+                    - generic [ref=e822]:
+                      - generic [ref=e829]:
+                        - img
+                      - group
+                  - generic [ref=e832]:
+                    - generic [ref=e833]:
+                      - link "为这个帖子点赞，已有 35 人点赞" [ref=e835]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                        - generic [ref=e839]:
+                          - img
+                      - tooltip "tooltip"
+                    - generic "35 次赞" [ref=e843]: "35"
+                    - generic [ref=e844]:
+                      - link "不喜欢这个帖子" [ref=e846]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                        - generic [ref=e850]:
+                          - img
+                      - tooltip "tooltip"
+                    - generic [ref=e855]:
+                      - button "分享" [ref=e857]:
+                        - generic [ref=e861]:
+                          - img
+                      - tooltip "tooltip"
+                    - generic [ref=e866]:
+                      - link "评论" [ref=e868]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252Fpost%252FUgkxgoLuHRVWZ5YYulclBTRxsdT77TBSlDpl&hl=zh-CN
+                        - generic [ref=e872]:
+                          - img
+                      - tooltip "tooltip"
+                - 'link "ROMANCES DE ÉPOCA • 6个月前 📺 Nuevo Video: 💕 EL MAGNATE FRÍO EVITABA A LOS NIÑOS — HASTA QUE SE ENAMORÓ DE UNA CAMARERA SOLTERA CON TRES HIJOS ✨ ENLACE: https://youtu.be/7YXCNsAqLds 为这个帖子点赞，已有 20 人点赞 tooltip 20 次赞 不喜欢这个帖子 tooltip 分享 tooltip 评论 tooltip" [ref=e877] [cursor=pointer]':
+                  - generic [ref=e878]:
+                    - link [ref=e880]:
+                      - /url: /@RomancesDeEpocaTV
+                    - link "ROMANCES DE ÉPOCA" [ref=e883]:
+                      - /url: /@RomancesDeEpocaTV
+                    - generic [ref=e884]: •
+                    - link "6个月前" [ref=e886]:
+                      - /url: /post/Ugkx1J7fOVpzG1dJCBe5IZxJi3BLTkOsV0vt
+                  - generic [ref=e887]:
+                    - generic [ref=e889]:
+                      - text: "📺 Nuevo Video: 💕 EL MAGNATE FRÍO EVITABA A LOS NIÑOS — HASTA QUE SE ENAMORÓ DE UNA CAMARERA SOLTERA CON TRES HIJOS ✨ ENLACE:"
+                      - link "https://youtu.be/7YXCNsAqLds" [ref=e890]:
+                        - /url: /watch?v=7YXCNsAqLds&pp=0gcJCR0AztywvtLA
+                    - generic [ref=e891]:
+                      - generic [ref=e898]:
+                        - img
+                      - group
+                  - generic [ref=e901]:
+                    - generic [ref=e902]:
+                      - link "为这个帖子点赞，已有 20 人点赞" [ref=e904]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                        - generic [ref=e908]:
+                          - img
+                      - tooltip "tooltip"
+                    - generic "20 次赞" [ref=e912]: "20"
+                    - generic [ref=e913]:
+                      - link "不喜欢这个帖子" [ref=e915]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                        - generic [ref=e919]:
+                          - img
+                      - tooltip "tooltip"
+                    - generic [ref=e924]:
+                      - button "分享" [ref=e926]:
+                        - generic [ref=e930]:
+                          - img
+                      - tooltip "tooltip"
+                    - generic [ref=e935]:
+                      - link "评论" [ref=e937]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252Fpost%252FUgkx1J7fOVpzG1dJCBe5IZxJi3BLTkOsV0vt&hl=zh-CN
+                        - generic [ref=e941]:
+                          - img
+                      - tooltip "tooltip"
+                - 'link "ROMANCES DE ÉPOCA • 6个月前 📺 Nuevo Video: 💕 NINGUNA NIÑERA SOPORTABA A LA HIJA DEL MAGNATE — HASTA QUE UNA MESERA DIVORCIADA GANÓ SU CORAZÓN ✨ ENLACE: https://youtu.be/E4OFHV0PznE 为这个帖子点赞，已有 29 人点赞 tooltip 29 次赞 不喜欢这个帖子 tooltip 分享 tooltip 评论 tooltip" [ref=e946] [cursor=pointer]':
+                  - generic [ref=e947]:
+                    - link [ref=e949]:
+                      - /url: /@RomancesDeEpocaTV
+                    - link "ROMANCES DE ÉPOCA" [ref=e952]:
+                      - /url: /@RomancesDeEpocaTV
+                    - generic [ref=e953]: •
+                    - link "6个月前" [ref=e955]:
+                      - /url: /post/UgkxhfWpsi1Ykm3T9RTBU0mHEr_Q1hYef7I5
+                  - generic [ref=e956]:
+                    - generic [ref=e958]:
+                      - text: "📺 Nuevo Video: 💕 NINGUNA NIÑERA SOPORTABA A LA HIJA DEL MAGNATE — HASTA QUE UNA MESERA DIVORCIADA GANÓ SU CORAZÓN ✨ ENLACE:"
+                      - link "https://youtu.be/E4OFHV0PznE" [ref=e959]:
+                        - /url: /watch?v=E4OFHV0PznE
+                    - generic [ref=e960]:
+                      - generic [ref=e967]:
+                        - img
+                      - group
+                  - generic [ref=e970]:
+                    - generic [ref=e971]:
+                      - link "为这个帖子点赞，已有 29 人点赞" [ref=e973]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                        - generic [ref=e977]:
+                          - img
+                      - tooltip "tooltip"
+                    - generic "29 次赞" [ref=e981]: "29"
+                    - generic [ref=e982]:
+                      - link "不喜欢这个帖子" [ref=e984]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                        - generic [ref=e988]:
+                          - img
+                      - tooltip "tooltip"
+                    - generic [ref=e993]:
+                      - button "分享" [ref=e995]:
+                        - generic [ref=e999]:
+                          - img
+                      - tooltip "tooltip"
+                    - generic [ref=e1004]:
+                      - link "评论" [ref=e1006]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252Fpost%252FUgkxhfWpsi1Ykm3T9RTBU0mHEr_Q1hYef7I5&hl=zh-CN
+                        - generic [ref=e1010]:
+                          - img
+                      - tooltip "tooltip"
+                - 'link "ROMANCES DE ÉPOCA • 6个月前 Nuevo Romance!! ❤️ CAMARERA POBRE SE CASÓ POR ERROR CON UN DESCONOCIDO… Y DESCUBRIÓ QUE ERA UN MILLONARIO EN SECRETO ✨ ENLACE: https://youtu.be/6ane7se4oLQ 为这个帖子点赞，已有 25 人点赞 tooltip 25 次赞 不喜欢这个帖子 tooltip 分享 tooltip 评论 tooltip" [ref=e1015] [cursor=pointer]':
+                  - generic [ref=e1016]:
+                    - link [ref=e1018]:
+                      - /url: /@RomancesDeEpocaTV
+                    - link "ROMANCES DE ÉPOCA" [ref=e1021]:
+                      - /url: /@RomancesDeEpocaTV
+                    - generic [ref=e1022]: •
+                    - link "6个月前" [ref=e1024]:
+                      - /url: /post/UgkxZM83V1ANa_ravztANNQueIiAeyUcgemI
+                  - generic [ref=e1025]:
+                    - generic [ref=e1027]:
+                      - text: "Nuevo Romance!! ❤️ CAMARERA POBRE SE CASÓ POR ERROR CON UN DESCONOCIDO… Y DESCUBRIÓ QUE ERA UN MILLONARIO EN SECRETO ✨ ENLACE:"
+                      - link "https://youtu.be/6ane7se4oLQ" [ref=e1028]:
+                        - /url: /watch?v=6ane7se4oLQ
+                    - generic [ref=e1029]:
+                      - group
+                  - generic [ref=e1035]:
+                    - generic [ref=e1036]:
+                      - link "为这个帖子点赞，已有 25 人点赞" [ref=e1038]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                        - generic [ref=e1042]:
+                          - img
+                      - tooltip "tooltip"
+                    - generic "25 次赞" [ref=e1046]: "25"
+                    - generic [ref=e1047]:
+                      - link "不喜欢这个帖子" [ref=e1049]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                        - generic [ref=e1053]:
+                          - img
+                      - tooltip "tooltip"
+                    - generic [ref=e1058]:
+                      - button "分享" [ref=e1060]:
+                        - generic [ref=e1064]:
+                          - img
+                      - tooltip "tooltip"
+                    - generic [ref=e1069]:
+                      - link "评论" [ref=e1071]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252Fpost%252FUgkxZM83V1ANa_ravztANNQueIiAeyUcgemI&hl=zh-CN
+                        - generic [ref=e1075]:
+                          - img
+                      - tooltip "tooltip"
+                - 'link "ROMANCES DE ÉPOCA • 6个月前 🎉 ¡Estrenamos más un nuevo canal! 🗳️… ¡Así que corre a verlo y subscribete! ✨ ENLACE: https://www.youtube.com/@RomancesEntr... 为这个帖子点赞，已有 38 人点赞 tooltip 38 次赞 不喜欢这个帖子 tooltip 分享 tooltip 评论 tooltip" [ref=e1080] [cursor=pointer]':
+                  - generic [ref=e1081]:
+                    - link [ref=e1083]:
+                      - /url: /@RomancesDeEpocaTV
+                    - link "ROMANCES DE ÉPOCA" [ref=e1086]:
+                      - /url: /@RomancesDeEpocaTV
+                    - generic [ref=e1087]: •
+                    - link "6个月前" [ref=e1089]:
+                      - /url: /post/UgkxmwMbm6JvZUEcmVi9a6UOI7wGC1-OcCu2
+                  - generic [ref=e1090]:
+                    - generic [ref=e1092]:
+                      - text: "🎉 ¡Estrenamos más un nuevo canal! 🗳️… ¡Así que corre a verlo y subscribete! ✨ ENLACE:"
+                      - link "https://www.youtube.com/@RomancesEntr..." [ref=e1093]:
+                        - /url: https://www.youtube.com/@RomancesEntreVidasOpuestas
+                    - generic [ref=e1094]:
+                      - generic [ref=e1101]:
+                        - img
+                      - group
+                  - generic [ref=e1104]:
+                    - generic [ref=e1105]:
+                      - link "为这个帖子点赞，已有 38 人点赞" [ref=e1107]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                        - generic [ref=e1111]:
+                          - img
+                      - tooltip "tooltip"
+                    - generic "38 次赞" [ref=e1115]: "38"
+                    - generic [ref=e1116]:
+                      - link "不喜欢这个帖子" [ref=e1118]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                        - generic [ref=e1122]:
+                          - img
+                      - tooltip "tooltip"
+                    - generic [ref=e1127]:
+                      - button "分享" [ref=e1129]:
+                        - generic [ref=e1133]:
+                          - img
+                      - tooltip "tooltip"
+                    - generic [ref=e1138]:
+                      - link "评论" [ref=e1140]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252Fpost%252FUgkxmwMbm6JvZUEcmVi9a6UOI7wGC1-OcCu2&hl=zh-CN
+                        - generic [ref=e1144]:
+                          - img
+                      - tooltip "tooltip"
+                - 'link "ROMANCES DE ÉPOCA • 7个月前 🎉 ¡Estrenamos más un nuevo canal! 🗳️… ¡Así que corre a verlo! ✨ ENLACE: https://www.youtube.com/@PasionesGild... 为这个帖子点赞，已有 67 人点赞 tooltip 67 次赞 不喜欢这个帖子 tooltip 分享 tooltip 1 条评论 tooltip" [ref=e1149] [cursor=pointer]':
+                  - generic [ref=e1150]:
+                    - link [ref=e1152]:
+                      - /url: /@RomancesDeEpocaTV
+                    - link "ROMANCES DE ÉPOCA" [ref=e1155]:
+                      - /url: /@RomancesDeEpocaTV
+                    - generic [ref=e1156]: •
+                    - link "7个月前" [ref=e1158]:
+                      - /url: /post/Ugkx_3VXy_YOWRFk-dYSPyivcrkTQg1PVwzF
+                  - generic [ref=e1159]:
+                    - generic [ref=e1161]:
+                      - text: "🎉 ¡Estrenamos más un nuevo canal! 🗳️… ¡Así que corre a verlo! ✨ ENLACE:"
+                      - link "https://www.youtube.com/@PasionesGild..." [ref=e1162]:
+                        - /url: https://www.youtube.com/@PasionesGildedAge?sub_confirmation=1
+                    - generic [ref=e1163]:
+                      - group
+                  - generic [ref=e1169]:
+                    - generic [ref=e1170]:
+                      - link "为这个帖子点赞，已有 67 人点赞" [ref=e1172]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                        - generic [ref=e1176]:
+                          - img
+                      - tooltip "tooltip"
+                    - generic "67 次赞" [ref=e1180]: "67"
+                    - generic [ref=e1181]:
+                      - link "不喜欢这个帖子" [ref=e1183]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                        - generic [ref=e1187]:
+                          - img
+                      - tooltip "tooltip"
+                    - generic [ref=e1192]:
+                      - button "分享" [ref=e1194]:
+                        - generic [ref=e1198]:
+                          - img
+                      - tooltip "tooltip"
+                    - generic [ref=e1203]:
+                      - link "1 条评论" [ref=e1205]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252Fpost%252FUgkx_3VXy_YOWRFk-dYSPyivcrkTQg1PVwzF&hl=zh-CN
+                        - generic [ref=e1209]:
+                          - img
+                        - generic [ref=e1210]: "1"
+                      - tooltip "tooltip"
+              - button "下一页" [ref=e1216] [cursor=pointer]:
+                - generic [ref=e1220]:
+                  - img
+          - generic [ref=e1227]:
+            - heading "联合创作的视频 全部播放" [level=2] [ref=e1230]:
+              - generic [ref=e1232]: 联合创作的视频
+              - link "全部播放" [ref=e1236] [cursor=pointer]:
+                - /url: /watch_videos?video_ids=16or2p3jACI%2CuMTW1fmPpFo%2CEC8lXEOXyUU%2CoA9Sxx1HxrM%2CBzZcIJMyZIM%2CUWrIPFTdenc%2CX1v7mCNeWl0%2CqIMDqhTPIQI%2CtRUy5S6ReSI%2C5HwQGMUxQ3k%2CCfXkYUSJNNg%2CRVw8zyhfbGk&type=0&title=%E8%81%94%E5%90%88%E5%88%9B%E4%BD%9C%E7%9A%84%E8%A7%86%E9%A2%91
+                - generic [ref=e1240]:
+                  - img
+                - generic [ref=e1241]: 全部播放
+            - generic [ref=e1246]:
+              - generic [ref=e1249]:
+                - generic [ref=e1251] [cursor=pointer]:
+                  - link [ref=e1252]:
+                    - /url: /watch?v=16or2p3jACI
+                    - generic [ref=e1259]: 1:47:51
+                  - generic [ref=e1261]:
+                    - generic [ref=e1262]:
+                      - heading "💔 TEMBLABA EN LA CAMA... PERO EL RANCHERO VIUDO LA CUBRIÓ CON MANTAS Y DURMIÓ EN EL SUELO 1小时47分钟" [level=3] [ref=e1263]:
+                        - link "💔 TEMBLABA EN LA CAMA... PERO EL RANCHERO VIUDO LA CUBRIÓ CON MANTAS Y DURMIÓ EN EL SUELO 1小时47分钟" [ref=e1264]:
+                          - /url: /watch?v=16or2p3jACI
+                          - text: 💔 TEMBLABA EN LA CAMA... PERO EL RANCHERO VIUDO LA CUBRIÓ CON MANTAS Y DURMIÓ EN EL SUELO
+                      - generic [ref=e1266]:
+                        - group [ref=e1267]:
+                          - generic [ref=e1268]: AMOR Y PASIÓN EN EL VIEJO OESTE和ROMANCES DE ÉPOCA
+                        - group [ref=e1269]:
+                          - generic [ref=e1270]: 3117次观看
+                          - generic [ref=e1271]: •
+                          - generic [ref=e1272]: 5个月前
+                    - button "其他操作" [ref=e1275]:
+                      - generic [ref=e1279]:
+                        - img
+                - generic [ref=e1284] [cursor=pointer]:
+                  - link [ref=e1285]:
+                    - /url: /watch?v=uMTW1fmPpFo
+                    - generic [ref=e1292]: 1:26:59
+                  - generic [ref=e1294]:
+                    - generic [ref=e1295]:
+                      - heading "💔ERA UNA VIUDA INVISIBLE… PERO EL MAGNATE VIO EN ELLA A LA MUJER QUE SIEMPRE ESPERÓ 1小时26分钟" [level=3] [ref=e1296]:
+                        - link "💔ERA UNA VIUDA INVISIBLE… PERO EL MAGNATE VIO EN ELLA A LA MUJER QUE SIEMPRE ESPERÓ 1小时26分钟" [ref=e1297]:
+                          - /url: /watch?v=uMTW1fmPpFo
+                          - text: 💔ERA UNA VIUDA INVISIBLE… PERO EL MAGNATE VIO EN ELLA A LA MUJER QUE SIEMPRE ESPERÓ
+                      - generic [ref=e1299]:
+                        - group [ref=e1300]:
+                          - generic [ref=e1301]: CAJÓN DE SASTRE RETRO和ROMANCES DE ÉPOCA
+                        - group [ref=e1302]:
+                          - generic [ref=e1303]: 5979次观看
+                          - generic [ref=e1304]: •
+                          - generic [ref=e1305]: 5个月前
+                    - button "其他操作" [ref=e1308]:
+                      - generic [ref=e1312]:
+                        - img
+                - generic [ref=e1317] [cursor=pointer]:
+                  - link [ref=e1318]:
+                    - /url: /watch?v=EC8lXEOXyUU
+                    - generic [ref=e1325]: 1:25:15
+                  - generic [ref=e1327]:
+                    - generic [ref=e1328]:
+                      - heading "💔 RECHAZADA POR SU CUERPO ANTE TODOS… HASTA QUE EL DUQUE NEGRO DETUVO LA HUMILLACIÓN 1小时25分钟" [level=3] [ref=e1329]:
+                        - link "💔 RECHAZADA POR SU CUERPO ANTE TODOS… HASTA QUE EL DUQUE NEGRO DETUVO LA HUMILLACIÓN 1小时25分钟" [ref=e1330]:
+                          - /url: /watch?v=EC8lXEOXyUU
+                          - text: 💔 RECHAZADA POR SU CUERPO ANTE TODOS… HASTA QUE EL DUQUE NEGRO DETUVO LA HUMILLACIÓN
+                      - generic [ref=e1332]:
+                        - group [ref=e1333]:
+                          - generic [ref=e1334]: AMOR Y REALEZA NEGRA - ROMANCES DE ÉPOCA和ROMANCES DE ÉPOCA
+                        - group [ref=e1335]:
+                          - generic [ref=e1336]: 119次观看
+                          - generic [ref=e1337]: •
+                          - generic [ref=e1338]: 5个月前
+                    - button "其他操作" [ref=e1341]:
+                      - generic [ref=e1345]:
+                        - img
+                - generic [ref=e1350] [cursor=pointer]:
+                  - link [ref=e1351]:
+                    - /url: /watch?v=oA9Sxx1HxrM
+                    - generic [ref=e1358]: 1:19:26
+                  - generic [ref=e1360]:
+                    - generic [ref=e1361]:
+                      - heading "💔 OBLIGADA A CASARSE CON UN VIUDO DESCONOCIDO — HASTA QUE CUIDAR A SUS HIJOS LE ROBÓ EL CORAZÓN 1小时19分钟" [level=3] [ref=e1362]:
+                        - link "💔 OBLIGADA A CASARSE CON UN VIUDO DESCONOCIDO — HASTA QUE CUIDAR A SUS HIJOS LE ROBÓ EL CORAZÓN 1小时19分钟" [ref=e1363]:
+                          - /url: /watch?v=oA9Sxx1HxrM
+                          - text: 💔 OBLIGADA A CASARSE CON UN VIUDO DESCONOCIDO — HASTA QUE CUIDAR A SUS HIJOS LE ROBÓ EL CORAZÓN
+                      - generic [ref=e1365]:
+                        - group [ref=e1366]:
+                          - generic [ref=e1367]: PASIONES DE LA BELLE ÉPOQUE和ROMANCES DE ÉPOCA
+                        - group [ref=e1368]:
+                          - generic [ref=e1369]: 1864次观看
+                          - generic [ref=e1370]: •
+                          - generic [ref=e1371]: 5个月前
+                    - button "其他操作" [ref=e1374]:
+                      - generic [ref=e1378]:
+                        - img
+                - generic [ref=e1383] [cursor=pointer]:
+                  - link [ref=e1384]:
+                    - /url: /watch?v=BzZcIJMyZIM
+                    - generic [ref=e1391]: 2:39:02
+                  - generic [ref=e1393]:
+                    - generic [ref=e1394]:
+                      - heading "💔 NOBLE ARRUINADA TUVO QUE SERVIR EN SU PROPIO HOGAR... Y EL MAGNATE MÁS RICO LA RESGATÓ CON UN TREN 2小时39分钟" [level=3] [ref=e1395]:
+                        - link "💔 NOBLE ARRUINADA TUVO QUE SERVIR EN SU PROPIO HOGAR... Y EL MAGNATE MÁS RICO LA RESGATÓ CON UN TREN 2小时39分钟" [ref=e1396]:
+                          - /url: /watch?v=BzZcIJMyZIM
+                          - text: 💔 NOBLE ARRUINADA TUVO QUE SERVIR EN SU PROPIO HOGAR... Y EL MAGNATE MÁS RICO LA RESGATÓ CON UN TREN
+                      - generic [ref=e1398]:
+                        - group [ref=e1399]:
+                          - generic [ref=e1400]: EL MARAJÁ DE DUBÁI - Romances和ROMANCES DE ÉPOCA
+                        - group [ref=e1401]:
+                          - generic [ref=e1402]: 685次观看
+                          - generic [ref=e1403]: •
+                          - generic [ref=e1404]: 5个月前
+                    - button "其他操作" [ref=e1407]:
+                      - generic [ref=e1411]:
+                        - img
+                - generic [ref=e1416] [cursor=pointer]:
+                  - link [ref=e1417]:
+                    - /url: /watch?v=UWrIPFTdenc
+                    - generic [ref=e1424]: 2:37:55
+                  - generic [ref=e1426]:
+                    - generic [ref=e1427]:
+                      - heading "💔 MILLONARIO TIRA A SU PROMETIDA AL RÍO HELADO — PERO EL MAGNATE MÁS PODEROSO LA RESCATA Y SE CASAN 2小时37分钟" [level=3] [ref=e1428]:
+                        - link "💔 MILLONARIO TIRA A SU PROMETIDA AL RÍO HELADO — PERO EL MAGNATE MÁS PODEROSO LA RESCATA Y SE CASAN 2小时37分钟" [ref=e1429]:
+                          - /url: /watch?v=UWrIPFTdenc
+                          - text: 💔 MILLONARIO TIRA A SU PROMETIDA AL RÍO HELADO — PERO EL MAGNATE MÁS PODEROSO LA RESCATA Y SE CASAN
+                      - generic [ref=e1431]:
+                        - group [ref=e1432]:
+                          - generic [ref=e1433]: EL MARAJÁ DE DUBÁI - Romances和ROMANCES DE ÉPOCA
+                        - group [ref=e1434]:
+                          - generic [ref=e1435]: 266次观看
+                          - generic [ref=e1436]: •
+                          - generic [ref=e1437]: 5个月前
+                    - button "其他操作" [ref=e1440]:
+                      - generic [ref=e1444]:
+                        - img
+              - button "下一页" [ref=e1450] [cursor=pointer]:
+                - generic [ref=e1454]:
+                  - img
+      - text: •
+  - dialog [active] [ref=e1458]:
+    - generic [ref=e1459]:
+      - generic [ref=e1462]:
+        - heading "ROMANCES DE ÉPOCA" [level=2] [ref=e1464]:
+          - generic "ROMANCES DE ÉPOCA" [ref=e1465]
+        - button "关闭" [ref=e1469] [cursor=pointer]:
+          - generic [ref=e1473]:
+            - img
+      - generic [ref=e1483]:
+        - generic [ref=e1485]: 说明
+        - generic [ref=e1486]: "✨🏰 ROMANCES DE ÉPOCA – Donde el amor nunca pasa de moda. ❤️📖 Sumérgete en un mundo de amor, traición y pasión, donde cada historia nos transporta a los tiempos más elegantes y turbulentos de la historia. Desde los majestuosos salones del siglo XIX 💃🎩 hasta los castillos medievales llenos de secretos 🏰🔥, cada relato es un viaje al pasado, donde el amor desafía las normas y el destino. 📖 Aquí encontrarás: 💍 Matrimonios arreglados y amores imposibles 🎻 Damas valientes y caballeros apasionados 💔 Traiciones, secretos y promesas eternas 🏰 La elegancia y los conflictos de la aristocracia ⚔️ Duelos, intrigas y desafíos al honor ✨ Si te encantan las telenovelas mexicanas de época como Amor Real, Alborada y Corazón Salvaje o disfrutas de las producciones de Netflix como Bridgerton, La Reina Charlotte y Los Bridgerton: La Nueva Generación, este es el canal perfecto para ti. 📜🔥 🎭 historias con la intensidad de las telenovelas mexicanas y el lujo de las mejores series de Netflix."
+        - generic [ref=e1487]:
+          - generic [ref=e1489]: 更多信息
+          - table [ref=e1490]:
+            - rowgroup [ref=e1491]:
+              - row "www.youtube.com/@RomancesDeEpocaTV" [ref=e1492]:
+                - cell [ref=e1493]
+                - cell "www.youtube.com/@RomancesDeEpocaTV" [ref=e1495]:
+                  - link "www.youtube.com/@RomancesDeEpocaTV" [ref=e1496] [cursor=pointer]:
+                    - /url: http://www.youtube.com/@RomancesDeEpocaTV
+              - row "巴西" [ref=e1497]:
+                - cell [ref=e1498]
+                - cell "巴西" [ref=e1500]
+              - row "2024年7月23日注册" [ref=e1501]:
+                - cell [ref=e1502]
+                - cell "2024年7月23日注册" [ref=e1504]:
+                  - generic [ref=e1506]: 2024年7月23日注册
+              - row "9.28万位订阅者" [ref=e1507]:
+                - cell [ref=e1508]
+                - cell "9.28万位订阅者" [ref=e1510]
+              - row "231 个视频" [ref=e1511]:
+                - cell [ref=e1512]
+                - cell "231 个视频" [ref=e1514]
+              - row "11,229,634次观看" [ref=e1515]:
+                - cell [ref=e1516]
+                - cell "11,229,634次观看" [ref=e1518]
+        - button "分享频道" [ref=e1523] [cursor=pointer]:
+          - generic [ref=e1527]:
+            - img
+          - generic [ref=e1528]: 分享频道

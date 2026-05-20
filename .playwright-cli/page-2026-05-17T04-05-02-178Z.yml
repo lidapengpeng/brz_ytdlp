@@ -1,0 +1,485 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - button "导视" [ref=e9] [cursor=pointer]
+        - link "YouTube 首页" [ref=e12] [cursor=pointer]:
+          - /url: /
+        - button "跳过导航" [ref=e19] [cursor=pointer]:
+          - generic [ref=e20]: 跳过导航
+      - generic [ref=e24]:
+        - search [ref=e25]:
+          - generic [ref=e26]:
+            - combobox "搜索" [expanded] [ref=e29]
+            - button "Search" [ref=e30] [cursor=pointer]
+        - generic [ref=e33]:
+          - button "通过语音搜索内容" [ref=e35] [cursor=pointer]
+          - tooltip "tooltip"
+  - navigation [ref=e46]
+  - main [ref=e48]:
+    - generic [ref=e55]:
+      - generic [ref=e71]:
+        - heading "Projeto Caldo de Cana" [level=1] [ref=e73]
+        - generic [ref=e74]:
+          - group [ref=e75]:
+            - generic [ref=e76]: "@CaldodeCanaProjeto"
+          - generic [ref=e77]: •
+          - group [ref=e78]:
+            - generic "2.46万位订阅者" [ref=e79]
+            - generic [ref=e80]: •
+            - generic [ref=e81]: 273 个视频
+        - generic [ref=e83] [cursor=pointer]:
+          - generic [ref=e84]: Caldo de Cana é um programa genuinamente cultural que tem como objetivo trazer música e vídeo de qualidade, sem limitações de estilo, gênero ou sucesso.
+          - button "说明。Caldo de Cana é um programa genuinamente cultural que tem c…点按即可了解详情。" [ref=e85]:
+            - generic [ref=e86]: …更多
+        - generic [ref=e88]:
+          - link "facebook.com/ProjetoCaldodeCana" [ref=e91] [cursor=pointer]:
+            - /url: https://www.youtube.com/redirect?event=channel_header&redir_token=QUFFLUhqa25JLXNEeDgzM0JRVGR1YzlZSG1tZ0lrTkw4QXxBQ3Jtc0trMmdlWFZuYU9BWm9UaEMzeWhraEk2NmpFaTNQMVhmclV5eW5za3VtRHRmTDJPZHZCNE1WaTlPZmNrRVJuTlB4YmpXd0VOTC05bjBIY2RHSUdCaHpXWVJFM1JrOXRuT3JySkxpV3JWeVhIQ1c0OXdDTQ&q=https%3A%2F%2Fwww.facebook.com%2FProjetoCaldodeCana
+          - button "和另外 5 个链接" [ref=e94] [cursor=pointer]
+        - button "订阅" [ref=e98] [cursor=pointer]:
+          - generic [ref=e99]: 订阅
+      - tablist [ref=e106]:
+        - tablist [ref=e110]:
+          - tab "首页" [selected] [ref=e111] [cursor=pointer]:
+            - generic [ref=e112]: 首页
+          - tab "视频" [ref=e113] [cursor=pointer]:
+            - generic [ref=e114]: 视频
+          - tab "Shorts" [ref=e115] [cursor=pointer]:
+            - generic [ref=e116]: Shorts
+          - tab "播放列表" [ref=e117] [cursor=pointer]:
+            - generic [ref=e118]: 播放列表
+          - tab "帖子" [ref=e119] [cursor=pointer]:
+            - generic [ref=e120]: 帖子
+          - button "搜索" [ref=e124] [cursor=pointer]
+    - generic [ref=e132]:
+      - generic [ref=e136]:
+        - generic [ref=e138]:
+          - heading "Usina Sonora - Músicas" [level=2] [ref=e139]:
+            - link "Usina Sonora - Músicas" [ref=e142] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e143]: Usina Sonora - Músicas
+          - button "查看全部" [ref=e149] [cursor=pointer]:
+            - generic [ref=e150]: 查看全部
+        - generic [ref=e155]:
+          - generic [ref=e158]:
+            - generic [ref=e160] [cursor=pointer]:
+              - link [ref=e161]:
+                - /url: /watch?v=Gci3f-mcsvE&list=PLpvEuv84E2lPCGtgXUczebUHGqSjH1_LH
+                - generic [ref=e173]: 5 个视频
+              - generic [ref=e176]:
+                - 'heading "Usina Sonora: Lara Klaus" [level=3] [ref=e177]':
+                  - 'link "Usina Sonora: Lara Klaus" [ref=e178]':
+                    - /url: /watch?v=Gci3f-mcsvE&list=PLpvEuv84E2lPCGtgXUczebUHGqSjH1_LH
+                - generic [ref=e180]:
+                  - group [ref=e181]:
+                    - link "Projeto Caldo de Cana" [ref=e184]:
+                      - /url: /@CaldodeCanaProjeto
+                    - generic [ref=e185]: •
+                    - link "播放列表" [ref=e188]:
+                      - /url: /@CaldodeCanaProjeto
+                  - group [ref=e189]:
+                    - link "查看完整播放列表" [ref=e192]:
+                      - /url: /playlist?list=PLpvEuv84E2lPCGtgXUczebUHGqSjH1_LH
+            - generic [ref=e194] [cursor=pointer]:
+              - link [ref=e195]:
+                - /url: /watch?v=S1jzMkiHTfs&list=PLpvEuv84E2lPLXmOchXE9sQaii3mGxYuH
+                - generic [ref=e207]: 5 个视频
+              - generic [ref=e210]:
+                - 'heading "Usina Sonora: Mundo Livre" [level=3] [ref=e211]':
+                  - 'link "Usina Sonora: Mundo Livre" [ref=e212]':
+                    - /url: /watch?v=S1jzMkiHTfs&list=PLpvEuv84E2lPLXmOchXE9sQaii3mGxYuH
+                - generic [ref=e214]:
+                  - group [ref=e215]:
+                    - link "Projeto Caldo de Cana" [ref=e218]:
+                      - /url: /@CaldodeCanaProjeto
+                    - generic [ref=e219]: •
+                    - link "播放列表" [ref=e222]:
+                      - /url: /@CaldodeCanaProjeto
+                  - group [ref=e223]:
+                    - link "查看完整播放列表" [ref=e226]:
+                      - /url: /playlist?list=PLpvEuv84E2lPLXmOchXE9sQaii3mGxYuH
+            - generic [ref=e228] [cursor=pointer]:
+              - link [ref=e229]:
+                - /url: /watch?v=c2FTa0flBxo&list=PLpvEuv84E2lNBnquB3xrkR1gxvCxba5la
+                - generic [ref=e241]: 5 个视频
+              - generic [ref=e244]:
+                - 'heading "Usina Sonora: Ylana" [level=3] [ref=e245]':
+                  - 'link "Usina Sonora: Ylana" [ref=e246]':
+                    - /url: /watch?v=c2FTa0flBxo&list=PLpvEuv84E2lNBnquB3xrkR1gxvCxba5la
+                - generic [ref=e248]:
+                  - group [ref=e249]:
+                    - link "Projeto Caldo de Cana" [ref=e252]:
+                      - /url: /@CaldodeCanaProjeto
+                    - generic [ref=e253]: •
+                    - link "播放列表" [ref=e256]:
+                      - /url: /@CaldodeCanaProjeto
+                  - group [ref=e257]:
+                    - link "查看完整播放列表" [ref=e260]:
+                      - /url: /playlist?list=PLpvEuv84E2lNBnquB3xrkR1gxvCxba5la
+            - generic [ref=e262] [cursor=pointer]:
+              - link [ref=e263]:
+                - /url: /watch?v=hloqaS1ZjgA&list=PLpvEuv84E2lMsSrAiL22D3hLI89o-Q_hw
+                - generic [ref=e275]: 3 个视频
+              - generic [ref=e278]:
+                - 'heading "Usina Sonora: Samico" [level=3] [ref=e279]':
+                  - 'link "Usina Sonora: Samico" [ref=e280]':
+                    - /url: /watch?v=hloqaS1ZjgA&list=PLpvEuv84E2lMsSrAiL22D3hLI89o-Q_hw
+                - generic [ref=e282]:
+                  - group [ref=e283]:
+                    - link "Projeto Caldo de Cana" [ref=e286]:
+                      - /url: /@CaldodeCanaProjeto
+                    - generic [ref=e287]: •
+                    - link "播放列表" [ref=e290]:
+                      - /url: /@CaldodeCanaProjeto
+                  - group [ref=e291]:
+                    - link "查看完整播放列表" [ref=e294]:
+                      - /url: /playlist?list=PLpvEuv84E2lMsSrAiL22D3hLI89o-Q_hw
+            - generic [ref=e296] [cursor=pointer]:
+              - link [ref=e297]:
+                - /url: /watch?v=ppKW-BGCbK0&list=PLpvEuv84E2lMtjB2RDKGdTJvi7psyc2vG
+                - generic [ref=e309]: 3 个视频
+              - generic [ref=e312]:
+                - 'heading "Usina Sonora: Babi Jaques e Lasserre" [level=3] [ref=e313]':
+                  - 'link "Usina Sonora: Babi Jaques e Lasserre" [ref=e314]':
+                    - /url: /watch?v=ppKW-BGCbK0&list=PLpvEuv84E2lMtjB2RDKGdTJvi7psyc2vG
+                - generic [ref=e316]:
+                  - group [ref=e317]:
+                    - link "Projeto Caldo de Cana" [ref=e320]:
+                      - /url: /@CaldodeCanaProjeto
+                    - generic [ref=e321]: •
+                    - link "播放列表" [ref=e324]:
+                      - /url: /@CaldodeCanaProjeto
+                  - group [ref=e325]:
+                    - link "查看完整播放列表" [ref=e328]:
+                      - /url: /playlist?list=PLpvEuv84E2lMtjB2RDKGdTJvi7psyc2vG
+            - generic [ref=e330] [cursor=pointer]:
+              - link [ref=e331]:
+                - /url: /watch?v=vZrBse51fAA&list=PLpvEuv84E2lO3wWEp3ezwmO7Z6_Nq3Ydg
+                - generic [ref=e343]: 3 个视频
+              - generic [ref=e346]:
+                - 'heading "Usina Sonora: Cascabulho" [level=3] [ref=e347]':
+                  - 'link "Usina Sonora: Cascabulho" [ref=e348]':
+                    - /url: /watch?v=vZrBse51fAA&list=PLpvEuv84E2lO3wWEp3ezwmO7Z6_Nq3Ydg
+                - generic [ref=e350]:
+                  - group [ref=e351]:
+                    - link "Projeto Caldo de Cana" [ref=e354]:
+                      - /url: /@CaldodeCanaProjeto
+                    - generic [ref=e355]: •
+                    - link "播放列表" [ref=e358]:
+                      - /url: /@CaldodeCanaProjeto
+                  - group [ref=e359]:
+                    - link "查看完整播放列表" [ref=e362]:
+                      - /url: /playlist?list=PLpvEuv84E2lO3wWEp3ezwmO7Z6_Nq3Ydg
+          - button "下一页" [ref=e365] [cursor=pointer]
+      - generic [ref=e374]:
+        - heading "热门视频" [level=2] [ref=e377]:
+          - link "热门视频" [ref=e380] [cursor=pointer]:
+            - /url: /@CaldodeCanaProjeto/videos?view=0&sort=p&shelf_id=2
+            - generic [ref=e381]: 热门视频
+        - generic [ref=e383]:
+          - generic [ref=e386]:
+            - generic [ref=e388] [cursor=pointer]:
+              - link [ref=e389]:
+                - /url: /watch?v=87oFlp8XQ7w&pp=0gcJCQQLAYcqIYzv
+                - generic [ref=e397]: 2:17
+              - generic [ref=e399]:
+                - generic [ref=e400]:
+                  - heading "Luiz Lins - Eu Tô Bem | Usina Sonora 2分钟17秒钟" [level=3] [ref=e401]:
+                    - link "Luiz Lins - Eu Tô Bem | Usina Sonora 2分钟17秒钟" [ref=e402]:
+                      - /url: /watch?v=87oFlp8XQ7w&pp=0gcJCQQLAYcqIYzv
+                      - text: Luiz Lins - Eu Tô Bem | Usina Sonora
+                  - group [ref=e405]:
+                    - generic [ref=e406]: 177万次观看
+                    - generic [ref=e407]: •
+                    - generic [ref=e408]: 6年前
+                - button "其他操作" [ref=e411]
+            - generic [ref=e418] [cursor=pointer]:
+              - link [ref=e419]:
+                - /url: /watch?v=la8Dz7yC0x4
+                - generic [ref=e427]: 3:11
+              - generic [ref=e429]:
+                - generic [ref=e430]:
+                  - heading "Luiz Lins - Saudade | Usina Sonora 3分钟11秒钟" [level=3] [ref=e431]:
+                    - link "Luiz Lins - Saudade | Usina Sonora 3分钟11秒钟" [ref=e432]:
+                      - /url: /watch?v=la8Dz7yC0x4
+                      - text: Luiz Lins - Saudade | Usina Sonora
+                  - group [ref=e435]:
+                    - generic [ref=e436]: 137万次观看
+                    - generic [ref=e437]: •
+                    - generic [ref=e438]: 6年前
+                - button "其他操作" [ref=e441]
+            - generic [ref=e448] [cursor=pointer]:
+              - link [ref=e449]:
+                - /url: /watch?v=eBSbYR-CbDU
+                - generic [ref=e457]: 2:57
+              - generic [ref=e459]:
+                - generic [ref=e460]:
+                  - heading "Luiz Lins - A Música Mais Triste do Ano | Usina Sonora 2分钟57秒钟" [level=3] [ref=e461]:
+                    - link "Luiz Lins - A Música Mais Triste do Ano | Usina Sonora 2分钟57秒钟" [ref=e462]:
+                      - /url: /watch?v=eBSbYR-CbDU
+                      - text: Luiz Lins - A Música Mais Triste do Ano | Usina Sonora
+                  - group [ref=e465]:
+                    - generic [ref=e466]: 93万次观看
+                    - generic [ref=e467]: •
+                    - generic [ref=e468]: 6年前
+                - button "其他操作" [ref=e471]
+            - generic [ref=e478] [cursor=pointer]:
+              - link [ref=e479]:
+                - /url: /watch?v=WJgXfs2cHRU&pp=0gcJCQQLAYcqIYzv
+                - generic [ref=e487]: 3:34
+              - generic [ref=e489]:
+                - generic [ref=e490]:
+                  - heading "Luiz Lins - Airsoft/Aleluia | Usina Sonora 3分钟34秒钟" [level=3] [ref=e491]:
+                    - link "Luiz Lins - Airsoft/Aleluia | Usina Sonora 3分钟34秒钟" [ref=e492]:
+                      - /url: /watch?v=WJgXfs2cHRU&pp=0gcJCQQLAYcqIYzv
+                      - text: Luiz Lins - Airsoft/Aleluia | Usina Sonora
+                  - group [ref=e495]:
+                    - generic [ref=e496]: 71万次观看
+                    - generic [ref=e497]: •
+                    - generic [ref=e498]: 6年前
+                - button "其他操作" [ref=e501]
+            - generic [ref=e508] [cursor=pointer]:
+              - link [ref=e509]:
+                - /url: /watch?v=BjbgvFP7h8I
+                - generic [ref=e516]: 28:01
+              - generic [ref=e518]:
+                - generic [ref=e519]:
+                  - 'heading "Usina Sonora: Luiz Lins - Programa Na Íntegra 28分钟" [level=3] [ref=e520]':
+                    - 'link "Usina Sonora: Luiz Lins - Programa Na Íntegra 28分钟" [ref=e521]':
+                      - /url: /watch?v=BjbgvFP7h8I
+                      - text: "Usina Sonora: Luiz Lins - Programa Na Íntegra"
+                  - group [ref=e524]:
+                    - generic [ref=e525]: 39万次观看
+                    - generic [ref=e526]: •
+                    - generic [ref=e527]: 6年前
+                - button "其他操作" [ref=e530]
+            - generic [ref=e537] [cursor=pointer]:
+              - link [ref=e538]:
+                - /url: /watch?v=GYwRfQgZt34
+                - generic [ref=e546]: 2:52
+              - generic [ref=e548]:
+                - generic [ref=e549]:
+                  - heading "Luiz Lins - Jamais | Usina Sonora 2分钟52秒钟" [level=3] [ref=e550]:
+                    - link "Luiz Lins - Jamais | Usina Sonora 2分钟52秒钟" [ref=e551]:
+                      - /url: /watch?v=GYwRfQgZt34
+                      - text: Luiz Lins - Jamais | Usina Sonora
+                  - group [ref=e554]:
+                    - generic [ref=e555]: 29万次观看
+                    - generic [ref=e556]: •
+                    - generic [ref=e557]: 6年前
+                - button "其他操作" [ref=e560]
+          - button "下一页" [ref=e568] [cursor=pointer]
+      - generic [ref=e577]:
+        - heading "Destaques 全部播放" [level=2] [ref=e580]:
+          - link "Destaques" [ref=e583] [cursor=pointer]:
+            - /url: /playlist?list=PLpvEuv84E2lPMuN4msAFrPKSbUFq6nPxy
+            - generic [ref=e584]: Destaques
+          - link "全部播放" [ref=e588] [cursor=pointer]:
+            - /url: /watch?v=02SYt3lmcGg&list=PLpvEuv84E2lPMuN4msAFrPKSbUFq6nPxy
+            - generic [ref=e591]: 全部播放
+        - generic [ref=e599]:
+          - generic [ref=e601] [cursor=pointer]:
+            - link [ref=e602]:
+              - /url: /watch?v=02SYt3lmcGg
+              - generic [ref=e610]: 5:46
+            - generic [ref=e612]:
+              - generic [ref=e613]:
+                - heading "\"Ouro\" - Diomedes Chinaski e Manifesto Aluir no Caldo de Cana 5分钟46秒钟" [level=3] [ref=e614]:
+                  - link "\"Ouro\" - Diomedes Chinaski e Manifesto Aluir no Caldo de Cana 5分钟46秒钟" [ref=e615]:
+                    - /url: /watch?v=02SYt3lmcGg
+                    - text: "\"Ouro\" - Diomedes Chinaski e Manifesto Aluir no Caldo de Cana"
+                - generic [ref=e617]:
+                  - group [ref=e618]:
+                    - link "Projeto Caldo de Cana" [ref=e621]:
+                      - /url: /@CaldodeCanaProjeto
+                  - group [ref=e622]:
+                    - generic [ref=e623]: 2.9万次观看
+                    - generic [ref=e624]: •
+                    - generic [ref=e625]: 9年前
+              - button "其他操作" [ref=e628]
+          - generic [ref=e635] [cursor=pointer]:
+            - link [ref=e636]:
+              - /url: /watch?v=15e2k7-Sibc&pp=0gcJCQQLAYcqIYzv
+              - generic [ref=e644]: 6:47
+            - generic [ref=e646]:
+              - generic [ref=e647]:
+                - 'heading "Usina Sonora: Banda de Pau e Corda - Tema de Abertura 6分钟47秒钟" [level=3] [ref=e648]':
+                  - 'link "Usina Sonora: Banda de Pau e Corda - Tema de Abertura 6分钟47秒钟" [ref=e649]':
+                    - /url: /watch?v=15e2k7-Sibc&pp=0gcJCQQLAYcqIYzv
+                    - text: "Usina Sonora: Banda de Pau e Corda - Tema de Abertura"
+                - generic [ref=e651]:
+                  - group [ref=e652]:
+                    - link "Projeto Caldo de Cana" [ref=e655]:
+                      - /url: /@CaldodeCanaProjeto
+                  - group [ref=e656]:
+                    - generic [ref=e657]: 5424次观看
+                    - generic [ref=e658]: •
+                    - generic [ref=e659]: 6年前
+              - button "其他操作" [ref=e662]
+          - generic [ref=e669] [cursor=pointer]:
+            - link [ref=e670]:
+              - /url: /watch?v=3vo3IBJ_438
+              - generic [ref=e678]: 4:15
+            - generic [ref=e680]:
+              - generic [ref=e681]:
+                - heading "Erica Natuza canta \"Cara Valente\" de Maria Rita - Live Performance 4分钟15秒钟" [level=3] [ref=e682]:
+                  - link "Erica Natuza canta \"Cara Valente\" de Maria Rita - Live Performance 4分钟15秒钟" [ref=e683]:
+                    - /url: /watch?v=3vo3IBJ_438
+                    - text: Erica Natuza canta "Cara Valente" de Maria Rita - Live Performance
+                - generic [ref=e685]:
+                  - group [ref=e686]:
+                    - link "Projeto Caldo de Cana" [ref=e689]:
+                      - /url: /@CaldodeCanaProjeto
+                  - group [ref=e690]:
+                    - generic [ref=e691]: 1.8万次观看
+                    - generic [ref=e692]: •
+                    - generic [ref=e693]: 8年前
+              - button "其他操作" [ref=e696]
+          - generic [ref=e703] [cursor=pointer]:
+            - link [ref=e704]:
+              - /url: /watch?v=U0dPw1_HaBY
+              - generic [ref=e712]: 5:08
+            - generic [ref=e714]:
+              - generic [ref=e715]:
+                - 'heading "Usina Sonora: Sofia Freire - Van Gogh 5分钟8秒钟" [level=3] [ref=e716]':
+                  - 'link "Usina Sonora: Sofia Freire - Van Gogh 5分钟8秒钟" [ref=e717]':
+                    - /url: /watch?v=U0dPw1_HaBY
+                    - text: "Usina Sonora: Sofia Freire - Van Gogh"
+                - generic [ref=e719]:
+                  - group [ref=e720]:
+                    - link "Projeto Caldo de Cana" [ref=e723]:
+                      - /url: /@CaldodeCanaProjeto
+                  - group [ref=e724]:
+                    - generic [ref=e725]: 1798次观看
+                    - generic [ref=e726]: •
+                    - generic [ref=e727]: 7年前
+              - button "其他操作" [ref=e730]
+      - generic [ref=e739]:
+        - heading "Usina Sonora - Batendo Papo 全部播放" [level=2] [ref=e742]:
+          - link "Usina Sonora - Batendo Papo" [ref=e745] [cursor=pointer]:
+            - /url: /playlist?list=PLpvEuv84E2lPoHq0pgZxHnOSg-2OUasqE
+            - generic [ref=e746]: Usina Sonora - Batendo Papo
+          - link "全部播放" [ref=e750] [cursor=pointer]:
+            - /url: /watch?v=8rxd4k2hAak&list=PLpvEuv84E2lPoHq0pgZxHnOSg-2OUasqE
+            - generic [ref=e753]: 全部播放
+        - generic [ref=e758]:
+          - generic [ref=e761]:
+            - generic [ref=e763] [cursor=pointer]:
+              - link [ref=e764]:
+                - /url: /watch?v=8rxd4k2hAak
+                - generic [ref=e771]: 2:32
+              - generic [ref=e773]:
+                - generic [ref=e774]:
+                  - heading "Albino Baru | Batendo Papo no Usina Sonora 2分钟32秒钟" [level=3] [ref=e775]:
+                    - link "Albino Baru | Batendo Papo no Usina Sonora 2分钟32秒钟" [ref=e776]:
+                      - /url: /watch?v=8rxd4k2hAak
+                      - text: Albino Baru | Batendo Papo no Usina Sonora
+                  - generic [ref=e778]:
+                    - group [ref=e779]:
+                      - link "Projeto Caldo de Cana" [ref=e782]:
+                        - /url: /@CaldodeCanaProjeto
+                    - group [ref=e783]:
+                      - generic [ref=e784]: 175次观看
+                      - generic [ref=e785]: •
+                      - generic [ref=e786]: 6年前
+                - button "其他操作" [ref=e789]
+            - generic [ref=e796] [cursor=pointer]:
+              - link [ref=e797]:
+                - /url: /watch?v=yBthO9QrweA
+                - generic [ref=e804]: 2:26
+              - generic [ref=e806]:
+                - generic [ref=e807]:
+                  - heading "Carranza | Batendo Papo no Usina Sonora 2分钟26秒钟" [level=3] [ref=e808]:
+                    - link "Carranza | Batendo Papo no Usina Sonora 2分钟26秒钟" [ref=e809]:
+                      - /url: /watch?v=yBthO9QrweA
+                      - text: Carranza | Batendo Papo no Usina Sonora
+                  - generic [ref=e811]:
+                    - group [ref=e812]:
+                      - link "Projeto Caldo de Cana" [ref=e815]:
+                        - /url: /@CaldodeCanaProjeto
+                    - group [ref=e816]:
+                      - generic [ref=e817]: 114次观看
+                      - generic [ref=e818]: •
+                      - generic [ref=e819]: 6年前
+                - button "其他操作" [ref=e822]
+            - generic [ref=e829] [cursor=pointer]:
+              - link [ref=e830]:
+                - /url: /watch?v=tF8mPl4FZk8&pp=0gcJCQQLAYcqIYzv
+                - generic [ref=e837]: 3:36
+              - generic [ref=e839]:
+                - generic [ref=e840]:
+                  - heading "Márcio Oliveira | Batendo Papo no Usina Sonora 3分钟36秒钟" [level=3] [ref=e841]:
+                    - link "Márcio Oliveira | Batendo Papo no Usina Sonora 3分钟36秒钟" [ref=e842]:
+                      - /url: /watch?v=tF8mPl4FZk8&pp=0gcJCQQLAYcqIYzv
+                      - text: Márcio Oliveira | Batendo Papo no Usina Sonora
+                  - generic [ref=e844]:
+                    - group [ref=e845]:
+                      - link "Projeto Caldo de Cana" [ref=e848]:
+                        - /url: /@CaldodeCanaProjeto
+                    - group [ref=e849]:
+                      - generic [ref=e850]: 183次观看
+                      - generic [ref=e851]: •
+                      - generic [ref=e852]: 6年前
+                - button "其他操作" [ref=e855]
+            - generic [ref=e862] [cursor=pointer]:
+              - link [ref=e863]:
+                - /url: /watch?v=49z-397vD4M
+                - generic [ref=e870]: 6:39
+              - generic [ref=e872]:
+                - generic [ref=e873]:
+                  - heading "SAMICO | Batendo Papo no Usina Sonora 6分钟39秒钟" [level=3] [ref=e874]:
+                    - link "SAMICO | Batendo Papo no Usina Sonora 6分钟39秒钟" [ref=e875]:
+                      - /url: /watch?v=49z-397vD4M
+                      - text: SAMICO | Batendo Papo no Usina Sonora
+                  - generic [ref=e877]:
+                    - group [ref=e878]:
+                      - link "Projeto Caldo de Cana" [ref=e881]:
+                        - /url: /@CaldodeCanaProjeto
+                    - group [ref=e882]:
+                      - generic [ref=e883]: 216次观看
+                      - generic [ref=e884]: •
+                      - generic [ref=e885]: 6年前
+                - button "其他操作" [ref=e888]
+            - generic [ref=e895] [cursor=pointer]:
+              - link [ref=e896]:
+                - /url: /watch?v=mItI49aguOA
+                - generic [ref=e903]: 5:29
+              - generic [ref=e905]:
+                - generic [ref=e906]:
+                  - heading "BABI JAQUES E LASSERRE | Batendo Papo no Usina Sonora 5分钟29秒钟" [level=3] [ref=e907]:
+                    - link "BABI JAQUES E LASSERRE | Batendo Papo no Usina Sonora 5分钟29秒钟" [ref=e908]:
+                      - /url: /watch?v=mItI49aguOA
+                      - text: BABI JAQUES E LASSERRE | Batendo Papo no Usina Sonora
+                  - generic [ref=e910]:
+                    - group [ref=e911]:
+                      - link "Projeto Caldo de Cana" [ref=e914]:
+                        - /url: /@CaldodeCanaProjeto
+                    - group [ref=e915]:
+                      - generic [ref=e916]: 159次观看
+                      - generic [ref=e917]: •
+                      - generic [ref=e918]: 6年前
+                - button "其他操作" [ref=e921]
+            - generic [ref=e928] [cursor=pointer]:
+              - link [ref=e929]:
+                - /url: /watch?v=wJigyh23wCw&pp=0gcJCQQLAYcqIYzv
+                - generic [ref=e936]: 8:10
+              - generic [ref=e938]:
+                - generic [ref=e939]:
+                  - 'heading "Usina Sonora: Batendo Papo - Banda de Pau e Corda 8分钟10秒钟" [level=3] [ref=e940]':
+                    - 'link "Usina Sonora: Batendo Papo - Banda de Pau e Corda 8分钟10秒钟" [ref=e941]':
+                      - /url: /watch?v=wJigyh23wCw&pp=0gcJCQQLAYcqIYzv
+                      - text: "Usina Sonora: Batendo Papo - Banda de Pau e Corda"
+                  - generic [ref=e943]:
+                    - group [ref=e944]:
+                      - link "Projeto Caldo de Cana" [ref=e947]:
+                        - /url: /@CaldodeCanaProjeto
+                    - group [ref=e948]:
+                      - generic [ref=e949]: 69次观看
+                      - generic [ref=e950]: •
+                      - generic [ref=e951]: 6年前
+                - button "其他操作" [ref=e954]
+          - button "下一页" [ref=e962] [cursor=pointer]
+      - heading "Caldo de Cana - Primeira Temporada" [level=2] [ref=e974]:
+        - link "Caldo de Cana - Primeira Temporada" [ref=e977] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e978]: Caldo de Cana - Primeira Temporada

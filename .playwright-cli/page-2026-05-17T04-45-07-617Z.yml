@@ -1,0 +1,315 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - button "导视" [ref=e9] [cursor=pointer]:
+          - generic [ref=e12]:
+            - img
+        - link "YouTube 首页" [ref=e14] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e19]:
+            - img
+        - button "跳过导航" [ref=e23] [cursor=pointer]:
+          - generic [ref=e24]: 跳过导航
+      - generic [ref=e28]:
+        - search [ref=e29]:
+          - generic [ref=e30]:
+            - combobox "搜索" [expanded] [ref=e33]
+            - button "Search" [ref=e34] [cursor=pointer]:
+              - generic [ref=e37]:
+                - img
+        - generic [ref=e39]:
+          - button "通过语音搜索内容" [ref=e41] [cursor=pointer]:
+            - generic [ref=e45]:
+              - img
+          - tooltip "tooltip"
+      - generic [ref=e50]:
+        - button "设置" [ref=e55] [cursor=pointer]:
+          - generic [ref=e58]:
+            - img
+        - link "登录" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fchannel%252FUCNkZI3MN6F6fezJ1wmeVBVA%252Fvideos&hl=zh-CN&ec=65620
+          - generic [ref=e65]:
+            - img
+          - generic [ref=e66]: 登录
+  - navigation [ref=e70]:
+    - generic [ref=e71]:
+      - link "首页" [ref=e73] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e76]:
+          - img
+        - generic [ref=e77]: 首页
+      - link "Shorts" [ref=e79] [cursor=pointer]:
+        - /url: /shorts/
+        - generic [ref=e82]:
+          - img
+        - generic [ref=e83]: Shorts
+      - link "订阅" [ref=e85] [cursor=pointer]:
+        - /url: /feed/subscriptions
+        - generic [ref=e88]:
+          - img
+        - generic [ref=e89]: 订阅
+      - link "我" [ref=e91] [cursor=pointer]:
+        - /url: /feed/you
+        - generic [ref=e94]:
+          - img
+        - generic [ref=e95]: 我
+  - generic [ref=e96]:
+    - main [ref=e97]:
+      - generic [ref=e104]:
+        - generic [ref=e120]:
+          - heading "WM Vintage Club" [level=1] [ref=e122]
+          - generic [ref=e123]:
+            - group [ref=e124]:
+              - generic [ref=e125]: "@WMVintageClub"
+            - generic [ref=e126]: •
+            - group [ref=e127]:
+              - generic "1.99万位订阅者" [ref=e128]
+              - generic [ref=e129]: •
+              - generic [ref=e130]: 13 个视频
+          - generic [ref=e132] [cursor=pointer]:
+            - generic [ref=e133]: Canal do salão mais incrível de Sorocaba. Aqui você vai encontrar tudo sobre nossos eventos, playlists das músicas que rolam enquanto você manda aquele corte, e dicas incríveis dos nossos profissionais. Se inscreva e nos acompanhe!
+            - button "说明。Canal do salão mais incrível de Sorocaba. Aqui você vai e…点按即可了解详情。" [ref=e134]:
+              - generic [ref=e135]: …更多
+          - button "订阅" [ref=e139] [cursor=pointer]:
+            - generic [ref=e140]: 订阅
+        - tablist [ref=e147]:
+          - tablist [ref=e151]:
+            - tab "首页" [ref=e152] [cursor=pointer]:
+              - generic [ref=e153]: 首页
+            - tab "视频" [selected] [ref=e154] [cursor=pointer]:
+              - generic [ref=e155]: 视频
+            - button "搜索" [ref=e159] [cursor=pointer]:
+              - generic [ref=e162]:
+                - img
+      - generic [ref=e168]:
+        - tablist [ref=e171]:
+          - tab "最新" [selected] [ref=e175] [cursor=pointer]:
+            - generic [ref=e177]: 最新
+          - tab "最热门" [ref=e184] [cursor=pointer]:
+            - generic [ref=e186]: 最热门
+          - tab "最早" [ref=e193] [cursor=pointer]:
+            - generic [ref=e195]: 最早
+        - generic [ref=e199]:
+          - generic [ref=e203] [cursor=pointer]:
+            - link [ref=e204]:
+              - /url: /watch?v=5rbEDQRprAE
+              - generic [ref=e211]: 6:44
+            - generic [ref=e213]:
+              - generic [ref=e214]:
+                - 'heading "Dream Team WM Vintage Club #11 6分钟44秒钟" [level=3] [ref=e215]':
+                  - 'link "Dream Team WM Vintage Club #11 6分钟44秒钟" [ref=e216]':
+                    - /url: /watch?v=5rbEDQRprAE
+                    - text: "Dream Team WM Vintage Club #11"
+                - group [ref=e219]:
+                  - generic [ref=e220]: 5934次观看
+                  - generic [ref=e221]: •
+                  - generic [ref=e222]: 8年前
+              - button "其他操作" [ref=e225]:
+                - generic [ref=e229]:
+                  - img
+          - generic [ref=e236] [cursor=pointer]:
+            - link [ref=e237]:
+              - /url: /watch?v=LLguC9mGxwU
+              - generic [ref=e244]: 4:43
+            - generic [ref=e246]:
+              - generic [ref=e247]:
+                - 'heading "Dream Team WM Vintage Club #10 4分钟43秒钟" [level=3] [ref=e248]':
+                  - 'link "Dream Team WM Vintage Club #10 4分钟43秒钟" [ref=e249]':
+                    - /url: /watch?v=LLguC9mGxwU
+                    - text: "Dream Team WM Vintage Club #10"
+                - group [ref=e252]:
+                  - generic [ref=e253]: 3814次观看
+                  - generic [ref=e254]: •
+                  - generic [ref=e255]: 8年前
+              - button "其他操作" [ref=e258]:
+                - generic [ref=e262]:
+                  - img
+          - generic [ref=e269] [cursor=pointer]:
+            - link [ref=e270]:
+              - /url: /watch?v=f_tvgyVhg_U&pp=0gcJCQQLAYcqIYzv
+              - generic [ref=e277]: 4:35
+            - generic [ref=e279]:
+              - generic [ref=e280]:
+                - 'heading "Dream Team WM Vintage Club #9 4分钟35秒钟" [level=3] [ref=e281]':
+                  - 'link "Dream Team WM Vintage Club #9 4分钟35秒钟" [ref=e282]':
+                    - /url: /watch?v=f_tvgyVhg_U&pp=0gcJCQQLAYcqIYzv
+                    - text: "Dream Team WM Vintage Club #9"
+                - group [ref=e285]:
+                  - generic [ref=e286]: 5713次观看
+                  - generic [ref=e287]: •
+                  - generic [ref=e288]: 8年前
+              - button "其他操作" [ref=e291]:
+                - generic [ref=e295]:
+                  - img
+          - generic [ref=e302] [cursor=pointer]:
+            - link [ref=e303]:
+              - /url: /watch?v=fOQYQ9PCs68
+              - generic [ref=e310]: 5:53
+            - generic [ref=e312]:
+              - generic [ref=e313]:
+                - 'heading "Dream Team WM Vintage Club #8 5分钟53秒钟" [level=3] [ref=e314]':
+                  - 'link "Dream Team WM Vintage Club #8 5分钟53秒钟" [ref=e315]':
+                    - /url: /watch?v=fOQYQ9PCs68
+                    - text: "Dream Team WM Vintage Club #8"
+                - group [ref=e318]:
+                  - generic [ref=e319]: 7358次观看
+                  - generic [ref=e320]: •
+                  - generic [ref=e321]: 8年前
+              - button "其他操作" [ref=e324]:
+                - generic [ref=e328]:
+                  - img
+          - generic [ref=e335] [cursor=pointer]:
+            - link [ref=e336]:
+              - /url: /watch?v=G-OKP57FxGg
+              - generic [ref=e343]: 12:57
+            - generic [ref=e345]:
+              - generic [ref=e346]:
+                - 'heading "Dream Team WM Vintage Club #7 12分钟57秒钟" [level=3] [ref=e347]':
+                  - 'link "Dream Team WM Vintage Club #7 12分钟57秒钟" [ref=e348]':
+                    - /url: /watch?v=G-OKP57FxGg
+                    - text: "Dream Team WM Vintage Club #7"
+                - group [ref=e351]:
+                  - generic [ref=e352]: 5414次观看
+                  - generic [ref=e353]: •
+                  - generic [ref=e354]: 8年前
+              - button "其他操作" [ref=e357]:
+                - generic [ref=e361]:
+                  - img
+          - generic [ref=e368] [cursor=pointer]:
+            - link [ref=e369]:
+              - /url: /watch?v=ahKuub8QMMI
+              - generic [ref=e376]: 3:13
+            - generic [ref=e378]:
+              - generic [ref=e379]:
+                - 'heading "Dream Team WM Vintage Club #6 3分钟13秒钟" [level=3] [ref=e380]':
+                  - 'link "Dream Team WM Vintage Club #6 3分钟13秒钟" [ref=e381]':
+                    - /url: /watch?v=ahKuub8QMMI
+                    - text: "Dream Team WM Vintage Club #6"
+                - group [ref=e384]:
+                  - generic [ref=e385]: 8022次观看
+                  - generic [ref=e386]: •
+                  - generic [ref=e387]: 8年前
+              - button "其他操作" [ref=e390]:
+                - generic [ref=e394]:
+                  - img
+          - generic [ref=e401] [cursor=pointer]:
+            - link [ref=e402]:
+              - /url: /watch?v=zuJEJrkQSqc
+              - generic [ref=e409]: 7:32
+            - generic [ref=e411]:
+              - generic [ref=e412]:
+                - 'heading "Dream Team WM Vintage Club #5 7分钟32秒钟" [level=3] [ref=e413]':
+                  - 'link "Dream Team WM Vintage Club #5 7分钟32秒钟" [ref=e414]':
+                    - /url: /watch?v=zuJEJrkQSqc
+                    - text: "Dream Team WM Vintage Club #5"
+                - group [ref=e417]:
+                  - generic [ref=e418]: 7441次观看
+                  - generic [ref=e419]: •
+                  - generic [ref=e420]: 8年前
+              - button "其他操作" [ref=e423]:
+                - generic [ref=e427]:
+                  - img
+          - generic [ref=e434] [cursor=pointer]:
+            - link [ref=e435]:
+              - /url: /watch?v=Hj6LqyJ1Jps&pp=0gcJCQQLAYcqIYzv
+              - generic [ref=e442]: 5:36
+            - generic [ref=e444]:
+              - generic [ref=e445]:
+                - 'heading "Dream Team WM Vintage Club #4 5分钟36秒钟" [level=3] [ref=e446]':
+                  - 'link "Dream Team WM Vintage Club #4 5分钟36秒钟" [ref=e447]':
+                    - /url: /watch?v=Hj6LqyJ1Jps&pp=0gcJCQQLAYcqIYzv
+                    - text: "Dream Team WM Vintage Club #4"
+                - group [ref=e450]:
+                  - generic [ref=e451]: 8342次观看
+                  - generic [ref=e452]: •
+                  - generic [ref=e453]: 8年前
+              - button "其他操作" [ref=e456]:
+                - generic [ref=e460]:
+                  - img
+          - generic [ref=e467] [cursor=pointer]:
+            - link [ref=e468]:
+              - /url: /watch?v=x7zpi5QuJkg
+              - generic [ref=e475]: 6:35
+            - generic [ref=e477]:
+              - generic [ref=e478]:
+                - 'heading "Dream Team WM Vintage Club #3 6分钟35秒钟" [level=3] [ref=e479]':
+                  - 'link "Dream Team WM Vintage Club #3 6分钟35秒钟" [ref=e480]':
+                    - /url: /watch?v=x7zpi5QuJkg
+                    - text: "Dream Team WM Vintage Club #3"
+                - group [ref=e483]:
+                  - generic [ref=e484]: 1万次观看
+                  - generic [ref=e485]: •
+                  - generic [ref=e486]: 8年前
+              - button "其他操作" [ref=e489]:
+                - generic [ref=e493]:
+                  - img
+          - generic [ref=e500] [cursor=pointer]:
+            - link [ref=e501]:
+              - /url: /watch?v=Zr3YGmS_h1w
+              - generic [ref=e508]: 8:56
+            - generic [ref=e510]:
+              - generic [ref=e511]:
+                - 'heading "Dream Team WM Vintage Club #2 8分钟56秒钟" [level=3] [ref=e512]':
+                  - 'link "Dream Team WM Vintage Club #2 8分钟56秒钟" [ref=e513]':
+                    - /url: /watch?v=Zr3YGmS_h1w
+                    - text: "Dream Team WM Vintage Club #2"
+                - group [ref=e516]:
+                  - generic [ref=e517]: 1.7万次观看
+                  - generic [ref=e518]: •
+                  - generic [ref=e519]: 8年前
+              - button "其他操作" [ref=e522]:
+                - generic [ref=e526]:
+                  - img
+          - generic [ref=e533] [cursor=pointer]:
+            - link [ref=e534]:
+              - /url: /watch?v=PpfTSpUKmJs
+              - generic [ref=e541]: 10:25
+            - generic [ref=e543]:
+              - generic [ref=e544]:
+                - 'heading "Dream Team WM Vintage Club #1 10分钟25秒钟" [level=3] [ref=e545]':
+                  - 'link "Dream Team WM Vintage Club #1 10分钟25秒钟" [ref=e546]':
+                    - /url: /watch?v=PpfTSpUKmJs
+                    - text: "Dream Team WM Vintage Club #1"
+                - group [ref=e549]:
+                  - generic [ref=e550]: 5.3万次观看
+                  - generic [ref=e551]: •
+                  - generic [ref=e552]: 8年前
+              - button "其他操作" [ref=e555]:
+                - generic [ref=e559]:
+                  - img
+          - generic [ref=e566] [cursor=pointer]:
+            - link [ref=e567]:
+              - /url: /watch?v=95a-9GuggG8
+              - generic [ref=e574]: 22:45
+            - generic [ref=e576]:
+              - generic [ref=e577]:
+                - heading "Passo-a-passo Barbearia Clássica com Willy Morales para Macholândia 22分钟" [level=3] [ref=e578]:
+                  - link "Passo-a-passo Barbearia Clássica com Willy Morales para Macholândia 22分钟" [ref=e579]:
+                    - /url: /watch?v=95a-9GuggG8
+                    - text: Passo-a-passo Barbearia Clássica com Willy Morales para Macholândia
+                - group [ref=e582]:
+                  - generic [ref=e583]: 50万次观看
+                  - generic [ref=e584]: •
+                  - generic [ref=e585]: 9年前
+              - button "其他操作" [ref=e588]:
+                - generic [ref=e592]:
+                  - img
+          - generic [ref=e599] [cursor=pointer]:
+            - link [ref=e600]:
+              - /url: /watch?v=Wbng8lxy2s4
+              - generic [ref=e607]: 4:39
+            - generic [ref=e609]:
+              - generic [ref=e610]:
+                - heading "Graffiti Day | WM Vintage Club 4分钟39秒钟" [level=3] [ref=e611]:
+                  - link "Graffiti Day | WM Vintage Club 4分钟39秒钟" [ref=e612]:
+                    - /url: /watch?v=Wbng8lxy2s4
+                    - text: Graffiti Day | WM Vintage Club
+                - group [ref=e615]:
+                  - generic [ref=e616]: 4053次观看
+                  - generic [ref=e617]: •
+                  - generic [ref=e618]: 9年前
+              - button "其他操作" [ref=e621]:
+                - generic [ref=e625]:
+                  - img
+    - text: •

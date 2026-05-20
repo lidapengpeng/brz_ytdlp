@@ -1,0 +1,327 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - button "导视" [ref=e9] [cursor=pointer]
+        - link "YouTube 首页" [ref=e12] [cursor=pointer]:
+          - /url: /
+        - button "跳过导航" [ref=e19] [cursor=pointer]:
+          - generic [ref=e20]: 跳过导航
+      - generic [ref=e24]:
+        - search [ref=e25]:
+          - generic [ref=e26]:
+            - combobox "搜索" [expanded] [ref=e29]
+            - button "Search" [ref=e30] [cursor=pointer]
+        - generic [ref=e33]:
+          - button "通过语音搜索内容" [ref=e35] [cursor=pointer]
+          - tooltip "tooltip"
+  - navigation [ref=e46]
+  - main [ref=e48]:
+    - generic [ref=e55]:
+      - generic [ref=e71]:
+        - heading "Emerok" [level=1] [ref=e73]
+        - generic [ref=e74]:
+          - group [ref=e75]:
+            - generic [ref=e76]: "@emerok"
+          - generic [ref=e77]: •
+          - group [ref=e78]:
+            - generic "8.17万位订阅者" [ref=e79]
+            - generic [ref=e80]: •
+            - generic [ref=e81]: 2152 个视频
+        - generic [ref=e83] [cursor=pointer]:
+          - generic [ref=e84]: 🎮 Bem-vindo ao canal do Emerok! Aqui você aprende a subir de elo no Wild Rift com tier lists, guias de campeões, gameplay explicativa e bastidores dos campeonatos oficiais.
+          - button "说明。🎮 Bem-vindo ao canal do Emerok! Aqui você aprende a subi…点按即可了解详情。" [ref=e85]:
+            - generic [ref=e86]: …更多
+        - generic [ref=e88]:
+          - link "exitlag.go.link/4XH5b" [ref=e91] [cursor=pointer]:
+            - /url: https://www.youtube.com/redirect?event=channel_header&redir_token=QUFFLUhqbVBKOGprQ09ucFpCdVdzOHVjSHE5RldWVGhJQXxBQ3Jtc0trX3RmQU5GZHhNMTd5YVlCUWw0QVdVZzA2b3VrWEhkaldqYVlqVlNIYVh0MmJRTHllNGxsWGoycTd3UGtOR2VLTjV1LWpQcU9KY2NXQ09RT2hCTF9DWjlxQllTYVMwdmZlRFFDOTVXMFpCNlZoTnU4WQ&q=https%3A%2F%2Fexitlag.go.link%2F4XH5b
+          - button "和另外 6 个链接" [ref=e94] [cursor=pointer]
+        - generic [ref=e95]:
+          - button "订阅" [ref=e98] [cursor=pointer]:
+            - generic [ref=e99]: 订阅
+          - button "加入此频道" [ref=e105] [cursor=pointer]:
+            - generic [ref=e108]: 加入
+          - link "社区" [ref=e114] [cursor=pointer]:
+            - /url: /@emerok/community
+            - generic [ref=e117]: 社区
+      - tablist [ref=e124]:
+        - tablist [ref=e128]:
+          - tab "首页" [selected] [ref=e129] [cursor=pointer]:
+            - generic [ref=e130]: 首页
+          - tab "视频" [ref=e131] [cursor=pointer]:
+            - generic [ref=e132]: 视频
+          - tab "Shorts" [ref=e133] [cursor=pointer]:
+            - generic [ref=e134]: Shorts
+          - tab "直播" [ref=e135] [cursor=pointer]:
+            - generic [ref=e136]: 直播
+          - tab "播放列表" [ref=e137] [cursor=pointer]:
+            - generic [ref=e138]: 播放列表
+          - tab "帖子" [ref=e139] [cursor=pointer]:
+            - generic [ref=e140]: 帖子
+          - tab "商店" [ref=e141] [cursor=pointer]:
+            - generic [ref=e142]: 商店
+          - button "搜索" [ref=e146] [cursor=pointer]
+    - generic [ref=e154]:
+      - generic [ref=e161]:
+        - generic [ref=e162]:
+          - heading "MUDOU MUITA COISA? OS CAMPEÕES MAIS FORTES DE CADA ROTA! TIERLIST DO PATCH 7.1 | LoL Wild Rift 39分钟" [level=3] [ref=e163]:
+            - link "MUDOU MUITA COISA? OS CAMPEÕES MAIS FORTES DE CADA ROTA! TIERLIST DO PATCH 7.1 | LoL Wild Rift" [ref=e164] [cursor=pointer]:
+              - /url: /watch?v=33uRhIWKgAU
+          - generic [ref=e167]:
+            - generic [ref=e168]: 21,394次观看
+            - generic [ref=e169]: •1个月前
+        - generic [ref=e170]:
+          - generic [ref=e172]:
+            - text: "• BAIXE O EXITLAG MOBILE AGORA:"
+            - link "https://exitl.ag/ExitLagEmerok" [ref=e173] [cursor=pointer]:
+              - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqa2ZRX0FuZ1ZGVnIwRjZnUDdrekw4SnQwbXZnUXxBQ3Jtc0ttMExFR1JFb0duLXZlWE5saFlEUW9FXzVETi1BbWs3T1AtaVdlc3ZGZXhsRTVES041SFBNNnU3QXZZb2t0cHZQd0hNRzRDN3E4NGNLQncybXV6NG8xcWdOLXR4bmZ2QkpBUXpYSGhCcHRiMnZ2ZXdPQQ&q=https%3A%2F%2Fexitl.ag%2FExitLagEmerok
+            - text: "CUPOM: EMEROK ATÉ 20% DE DESCONTO • VIRE MEMBRO DO CANAL E TENHA ACESSO DE VIDEOS EXCLUSIVOS:"
+            - link "https://www.youtube.com/channel/UCRuF..." [ref=e174] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCRuFJfqcoLFSmxq1iXeWKHg/join
+            - text: • SITE PARA AJUDAR A COMUNIDADE - BUILDS/TIERLIST/WINRATE
+            - link "https://wildlegends.net/" [ref=e175] [cursor=pointer]:
+              - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbWF3SUdxTE5WZ1UtOUxwbUxvZzUtdGt5UjRaQXxBQ3Jtc0tubC0zX1pVd1RfelVmQmdqeFpQdHZNYk5ueE41LURiTXlBVF9Dd1NneWczbm9HelNqbTVNMmNYajd3WGhvY2czMTFfc1hrd1h3MnFneHV4MmFxRVJkdUR3TUpKQnN3cTJxN3huRnh6QVlnczBtemd4VQ&q=https%3A%2F%2Fwildlegends.net%2F
+            - text: • ME SIGA NAS REDES SOCIAIS E NAS LIVES
+            - link "https://www.linktr.ee/emerok" [ref=e176] [cursor=pointer]:
+              - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbFIxVElwOEdScWs3YmFaNThXb3lKVm5TUmtGQXxBQ3Jtc0ttRG1tT19VT1NlUU9qbHFibWFNTEVjSEUzX1d5dW1BSFVEeE9mSG9KbldVZWJwdGdETmUyRGFlVURqTXN4QmdVRHRiTTlnenpEX2J1UUN5c0pCQy0zOUdpYUEzVVBGQjNfcnhTNWlYczh4S2tJN1hWQQ&q=https%3A%2F%2Fwww.linktr.ee%2Femerok
+            - text: "• FICHA TÉCNICA Editor: @ramonxo_ Thumbmaker: @y44hn Gerenciamento: @karevwr"
+            - link "#Emerok" [ref=e177] [cursor=pointer]:
+              - /url: /hashtag/emerok
+            - link "#WildRift" [ref=e178] [cursor=pointer]:
+              - /url: /hashtag/wildrift
+            - link "#Tierlist" [ref=e179] [cursor=pointer]:
+              - /url: /hashtag/tierlist
+            - link "#Challenger" [ref=e180] [cursor=pointer]:
+              - /url: /hashtag/challenger
+            - link "#leagueoflegends" [ref=e181] [cursor=pointer]:
+              - /url: /hashtag/leagueoflegends
+            - link "#Gameplay" [ref=e182] [cursor=pointer]:
+              - /url: /hashtag/gameplay
+            - link "#LeagueofLegendsWildRift" [ref=e183] [cursor=pointer]:
+              - /url: /hashtag/leagueoflegendswildrift
+            - link "#LoLMobile" [ref=e184] [cursor=pointer]:
+              - /url: /hashtag/lolmobile
+          - button "了解详情" [ref=e185] [cursor=pointer]:
+            - link "了解详情" [ref=e187]:
+              - /url: /watch?v=33uRhIWKgAU&pp=0gcJCTcbAYcqIYzv
+      - generic [ref=e191]:
+        - heading "视频" [level=2] [ref=e194]:
+          - link "视频" [ref=e197] [cursor=pointer]:
+            - /url: /@emerok/videos?view=0&sort=dd&shelf_id=1
+            - generic [ref=e198]: 视频
+        - generic [ref=e200]:
+          - generic [ref=e203]:
+            - generic [ref=e205] [cursor=pointer]:
+              - link [ref=e206]:
+                - /url: /watch?v=XgcuHmF8JIo
+                - generic [ref=e213]: 20:23
+              - generic [ref=e215]:
+                - generic [ref=e216]:
+                  - heading "ESSE BUFF ME SUPREENDEU, GRAVES SOBE DE PRIORIDADE! | LoL Wild Rift 20分钟" [level=3] [ref=e217]:
+                    - link "ESSE BUFF ME SUPREENDEU, GRAVES SOBE DE PRIORIDADE! | LoL Wild Rift 20分钟" [ref=e218]:
+                      - /url: /watch?v=XgcuHmF8JIo
+                      - text: ESSE BUFF ME SUPREENDEU, GRAVES SOBE DE PRIORIDADE! | LoL Wild Rift
+                  - group [ref=e221]:
+                    - generic [ref=e222]: 3317次观看
+                    - generic [ref=e223]: •
+                    - generic [ref=e224]: 1天前
+                - button "其他操作" [ref=e227]
+            - generic [ref=e234] [cursor=pointer]:
+              - link [ref=e235]:
+                - /url: /watch?v=i1RSLf3PRvk
+                - generic [ref=e242]: 19:55
+              - generic [ref=e244]:
+                - generic [ref=e245]:
+                  - heading "TALIYAH CHEGOU NO PATCH 7.1E! TESTANDO A NOVA CAMPEÃ NA JUNGLE | LoL Wild Rift 19分钟" [level=3] [ref=e246]:
+                    - link "TALIYAH CHEGOU NO PATCH 7.1E! TESTANDO A NOVA CAMPEÃ NA JUNGLE | LoL Wild Rift 19分钟" [ref=e247]:
+                      - /url: /watch?v=i1RSLf3PRvk
+                      - text: TALIYAH CHEGOU NO PATCH 7.1E! TESTANDO A NOVA CAMPEÃ NA JUNGLE | LoL Wild Rift
+                  - group [ref=e250]:
+                    - generic [ref=e251]: 5895次观看
+                    - generic [ref=e252]: •
+                    - generic [ref=e253]: 2天前
+                - button "其他操作" [ref=e256]
+            - generic [ref=e263] [cursor=pointer]:
+              - link [ref=e264]:
+                - /url: /watch?v=N7DtiMDOZwI
+                - generic [ref=e271]: 17:01
+              - generic [ref=e273]:
+                - generic [ref=e274]:
+                  - heading "NERF NOS CAMPEÕES DO META E TUDO SOBRE O PATCH 7.1E | LoL Wild Rift 17分钟" [level=3] [ref=e275]:
+                    - link "NERF NOS CAMPEÕES DO META E TUDO SOBRE O PATCH 7.1E | LoL Wild Rift 17分钟" [ref=e276]:
+                      - /url: /watch?v=N7DtiMDOZwI
+                      - text: NERF NOS CAMPEÕES DO META E TUDO SOBRE O PATCH 7.1E | LoL Wild Rift
+                  - group [ref=e279]:
+                    - generic [ref=e280]: 9595次观看
+                    - generic [ref=e281]: •
+                    - generic [ref=e282]: 3天前
+                - button "其他操作" [ref=e285]
+            - generic [ref=e292] [cursor=pointer]:
+              - link [ref=e293]:
+                - /url: /watch?v=yPcxth4j16U
+                - generic [ref=e300]: 20:55
+              - generic [ref=e302]:
+                - generic [ref=e303]:
+                  - heading "QUE DANO ABSURDO!! GRAGAS CONTINUA INCRÍVEL NO META ATUAL | LoL Wild Rift 20分钟" [level=3] [ref=e304]:
+                    - link "QUE DANO ABSURDO!! GRAGAS CONTINUA INCRÍVEL NO META ATUAL | LoL Wild Rift 20分钟" [ref=e305]:
+                      - /url: /watch?v=yPcxth4j16U
+                      - text: QUE DANO ABSURDO!! GRAGAS CONTINUA INCRÍVEL NO META ATUAL | LoL Wild Rift
+                  - group [ref=e308]:
+                    - generic [ref=e309]: 3329次观看
+                    - generic [ref=e310]: •
+                    - generic [ref=e311]: 4天前
+                - button "其他操作" [ref=e314]
+            - generic [ref=e321] [cursor=pointer]:
+              - link [ref=e322]:
+                - /url: /watch?v=rBVWS4Bg4uw
+                - generic [ref=e329]: 17:43
+              - generic [ref=e331]:
+                - generic [ref=e332]:
+                  - heading "EU TAVA EM TODO LUGAR DO MAPA! SHEN JUNGLE É INSANO | LoL Wild Rift 17分钟" [level=3] [ref=e333]:
+                    - link "EU TAVA EM TODO LUGAR DO MAPA! SHEN JUNGLE É INSANO | LoL Wild Rift 17分钟" [ref=e334]:
+                      - /url: /watch?v=rBVWS4Bg4uw
+                      - text: EU TAVA EM TODO LUGAR DO MAPA! SHEN JUNGLE É INSANO | LoL Wild Rift
+                  - group [ref=e337]:
+                    - generic [ref=e338]: 6213次观看
+                    - generic [ref=e339]: •
+                    - generic [ref=e340]: 10天前
+                - button "其他操作" [ref=e343]
+            - generic [ref=e350] [cursor=pointer]:
+              - link [ref=e351]:
+                - /url: /watch?v=tyOs494Ecc0
+                - generic [ref=e358]: 17:55
+              - generic [ref=e360]:
+                - generic [ref=e361]:
+                  - heading "MUDANÇA EM ATIRADORES, BUFFS E NERFS - TUDO SOBRE O PATCH 7.1D | LoL Wild Rift 17分钟" [level=3] [ref=e362]:
+                    - link "MUDANÇA EM ATIRADORES, BUFFS E NERFS - TUDO SOBRE O PATCH 7.1D | LoL Wild Rift 17分钟" [ref=e363]:
+                      - /url: /watch?v=tyOs494Ecc0
+                      - text: MUDANÇA EM ATIRADORES, BUFFS E NERFS - TUDO SOBRE O PATCH 7.1D | LoL Wild Rift
+                  - group [ref=e366]:
+                    - generic [ref=e367]: 9273次观看
+                    - generic [ref=e368]: •
+                    - generic [ref=e369]: 2周前
+                - button "其他操作" [ref=e372]
+          - button "下一页" [ref=e380] [cursor=pointer]
+      - generic [ref=e389]:
+        - heading "Conteúdo Exclusivo para Membros – Guias Avançados de Itens e Estratégia 全部播放" [level=2] [ref=e392]:
+          - link "Conteúdo Exclusivo para Membros – Guias Avançados de Itens e Estratégia" [ref=e395] [cursor=pointer]:
+            - /url: /playlist?list=PLRMWKdPtxDHAcrRsVIBH1Eq18XH5Q3k7A
+            - generic [ref=e396]: Conteúdo Exclusivo para Membros – Guias Avançados de Itens e Estratégia
+          - link "全部播放" [ref=e400] [cursor=pointer]:
+            - /url: /watch?v=PB1kjVMTzCs&list=PLRMWKdPtxDHAcrRsVIBH1Eq18XH5Q3k7A
+            - generic [ref=e403]: 全部播放
+        - generic [ref=e411]:
+          - generic [ref=e413] [cursor=pointer]:
+            - link [ref=e414]:
+              - /url: /watch?v=PB1kjVMTzCs&pp=0gcJCQQLAYcqIYzv
+              - generic [ref=e421]: 31:07
+            - generic [ref=e423]:
+              - generic [ref=e424]:
+                - heading "APRENDA A SUBIR DE ELO JOGANDO DE LEE SIN - ANÁLISE CAÇADOR MESTRE 31分钟" [level=3] [ref=e425]:
+                  - link "APRENDA A SUBIR DE ELO JOGANDO DE LEE SIN - ANÁLISE CAÇADOR MESTRE 31分钟" [ref=e426]:
+                    - /url: /watch?v=PB1kjVMTzCs&pp=0gcJCQQLAYcqIYzv
+                    - text: APRENDA A SUBIR DE ELO JOGANDO DE LEE SIN - ANÁLISE CAÇADOR MESTRE
+                - generic [ref=e428]:
+                  - group [ref=e429]:
+                    - link "Emerok" [ref=e432]:
+                      - /url: /@emerok
+                  - group [ref=e433]:
+                    - generic [ref=e434]: 3个月前
+                  - group [ref=e435]:
+                    - generic [ref=e440]: 会员专享
+              - button "其他操作" [ref=e443]
+          - generic [ref=e450] [cursor=pointer]:
+            - link [ref=e451]:
+              - /url: /watch?v=Pet34BEUOLE&pp=0gcJCQQLAYcqIYzv
+              - generic [ref=e458]: 34:48
+            - generic [ref=e460]:
+              - generic [ref=e461]:
+                - heading "APRENDA A SUBIR DE ELO JOGANDO NA SELVA - ANÁLISE CAÇADOR ESMERALDA 34分钟" [level=3] [ref=e462]:
+                  - link "APRENDA A SUBIR DE ELO JOGANDO NA SELVA - ANÁLISE CAÇADOR ESMERALDA 34分钟" [ref=e463]:
+                    - /url: /watch?v=Pet34BEUOLE&pp=0gcJCQQLAYcqIYzv
+                    - text: APRENDA A SUBIR DE ELO JOGANDO NA SELVA - ANÁLISE CAÇADOR ESMERALDA
+                - generic [ref=e465]:
+                  - group [ref=e466]:
+                    - link "Emerok" [ref=e469]:
+                      - /url: /@emerok
+                  - group [ref=e470]:
+                    - generic [ref=e471]: 3个月前
+                  - group [ref=e472]:
+                    - generic [ref=e477]: 会员专享
+              - button "其他操作" [ref=e480]
+          - generic [ref=e487] [cursor=pointer]:
+            - link [ref=e488]:
+              - /url: /watch?v=bcgxaPSE_BU
+              - generic [ref=e495]: 29:54
+            - generic [ref=e497]:
+              - generic [ref=e498]:
+                - heading "APRENDA A SUBIR DE ELO COMO ATIRADOR - ANÁLISE ADC DIAMANTE [ASHE] 29分钟" [level=3] [ref=e499]:
+                  - link "APRENDA A SUBIR DE ELO COMO ATIRADOR - ANÁLISE ADC DIAMANTE [ASHE] 29分钟" [ref=e500]:
+                    - /url: /watch?v=bcgxaPSE_BU
+                    - text: APRENDA A SUBIR DE ELO COMO ATIRADOR - ANÁLISE ADC DIAMANTE [ASHE]
+                - generic [ref=e502]:
+                  - group [ref=e503]:
+                    - link "Emerok" [ref=e506]:
+                      - /url: /@emerok
+                  - group [ref=e507]:
+                    - generic [ref=e508]: 3个月前
+                  - group [ref=e509]:
+                    - generic [ref=e514]: 会员专享
+              - button "其他操作" [ref=e517]
+          - generic [ref=e524] [cursor=pointer]:
+            - link [ref=e525]:
+              - /url: /watch?v=-bJavNCR7UQ&pp=0gcJCQQLAYcqIYzv
+              - generic [ref=e532]: 33:12
+            - generic [ref=e534]:
+              - generic [ref=e535]:
+                - heading "EXPLICANDO TODOS OS ITENS - ITENS DE SUPORTE | LoL Wild Rift 33分钟" [level=3] [ref=e536]:
+                  - link "EXPLICANDO TODOS OS ITENS - ITENS DE SUPORTE | LoL Wild Rift 33分钟" [ref=e537]:
+                    - /url: /watch?v=-bJavNCR7UQ&pp=0gcJCQQLAYcqIYzv
+                    - text: EXPLICANDO TODOS OS ITENS - ITENS DE SUPORTE | LoL Wild Rift
+                - generic [ref=e539]:
+                  - group [ref=e540]:
+                    - link "Emerok" [ref=e543]:
+                      - /url: /@emerok
+                  - group [ref=e544]:
+                    - generic [ref=e545]: 11个月前
+                  - group [ref=e546]:
+                    - generic [ref=e551]: 会员专享
+              - button "其他操作" [ref=e554]
+          - generic [ref=e561] [cursor=pointer]:
+            - link [ref=e562]:
+              - /url: /watch?v=PboNKgRW14s
+              - generic [ref=e569]: 31:17
+            - generic [ref=e571]:
+              - generic [ref=e572]:
+                - heading "EXPLICANDO TODOS OS ITENS - ITENS DE DEFESA PARTE 2 (Final) | LoL Wild Rift 31分钟" [level=3] [ref=e573]:
+                  - link "EXPLICANDO TODOS OS ITENS - ITENS DE DEFESA PARTE 2 (Final) | LoL Wild Rift 31分钟" [ref=e574]:
+                    - /url: /watch?v=PboNKgRW14s
+                    - text: EXPLICANDO TODOS OS ITENS - ITENS DE DEFESA PARTE 2 (Final) | LoL Wild Rift
+                - generic [ref=e576]:
+                  - group [ref=e577]:
+                    - link "Emerok" [ref=e580]:
+                      - /url: /@emerok
+                  - group [ref=e581]:
+                    - generic [ref=e582]: 1年前
+                  - group [ref=e583]:
+                    - generic [ref=e588]: 会员专享
+              - button "其他操作" [ref=e591]
+          - generic [ref=e598] [cursor=pointer]:
+            - link [ref=e599]:
+              - /url: /watch?v=eUe5o6fGL-E
+              - generic [ref=e606]: 30:32
+            - generic [ref=e608]:
+              - generic [ref=e609]:
+                - heading "EXPLICANDO TODOS OS ITENS - ITENS DE DEFESA PARTE 1 | LoL Wild Rift 30分钟" [level=3] [ref=e610]:
+                  - link "EXPLICANDO TODOS OS ITENS - ITENS DE DEFESA PARTE 1 | LoL Wild Rift 30分钟" [ref=e611]:
+                    - /url: /watch?v=eUe5o6fGL-E
+                    - text: EXPLICANDO TODOS OS ITENS - ITENS DE DEFESA PARTE 1 | LoL Wild Rift
+                - generic [ref=e613]:
+                  - group [ref=e614]:
+                    - link "Emerok" [ref=e617]:
+                      - /url: /@emerok
+                  - group [ref=e618]:
+                    - generic [ref=e619]: 1年前
+                  - group [ref=e620]:
+                    - generic [ref=e625]: 会员专享
+              - button "其他操作" [ref=e628]

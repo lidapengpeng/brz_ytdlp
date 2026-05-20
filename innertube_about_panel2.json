@@ -1,0 +1,691 @@
+{
+  "responseContext": {
+    "visitorData": "Cgt5M2tXeWJqNktkcyiF5KHQBjIKCgJVUxIEGgAgYA%3D%3D",
+    "serviceTrackingParams": [
+      {
+        "service": "GFEEDBACK",
+        "params": [
+          {
+            "key": "route",
+            "value": "channel.featured"
+          },
+          {
+            "key": "is_owner",
+            "value": "false"
+          },
+          {
+            "key": "is_alc_surface",
+            "value": "false"
+          },
+          {
+            "key": "browse_id",
+            "value": "UCr4ARxgElIO21GWfIraZezg"
+          },
+          {
+            "key": "browse_id_prefix",
+            "value": ""
+          },
+          {
+            "key": "logged_in",
+            "value": "0"
+          },
+          {
+            "key": "visitor_data",
+            "value": "Cgt5M2tXeWJqNktkcyiF5KHQBjIKCgJVUxIEGgAgYA%3D%3D"
+          }
+        ]
+      },
+      {
+        "service": "GOOGLE_HELP",
+        "params": [
+          {
+            "key": "browse_id",
+            "value": "UCr4ARxgElIO21GWfIraZezg"
+          },
+          {
+            "key": "browse_id_prefix",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "service": "CSI",
+        "params": [
+          {
+            "key": "c",
+            "value": "WEB"
+          },
+          {
+            "key": "cver",
+            "value": "2.20260114.08.00"
+          },
+          {
+            "key": "yt_li",
+            "value": "0"
+          },
+          {
+            "key": "GetChannelPage_rid",
+            "value": "0x2f670e2cd37e96d0"
+          }
+        ]
+      },
+      {
+        "service": "GUIDED_HELP",
+        "params": [
+          {
+            "key": "logged_in",
+            "value": "0"
+          }
+        ]
+      },
+      {
+        "service": "ECATCHER",
+        "params": [
+          {
+            "key": "client.version",
+            "value": "2.20260114"
+          },
+          {
+            "key": "client.name",
+            "value": "WEB"
+          }
+        ]
+      }
+    ],
+    "maxAgeSeconds": 300,
+    "mainAppWebResponseContext": {
+      "loggedOut": true,
+      "trackingParam": "k5_fmPxhoXZRWdUnFRNnGbfgMUIrVPWYidGGDdmz_CLHj2NmcWOkHJ63AwRMkusEmIBwOcCw59TLtslLKPQGSS"
+    },
+    "responseId": "IhMIot3V7vW9lAMVB19MCB2GnAJn",
+    "webResponseContextExtensionData": {
+      "webResponseContextPreloadData": {
+        "preloadMessageNames": [
+          "aboutChannelRenderer",
+          "aboutChannelViewModel",
+          "channelExternalLinkViewModel",
+          "buttonRenderer",
+          "menuPopupRenderer",
+          "menuServiceItemRenderer",
+          "unifiedSharePanelRenderer",
+          "notificationActionRenderer"
+        ]
+      },
+      "hasDecorated": true
+    }
+  },
+  "trackingParams": "CAAQhGciEwii3dXu9b2UAxUHX0wIHYacAmfKAQR70k1Z",
+  "onResponseReceivedEndpoints": [
+    {
+      "clickTrackingParams": "CAAQhGciEwii3dXu9b2UAxUHX0wIHYacAmfKAQR70k1Z",
+      "appendContinuationItemsAction": {
+        "continuationItems": [
+          {
+            "aboutChannelRenderer": {
+              "metadata": {
+                "aboutChannelViewModel": {
+                  "description": "YouTube oficial Garena Free Fire Brasil, o jogo mobile de tiro e sobreviv\u00eancia. \n#SuaBatalhaSeuEstilo\nBaixe no iOS e Android\nhttp://freefire.com.br/\n",
+                  "descriptionLabel": {
+                    "content": "Description",
+                    "styleRuns": [
+                      {
+                        "startIndex": 0,
+                        "length": 11
+                      }
+                    ]
+                  },
+                  "country": "Brazil",
+                  "customLinksLabel": {
+                    "content": "Links",
+                    "styleRuns": [
+                      {
+                        "startIndex": 0,
+                        "length": 5
+                      }
+                    ]
+                  },
+                  "subscriberCountText": "10.2M subscribers",
+                  "viewCountText": "1,407,933,628 views",
+                  "joinedDateText": {
+                    "content": "Joined Apr 5, 2018",
+                    "styleRuns": [
+                      {
+                        "startIndex": 0,
+                        "length": 18
+                      }
+                    ]
+                  },
+                  "canonicalChannelUrl": "http://www.youtube.com/@GarenaFreeFireBrasil",
+                  "channelId": "UCr4ARxgElIO21GWfIraZezg",
+                  "additionalInfoLabel": {
+                    "content": "More info",
+                    "styleRuns": [
+                      {
+                        "startIndex": 0,
+                        "length": 9
+                      }
+                    ]
+                  },
+                  "customUrlOnTap": {
+                    "innertubeCommand": {
+                      "clickTrackingParams": "CAYQo4sSIhMIot3V7vW9lAMVB19MCB2GnAJnygEEe9JNWQ==",
+                      "commandMetadata": {
+                        "webCommandMetadata": {
+                          "ignoreNavigation": true
+                        }
+                      },
+                      "shareEntityEndpoint": {
+                        "serializedShareEntity": "GhhVQ3I0QVJ4Z0VsSU8yMUdXZklyYVplemc%3D",
+                        "sharePanelType": "SHARE_PANEL_TYPE_UNIFIED_SHARE_PANEL"
+                      }
+                    }
+                  },
+                  "videoCountText": "3,365 videos",
+                  "links": [
+                    {
+                      "channelExternalLinkViewModel": {
+                        "title": {
+                          "content": "Instagram"
+                        },
+                        "link": {
+                          "content": "instagram.com/freefirebr_oficial",
+                          "commandRuns": [
+                            {
+                              "startIndex": 0,
+                              "length": 32,
+                              "onTap": {
+                                "innertubeCommand": {
+                                  "clickTrackingParams": "CAoQobIHGAAiEwii3dXu9b2UAxUHX0wIHYacAmfKAQR70k1Z",
+                                  "commandMetadata": {
+                                    "webCommandMetadata": {
+                                      "url": "https://www.youtube.com/redirect?event=channel_description&redir_token=QUFFLUhqbmJTcTFzY0RpVHMwVGhtVWZUSXhsRDVoUTBJQXxBQ3Jtc0ttZlN5NkhOcUFWaVF6WVR5T0d5Mk1LTlNyY0QxQkFmT2VhMWV0Q2xqZUR6aEJtcXJKYnVNV0ZRWWxlLUpUb3FjR1R0ZndLc2U0TXJIU3hyM0p4ZTE4eGRDeGV4MXJvYTJQT280ek4yV1NESk9JMlJGUQ&q=https%3A%2F%2Fwww.instagram.com%2Ffreefirebr_oficial",
+                                      "webPageType": "WEB_PAGE_TYPE_UNKNOWN",
+                                      "rootVe": 83769
+                                    }
+                                  },
+                                  "urlEndpoint": {
+                                    "url": "https://www.youtube.com/redirect?event=channel_description&redir_token=QUFFLUhqbmJTcTFzY0RpVHMwVGhtVWZUSXhsRDVoUTBJQXxBQ3Jtc0ttZlN5NkhOcUFWaVF6WVR5T0d5Mk1LTlNyY0QxQkFmT2VhMWV0Q2xqZUR6aEJtcXJKYnVNV0ZRWWxlLUpUb3FjR1R0ZndLc2U0TXJIU3hyM0p4ZTE4eGRDeGV4MXJvYTJQT280ek4yV1NESk9JMlJGUQ&q=https%3A%2F%2Fwww.instagram.com%2Ffreefirebr_oficial",
+                                    "target": "TARGET_NEW_WINDOW",
+                                    "nofollow": true
+                                  }
+                                }
+                              }
+                            }
+                          ]
+                        },
+                        "favicon": {
+                          "sources": [
+                            {
+                              "url": "https://encrypted-tbn3.gstatic.com/favicon-tbn?q=tbn:ANd9GcSfLSwm05yS0BK4Kb28e-NTcQAsNLQfDCkRW2BwGzQ_4QLgT3HvRwy5O9kLRnUU-QhzvJantOSGhq8NOQp7EHd_WEvUNR6WW1Pp0THXuSRzNiJgToeoCA",
+                              "width": 16,
+                              "height": 16
+                            },
+                            {
+                              "url": "https://encrypted-tbn3.gstatic.com/favicon-tbn?q=tbn:ANd9GcTH22r6JfLoEVSgX7gIeBTsmmcp7AsEm8At_mnY9_tLW9u124DyV4paGEu-QpXmBXqIPcMSTlv8F5UB5GjedwV6-DWtz_zxEicpcXo-pYZ0TEWaecy4uQ",
+                              "width": 24,
+                              "height": 24
+                            },
+                            {
+                              "url": "https://encrypted-tbn3.gstatic.com/favicon-tbn?q=tbn:ANd9GcSWlv5P_cZjL7BphqIddo1r9qha-mEeR_IrjurxF2rEX92_l8yP2L39z9A5Jz1vDA2t2bGvK7gan4DQhBGo42UC0eOq504-dvGEAXDsbkJix84htkBwug",
+                              "width": 32,
+                              "height": 32
+                            },
+                            {
+                              "url": "https://encrypted-tbn3.gstatic.com/favicon-tbn?q=tbn:ANd9GcQqzHpvesYBsmdBWDYRugCp85G91_-8BqpRJCqkxzl3sWgZa49u-jBCd5bzJhXJYOZjTQYo5t8mhvsLis-Syy1nIqFtNrFoovCj3bE34cmrKiRjMopfxQ",
+                              "width": 48,
+                              "height": 48
+                            },
+                            {
+                              "url": "https://encrypted-tbn3.gstatic.com/favicon-tbn?q=tbn:ANd9GcQbTG5M4X0YjLq8kiotXH-dm7lV8FQiy_AcEvfMus3rOAW1C3-GpKJ0jH21fBy6_fVG049HuigmOXlF5dvCjABVv788qacJpWHL6XQI6jnAESfCfD5jvw",
+                              "width": 50,
+                              "height": 50
+                            },
+                            {
+                              "url": "https://encrypted-tbn3.gstatic.com/favicon-tbn?q=tbn:ANd9GcSFSQsKHXrO5erkzaT2KvuVhN0LpXbPxo4ITKyKnQPSmHOLBkDR8KE0mdsMnLBztoNFQ0MGg9k6cUXhtZ_NY0Y06Mf1ywHug6oQEJlqr2uEyy6xlMLBVA",
+                              "width": 64,
+                              "height": 64
+                            },
+                            {
+                              "url": "https://encrypted-tbn3.gstatic.com/favicon-tbn?q=tbn:ANd9GcQAvxbIjNz253fBLSmkpLq2bO-583cKsl7RkQaKEyo8BPLR9Q5Qoa0mTvoTABEVktDc6DLw0VcX4Qb82mqZhFgCbyUgV9Ab-f0RFOgvaeQl7inOSfoYfg",
+                              "width": 96,
+                              "height": 96
+                            },
+                            {
+                              "url": "https://encrypted-tbn3.gstatic.com/favicon-tbn?q=tbn:ANd9GcSRJq-gVmK6yOLCGwtrodHEQYTNRSruRrJmM1scx50X9XzjSHrUqo59LQN9VnVGA1ofDs6YoiHSIaIDbB6vVs9ncfT7rzMsiQf9BOzFu5IMe0Uu5ZkeqL8",
+                              "width": 128,
+                              "height": 128
+                            },
+                            {
+                              "url": "https://encrypted-tbn3.gstatic.com/favicon-tbn?q=tbn:ANd9GcRkINqbo82T1cgBnz-VGKBEoJa5tQD1diIUOZf2pl7p0nLYa3qlgnPXUeGwFNU8-El3YnYg9s6xeqqBtrOGBIVRweP-BLTrMGe7FahdVTOaqEdwCwqZteg",
+                              "width": 180,
+                              "height": 180
+                            },
+                            {
+                              "url": "https://encrypted-tbn3.gstatic.com/favicon-tbn?q=tbn:ANd9GcRMnk5lytM1g9HJQSf7bM5Xfi4yFD5Vyri4jzLc1D4JUjmBYMab9mUK04YRfRwyHmDMutbz5OgS4cg_9Z2lEmyotPVb3TDyE7YkLlpC2ywK7bDnmpmQTRw",
+                              "width": 256,
+                              "height": 256
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "channelExternalLinkViewModel": {
+                        "title": {
+                          "content": "TikTok "
+                        },
+                        "link": {
+                          "content": "tiktok.com/@freefirebr_oficial",
+                          "commandRuns": [
+                            {
+                              "startIndex": 0,
+                              "length": 30,
+                              "onTap": {
+                                "innertubeCommand": {
+                                  "clickTrackingParams": "CAkQobIHGAEiEwii3dXu9b2UAxUHX0wIHYacAmfKAQR70k1Z",
+                                  "commandMetadata": {
+                                    "webCommandMetadata": {
+                                      "url": "https://www.youtube.com/redirect?event=channel_description&redir_token=QUFFLUhqbXJzcmljSTFYLWFNb0FaMEV5RE9jb21NVVVSQXxBQ3Jtc0tteHhwb2l1MXYzYlhYajV3STZ6U3BaRFd3dmZlWFlhVGpRQUQyb0QxTHQtYVpVZ01kTVdGdlBhaVloejlhWTRFN21hNXdVSk5ZLS1OT2phdDFkRlFZMHVEVlVraDdyaGV1dWVmam9mQTBZRm1CVk1FOA&q=https%3A%2F%2Fwww.tiktok.com%2F%40freefirebr_oficial",
+                                      "webPageType": "WEB_PAGE_TYPE_UNKNOWN",
+                                      "rootVe": 83769
+                                    }
+                                  },
+                                  "urlEndpoint": {
+                                    "url": "https://www.youtube.com/redirect?event=channel_description&redir_token=QUFFLUhqbXJzcmljSTFYLWFNb0FaMEV5RE9jb21NVVVSQXxBQ3Jtc0tteHhwb2l1MXYzYlhYajV3STZ6U3BaRFd3dmZlWFlhVGpRQUQyb0QxTHQtYVpVZ01kTVdGdlBhaVloejlhWTRFN21hNXdVSk5ZLS1OT2phdDFkRlFZMHVEVlVraDdyaGV1dWVmam9mQTBZRm1CVk1FOA&q=https%3A%2F%2Fwww.tiktok.com%2F%40freefirebr_oficial",
+                                    "target": "TARGET_NEW_WINDOW",
+                                    "nofollow": true
+                                  }
+                                }
+                              }
+                            }
+                          ]
+                        },
+                        "favicon": {
+                          "sources": [
+                            {
+                              "url": "https://encrypted-tbn3.gstatic.com/favicon-tbn?q=tbn:ANd9GcTil9qRPKod7VzAZX5hcljGOgNm_7OH9ctUPIWDk6tsvCGucVCNpU42I4k2ABNB9C3Dcv2DTXTaPLHtE7s4M5O0dzX4RrA-amgItDD5R5YT_fInOg",
+                              "width": 16,
+                              "height": 16
+                            },
+                            {
+                              "url": "https://encrypted-tbn3.gstatic.com/favicon-tbn?q=tbn:ANd9GcTQNWsQwtp_kYkNwgZnqc6n3XkmETbBWnjEs5aqLKdxeX3Wzcm-Wx5HgUOr428dO1AiXFFOmntTerjwyz490qT8gCGo1vfOjv6f-7fMX15zaDKa6w",
+                              "width": 24,
+                              "height": 24
+                            },
+                            {
+                              "url": "https://encrypted-tbn3.gstatic.com/favicon-tbn?q=tbn:ANd9GcQygKR9Wk54Cc_JsO1lyQb_1WH1e7-2vnoNPKwyIfUp5ytWAZgsPmk0id-xzupFpGlSOE8B0Cq9W6o0kP8adjPc1IHTMJDkjQRDyTUOL6wXevQhZw",
+                              "width": 32,
+                              "height": 32
+                            },
+                            {
+                              "url": "https://encrypted-tbn3.gstatic.com/favicon-tbn?q=tbn:ANd9GcTcBLjXcdPdrvf7vm3krYSrE5nTsulUW2d7SiAXUyOmJ3k7LmJ3ismlN7eU4GinNoUQc6_0xtDkc8rWHFdDmQzlI6UOKmQQscwltJ46aBUE8zThNA",
+                              "width": 48,
+                              "height": 48
+                            },
+                            {
+                              "url": "https://encrypted-tbn3.gstatic.com/favicon-tbn?q=tbn:ANd9GcQ7IkkbqNzuB9NlTdwO-p-79wzObhQSbTuUEeJRXQdmtLBMvVSSGm7J8LkWM-o4Lc2KZQkSdLGYh2ph6dt4moIfG1JHagaf9zC6cnYNfWNjwYlA9Q",
+                              "width": 50,
+                              "height": 50
+                            },
+                            {
+                              "url": "https://encrypted-tbn3.gstatic.com/favicon-tbn?q=tbn:ANd9GcT5aYj7VdDmDIFMFxhRzxy_S7SguI8_rqskdTqoNV4aJs32DCET_r4aHvy8xn0jDKDWoalwDy-_1-4EIKlF2QdvYqWyDfNTfC0nyF02ZhLIVM1vVQ",
+                              "width": 64,
+                              "height": 64
+                            },
+                            {
+                              "url": "https://encrypted-tbn3.gstatic.com/favicon-tbn?q=tbn:ANd9GcRNkuFU4yCOx1Zaar69IdZTstTaCnjOdU-6ozZbE4f2KXhUHw_2Da3pYL-AjA-LQFc2YySy9JRsaNX4zRrdokB5PCjGP8gN2UZ7fvXKJ5lftAk4_Q",
+                              "width": 96,
+                              "height": 96
+                            },
+                            {
+                              "url": "https://encrypted-tbn3.gstatic.com/favicon-tbn?q=tbn:ANd9GcTt71izcVOsKD84C9xklBGMvmECZg2l8-w5IrCaEhDsh3Gr6FkoIZ9BSrQytiBSp2AkG6o3g1SwbvJTm6yS-kYIe0Xzq46A9GwEtxzQGuSoroWP1Ww",
+                              "width": 128,
+                              "height": 128
+                            },
+                            {
+                              "url": "https://encrypted-tbn3.gstatic.com/favicon-tbn?q=tbn:ANd9GcSaokoUIYqEIfVkup_xoaUivZBehTWcxZmSu4NTnDcAKMtJon8NwCrfWn54BQ9wINCfq8y4mXG0irVCgaReSsiYhjssAop7IZVUetWi4ZzFfQN5yko",
+                              "width": 180,
+                              "height": 180
+                            },
+                            {
+                              "url": "https://encrypted-tbn3.gstatic.com/favicon-tbn?q=tbn:ANd9GcQKztzAFLM-Ht00NtZR3C_LPpwiMBXyfSbY3CevC9KOxibegrIjaqfvZtuasvcIjnxH9SHSWIC-D-hYkAagy33P_6rpJFiNR2iYp0UR5p99Y-NJcJ4",
+                              "width": 256,
+                              "height": 256
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "channelExternalLinkViewModel": {
+                        "title": {
+                          "content": "Discord"
+                        },
+                        "link": {
+                          "content": "discord.com/invite/freefirebr",
+                          "commandRuns": [
+                            {
+                              "startIndex": 0,
+                              "length": 29,
+                              "onTap": {
+                                "innertubeCommand": {
+                                  "clickTrackingParams": "CAgQobIHGAIiEwii3dXu9b2UAxUHX0wIHYacAmfKAQR70k1Z",
+                                  "commandMetadata": {
+                                    "webCommandMetadata": {
+                                      "url": "https://www.youtube.com/redirect?event=channel_description&redir_token=QUFFLUhqbFdIV3Z4d2Q0ZVVmS1otV1hxMDNnaE9RNEVkZ3xBQ3Jtc0tsYVhKQWhiazVEMVI0QjdYSXZfRE5mX094ZGthaUJ0VDI5MXpCOGIwNWNTTHB6Z2xVVGlfVkJLWkRsOU11ZUpseWpibFZYdThsNGpGbjBfbzR3V2JQd0FINjVUbmtDTHFLOFBXU1JqU1FjMUh6Y3B5OA&q=https%3A%2F%2Fdiscord.com%2Finvite%2Ffreefirebr",
+                                      "webPageType": "WEB_PAGE_TYPE_UNKNOWN",
+                                      "rootVe": 83769
+                                    }
+                                  },
+                                  "urlEndpoint": {
+                                    "url": "https://www.youtube.com/redirect?event=channel_description&redir_token=QUFFLUhqbFdIV3Z4d2Q0ZVVmS1otV1hxMDNnaE9RNEVkZ3xBQ3Jtc0tsYVhKQWhiazVEMVI0QjdYSXZfRE5mX094ZGthaUJ0VDI5MXpCOGIwNWNTTHB6Z2xVVGlfVkJLWkRsOU11ZUpseWpibFZYdThsNGpGbjBfbzR3V2JQd0FINjVUbmtDTHFLOFBXU1JqU1FjMUh6Y3B5OA&q=https%3A%2F%2Fdiscord.com%2Finvite%2Ffreefirebr",
+                                    "target": "TARGET_NEW_WINDOW",
+                                    "nofollow": true
+                                  }
+                                }
+                              }
+                            }
+                          ]
+                        },
+                        "favicon": {
+                          "sources": [
+                            {
+                              "url": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcQbAL5rH83BdBWAioiOvB61f7Urn9P1V-vnW-NmPmPmxKAX-kgTlqWFdwXxaGeAMixNIQScoytmvb-qMx3uEOJ1xEvjHBh9hWSM28XlXvKOMA",
+                              "width": 16,
+                              "height": 16
+                            },
+                            {
+                              "url": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcQfqiBzutQXhOu31MHxZF0nTQrWYjbtnVl1x5czNJF7HLEt1Yi9ignmfgps5yYLMso4HR_T-UGaBbUbnY0mRzeQo-xkiAETUn9ccEIOxTGZtQ",
+                              "width": 24,
+                              "height": 24
+                            },
+                            {
+                              "url": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcTJYMG_K-aHBukye44ki6fUBS6tfrkVnGAhDZR5-F5nw4jbv0Q2oEWC8aF2dFebTmfYjMvLDttFr2kf5QcKrZmv4ICRO6NG6D0VZnqjnEtDbA",
+                              "width": 32,
+                              "height": 32
+                            },
+                            {
+                              "url": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcQkByReBUbIZDiuJdlCrXXCO6w1CGhFPNdorCYfsOzmJLD3H0cPURTCoRG_IBrH-FN5RBVcB6ijuDqSo8Lo1osMOol7Ayx5J6OV4kBwT9bx0w",
+                              "width": 48,
+                              "height": 48
+                            },
+                            {
+                              "url": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcT0fnsUVK-roHZ2V3Do0gM2o3B0QFYbCtSgvt9cP5devauth8slettcZGzoIIjp89oZxObF2LSvGRtDEKXmFl_v3XeivC7Gyd_Y_eZBDTdizg",
+                              "width": 50,
+                              "height": 50
+                            },
+                            {
+                              "url": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcQ3Nl2p69UydH9lQc0OwM_oCoH5VffogC7otGLbNt7vNeXAifNLE0T5gSRqU1g2ZSIsQ6sRorLNA2GAszzvoQtwHOrR1nD0dycLTgVOaBy5RA",
+                              "width": 64,
+                              "height": 64
+                            },
+                            {
+                              "url": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcTWogt0M3gZtPOKn8Mhte1TbuMU4wbhJqjy-dHPWRUnc7E-IUtaDaZKwsgjzFbRGnjFDgNs2EcF4P8GVTjpXiiAjLdI3p9UShe_koFYTbIBOw",
+                              "width": 96,
+                              "height": 96
+                            },
+                            {
+                              "url": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcTGxsdTVTYxoilwLb0-tVRDe9SdV7Wl51vHuxFZuOn9P7ZjoXZJNyCa_xMEztonm7wb4e9G2bPD4BFfryzPDhcWTBhKw_YMxmvHN_-jgTX2xIM",
+                              "width": 128,
+                              "height": 128
+                            },
+                            {
+                              "url": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcQcQd_JeTaslNbD8-F8v2_l1m7qhcJ38EpNcK30d-H0T8yQce75iWlAWXnKYT1jIztxLAacpNMu1Q4J2iOE16c37PuICITIKe8fSOyRUaVP3aU",
+                              "width": 180,
+                              "height": 180
+                            },
+                            {
+                              "url": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcSkJXBjY6OFOgbDcj96gws9HClBdsXQgwMT8BBXPbzAIqg67qmNpD6peh7potR4K8Fzs42CmRHHPjDnIUXGN9xNpiKnUiNyybC3_VYgI3aIyWg",
+                              "width": 256,
+                              "height": 256
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "channelExternalLinkViewModel": {
+                        "title": {
+                          "content": "Site Oficial"
+                        },
+                        "link": {
+                          "content": "ff.garena.com/index/pt",
+                          "commandRuns": [
+                            {
+                              "startIndex": 0,
+                              "length": 22,
+                              "onTap": {
+                                "innertubeCommand": {
+                                  "clickTrackingParams": "CAcQobIHGAMiEwii3dXu9b2UAxUHX0wIHYacAmfKAQR70k1Z",
+                                  "commandMetadata": {
+                                    "webCommandMetadata": {
+                                      "url": "https://www.youtube.com/redirect?event=channel_description&redir_token=QUFFLUhqbk9BUENIOHVURGZsNVI3LXc5bTRDXzMyb2lPd3xBQ3Jtc0tuOURpWnZDUElwb0h6eWVGd1R2SHR4cVJYVmJqeG93TVczMDJuYXlZMkFXczlKUFVNOUJ0UGFxZ0hTdy15eXZGQWdZdHNNVGZTMmxaWkhoVUZOTXBycDlpR2pUSnRCNGJOcW9FM1RaNS1tQVlWeXF6dw&q=https%3A%2F%2Fff.garena.com%2Findex%2Fpt%2F",
+                                      "webPageType": "WEB_PAGE_TYPE_UNKNOWN",
+                                      "rootVe": 83769
+                                    }
+                                  },
+                                  "urlEndpoint": {
+                                    "url": "https://www.youtube.com/redirect?event=channel_description&redir_token=QUFFLUhqbk9BUENIOHVURGZsNVI3LXc5bTRDXzMyb2lPd3xBQ3Jtc0tuOURpWnZDUElwb0h6eWVGd1R2SHR4cVJYVmJqeG93TVczMDJuYXlZMkFXczlKUFVNOUJ0UGFxZ0hTdy15eXZGQWdZdHNNVGZTMmxaWkhoVUZOTXBycDlpR2pUSnRCNGJOcW9FM1RaNS1tQVlWeXF6dw&q=https%3A%2F%2Fff.garena.com%2Findex%2Fpt%2F",
+                                    "target": "TARGET_NEW_WINDOW",
+                                    "nofollow": true
+                                  }
+                                }
+                              }
+                            }
+                          ]
+                        },
+                        "favicon": {
+                          "sources": [
+                            {
+                              "url": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcT_F4rCmLauRD4eBKy0n6thIygowhSV6Z9OZ_fT-LSIq5f91XWW-nBMYUB9WBjNnvAzpSA7NCdL5obW-E62ekoxZXDPIzp9x0DxIEhnr52wghkS",
+                              "width": 16,
+                              "height": 16
+                            },
+                            {
+                              "url": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcQDnMLjDbqH-ieXo9YQkacOLbsvIo0O90kzG64UnRSDtjxcNeV3T702_6aXQZtmXr1VmVIhb0wWYx7VaWHu9pdu4xqs4l4E4nmp30goyqXj16Nf",
+                              "width": 24,
+                              "height": 24
+                            },
+                            {
+                              "url": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcTf78ssHdUrhrFw3tvKuNfewfHBCb03DKbRHlyEmkFXhojQ3YKStyj28gXPeQobO7zNCmLTQdqvs_VQ6cnYB6YoXmC5FfkNeQd6G2TkUzZ1npcQ",
+                              "width": 32,
+                              "height": 32
+                            },
+                            {
+                              "url": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcTC_ic7h4445Z00q_j7fkPpR7E8Xc3N2E6juSjIAPUTgp7OULl47OTrF5c_OnCtE1-T823oOAzNlb09AxHTlVa6O03taLsxLeaAkIZt78v_6KbI",
+                              "width": 48,
+                              "height": 48
+                            },
+                            {
+                              "url": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcSVyJ3-KkOcD16kwGsxN5_X9-a3XgMOI1SD-Or-mJWsPU_8FwuYECMNQL9qX8kvH42PCIpEoJZ-fTqJlLg18YmTjR5MAYoDm7eaOww6myN7mHxb",
+                              "width": 50,
+                              "height": 50
+                            },
+                            {
+                              "url": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcS4J16d0jlbTVzjz8bDJ2dqsjLww7qUtvpJQdOq_eUtBuuqZyO0f8Es2Jg--Brq5fz_G7ymnzJMiO_IV9wQL2GVQ8VpsVdMyZ79TNdx5cWbD3Vx",
+                              "width": 64,
+                              "height": 64
+                            },
+                            {
+                              "url": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcTcj7JOBeypkadDfpWt1YkfcY5yOmhfE1Dhtcp9vrUU4S_t5QQPjKToGnWpqVGKTo5MC0TYWkycZqFoTJYR43gs6SaTlJEQfDvKT_G4LUIoQC87",
+                              "width": 96,
+                              "height": 96
+                            },
+                            {
+                              "url": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcTaSzVMVnev7ZdyspbmNHfsWGmIGr01qRn0u_t-bZODbPCirBUe7nXH39IZkEI-FNXa8l-rvfLw-JOjM4HbATiFE66hLxCVghmraEWS1lR1N3TlIg",
+                              "width": 128,
+                              "height": 128
+                            },
+                            {
+                              "url": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcR4larJRJnQ1jeieM_10jzGIQnxgWqQi_XcjFrWDW2kzhh6hcXtvVvea__FME8to7rXti74amiN0z_riZ7NNjolrps0LPFIPClXPCMd4SoesHfi0Q",
+                              "width": 180,
+                              "height": 180
+                            },
+                            {
+                              "url": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcQ_wZwtB6h71tNnMmbIl8XnDQzRiavx1g-mTDQPG80mVaEiI0XcGR7ORZ4JPuuNS3ZTQsEO8vJczBvD0r8f9lZo1NQebMrMeLZPAfz2QlWI7zCJ8Q",
+                              "width": 256,
+                              "height": 256
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ],
+                  "displayCanonicalChannelUrl": "www.youtube.com/@GarenaFreeFireBrasil",
+                  "rendererContext": {
+                    "loggingContext": {
+                      "loggingDirectives": {
+                        "trackingParams": "CAYQo4sSIhMIot3V7vW9lAMVB19MCB2GnAJn",
+                        "visibility": {
+                          "types": "12"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "shareChannel": {
+                "buttonRenderer": {
+                  "style": "STYLE_DEFAULT",
+                  "size": "SIZE_DEFAULT",
+                  "text": {
+                    "runs": [
+                      {
+                        "text": "Share channel"
+                      }
+                    ]
+                  },
+                  "icon": {
+                    "iconType": "SHARE"
+                  },
+                  "trackingParams": "CAEQ8FsiEwii3dXu9b2UAxUHX0wIHYacAmc=",
+                  "accessibilityData": {
+                    "accessibilityData": {
+                      "label": "Share channel"
+                    }
+                  },
+                  "command": {
+                    "clickTrackingParams": "CAEQ8FsiEwii3dXu9b2UAxUHX0wIHYacAmfKAQR70k1Z",
+                    "commandMetadata": {
+                      "webCommandMetadata": {
+                        "sendPost": true
+                      }
+                    },
+                    "signalServiceEndpoint": {
+                      "signal": "CLIENT_SIGNAL",
+                      "actions": [
+                        {
+                          "clickTrackingParams": "CAEQ8FsiEwii3dXu9b2UAxUHX0wIHYacAmfKAQR70k1Z",
+                          "openPopupAction": {
+                            "popup": {
+                              "menuPopupRenderer": {
+                                "items": [
+                                  {
+                                    "menuServiceItemRenderer": {
+                                      "text": {
+                                        "runs": [
+                                          {
+                                            "text": "Share channel"
+                                          }
+                                        ]
+                                      },
+                                      "trackingParams": "CAQQ0rYLGAEiEwii3dXu9b2UAxUHX0wIHYacAmc=",
+                                      "command": {
+                                        "clickTrackingParams": "CAQQ0rYLGAEiEwii3dXu9b2UAxUHX0wIHYacAmfKAQR70k1Z",
+                                        "commandMetadata": {
+                                          "webCommandMetadata": {
+                                            "sendPost": true,
+                                            "apiUrl": "/youtubei/v1/share/get_share_panel"
+                                          }
+                                        },
+                                        "shareEntityServiceEndpoint": {
+                                          "serializedShareEntity": "GhhVQ3I0QVJ4Z0VsSU8yMUdXZklyYVplemc%3D",
+                                          "commands": [
+                                            {
+                                              "clickTrackingParams": "CAQQ0rYLGAEiEwii3dXu9b2UAxUHX0wIHYacAmfKAQR70k1Z",
+                                              "openPopupAction": {
+                                                "popup": {
+                                                  "unifiedSharePanelRenderer": {
+                                                    "trackingParams": "CAUQjmIiEwii3dXu9b2UAxUHX0wIHYacAmc=",
+                                                    "showLoadingSpinner": true
+                                                  }
+                                                },
+                                                "popupType": "DIALOG",
+                                                "beReused": true
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "menuServiceItemRenderer": {
+                                      "text": {
+                                        "runs": [
+                                          {
+                                            "text": "Copy channel ID"
+                                          }
+                                        ]
+                                      },
+                                      "trackingParams": "CAIQ07YLGAIiEwii3dXu9b2UAxUHX0wIHYacAmc=",
+                                      "command": {
+                                        "clickTrackingParams": "CAIQ07YLGAIiEwii3dXu9b2UAxUHX0wIHYacAmfKAQR70k1Z",
+                                        "copyTextEndpoint": {
+                                          "text": "UCr4ARxgElIO21GWfIraZezg",
+                                          "successActions": [
+                                            {
+                                              "clickTrackingParams": "CAIQ07YLGAIiEwii3dXu9b2UAxUHX0wIHYacAmfKAQR70k1Z",
+                                              "commandMetadata": {
+                                                "webCommandMetadata": {
+                                                  "sendPost": true
+                                                }
+                                              },
+                                              "signalServiceEndpoint": {
+                                                "signal": "CLIENT_SIGNAL",
+                                                "actions": [
+                                                  {
+                                                    "clickTrackingParams": "CAIQ07YLGAIiEwii3dXu9b2UAxUHX0wIHYacAmfKAQR70k1Z",
+                                                    "openPopupAction": {
+                                                      "popup": {
+                                                        "notificationActionRenderer": {
+                                                          "responseText": {
+                                                            "runs": [
+                                                              {
+                                                                "text": "Channel ID copied to clipboard"
+                                                              }
+                                                            ]
+                                                          },
+                                                          "trackingParams": "CAMQuWoiEwii3dXu9b2UAxUHX0wIHYacAmc="
+                                                        }
+                                                      },
+                                                      "popupType": "TOAST"
+                                                    }
+                                                  }
+                                                ]
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            "popupType": "RESPONSIVE_DROPDOWN"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "targetId": "6dda2fb4-0000-2a72-af35-747446fb506c"
+      }
+    }
+  ]
+}

@@ -1,0 +1,411 @@
+{
+  "responseContext": {
+    "visitorData": "CgswWmxDTjFrdzluRSi346HQBjIKCgJVUxIEGgAgNw%3D%3D",
+    "serviceTrackingParams": [
+      {
+        "service": "GFEEDBACK",
+        "params": [
+          {
+            "key": "route",
+            "value": "channel.featured"
+          },
+          {
+            "key": "is_owner",
+            "value": "false"
+          },
+          {
+            "key": "is_alc_surface",
+            "value": "false"
+          },
+          {
+            "key": "browse_id",
+            "value": "UCr4ARxgElIO21GWfIraZezg"
+          },
+          {
+            "key": "browse_id_prefix",
+            "value": ""
+          },
+          {
+            "key": "logged_in",
+            "value": "0"
+          },
+          {
+            "key": "visitor_data",
+            "value": "CgswWmxDTjFrdzluRSi346HQBjIKCgJVUxIEGgAgNw%3D%3D"
+          }
+        ]
+      },
+      {
+        "service": "GOOGLE_HELP",
+        "params": [
+          {
+            "key": "browse_id",
+            "value": "UCr4ARxgElIO21GWfIraZezg"
+          },
+          {
+            "key": "browse_id_prefix",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "service": "CSI",
+        "params": [
+          {
+            "key": "c",
+            "value": "WEB"
+          },
+          {
+            "key": "cver",
+            "value": "2.20260114.08.00"
+          },
+          {
+            "key": "yt_li",
+            "value": "0"
+          },
+          {
+            "key": "GetChannelPage_rid",
+            "value": "0x50cd74f09631426b"
+          }
+        ]
+      },
+      {
+        "service": "GUIDED_HELP",
+        "params": [
+          {
+            "key": "logged_in",
+            "value": "0"
+          }
+        ]
+      },
+      {
+        "service": "ECATCHER",
+        "params": [
+          {
+            "key": "client.version",
+            "value": "2.20260114"
+          },
+          {
+            "key": "client.name",
+            "value": "WEB"
+          }
+        ]
+      }
+    ],
+    "maxAgeSeconds": 300,
+    "mainAppWebResponseContext": {
+      "loggedOut": true,
+      "trackingParam": "k5_fmPxhoXZRq_P_H7_TuDTwwR06185o2cEGgihv7Be_Q1LmdWjAzI43BwRMkusEmIBwOcCw59TLtslLKPQGSS"
+    },
+    "responseId": "IhMIstW_yfW9lAMVSXxMCB0srCdw",
+    "webResponseContextExtensionData": {
+      "webResponseContextPreloadData": {
+        "preloadMessageNames": [
+          "gridRenderer",
+          "gridChannelRenderer",
+          "buttonRenderer",
+          "modalWithTitleAndButtonRenderer",
+          "metadataBadgeRenderer"
+        ]
+      },
+      "hasDecorated": true
+    }
+  },
+  "trackingParams": "CAAQhGciEwiy1b_J9b2UAxVJfEwIHSysJ3DKAQReELVq",
+  "onResponseReceivedEndpoints": [
+    {
+      "clickTrackingParams": "CAAQhGciEwiy1b_J9b2UAxVJfEwIHSysJ3DKAQReELVq",
+      "appendContinuationItemsAction": {
+        "continuationItems": [
+          {
+            "gridRenderer": {
+              "items": [
+                {
+                  "gridChannelRenderer": {
+                    "channelId": "UCOaQsQIByJYHyETtw48l_Vw",
+                    "thumbnail": {
+                      "thumbnails": [
+                        {
+                          "url": "//yt3.googleusercontent.com/rdqc5T4is5EEU3vmOuRkMsAi0LrqgW39usZH9qQmG1RpxXUl0WTSV4xAGX6u6XpdQvoUde8TVw=s88-c-k-c0x00ffffff-no-rj-mo",
+                          "width": 88,
+                          "height": 88
+                        },
+                        {
+                          "url": "//yt3.googleusercontent.com/rdqc5T4is5EEU3vmOuRkMsAi0LrqgW39usZH9qQmG1RpxXUl0WTSV4xAGX6u6XpdQvoUde8TVw=s176-c-k-c0x00ffffff-no-rj-mo",
+                          "width": 176,
+                          "height": 176
+                        }
+                      ]
+                    },
+                    "videoCountText": {
+                      "runs": [
+                        {
+                          "text": "1,578"
+                        },
+                        {
+                          "text": " videos"
+                        }
+                      ]
+                    },
+                    "subscriberCountText": {
+                      "accessibility": {
+                        "accessibilityData": {
+                          "label": "1.79 million subscribers"
+                        }
+                      },
+                      "simpleText": "1.79M subscribers"
+                    },
+                    "navigationEndpoint": {
+                      "clickTrackingParams": "CAUQlTUYACITCLLVv8n1vZQDFUl8TAgdLKwncMoBBF4QtWo=",
+                      "commandMetadata": {
+                        "webCommandMetadata": {
+                          "url": "/@ffesportsbr",
+                          "webPageType": "WEB_PAGE_TYPE_CHANNEL",
+                          "rootVe": 3611,
+                          "apiUrl": "/youtubei/v1/browse"
+                        }
+                      },
+                      "browseEndpoint": {
+                        "browseId": "UCOaQsQIByJYHyETtw48l_Vw",
+                        "canonicalBaseUrl": "/@ffesportsbr"
+                      }
+                    },
+                    "title": {
+                      "simpleText": "Free Fire Esports Brasil #FREEFIRE"
+                    },
+                    "subscribeButton": {
+                      "buttonRenderer": {
+                        "style": "STYLE_COMPACT_GRAY",
+                        "size": "SIZE_DEFAULT",
+                        "isDisabled": false,
+                        "text": {
+                          "runs": [
+                            {
+                              "text": "Subscribe"
+                            }
+                          ]
+                        },
+                        "navigationEndpoint": {
+                          "clickTrackingParams": "CAYQmysiEwiy1b_J9b2UAxVJfEwIHSysJ3DKAQReELVq",
+                          "commandMetadata": {
+                            "webCommandMetadata": {
+                              "ignoreNavigation": true
+                            }
+                          },
+                          "modalEndpoint": {
+                            "modal": {
+                              "modalWithTitleAndButtonRenderer": {
+                                "title": {
+                                  "simpleText": "Want to subscribe to this channel?"
+                                },
+                                "content": {
+                                  "simpleText": "Sign in to subscribe to this channel."
+                                },
+                                "button": {
+                                  "buttonRenderer": {
+                                    "style": "STYLE_MONO_FILLED",
+                                    "size": "SIZE_DEFAULT",
+                                    "isDisabled": false,
+                                    "text": {
+                                      "simpleText": "Sign in"
+                                    },
+                                    "navigationEndpoint": {
+                                      "clickTrackingParams": "CAcQ_YYEIhMIstW_yfW9lAMVSXxMCB0srCdwMglzdWJzY3JpYmXKAQReELVq",
+                                      "commandMetadata": {
+                                        "webCommandMetadata": {
+                                          "url": "https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252F%2540ffesportsbr%26continue_action%3DQUFFLUhqbHhSWUR4NW5pUjkyRk5mMkdNSUFGck01aFV2d3xBQ3Jtc0tuRmxQWWRWeXNaTzZyU1ZuQUZ3bGZyNHNQZjE1cDkwcEhvN2ZWSnhJa1Qzb21YWFdXSy02aUkyS1FacUN2cVN5SUxYczM1X3BrYTFXNmJ5WWpoSERKa09qSmkzRUZlQS1mZS03WkpnbWlwVGpzZW9pOTdrVlhqY2gzdWI5NVYyMktFUFF1R1lCcjFQdDVsS01xaFhSVzVESmlQSjZHS3R6TTlDT3A2UHlKZzBISzlJWW4wTkt4RDNOSDVkYWRNTEEwbVBGREQ&hl=en&ec=66429",
+                                          "webPageType": "WEB_PAGE_TYPE_UNKNOWN",
+                                          "rootVe": 83769
+                                        }
+                                      },
+                                      "signInEndpoint": {
+                                        "nextEndpoint": {
+                                          "clickTrackingParams": "CAcQ_YYEIhMIstW_yfW9lAMVSXxMCB0srCdwygEEXhC1ag==",
+                                          "commandMetadata": {
+                                            "webCommandMetadata": {
+                                              "url": "/@ffesportsbr",
+                                              "webPageType": "WEB_PAGE_TYPE_CHANNEL",
+                                              "rootVe": 3611,
+                                              "apiUrl": "/youtubei/v1/browse"
+                                            }
+                                          },
+                                          "browseEndpoint": {
+                                            "browseId": "UCOaQsQIByJYHyETtw48l_Vw",
+                                            "canonicalBaseUrl": "/@ffesportsbr"
+                                          }
+                                        },
+                                        "continueAction": "QUFFLUhqbHhSWUR4NW5pUjkyRk5mMkdNSUFGck01aFV2d3xBQ3Jtc0tuRmxQWWRWeXNaTzZyU1ZuQUZ3bGZyNHNQZjE1cDkwcEhvN2ZWSnhJa1Qzb21YWFdXSy02aUkyS1FacUN2cVN5SUxYczM1X3BrYTFXNmJ5WWpoSERKa09qSmkzRUZlQS1mZS03WkpnbWlwVGpzZW9pOTdrVlhqY2gzdWI5NVYyMktFUFF1R1lCcjFQdDVsS01xaFhSVzVESmlQSjZHS3R6TTlDT3A2UHlKZzBISzlJWW4wTkt4RDNOSDVkYWRNTEEwbVBGREQ",
+                                        "idamTag": "66429"
+                                      }
+                                    },
+                                    "trackingParams": "CAcQ_YYEIhMIstW_yfW9lAMVSXxMCB0srCdw"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "trackingParams": "CAYQmysiEwiy1b_J9b2UAxVJfEwIHSysJ3A="
+                      }
+                    },
+                    "ownerBadges": [
+                      {
+                        "metadataBadgeRenderer": {
+                          "icon": {
+                            "iconType": "CHECK_CIRCLE_THICK"
+                          },
+                          "style": "BADGE_STYLE_TYPE_VERIFIED",
+                          "tooltip": "Verified",
+                          "trackingParams": "CAUQlTUYACITCLLVv8n1vZQDFUl8TAgdLKwncA==",
+                          "accessibilityData": {
+                            "label": "Verified"
+                          }
+                        }
+                      }
+                    ],
+                    "trackingParams": "CAUQlTUYACITCLLVv8n1vZQDFUl8TAgdLKwncA=="
+                  }
+                },
+                {
+                  "gridChannelRenderer": {
+                    "channelId": "UC8SFoySmV-te7lq87hGWa0Q",
+                    "thumbnail": {
+                      "thumbnails": [
+                        {
+                          "url": "//yt3.googleusercontent.com/ytc/AIdro_lu44mUOaomnq2tRrGnV-9eMNodAnKK34hkwoxiVWj34Q=s88-c-k-c0x00ffffff-no-rj-mo",
+                          "width": 88,
+                          "height": 88
+                        },
+                        {
+                          "url": "//yt3.googleusercontent.com/ytc/AIdro_lu44mUOaomnq2tRrGnV-9eMNodAnKK34hkwoxiVWj34Q=s176-c-k-c0x00ffffff-no-rj-mo",
+                          "width": 176,
+                          "height": 176
+                        }
+                      ]
+                    },
+                    "videoCountText": {
+                      "runs": [
+                        {
+                          "text": "5"
+                        },
+                        {
+                          "text": " videos"
+                        }
+                      ]
+                    },
+                    "subscriberCountText": {
+                      "accessibility": {
+                        "accessibilityData": {
+                          "label": "21.7 thousand subscribers"
+                        }
+                      },
+                      "simpleText": "21.7K subscribers"
+                    },
+                    "navigationEndpoint": {
+                      "clickTrackingParams": "CAIQlTUYASITCLLVv8n1vZQDFUl8TAgdLKwncMoBBF4QtWo=",
+                      "commandMetadata": {
+                        "webCommandMetadata": {
+                          "url": "/@SuporteGarena",
+                          "webPageType": "WEB_PAGE_TYPE_CHANNEL",
+                          "rootVe": 3611,
+                          "apiUrl": "/youtubei/v1/browse"
+                        }
+                      },
+                      "browseEndpoint": {
+                        "browseId": "UC8SFoySmV-te7lq87hGWa0Q",
+                        "canonicalBaseUrl": "/@SuporteGarena"
+                      }
+                    },
+                    "title": {
+                      "simpleText": "Suporte Garena"
+                    },
+                    "subscribeButton": {
+                      "buttonRenderer": {
+                        "style": "STYLE_COMPACT_GRAY",
+                        "size": "SIZE_DEFAULT",
+                        "isDisabled": false,
+                        "text": {
+                          "runs": [
+                            {
+                              "text": "Subscribe"
+                            }
+                          ]
+                        },
+                        "navigationEndpoint": {
+                          "clickTrackingParams": "CAMQmysiEwiy1b_J9b2UAxVJfEwIHSysJ3DKAQReELVq",
+                          "commandMetadata": {
+                            "webCommandMetadata": {
+                              "ignoreNavigation": true
+                            }
+                          },
+                          "modalEndpoint": {
+                            "modal": {
+                              "modalWithTitleAndButtonRenderer": {
+                                "title": {
+                                  "simpleText": "Want to subscribe to this channel?"
+                                },
+                                "content": {
+                                  "simpleText": "Sign in to subscribe to this channel."
+                                },
+                                "button": {
+                                  "buttonRenderer": {
+                                    "style": "STYLE_MONO_FILLED",
+                                    "size": "SIZE_DEFAULT",
+                                    "isDisabled": false,
+                                    "text": {
+                                      "simpleText": "Sign in"
+                                    },
+                                    "navigationEndpoint": {
+                                      "clickTrackingParams": "CAQQ_YYEIhMIstW_yfW9lAMVSXxMCB0srCdwMglzdWJzY3JpYmXKAQReELVq",
+                                      "commandMetadata": {
+                                        "webCommandMetadata": {
+                                          "url": "https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252F%2540SuporteGarena%26continue_action%3DQUFFLUhqbGVLcERlSGF1QkJHZ2ttZDZmMUx0TkVEeTl1d3xBQ3Jtc0trZmV0OG9yTWtRb2RXSWM1X0NLM0U5d1pSV2lickN3Sm9tZEthU0E2MUpLdTJRN05XSUl6TjRwRmoxa3pMMk9aU3RpalVIZUxyRHlSNE9oUm1iSEd5YjVtWFYzZVhFU3loTEJ6bHV2RGFPdXAyV2lZc3VKNXJOaUdqbVdDSVlJc1FseWVHUlFUY3ZnUkRuSUR2YjZTNjZnRXhaeWhIZVNxVkFQV2xiVng0RkxXMlNuTUxEcTRibkFpTFEwV1NMS1drQTFCN04&hl=en&ec=66429",
+                                          "webPageType": "WEB_PAGE_TYPE_UNKNOWN",
+                                          "rootVe": 83769
+                                        }
+                                      },
+                                      "signInEndpoint": {
+                                        "nextEndpoint": {
+                                          "clickTrackingParams": "CAQQ_YYEIhMIstW_yfW9lAMVSXxMCB0srCdwygEEXhC1ag==",
+                                          "commandMetadata": {
+                                            "webCommandMetadata": {
+                                              "url": "/@SuporteGarena",
+                                              "webPageType": "WEB_PAGE_TYPE_CHANNEL",
+                                              "rootVe": 3611,
+                                              "apiUrl": "/youtubei/v1/browse"
+                                            }
+                                          },
+                                          "browseEndpoint": {
+                                            "browseId": "UC8SFoySmV-te7lq87hGWa0Q",
+                                            "canonicalBaseUrl": "/@SuporteGarena"
+                                          }
+                                        },
+                                        "continueAction": "QUFFLUhqbGVLcERlSGF1QkJHZ2ttZDZmMUx0TkVEeTl1d3xBQ3Jtc0trZmV0OG9yTWtRb2RXSWM1X0NLM0U5d1pSV2lickN3Sm9tZEthU0E2MUpLdTJRN05XSUl6TjRwRmoxa3pMMk9aU3RpalVIZUxyRHlSNE9oUm1iSEd5YjVtWFYzZVhFU3loTEJ6bHV2RGFPdXAyV2lZc3VKNXJOaUdqbVdDSVlJc1FseWVHUlFUY3ZnUkRuSUR2YjZTNjZnRXhaeWhIZVNxVkFQV2xiVng0RkxXMlNuTUxEcTRibkFpTFEwV1NMS1drQTFCN04",
+                                        "idamTag": "66429"
+                                      }
+                                    },
+                                    "trackingParams": "CAQQ_YYEIhMIstW_yfW9lAMVSXxMCB0srCdw"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "trackingParams": "CAMQmysiEwiy1b_J9b2UAxVJfEwIHSysJ3A="
+                      }
+                    },
+                    "trackingParams": "CAIQlTUYASITCLLVv8n1vZQDFUl8TAgdLKwncA=="
+                  }
+                }
+              ],
+              "isCollapsible": false,
+              "trackingParams": "CAEQ6IsCGAEiEwiy1b_J9b2UAxVJfEwIHSysJ3A=",
+              "targetId": "6e15c910-0000-2c2c-aac3-d4f547efcaa4"
+            }
+          }
+        ],
+        "targetId": "6dda2fc2-0000-2a72-af35-747446fb506c"
+      }
+    }
+  ]
+}

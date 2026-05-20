@@ -1,0 +1,300 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - button "导视" [ref=e9] [cursor=pointer]:
+            - generic [ref=e12]:
+              - img
+          - link "YouTube 首页" [ref=e14] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e19]:
+              - img
+          - button "跳过导航" [ref=e23] [cursor=pointer]:
+            - generic [ref=e24]: 跳过导航
+        - generic [ref=e28]:
+          - search [ref=e29]:
+            - generic [ref=e30]:
+              - combobox "搜索" [expanded] [ref=e33]
+              - button "Search" [ref=e34] [cursor=pointer]:
+                - generic [ref=e37]:
+                  - img
+          - generic [ref=e39]:
+            - button "通过语音搜索内容" [ref=e41] [cursor=pointer]:
+              - generic [ref=e45]:
+                - img
+            - tooltip "tooltip"
+        - generic [ref=e50]:
+          - button "设置" [ref=e55] [cursor=pointer]:
+            - generic [ref=e58]:
+              - img
+          - link "登录" [ref=e61] [cursor=pointer]:
+            - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fchannel%252FUCFR3EJi8t57vUlNfEzNDpMw%252Fabout&hl=zh-CN&ec=65620
+            - generic [ref=e65]:
+              - img
+            - generic [ref=e66]: 登录
+    - navigation [ref=e70]:
+      - generic [ref=e71]:
+        - link "首页" [ref=e73] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e76]:
+            - img
+          - generic [ref=e77]: 首页
+        - link "Shorts" [ref=e79] [cursor=pointer]:
+          - /url: /shorts/
+          - generic [ref=e82]:
+            - img
+          - generic [ref=e83]: Shorts
+        - link "订阅" [ref=e85] [cursor=pointer]:
+          - /url: /feed/subscriptions
+          - generic [ref=e88]:
+            - img
+          - generic [ref=e89]: 订阅
+        - link "我" [ref=e91] [cursor=pointer]:
+          - /url: /feed/you
+          - generic [ref=e94]:
+            - img
+          - generic [ref=e95]: 我
+    - generic [ref=e96]:
+      - main [ref=e97]:
+        - generic [ref=e104]:
+          - generic [ref=e117]:
+            - heading "Lohzao" [level=1] [ref=e119]
+            - generic [ref=e120]:
+              - group [ref=e121]:
+                - generic [ref=e122]: "@Lozaolindo"
+              - generic [ref=e123]: •
+              - group [ref=e124]:
+                - generic "3.18万位订阅者" [ref=e125]
+                - generic [ref=e126]: •
+                - generic [ref=e127]: 32 个视频
+            - generic [ref=e129] [cursor=pointer]:
+              - generic [ref=e131]: 详细了解此频道
+              - button "说明。详细了解此频道…点按即可了解详情。" [ref=e132]:
+                - generic [ref=e133]: …更多
+            - button "订阅" [ref=e137] [cursor=pointer]:
+              - generic [ref=e138]: 订阅
+          - tablist [ref=e145]:
+            - tablist [ref=e149]:
+              - tab "首页" [selected] [ref=e150] [cursor=pointer]:
+                - generic [ref=e151]: 首页
+              - tab "视频" [ref=e152] [cursor=pointer]:
+                - generic [ref=e153]: 视频
+              - tab "Shorts" [ref=e154] [cursor=pointer]:
+                - generic [ref=e155]: Shorts
+              - button "搜索" [ref=e159] [cursor=pointer]:
+                - generic [ref=e162]:
+                  - img
+        - generic [ref=e169]:
+          - generic [ref=e176]:
+            - generic [ref=e177]:
+              - heading "GASTEI 240000000 DIAMANTES 💎 PRA PEGAR O NARUTO😈😈 15分钟" [level=3] [ref=e178]:
+                - link "GASTEI 240000000 DIAMANTES 💎 PRA PEGAR O NARUTO😈😈" [ref=e179] [cursor=pointer]:
+                  - /url: /watch?v=7MVdYdsq5nc
+              - generic [ref=e182]:
+                - generic [ref=e183]: 13,116次观看
+                - generic [ref=e184]: •1年前
+            - generic [ref=e187]: Nesse vídeo eu consegui o novo pacote do Naruto no freefire
+          - generic [ref=e190]:
+            - generic [ref=e191]:
+              - generic [ref=e195]:
+                - img
+              - heading "Shorts" [level=2] [ref=e197]:
+                - generic [ref=e199]: Shorts
+              - button "其他操作" [ref=e203] [cursor=pointer]:
+                - generic [ref=e206]:
+                  - img
+            - generic [ref=e211]:
+              - generic [ref=e213]:
+                - link [ref=e214] [cursor=pointer]:
+                  - /url: /shorts/zr5FMm0gZEI
+                - generic [ref=e218] [cursor=pointer]:
+                  - 'link "tatsuya agora voaaaaaa #freefire" [ref=e219]':
+                    - /url: /shorts/zr5FMm0gZEI
+                  - generic [ref=e220]: 1.6万次观看
+                - button "其他操作" [ref=e222] [cursor=pointer]:
+                  - generic [ref=e226]:
+                    - img
+              - generic [ref=e231]:
+                - link [ref=e232] [cursor=pointer]:
+                  - /url: /shorts/eWyTx1lQFk0
+                - generic [ref=e236] [cursor=pointer]:
+                  - link "é emulador né? kkkkkk" [ref=e237]:
+                    - /url: /shorts/eWyTx1lQFk0
+                  - generic [ref=e238]: 1.8万次观看
+                - button "其他操作" [ref=e240] [cursor=pointer]:
+                  - generic [ref=e244]:
+                    - img
+              - generic [ref=e249]:
+                - link [ref=e250] [cursor=pointer]:
+                  - /url: /shorts/VL9bdICzmMw
+                - generic [ref=e254] [cursor=pointer]:
+                  - link "O novo Dino do Free Fire" [ref=e255]:
+                    - /url: /shorts/VL9bdICzmMw
+                  - generic [ref=e256]: 1.1万次观看
+                - button "其他操作" [ref=e258] [cursor=pointer]:
+                  - generic [ref=e262]:
+                    - img
+          - generic [ref=e269]:
+            - heading "视频" [level=2] [ref=e272]:
+              - link "视频" [ref=e275] [cursor=pointer]:
+                - /url: /@Lozaolindo/videos?view=0&sort=dd&shelf_id=2
+                - generic [ref=e276]: 视频
+            - generic [ref=e278]:
+              - generic [ref=e281]:
+                - generic [ref=e283] [cursor=pointer]:
+                  - link [ref=e284]:
+                    - /url: /watch?v=7MVdYdsq5nc
+                    - generic [ref=e291]: 15:13
+                  - generic [ref=e293]:
+                    - generic [ref=e294]:
+                      - heading "GASTEI 240000000 DIAMANTES 💎 PRA PEGAR O NARUTO😈😈 15分钟" [level=3] [ref=e295]:
+                        - link "GASTEI 240000000 DIAMANTES 💎 PRA PEGAR O NARUTO😈😈 15分钟" [ref=e296]:
+                          - /url: /watch?v=7MVdYdsq5nc
+                          - text: GASTEI 240000000 DIAMANTES 💎 PRA PEGAR O NARUTO😈😈
+                      - group [ref=e299]:
+                        - generic [ref=e300]: 1.3万次观看
+                        - generic [ref=e301]: •
+                        - generic [ref=e302]: 1年前
+                    - button "其他操作" [ref=e305]:
+                      - generic [ref=e309]:
+                        - img
+                - generic [ref=e314] [cursor=pointer]:
+                  - link [ref=e315]:
+                    - /url: /watch?v=pgva08DAboI
+                    - generic [ref=e322]: 13:44
+                  - generic [ref=e324]:
+                    - generic [ref=e325]:
+                      - heading "Entrei na CONTA de 10.000 reais de um influenciador do FREEFIRE 13分钟44秒钟" [level=3] [ref=e326]:
+                        - link "Entrei na CONTA de 10.000 reais de um influenciador do FREEFIRE 13分钟44秒钟" [ref=e327]:
+                          - /url: /watch?v=pgva08DAboI
+                          - text: Entrei na CONTA de 10.000 reais de um influenciador do FREEFIRE
+                      - group [ref=e330]:
+                        - generic [ref=e331]: 2万次观看
+                        - generic [ref=e332]: •
+                        - generic [ref=e333]: 2年前
+                    - button "其他操作" [ref=e336]:
+                      - generic [ref=e340]:
+                        - img
+                - generic [ref=e345] [cursor=pointer]:
+                  - link [ref=e346]:
+                    - /url: /watch?v=Fijl3ojzSMo
+                    - generic [ref=e353]: 21:50
+                  - generic [ref=e355]:
+                    - generic [ref=e356]:
+                      - heading "Os cara Lançaram um FREE FIRE rio de janeiro na favela kkkkkkk 21分钟" [level=3] [ref=e357]:
+                        - link "Os cara Lançaram um FREE FIRE rio de janeiro na favela kkkkkkk 21分钟" [ref=e358]:
+                          - /url: /watch?v=Fijl3ojzSMo
+                          - text: Os cara Lançaram um FREE FIRE rio de janeiro na favela kkkkkkk
+                      - group [ref=e361]:
+                        - generic [ref=e362]: 1.4万次观看
+                        - generic [ref=e363]: •
+                        - generic [ref=e364]: 2年前
+                    - button "其他操作" [ref=e367]:
+                      - generic [ref=e371]:
+                        - img
+                - generic [ref=e376] [cursor=pointer]:
+                  - link [ref=e377]:
+                    - /url: /watch?v=Y0vh-aDGeFs&pp=0gcJCQQLAYcqIYzv
+                    - generic [ref=e384]: 10:54
+                  - generic [ref=e386]:
+                    - generic [ref=e387]:
+                      - heading "Verificado no Free Fire... 10分钟54秒钟" [level=3] [ref=e388]:
+                        - link "Verificado no Free Fire... 10分钟54秒钟" [ref=e389]:
+                          - /url: /watch?v=Y0vh-aDGeFs&pp=0gcJCQQLAYcqIYzv
+                          - text: Verificado no Free Fire...
+                      - group [ref=e392]:
+                        - generic [ref=e393]: 1.6万次观看
+                        - generic [ref=e394]: •
+                        - generic [ref=e395]: 2年前
+                    - button "其他操作" [ref=e398]:
+                      - generic [ref=e402]:
+                        - img
+                - generic [ref=e407] [cursor=pointer]:
+                  - link [ref=e408]:
+                    - /url: /watch?v=jwqjAQcBZAU
+                    - generic [ref=e415]: 10:42
+                  - generic [ref=e417]:
+                    - generic [ref=e418]:
+                      - heading "O novo BUG do modo ZUMBI no FreeFire 10分钟42秒钟" [level=3] [ref=e419]:
+                        - link "O novo BUG do modo ZUMBI no FreeFire 10分钟42秒钟" [ref=e420]:
+                          - /url: /watch?v=jwqjAQcBZAU
+                          - text: O novo BUG do modo ZUMBI no FreeFire
+                      - group [ref=e423]:
+                        - generic [ref=e424]: 4.5万次观看
+                        - generic [ref=e425]: •
+                        - generic [ref=e426]: 2年前
+                    - button "其他操作" [ref=e429]:
+                      - generic [ref=e433]:
+                        - img
+                - generic [ref=e438] [cursor=pointer]:
+                  - link [ref=e439]:
+                    - /url: /watch?v=wCJJ42PblSE&pp=0gcJCQQLAYcqIYzv
+                    - generic [ref=e446]: 13:36
+                  - generic [ref=e448]:
+                    - generic [ref=e449]:
+                      - heading "Atualização do Free Fire... 13分钟36秒钟" [level=3] [ref=e450]:
+                        - link "Atualização do Free Fire... 13分钟36秒钟" [ref=e451]:
+                          - /url: /watch?v=wCJJ42PblSE&pp=0gcJCQQLAYcqIYzv
+                          - text: Atualização do Free Fire...
+                      - group [ref=e454]:
+                        - generic [ref=e455]: 1.3万次观看
+                        - generic [ref=e456]: •
+                        - generic [ref=e457]: 2年前
+                    - button "其他操作" [ref=e460]:
+                      - generic [ref=e464]:
+                        - img
+              - button "下一页" [ref=e470] [cursor=pointer]:
+                - generic [ref=e474]:
+                  - img
+      - text: •
+  - dialog [active] [ref=e478]:
+    - generic [ref=e479]:
+      - generic [ref=e482]:
+        - heading "Lohzao" [level=2] [ref=e484]:
+          - generic "Lohzao" [ref=e485]
+        - button "关闭" [ref=e489] [cursor=pointer]:
+          - generic [ref=e493]:
+            - img
+      - generic [ref=e503]:
+        - generic [ref=e504]:
+          - generic [ref=e506]: 更多信息
+          - table [ref=e507]:
+            - rowgroup [ref=e508]:
+              - row "www.youtube.com/@Lozaolindo" [ref=e509]:
+                - cell [ref=e510]:
+                  - generic [ref=e513]:
+                    - img
+                - cell "www.youtube.com/@Lozaolindo" [ref=e514]:
+                  - link "www.youtube.com/@Lozaolindo" [ref=e515] [cursor=pointer]:
+                    - /url: http://www.youtube.com/@Lozaolindo
+              - row "巴西" [ref=e516]:
+                - cell [ref=e517]:
+                  - generic [ref=e520]:
+                    - img
+                - cell "巴西" [ref=e521]
+              - row "2024年1月17日注册" [ref=e522]:
+                - cell [ref=e523]:
+                  - generic [ref=e526]:
+                    - img
+                - cell "2024年1月17日注册" [ref=e527]:
+                  - generic [ref=e529]: 2024年1月17日注册
+              - row "3.18万位订阅者" [ref=e530]:
+                - cell [ref=e531]:
+                  - generic [ref=e534]:
+                    - img
+                - cell "3.18万位订阅者" [ref=e535]
+              - row "32 个视频" [ref=e536]:
+                - cell [ref=e537]:
+                  - generic [ref=e540]:
+                    - img
+                - cell "32 个视频" [ref=e541]
+              - row "1,900,436次观看" [ref=e542]:
+                - cell [ref=e543]:
+                  - generic [ref=e546]:
+                    - img
+                - cell "1,900,436次观看" [ref=e547]
+        - button "分享频道" [ref=e552] [cursor=pointer]:
+          - generic [ref=e556]:
+            - img
+          - generic [ref=e557]: 分享频道

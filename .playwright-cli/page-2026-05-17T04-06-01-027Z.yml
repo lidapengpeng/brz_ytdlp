@@ -1,0 +1,509 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - button "导视" [ref=e9] [cursor=pointer]
+        - link "YouTube 首页" [ref=e12] [cursor=pointer]:
+          - /url: /
+        - button "跳过导航" [ref=e19] [cursor=pointer]:
+          - generic [ref=e20]: 跳过导航
+      - generic [ref=e24]:
+        - search [ref=e25]:
+          - generic [ref=e26]:
+            - combobox "搜索" [expanded] [ref=e29]
+            - button "Search" [ref=e30] [cursor=pointer]
+        - generic [ref=e33]:
+          - button "通过语音搜索内容" [ref=e35] [cursor=pointer]
+          - tooltip "tooltip"
+  - navigation [ref=e46]
+  - main [ref=e48]:
+    - generic [ref=e55]:
+      - generic [ref=e71]:
+        - heading "Beatriz Andrade" [level=1] [ref=e73]
+        - generic [ref=e74]:
+          - group [ref=e75]:
+            - generic [ref=e76]: "@jeitinhoproprio"
+          - generic [ref=e77]: •
+          - group [ref=e78]:
+            - generic "2.34万位订阅者" [ref=e79]
+            - generic [ref=e80]: •
+            - generic [ref=e81]: 205 个视频
+        - generic [ref=e83] [cursor=pointer]:
+          - generic [ref=e84]: Canal sobre maquiagem, cabelo afro/crespo/cacheado, Faça você mesmo/Diy e outras coisas do universo feminino.
+          - button "说明。Canal sobre maquiagem, cabelo afro/crespo/cacheado, Faça vo…点按即可了解详情。" [ref=e85]:
+            - generic [ref=e86]: …更多
+        - generic [ref=e88]:
+          - link "jeitinhoproprio.blogspot.com.br" [ref=e91] [cursor=pointer]:
+            - /url: https://www.youtube.com/redirect?event=channel_header&redir_token=QUFFLUhqbGtkZVNjUk1JNXI0V1VCZGpYMkRLNWJBNFZDQXxBQ3Jtc0trOFpYcFdUWm5HNWhIMmVwOHNITzJXc25xZ3JSdTUtcFBlNENKNHRGVTRScTJQUmprdV9Fd2REc180dEtTYWJWVWd0Tkd2dkRyRXFSeHh1Um83WXNMRjNNS1oyMXM3SzZlV0s4cFJheFl1Wnl4ckNlNA&q=http%3A%2F%2Fjeitinhoproprio.blogspot.com.br%2F
+          - button "和另外 4 个链接" [ref=e94] [cursor=pointer]
+        - button "订阅" [ref=e98] [cursor=pointer]:
+          - generic [ref=e99]: 订阅
+      - tablist [ref=e106]:
+        - tablist [ref=e110]:
+          - tab "首页" [selected] [ref=e111] [cursor=pointer]:
+            - generic [ref=e112]: 首页
+          - tab "视频" [ref=e113] [cursor=pointer]:
+            - generic [ref=e114]: 视频
+          - tab "直播" [ref=e115] [cursor=pointer]:
+            - generic [ref=e116]: 直播
+          - tab "播放列表" [ref=e117] [cursor=pointer]:
+            - generic [ref=e118]: 播放列表
+          - button "搜索" [ref=e122] [cursor=pointer]
+    - generic [ref=e130]:
+      - generic [ref=e134]:
+        - heading "视频" [level=2] [ref=e137]:
+          - link "视频" [ref=e140] [cursor=pointer]:
+            - /url: /@jeitinhoproprio/videos?view=0&sort=dd&shelf_id=1
+            - generic [ref=e141]: 视频
+        - generic [ref=e143]:
+          - generic [ref=e146]:
+            - generic [ref=e148] [cursor=pointer]:
+              - link [ref=e149]:
+                - /url: /watch?v=qA1gFDqPqU8
+                - generic [ref=e156]: 3:00
+              - generic [ref=e158]:
+                - generic [ref=e159]:
+                  - heading "Finalizando cabelo com Franja - Cabelo Crespo Cacheado 3分钟" [level=3] [ref=e160]:
+                    - link "Finalizando cabelo com Franja - Cabelo Crespo Cacheado 3分钟" [ref=e161]:
+                      - /url: /watch?v=qA1gFDqPqU8
+                      - text: Finalizando cabelo com Franja - Cabelo Crespo Cacheado
+                  - group [ref=e164]:
+                    - generic [ref=e165]: 3784次观看
+                    - generic [ref=e166]: •
+                    - generic [ref=e167]: 8年前
+                - button "其他操作" [ref=e170]
+            - generic [ref=e177] [cursor=pointer]:
+              - link [ref=e178]:
+                - /url: /watch?v=lKmknCuud8w
+                - generic [ref=e185]: 5:21
+              - generic [ref=e187]:
+                - generic [ref=e188]:
+                  - heading "Desabafo - Sentimentos e Autocuidado 5分钟21秒钟" [level=3] [ref=e189]:
+                    - link "Desabafo - Sentimentos e Autocuidado 5分钟21秒钟" [ref=e190]:
+                      - /url: /watch?v=lKmknCuud8w
+                      - text: Desabafo - Sentimentos e Autocuidado
+                  - group [ref=e193]:
+                    - generic [ref=e194]: 1280次观看
+                    - generic [ref=e195]: •
+                    - generic [ref=e196]: 9年前
+                - button "其他操作" [ref=e199]
+            - generic [ref=e206] [cursor=pointer]:
+              - link [ref=e207]:
+                - /url: /watch?v=LRmgl9_LK2U
+                - generic [ref=e214]: 9:10
+              - generic [ref=e216]:
+                - generic [ref=e217]:
+                  - heading "Entrevista Crespo/Cacheado - Feh Santos 9分钟10秒钟" [level=3] [ref=e218]:
+                    - link "Entrevista Crespo/Cacheado - Feh Santos 9分钟10秒钟" [ref=e219]:
+                      - /url: /watch?v=LRmgl9_LK2U
+                      - text: Entrevista Crespo/Cacheado - Feh Santos
+                  - group [ref=e222]:
+                    - generic [ref=e223]: 630次观看
+                    - generic [ref=e224]: •
+                    - generic [ref=e225]: 9年前
+                - button "其他操作" [ref=e228]
+            - generic [ref=e235] [cursor=pointer]:
+              - link [ref=e236]:
+                - /url: /watch?v=TY4PCcaTUuI
+                - generic [ref=e243]: 2:21
+              - generic [ref=e245]:
+                - generic [ref=e246]:
+                  - heading "Cortei o Cabelo ♥ - Cabelo Crespo/Cacheado 2分钟21秒钟" [level=3] [ref=e247]:
+                    - link "Cortei o Cabelo ♥ - Cabelo Crespo/Cacheado 2分钟21秒钟" [ref=e248]:
+                      - /url: /watch?v=TY4PCcaTUuI
+                      - text: Cortei o Cabelo ♥ - Cabelo Crespo/Cacheado
+                  - group [ref=e251]:
+                    - generic [ref=e252]: 8259次观看
+                    - generic [ref=e253]: •
+                    - generic [ref=e254]: 9年前
+                - button "其他操作" [ref=e257]
+            - generic [ref=e264] [cursor=pointer]:
+              - link [ref=e265]:
+                - /url: /watch?v=m1IiZy6-pTQ
+                - generic [ref=e272]: 12:31
+              - generic [ref=e274]:
+                - generic [ref=e275]:
+                  - heading "Entrevista Crespa/Cacheada - Denise da Costa 12分钟31秒钟" [level=3] [ref=e276]:
+                    - link "Entrevista Crespa/Cacheada - Denise da Costa 12分钟31秒钟" [ref=e277]:
+                      - /url: /watch?v=m1IiZy6-pTQ
+                      - text: Entrevista Crespa/Cacheada - Denise da Costa
+                  - group [ref=e280]:
+                    - generic [ref=e281]: 551次观看
+                    - generic [ref=e282]: •
+                    - generic [ref=e283]: 9年前
+                - button "其他操作" [ref=e286]
+            - generic [ref=e293] [cursor=pointer]:
+              - link [ref=e294]:
+                - /url: /watch?v=VdRwd1k5gys
+                - generic [ref=e301]: 4:52
+              - generic [ref=e303]:
+                - generic [ref=e304]:
+                  - heading "Micropigmentação de Sobrancelha Fio a Fio - Pele Negra 4分钟52秒钟" [level=3] [ref=e305]:
+                    - link "Micropigmentação de Sobrancelha Fio a Fio - Pele Negra 4分钟52秒钟" [ref=e306]:
+                      - /url: /watch?v=VdRwd1k5gys
+                      - text: Micropigmentação de Sobrancelha Fio a Fio - Pele Negra
+                  - group [ref=e309]:
+                    - generic [ref=e310]: 3.9万次观看
+                    - generic [ref=e311]: •
+                    - generic [ref=e312]: 9年前
+                - button "其他操作" [ref=e315]
+          - button "下一页" [ref=e323] [cursor=pointer]
+      - generic [ref=e332]:
+        - generic [ref=e333]:
+          - heading "Cabelo Crespo / Cacheado 全部播放" [level=2] [ref=e335]:
+            - link "Cabelo Crespo / Cacheado" [ref=e338] [cursor=pointer]:
+              - /url: /playlist?list=PL9-4KhXYIce8S8NtsAcy3LDXM5dlOa0sM
+              - generic [ref=e339]: Cabelo Crespo / Cacheado
+            - link "全部播放" [ref=e343] [cursor=pointer]:
+              - /url: /watch?v=Y6X4eB7AOog&list=PL9-4KhXYIce8S8NtsAcy3LDXM5dlOa0sM
+              - generic [ref=e346]: 全部播放
+          - generic [ref=e350]: Todos os vídeos do canal sobre cuidados com o cabelo
+        - generic [ref=e352]:
+          - generic [ref=e355]:
+            - generic [ref=e357] [cursor=pointer]:
+              - link [ref=e358]:
+                - /url: /watch?v=Y6X4eB7AOog&pp=0gcJCQQLAYcqIYzv
+                - generic [ref=e365]: 5:33
+              - generic [ref=e367]:
+                - generic [ref=e368]:
+                  - 'heading "Cabelo Crespo/Cacheado: Nozinho de fada 5分钟33秒钟" [level=3] [ref=e369]':
+                    - 'link "Cabelo Crespo/Cacheado: Nozinho de fada 5分钟33秒钟" [ref=e370]':
+                      - /url: /watch?v=Y6X4eB7AOog&pp=0gcJCQQLAYcqIYzv
+                      - text: "Cabelo Crespo/Cacheado: Nozinho de fada"
+                  - generic [ref=e372]:
+                    - group [ref=e373]:
+                      - link "Beatriz Andrade" [ref=e376]:
+                        - /url: /@jeitinhoproprio
+                    - group [ref=e377]:
+                      - generic [ref=e378]: 1万次观看
+                      - generic [ref=e379]: •
+                      - generic [ref=e380]: 12年前
+                - button "其他操作" [ref=e383]
+            - generic [ref=e390] [cursor=pointer]:
+              - link [ref=e391]:
+                - /url: /watch?v=_4qDzYCqH6w
+                - generic [ref=e398]: 7:22
+              - generic [ref=e400]:
+                - generic [ref=e401]:
+                  - heading "Penteado + Faça você mesmo (hendband) - Cabelo crespo/cacheado 7分钟22秒钟" [level=3] [ref=e402]:
+                    - link "Penteado + Faça você mesmo (hendband) - Cabelo crespo/cacheado 7分钟22秒钟" [ref=e403]:
+                      - /url: /watch?v=_4qDzYCqH6w
+                      - text: Penteado + Faça você mesmo (hendband) - Cabelo crespo/cacheado
+                  - generic [ref=e405]:
+                    - group [ref=e406]:
+                      - link "Beatriz Andrade" [ref=e409]:
+                        - /url: /@jeitinhoproprio
+                    - group [ref=e410]:
+                      - generic [ref=e411]: 2984次观看
+                      - generic [ref=e412]: •
+                      - generic [ref=e413]: 12年前
+                - button "其他操作" [ref=e416]
+            - generic [ref=e423] [cursor=pointer]:
+              - link [ref=e424]:
+                - /url: /watch?v=y7u7sQ4ji5Y
+                - generic [ref=e431]: 4:45
+              - generic [ref=e433]:
+                - generic [ref=e434]:
+                  - 'heading "Cabelo Crespo/Cacheado: Fator encolhimento 4分钟45秒钟" [level=3] [ref=e435]':
+                    - 'link "Cabelo Crespo/Cacheado: Fator encolhimento 4分钟45秒钟" [ref=e436]':
+                      - /url: /watch?v=y7u7sQ4ji5Y
+                      - text: "Cabelo Crespo/Cacheado: Fator encolhimento"
+                  - generic [ref=e438]:
+                    - group [ref=e439]:
+                      - link "Beatriz Andrade" [ref=e442]:
+                        - /url: /@jeitinhoproprio
+                    - group [ref=e443]:
+                      - generic [ref=e444]: 2.1万次观看
+                      - generic [ref=e445]: •
+                      - generic [ref=e446]: 12年前
+                - button "其他操作" [ref=e449]
+            - generic [ref=e456] [cursor=pointer]:
+              - link [ref=e457]:
+                - /url: /watch?v=-FzVfQy-ysE
+                - generic [ref=e464]: 5:03
+              - generic [ref=e466]:
+                - generic [ref=e467]:
+                  - 'heading "Cabelo crespo/cacheado: Turbante #1 5分钟3秒钟" [level=3] [ref=e468]':
+                    - 'link "Cabelo crespo/cacheado: Turbante #1 5分钟3秒钟" [ref=e469]':
+                      - /url: /watch?v=-FzVfQy-ysE
+                      - text: "Cabelo crespo/cacheado: Turbante #1"
+                  - generic [ref=e471]:
+                    - group [ref=e472]:
+                      - link "Beatriz Andrade" [ref=e475]:
+                        - /url: /@jeitinhoproprio
+                    - group [ref=e476]:
+                      - generic [ref=e477]: 6222次观看
+                      - generic [ref=e478]: •
+                      - generic [ref=e479]: 12年前
+                - button "其他操作" [ref=e482]
+            - generic [ref=e489] [cursor=pointer]:
+              - link [ref=e490]:
+                - /url: /watch?v=ieuCEWzZA8U
+                - generic [ref=e497]: 6:45
+              - generic [ref=e499]:
+                - generic [ref=e500]:
+                  - heading "Cabelo Ruim x Cabelo Bom 6分钟45秒钟" [level=3] [ref=e501]:
+                    - link "Cabelo Ruim x Cabelo Bom 6分钟45秒钟" [ref=e502]:
+                      - /url: /watch?v=ieuCEWzZA8U
+                      - text: Cabelo Ruim x Cabelo Bom
+                  - generic [ref=e504]:
+                    - group [ref=e505]:
+                      - link "Beatriz Andrade" [ref=e508]:
+                        - /url: /@jeitinhoproprio
+                    - group [ref=e509]:
+                      - generic [ref=e510]: 2万次观看
+                      - generic [ref=e511]: •
+                      - generic [ref=e512]: 12年前
+                - button "其他操作" [ref=e515]
+            - generic [ref=e522] [cursor=pointer]:
+              - link [ref=e523]:
+                - /url: /watch?v=Cvs6oE52TdI
+                - generic [ref=e530]: 5:10
+              - generic [ref=e532]:
+                - generic [ref=e533]:
+                  - 'heading "Cabelo crespo/cacheado: Dormindo com touca de cetim/seda 5分钟10秒钟" [level=3] [ref=e534]':
+                    - 'link "Cabelo crespo/cacheado: Dormindo com touca de cetim/seda 5分钟10秒钟" [ref=e535]':
+                      - /url: /watch?v=Cvs6oE52TdI
+                      - text: "Cabelo crespo/cacheado: Dormindo com touca de cetim/seda"
+                  - generic [ref=e537]:
+                    - group [ref=e538]:
+                      - link "Beatriz Andrade" [ref=e541]:
+                        - /url: /@jeitinhoproprio
+                    - group [ref=e542]:
+                      - generic [ref=e543]: 2.2万次观看
+                      - generic [ref=e544]: •
+                      - generic [ref=e545]: 12年前
+                - button "其他操作" [ref=e548]
+          - button "下一页" [ref=e556] [cursor=pointer]
+      - generic [ref=e565]:
+        - heading "热门视频" [level=2] [ref=e568]:
+          - link "热门视频" [ref=e571] [cursor=pointer]:
+            - /url: /@jeitinhoproprio/videos?view=0&sort=p&shelf_id=3
+            - generic [ref=e572]: 热门视频
+        - generic [ref=e574]:
+          - generic [ref=e577]:
+            - generic [ref=e579] [cursor=pointer]:
+              - link [ref=e580]:
+                - /url: /watch?v=rGiMguW1daY
+                - generic [ref=e587]: 15:28
+              - generic [ref=e589]:
+                - generic [ref=e590]:
+                  - 'heading "Cabelo Crespo/Cacheado: Parei de usar química! E agora??? #1 Transição 15分钟" [level=3] [ref=e591]':
+                    - 'link "Cabelo Crespo/Cacheado: Parei de usar química! E agora??? #1 Transição 15分钟" [ref=e592]':
+                      - /url: /watch?v=rGiMguW1daY
+                      - text: "Cabelo Crespo/Cacheado: Parei de usar química! E agora??? #1 Transição"
+                  - group [ref=e595]:
+                    - generic [ref=e596]: 18万次观看
+                    - generic [ref=e597]: •
+                    - generic [ref=e598]: 13年前
+                - button "其他操作" [ref=e601]
+            - generic [ref=e608] [cursor=pointer]:
+              - link [ref=e609]:
+                - /url: /watch?v=-HqYts1631s
+                - generic [ref=e616]: 3:44
+              - generic [ref=e618]:
+                - generic [ref=e619]:
+                  - 'heading "Cabelo crespo/cacheado: Revitalizando com relaxante natural 3分钟44秒钟" [level=3] [ref=e620]':
+                    - 'link "Cabelo crespo/cacheado: Revitalizando com relaxante natural 3分钟44秒钟" [ref=e621]':
+                      - /url: /watch?v=-HqYts1631s
+                      - text: "Cabelo crespo/cacheado: Revitalizando com relaxante natural"
+                  - group [ref=e624]:
+                    - generic [ref=e625]: 17万次观看
+                    - generic [ref=e626]: •
+                    - generic [ref=e627]: 11年前
+                - button "其他操作" [ref=e630]
+            - generic [ref=e637] [cursor=pointer]:
+              - link [ref=e638]:
+                - /url: /watch?v=LjUSJdPSAYE
+                - generic [ref=e645]: 12:39
+              - generic [ref=e647]:
+                - generic [ref=e648]:
+                  - 'heading "Hidratação caseira para cabelo (Maizena) #1 12分钟39秒钟" [level=3] [ref=e649]':
+                    - 'link "Hidratação caseira para cabelo (Maizena) #1 12分钟39秒钟" [ref=e650]':
+                      - /url: /watch?v=LjUSJdPSAYE
+                      - text: "Hidratação caseira para cabelo (Maizena) #1"
+                  - group [ref=e653]:
+                    - generic [ref=e654]: 16万次观看
+                    - generic [ref=e655]: •
+                    - generic [ref=e656]: 14年前
+                - button "其他操作" [ref=e659]
+            - generic [ref=e666] [cursor=pointer]:
+              - link [ref=e667]:
+                - /url: /watch?v=h6K1RlBhPeY
+                - generic [ref=e674]: 9:34
+              - generic [ref=e676]:
+                - generic [ref=e677]:
+                  - heading "Mofo no Cabelo e Couro Cabeludo? 9分钟34秒钟" [level=3] [ref=e678]:
+                    - link "Mofo no Cabelo e Couro Cabeludo? 9分钟34秒钟" [ref=e679]:
+                      - /url: /watch?v=h6K1RlBhPeY
+                      - text: Mofo no Cabelo e Couro Cabeludo?
+                  - group [ref=e682]:
+                    - generic [ref=e683]: 15万次观看
+                    - generic [ref=e684]: •
+                    - generic [ref=e685]: 10年前
+                - button "其他操作" [ref=e688]
+            - generic [ref=e695] [cursor=pointer]:
+              - link [ref=e696]:
+                - /url: /watch?v=zvmiSTFUxvo
+                - generic [ref=e703]: 14:05
+              - generic [ref=e705]:
+                - generic [ref=e706]:
+                  - heading "Receita de Pavê 14分钟5秒钟" [level=3] [ref=e707]:
+                    - link "Receita de Pavê 14分钟5秒钟" [ref=e708]:
+                      - /url: /watch?v=zvmiSTFUxvo
+                      - text: Receita de Pavê
+                  - group [ref=e711]:
+                    - generic [ref=e712]: 12万次观看
+                    - generic [ref=e713]: •
+                    - generic [ref=e714]: 13年前
+                - button "其他操作" [ref=e717]
+            - generic [ref=e724] [cursor=pointer]:
+              - link [ref=e725]:
+                - /url: /watch?v=M3yWOHCq_O8
+                - generic [ref=e732]: 2:24
+              - generic [ref=e734]:
+                - generic [ref=e735]:
+                  - heading "Faça você mesmo l Diy Craft - Restaurando brinco argola 2分钟24秒钟" [level=3] [ref=e736]:
+                    - link "Faça você mesmo l Diy Craft - Restaurando brinco argola 2分钟24秒钟" [ref=e737]:
+                      - /url: /watch?v=M3yWOHCq_O8
+                      - text: Faça você mesmo l Diy Craft - Restaurando brinco argola
+                  - group [ref=e740]:
+                    - generic [ref=e741]: 12万次观看
+                    - generic [ref=e742]: •
+                    - generic [ref=e743]: 12年前
+                - button "其他操作" [ref=e746]
+          - button "下一页" [ref=e754] [cursor=pointer]
+      - generic [ref=e763]:
+        - generic [ref=e764]:
+          - heading "Maquiagem 全部播放" [level=2] [ref=e766]:
+            - link "Maquiagem" [ref=e769] [cursor=pointer]:
+              - /url: /playlist?list=PL9-4KhXYIce--zDUconGep0KL90WGIF-a
+              - generic [ref=e770]: Maquiagem
+            - link "全部播放" [ref=e774] [cursor=pointer]:
+              - /url: /watch?v=jd1uRhCJxE4&list=PL9-4KhXYIce--zDUconGep0KL90WGIF-a
+              - generic [ref=e777]: 全部播放
+          - generic [ref=e781]: Aqui estão todas as maquiagens do canal. =*
+        - generic [ref=e783]:
+          - generic [ref=e786]:
+            - generic [ref=e788] [cursor=pointer]:
+              - link [ref=e789]:
+                - /url: /watch?v=jd1uRhCJxE4
+                - generic [ref=e796]: 7:09
+              - generic [ref=e798]:
+                - generic [ref=e799]:
+                  - heading "Maquiagem Rosa e Preto 7分钟9秒钟" [level=3] [ref=e800]:
+                    - link "Maquiagem Rosa e Preto 7分钟9秒钟" [ref=e801]:
+                      - /url: /watch?v=jd1uRhCJxE4
+                      - text: Maquiagem Rosa e Preto
+                  - generic [ref=e803]:
+                    - group [ref=e804]:
+                      - link "Beatriz Andrade" [ref=e807]:
+                        - /url: /@jeitinhoproprio
+                    - group [ref=e808]:
+                      - generic [ref=e809]: 646次观看
+                      - generic [ref=e810]: •
+                      - generic [ref=e811]: 13年前
+                - button "其他操作" [ref=e814]
+            - generic [ref=e821] [cursor=pointer]:
+              - link [ref=e822]:
+                - /url: /watch?v=28wochF4wak&pp=0gcJCQQLAYcqIYzv
+                - generic [ref=e829]: 22:42
+              - generic [ref=e831]:
+                - generic [ref=e832]:
+                  - heading "Maquiagem Reveillon 2012/2013 22分钟" [level=3] [ref=e833]:
+                    - link "Maquiagem Reveillon 2012/2013 22分钟" [ref=e834]:
+                      - /url: /watch?v=28wochF4wak&pp=0gcJCQQLAYcqIYzv
+                      - text: Maquiagem Reveillon 2012/2013
+                  - generic [ref=e836]:
+                    - group [ref=e837]:
+                      - link "Beatriz Andrade" [ref=e840]:
+                        - /url: /@jeitinhoproprio
+                    - group [ref=e841]:
+                      - generic [ref=e842]: 724次观看
+                      - generic [ref=e843]: •
+                      - generic [ref=e844]: 13年前
+                - button "其他操作" [ref=e847]
+            - generic [ref=e854] [cursor=pointer]:
+              - link [ref=e855]:
+                - /url: /watch?v=LQT-w4rpDQM
+                - generic [ref=e862]: 7:34
+              - generic [ref=e864]:
+                - generic [ref=e865]:
+                  - 'heading "Maquiagem para o Natal 2012 #2 7分钟34秒钟" [level=3] [ref=e866]':
+                    - 'link "Maquiagem para o Natal 2012 #2 7分钟34秒钟" [ref=e867]':
+                      - /url: /watch?v=LQT-w4rpDQM
+                      - text: "Maquiagem para o Natal 2012 #2"
+                  - generic [ref=e869]:
+                    - group [ref=e870]:
+                      - link "Beatriz Andrade" [ref=e873]:
+                        - /url: /@jeitinhoproprio
+                    - group [ref=e874]:
+                      - generic [ref=e875]: 471次观看
+                      - generic [ref=e876]: •
+                      - generic [ref=e877]: 13年前
+                - button "其他操作" [ref=e880]
+            - generic [ref=e887] [cursor=pointer]:
+              - link [ref=e888]:
+                - /url: /watch?v=5U1X-EBDB3Q&pp=0gcJCQQLAYcqIYzv
+                - generic [ref=e895]: 8:36
+              - generic [ref=e897]:
+                - generic [ref=e898]:
+                  - 'heading "Maquiagem para Natal #1 Olho Marrom com delineador claro 8分钟36秒钟" [level=3] [ref=e899]':
+                    - 'link "Maquiagem para Natal #1 Olho Marrom com delineador claro 8分钟36秒钟" [ref=e900]':
+                      - /url: /watch?v=5U1X-EBDB3Q&pp=0gcJCQQLAYcqIYzv
+                      - text: "Maquiagem para Natal #1 Olho Marrom com delineador claro"
+                  - generic [ref=e902]:
+                    - group [ref=e903]:
+                      - link "Beatriz Andrade" [ref=e906]:
+                        - /url: /@jeitinhoproprio
+                    - group [ref=e907]:
+                      - generic [ref=e908]: 411次观看
+                      - generic [ref=e909]: •
+                      - generic [ref=e910]: 13年前
+                - button "其他操作" [ref=e913]
+            - generic [ref=e920] [cursor=pointer]:
+              - link [ref=e921]:
+                - /url: /watch?v=tOzufRoEZdI
+                - generic [ref=e928]: 9:39
+              - generic [ref=e930]:
+                - generic [ref=e931]:
+                  - heading "Make Real - Formatura Militar 9分钟39秒钟" [level=3] [ref=e932]:
+                    - link "Make Real - Formatura Militar 9分钟39秒钟" [ref=e933]:
+                      - /url: /watch?v=tOzufRoEZdI
+                      - text: Make Real - Formatura Militar
+                  - generic [ref=e935]:
+                    - group [ref=e936]:
+                      - link "Beatriz Andrade" [ref=e939]:
+                        - /url: /@jeitinhoproprio
+                    - group [ref=e940]:
+                      - generic [ref=e941]: 1306次观看
+                      - generic [ref=e942]: •
+                      - generic [ref=e943]: 13年前
+                - button "其他操作" [ref=e946]
+            - generic [ref=e953] [cursor=pointer]:
+              - link [ref=e954]:
+                - /url: /watch?v=gqkyT9LtT6g
+                - generic [ref=e961]: 7:46
+              - generic [ref=e963]:
+                - generic [ref=e964]:
+                  - heading "Make com batom tudo para negras 7分钟46秒钟" [level=3] [ref=e965]:
+                    - link "Make com batom tudo para negras 7分钟46秒钟" [ref=e966]:
+                      - /url: /watch?v=gqkyT9LtT6g
+                      - text: Make com batom tudo para negras
+                  - generic [ref=e968]:
+                    - group [ref=e969]:
+                      - link "Beatriz Andrade" [ref=e972]:
+                        - /url: /@jeitinhoproprio
+                    - group [ref=e973]:
+                      - generic [ref=e974]: 823次观看
+                      - generic [ref=e975]: •
+                      - generic [ref=e976]: 13年前
+                - button "其他操作" [ref=e979]
+          - button "下一页" [ref=e987] [cursor=pointer]
+      - generic [ref=e998]:
+        - heading "Canais em Destaque" [level=2] [ref=e999]:
+          - link "Canais em Destaque" [ref=e1002] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e1003]: Canais em Destaque
+        - button "查看全部" [ref=e1009] [cursor=pointer]:
+          - generic [ref=e1010]: 查看全部

@@ -1,0 +1,639 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - button "导视" [ref=e9] [cursor=pointer]:
+            - generic [ref=e12]:
+              - img
+          - link "YouTube 首页" [ref=e14] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e19]:
+              - img
+          - button "跳过导航" [ref=e23] [cursor=pointer]:
+            - generic [ref=e24]: 跳过导航
+        - generic [ref=e28]:
+          - search [ref=e29]:
+            - generic [ref=e30]:
+              - combobox "搜索" [expanded] [ref=e33]
+              - button "Search" [ref=e34] [cursor=pointer]:
+                - generic [ref=e37]:
+                  - img
+          - generic [ref=e39]:
+            - button "通过语音搜索内容" [ref=e41] [cursor=pointer]:
+              - generic [ref=e45]:
+                - img
+            - tooltip "tooltip"
+        - generic [ref=e50]:
+          - button "设置" [ref=e55] [cursor=pointer]:
+            - generic [ref=e58]:
+              - img
+          - link "登录" [ref=e61] [cursor=pointer]:
+            - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fchannel%252FUC3roSgRik8z31LOkoTlBYIA%252Fabout&hl=zh-CN&ec=65620
+            - generic [ref=e65]:
+              - img
+            - generic [ref=e66]: 登录
+    - navigation [ref=e70]:
+      - generic [ref=e71]:
+        - link "首页" [ref=e73] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e76]:
+            - img
+          - generic [ref=e77]: 首页
+        - link "Shorts" [ref=e79] [cursor=pointer]:
+          - /url: /shorts/
+          - generic [ref=e82]:
+            - img
+          - generic [ref=e83]: Shorts
+        - link "订阅" [ref=e85] [cursor=pointer]:
+          - /url: /feed/subscriptions
+          - generic [ref=e88]:
+            - img
+          - generic [ref=e89]: 订阅
+        - link "我" [ref=e91] [cursor=pointer]:
+          - /url: /feed/you
+          - generic [ref=e94]:
+            - img
+          - generic [ref=e95]: 我
+    - generic [ref=e96]:
+      - main [ref=e97]:
+        - generic [ref=e104]:
+          - generic [ref=e120]:
+            - heading "Estrada de Chão" [level=1] [ref=e122]
+            - generic [ref=e123]:
+              - group [ref=e124]:
+                - generic [ref=e125]: "@estradadechaobr"
+              - generic [ref=e126]: •
+              - group [ref=e127]:
+                - generic "22.4万位订阅者" [ref=e128]
+                - generic [ref=e129]: •
+                - generic [ref=e130]: 1087 个视频
+            - generic [ref=e132] [cursor=pointer]:
+              - generic [ref=e133]: Canal sobre o Agronegócio e suas nuances.
+              - button "说明。Canal sobre o Agronegócio e suas nuances.…点按即可了解详情。" [ref=e134]:
+                - generic [ref=e135]: …更多
+            - link "metodoterrarica.com.br/vendas-mtr" [ref=e140] [cursor=pointer]:
+              - /url: https://www.youtube.com/redirect?event=channel_header&redir_token=QUFFLUhqa0RlNEU0WmpRelRRRlVibHdoUGNkSmhCWHZ4d3xBQ3Jtc0ttOG1EekdQaEdPV1hqWjJYeFhMampkM2tnOWU0RGxuX0xFZG5LN0Y5N0tjZm1ld1RMbXIwMmxVc2tCMXlSbUEzSkZEdkcyZy1GTkpCYWdIS1BVbHBMUFJWdXhMQ3FWdktrYzVHQlRUSjJ6QWRob1dRRQ&q=https%3A%2F%2Fmetodoterrarica.com.br%2Fvendas-mtr%2F
+            - generic [ref=e141]:
+              - button "订阅" [ref=e144] [cursor=pointer]:
+                - generic [ref=e145]: 订阅
+              - link "社区" [ref=e151] [cursor=pointer]:
+                - /url: /@estradadechaobr/community
+                - generic [ref=e155]:
+                  - img
+                - generic [ref=e156]: 社区
+          - tablist [ref=e163]:
+            - tablist [ref=e167]:
+              - tab "首页" [selected] [ref=e168] [cursor=pointer]:
+                - generic [ref=e169]: 首页
+              - tab "视频" [ref=e170] [cursor=pointer]:
+                - generic [ref=e171]: 视频
+              - tab "Shorts" [ref=e172] [cursor=pointer]:
+                - generic [ref=e173]: Shorts
+              - tab "直播" [ref=e174] [cursor=pointer]:
+                - generic [ref=e175]: 直播
+              - tab "播放列表" [ref=e176] [cursor=pointer]:
+                - generic [ref=e177]: 播放列表
+              - tab "帖子" [ref=e178] [cursor=pointer]:
+                - generic [ref=e179]: 帖子
+              - button "搜索" [ref=e183] [cursor=pointer]:
+                - generic [ref=e186]:
+                  - img
+        - generic [ref=e193]:
+          - generic [ref=e196]:
+            - generic "YouTube 视频播放器" [ref=e200]:
+              - link "Seja Bem vindo ao Estrada de Chão" [ref=e205] [cursor=pointer]:
+                - /url: https://www.youtube.com/watch?v=T9QERirn-WI
+              - button "更多" [ref=e207] [cursor=pointer]:
+                - generic [ref=e208]:
+                  - img
+              - generic [ref=e209]:
+                - generic [ref=e210] [cursor=pointer]:
+                  - slider "播放滑块" [ref=e211]
+                  - generic:
+                    - generic:
+                      - generic:
+                        - slider "点击或滚动面板可进行精确跳转。"
+                - generic [ref=e220]:
+                  - generic [ref=e221]:
+                    - button "暂停 (k)" [ref=e222] [cursor=pointer]:
+                      - img
+                    - generic [ref=e223]:
+                      - button "取消静音 (m)" [ref=e225] [cursor=pointer]:
+                        - img
+                      - slider "音量"
+                    - button "0 分钟 0 秒/0 分钟 37 秒" [ref=e229] [cursor=pointer]: 0:00 / 0:37
+                  - generic [ref=e231]:
+                    - button [ref=e232] [cursor=pointer]:
+                      - img
+                    - button "设置" [ref=e233] [cursor=pointer]:
+                      - img
+            - generic [ref=e234]:
+              - generic [ref=e235]:
+                - heading "Seja Bem vindo ao Estrada de Chão 38秒钟" [level=3] [ref=e236]:
+                  - link "Seja Bem vindo ao Estrada de Chão" [ref=e237] [cursor=pointer]:
+                    - /url: /watch?v=T9QERirn-WI
+                - generic [ref=e240]:
+                  - generic [ref=e241]: 25,723次观看
+                  - generic [ref=e242]: •6年前
+              - generic [ref=e245]:
+                - text: "Redes Sociais: FACEBOOK (curtir página) -"
+                - link "https://www.facebook.com/pedrohenriqu..." [ref=e246] [cursor=pointer]:
+                  - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqblFoemRBSmpNODJKaXQ3S2pwXzhRUnVKaFA0UXxBQ3Jtc0ttMXYzSjhkaDMzYkw5aWhCaDQ1bFM1MW9JVWw1OGhieDktYmFnTEdvbmd5ZzZoZUdsbldNeXpzZkNXTFozSS1UdUg2cXdUdzhvZGo2djhzYkpTTEZiQzVuZ2hXQmNQanJ0dWgtWHhSbWF1SXBZOVZWUQ&q=https%3A%2F%2Fwww.facebook.com%2Fpedrohenrique.maia.10
+                - text: "INSTAGRAM:"
+                - link "https://www.instagram.com/pedrohmfranca" [ref=e247] [cursor=pointer]:
+                  - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqazdWTmM2MVp4Y0NiRmE5ZzJZZ3lLNndiN0dDd3xBQ3Jtc0tsY01UejJDSFcyTjUyS0QwN0tkejI5aUNzLXk3QkhTMU44dHQtc1AxZDFlT25iMFhwWVhJUHM3WF9xXzNFQ2F6QmluTG9xLUlZV1VfS1ZGVVlnOWZ2dzRXRWVCbC0xa1NWRDBfYjVPOURfRTVOVGpKdw&q=https%3A%2F%2Fwww.instagram.com%2Fpedrohmfranca
+          - generic [ref=e251]:
+            - heading "视频" [level=2] [ref=e254]:
+              - link "视频" [ref=e257] [cursor=pointer]:
+                - /url: /@estradadechaobr/videos?view=0&sort=dd&shelf_id=1
+                - generic [ref=e258]: 视频
+            - generic [ref=e260]:
+              - generic [ref=e263]:
+                - generic [ref=e265] [cursor=pointer]:
+                  - link [ref=e266]:
+                    - /url: /watch?v=D_JSoeKTO8M
+                    - generic [ref=e273]: 0:36
+                  - generic [ref=e275]:
+                    - generic [ref=e276]:
+                      - heading "Depoimento Sérgio 36秒钟" [level=3] [ref=e277]:
+                        - link "Depoimento Sérgio 36秒钟" [ref=e278]:
+                          - /url: /watch?v=D_JSoeKTO8M
+                          - text: Depoimento Sérgio
+                      - group [ref=e281]:
+                        - generic [ref=e282]: 5939次观看
+                        - generic [ref=e283]: •
+                        - generic [ref=e284]: 5个月前
+                    - button "其他操作" [ref=e287]:
+                      - generic [ref=e291]:
+                        - img
+                - generic [ref=e296] [cursor=pointer]:
+                  - link [ref=e297]:
+                    - /url: /watch?v=gut1ENTs1xA
+                    - generic [ref=e304]: 0:58
+                  - generic [ref=e306]:
+                    - generic [ref=e307]:
+                      - heading "Michele - Nossa Aluna do MTR (Depoimento) 58秒钟" [level=3] [ref=e308]:
+                        - link "Michele - Nossa Aluna do MTR (Depoimento) 58秒钟" [ref=e309]:
+                          - /url: /watch?v=gut1ENTs1xA
+                          - text: Michele - Nossa Aluna do MTR (Depoimento)
+                      - group [ref=e312]:
+                        - generic [ref=e313]: 1050次观看
+                        - generic [ref=e314]: •
+                        - generic [ref=e315]: 5个月前
+                    - button "其他操作" [ref=e318]:
+                      - generic [ref=e322]:
+                        - img
+                - generic [ref=e327] [cursor=pointer]:
+                  - link [ref=e328]:
+                    - /url: /watch?v=TpdbbJhT8bo
+                    - generic [ref=e335]: 1:09
+                  - generic [ref=e337]:
+                    - generic [ref=e338]:
+                      - heading "Renata MTR do Zero 1分钟9秒钟" [level=3] [ref=e339]:
+                        - link "Renata MTR do Zero 1分钟9秒钟" [ref=e340]:
+                          - /url: /watch?v=TpdbbJhT8bo
+                          - text: Renata MTR do Zero
+                      - group [ref=e343]:
+                        - generic [ref=e344]: 408次观看
+                        - generic [ref=e345]: •
+                        - generic [ref=e346]: 5个月前
+                    - button "其他操作" [ref=e349]:
+                      - generic [ref=e353]:
+                        - img
+                - generic [ref=e358] [cursor=pointer]:
+                  - link [ref=e359]:
+                    - /url: /watch?v=Q7VkLHl2awI
+                    - generic [ref=e366]: 32:54
+                  - generic [ref=e368]:
+                    - generic [ref=e369]:
+                      - heading "O empurrão que faltava para você começar a produzir hortaliças folhosas 32分钟" [level=3] [ref=e370]:
+                        - link "O empurrão que faltava para você começar a produzir hortaliças folhosas 32分钟" [ref=e371]:
+                          - /url: /watch?v=Q7VkLHl2awI
+                          - text: O empurrão que faltava para você começar a produzir hortaliças folhosas
+                      - group [ref=e374]:
+                        - generic [ref=e375]: 8278次观看
+                        - generic [ref=e376]: •
+                        - generic [ref=e377]: 6个月前
+                    - button "其他操作" [ref=e380]:
+                      - generic [ref=e384]:
+                        - img
+                - generic [ref=e389] [cursor=pointer]:
+                  - link [ref=e390]:
+                    - /url: /watch?v=CnFxM8k44i4&pp=0gcJCQQLAYcqIYzv
+                    - generic [ref=e397]: 9:26
+                  - generic [ref=e399]:
+                    - generic [ref=e400]:
+                      - heading "TOP 5 estados AGRO do BRASIL! 9分钟26秒钟" [level=3] [ref=e401]:
+                        - link "TOP 5 estados AGRO do BRASIL! 9分钟26秒钟" [ref=e402]:
+                          - /url: /watch?v=CnFxM8k44i4&pp=0gcJCQQLAYcqIYzv
+                          - text: TOP 5 estados AGRO do BRASIL!
+                      - group [ref=e405]:
+                        - generic [ref=e406]: 665次观看
+                        - generic [ref=e407]: •
+                        - generic [ref=e408]: 1年前
+                    - button "其他操作" [ref=e411]:
+                      - generic [ref=e415]:
+                        - img
+                - generic [ref=e420] [cursor=pointer]:
+                  - link [ref=e421]:
+                    - /url: /watch?v=y-a83z1_W4M
+                    - generic [ref=e428]: 10:47
+                  - generic [ref=e430]:
+                    - generic [ref=e431]:
+                      - heading "Essa guerra comercial Eua X China pode ser boa para o Brasil? 10分钟47秒钟" [level=3] [ref=e432]:
+                        - link "Essa guerra comercial Eua X China pode ser boa para o Brasil? 10分钟47秒钟" [ref=e433]:
+                          - /url: /watch?v=y-a83z1_W4M
+                          - text: Essa guerra comercial Eua X China pode ser boa para o Brasil?
+                      - group [ref=e436]:
+                        - generic [ref=e437]: 449次观看
+                        - generic [ref=e438]: •
+                        - generic [ref=e439]: 1年前
+                    - button "其他操作" [ref=e442]:
+                      - generic [ref=e446]:
+                        - img
+              - button "下一页" [ref=e452] [cursor=pointer]:
+                - generic [ref=e456]:
+                  - img
+          - generic [ref=e462]:
+            - generic [ref=e463]:
+              - generic [ref=e467]:
+                - img
+              - heading "Shorts" [level=2] [ref=e469]:
+                - generic [ref=e471]: Shorts
+              - button "其他操作" [ref=e475] [cursor=pointer]:
+                - generic [ref=e478]:
+                  - img
+            - generic [ref=e480]:
+              - generic [ref=e483]:
+                - generic [ref=e485]:
+                  - link [ref=e486] [cursor=pointer]:
+                    - /url: /shorts/yXXOz7rJJo8
+                  - generic [ref=e490] [cursor=pointer]:
+                    - link "Como realizar o sonho de plantar uma horta e viver dela?" [ref=e491]:
+                      - /url: /shorts/yXXOz7rJJo8
+                    - generic [ref=e492]: 5569次观看
+                  - button "其他操作" [ref=e494] [cursor=pointer]:
+                    - generic [ref=e498]:
+                      - img
+                - generic [ref=e503]:
+                  - link [ref=e504] [cursor=pointer]:
+                    - /url: /shorts/SihrxDsO4N8
+                  - generic [ref=e508] [cursor=pointer]:
+                    - link "Você que é dono de terra" [ref=e509]:
+                      - /url: /shorts/SihrxDsO4N8
+                    - generic [ref=e510]: 1.1万次观看
+                  - button "其他操作" [ref=e512] [cursor=pointer]:
+                    - generic [ref=e516]:
+                      - img
+                - generic [ref=e521]:
+                  - link [ref=e522] [cursor=pointer]:
+                    - /url: /shorts/yOGXFoMDmzE
+                  - generic [ref=e526] [cursor=pointer]:
+                    - link "Ganha dinheiro é escalonando a produção!" [ref=e527]:
+                      - /url: /shorts/yOGXFoMDmzE
+                    - generic [ref=e528]: 4980次观看
+                  - button "其他操作" [ref=e530] [cursor=pointer]:
+                    - generic [ref=e534]:
+                      - img
+                - generic [ref=e539]:
+                  - link [ref=e540] [cursor=pointer]:
+                    - /url: /shorts/hzk85bTswfY
+                  - generic [ref=e544] [cursor=pointer]:
+                    - link "Hidroponia ou cultivo convencional em campo aberto ?" [ref=e545]:
+                      - /url: /shorts/hzk85bTswfY
+                    - generic [ref=e546]: 3039次观看
+                  - button "其他操作" [ref=e548] [cursor=pointer]:
+                    - generic [ref=e552]:
+                      - img
+                - generic [ref=e557]:
+                  - link [ref=e558] [cursor=pointer]:
+                    - /url: /shorts/mlMNHJ61Ei8
+                  - generic [ref=e562] [cursor=pointer]:
+                    - link "Destrave 3 coisas pra ter sucesso na vida !" [ref=e563]:
+                      - /url: /shorts/mlMNHJ61Ei8
+                    - generic [ref=e564]: 5357次观看
+                  - button "其他操作" [ref=e566] [cursor=pointer]:
+                    - generic [ref=e570]:
+                      - img
+                - generic [ref=e575]:
+                  - link [ref=e576] [cursor=pointer]:
+                    - /url: /shorts/yHheidSznmU
+                  - generic [ref=e580] [cursor=pointer]:
+                    - link "Você entende mais de Horta ou de modão sertanejo ?" [ref=e581]:
+                      - /url: /shorts/yHheidSznmU
+                    - generic [ref=e582]: 2682次观看
+                  - button "其他操作" [ref=e584] [cursor=pointer]:
+                    - generic [ref=e588]:
+                      - img
+              - button "下一批" [ref=e594] [cursor=pointer]:
+                - generic [ref=e598]:
+                  - img
+          - generic [ref=e605]:
+            - heading "帖子" [level=2] [ref=e608]:
+              - link "帖子" [ref=e611] [cursor=pointer]:
+                - /url: /channel/UC3roSgRik8z31LOkoTlBYIA/posts
+                - generic [ref=e612]: 帖子
+            - generic [ref=e614]:
+              - generic [ref=e617]:
+                - link "Estrada de Chão • 3年前 Quarta feira agora! Tem live sobre produção de OVINOS! Com Rodrigo Carvelo! 为这个帖子点赞，已有 40 人点赞 tooltip 40 次赞 不喜欢这个帖子 tooltip 分享 tooltip 4 条评论 tooltip" [ref=e619] [cursor=pointer]:
+                  - generic [ref=e620]:
+                    - link [ref=e622]:
+                      - /url: /@estradadechaobr
+                    - link "Estrada de Chão" [ref=e625]:
+                      - /url: /@estradadechaobr
+                    - generic [ref=e626]: •
+                    - link "3年前" [ref=e628]:
+                      - /url: /post/Ugkx7DM4KrlKGj123CzOLeI6ws2jeFz_F7J2
+                  - generic [ref=e629]:
+                    - generic [ref=e631]: Quarta feira agora! Tem live sobre produção de OVINOS! Com Rodrigo Carvelo!
+                    - generic [ref=e632]:
+                      - group
+                  - generic [ref=e638]:
+                    - generic [ref=e639]:
+                      - link "为这个帖子点赞，已有 40 人点赞" [ref=e641]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                        - generic [ref=e645]:
+                          - img
+                      - tooltip "tooltip"
+                    - generic "40 次赞" [ref=e649]: "40"
+                    - generic [ref=e650]:
+                      - link "不喜欢这个帖子" [ref=e652]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                        - generic [ref=e656]:
+                          - img
+                      - tooltip "tooltip"
+                    - generic [ref=e661]:
+                      - button "分享" [ref=e663]:
+                        - generic [ref=e667]:
+                          - img
+                      - tooltip "tooltip"
+                    - generic [ref=e672]:
+                      - link "4 条评论" [ref=e674]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252Fpost%252FUgkx7DM4KrlKGj123CzOLeI6ws2jeFz_F7J2&hl=zh-CN
+                        - generic [ref=e678]:
+                          - img
+                        - generic [ref=e679]: "4"
+                      - tooltip "tooltip"
+                - link "Estrada de Chão • 4年前 Chegou o tão sonhado momento !! Muito obrigado a todos vocês pelos 100K inscritos ! É só o começo ! 为这个帖子点赞，已有 366 人点赞 tooltip 366 次赞 不喜欢这个帖子 tooltip 分享 tooltip 14 条评论 tooltip" [ref=e684] [cursor=pointer]:
+                  - generic [ref=e685]:
+                    - link [ref=e687]:
+                      - /url: /@estradadechaobr
+                    - link "Estrada de Chão" [ref=e690]:
+                      - /url: /@estradadechaobr
+                    - generic [ref=e691]: •
+                    - link "4年前" [ref=e693]:
+                      - /url: /post/Ugkx0jGHgWzah6qBEr07sEFXPG9_KkLoXvGs
+                  - generic [ref=e694]:
+                    - generic [ref=e696]: Chegou o tão sonhado momento !! Muito obrigado a todos vocês pelos 100K inscritos ! É só o começo !
+                    - generic [ref=e697]:
+                      - group
+                  - generic [ref=e703]:
+                    - generic [ref=e704]:
+                      - link "为这个帖子点赞，已有 366 人点赞" [ref=e706]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                        - generic [ref=e710]:
+                          - img
+                      - tooltip "tooltip"
+                    - generic "366 次赞" [ref=e714]: "366"
+                    - generic [ref=e715]:
+                      - link "不喜欢这个帖子" [ref=e717]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                        - generic [ref=e721]:
+                          - img
+                      - tooltip "tooltip"
+                    - generic [ref=e726]:
+                      - button "分享" [ref=e728]:
+                        - generic [ref=e732]:
+                          - img
+                      - tooltip "tooltip"
+                    - generic [ref=e737]:
+                      - link "14 条评论" [ref=e739]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252Fpost%252FUgkx0jGHgWzah6qBEr07sEFXPG9_KkLoXvGs&hl=zh-CN
+                        - generic [ref=e743]:
+                          - img
+                        - generic [ref=e744]: "14"
+                      - tooltip "tooltip"
+                - link "Estrada de Chão • 4年前 为这个帖子点赞，已有 223 人点赞 tooltip 223 次赞 不喜欢这个帖子 tooltip 分享 tooltip 4 条评论 tooltip" [ref=e749] [cursor=pointer]:
+                  - generic [ref=e750]:
+                    - link [ref=e752]:
+                      - /url: /@estradadechaobr
+                    - link "Estrada de Chão" [ref=e755]:
+                      - /url: /@estradadechaobr
+                    - generic [ref=e756]: •
+                    - link "4年前" [ref=e758]:
+                      - /url: /post/UgkxrFsFkgrukfmhF7wezlxDhYqZ5qbUJQHY
+                  - generic [ref=e760]:
+                    - group
+                  - generic [ref=e766]:
+                    - generic [ref=e767]:
+                      - link "为这个帖子点赞，已有 223 人点赞" [ref=e769]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                        - generic [ref=e773]:
+                          - img
+                      - tooltip "tooltip"
+                    - generic "223 次赞" [ref=e777]: "223"
+                    - generic [ref=e778]:
+                      - link "不喜欢这个帖子" [ref=e780]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                        - generic [ref=e784]:
+                          - img
+                      - tooltip "tooltip"
+                    - generic [ref=e789]:
+                      - button "分享" [ref=e791]:
+                        - generic [ref=e795]:
+                          - img
+                      - tooltip "tooltip"
+                    - generic [ref=e800]:
+                      - link "4 条评论" [ref=e802]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252Fpost%252FUgkxrFsFkgrukfmhF7wezlxDhYqZ5qbUJQHY&hl=zh-CN
+                        - generic [ref=e806]:
+                          - img
+                        - generic [ref=e807]: "4"
+                      - tooltip "tooltip"
+                - link "Estrada de Chão • 4年前 为这个帖子点赞，已有 78 人点赞 tooltip 78 次赞 不喜欢这个帖子 tooltip 分享 tooltip 评论 tooltip" [ref=e812] [cursor=pointer]:
+                  - generic [ref=e813]:
+                    - link [ref=e815]:
+                      - /url: /@estradadechaobr
+                    - link "Estrada de Chão" [ref=e818]:
+                      - /url: /@estradadechaobr
+                    - generic [ref=e819]: •
+                    - link "4年前" [ref=e821]:
+                      - /url: /post/Ugwz-lmgICgVYhohzfJ4AaABCQ
+                  - generic [ref=e823]:
+                    - group
+                  - generic [ref=e829]:
+                    - generic [ref=e830]:
+                      - link "为这个帖子点赞，已有 78 人点赞" [ref=e832]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                        - generic [ref=e836]:
+                          - img
+                      - tooltip "tooltip"
+                    - generic "78 次赞" [ref=e840]: "78"
+                    - generic [ref=e841]:
+                      - link "不喜欢这个帖子" [ref=e843]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                        - generic [ref=e847]:
+                          - img
+                      - tooltip "tooltip"
+                    - generic [ref=e852]:
+                      - button "分享" [ref=e854]:
+                        - generic [ref=e858]:
+                          - img
+                      - tooltip "tooltip"
+                    - generic [ref=e863]:
+                      - link "评论" [ref=e865]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252Fpost%252FUgwz-lmgICgVYhohzfJ4AaABCQ&hl=zh-CN
+                        - generic [ref=e869]:
+                          - img
+                      - tooltip "tooltip"
+                - link "Estrada de Chão • 5年前 LIVE AGORA! 为这个帖子点赞，已有 54 人点赞 tooltip 54 次赞 不喜欢这个帖子 tooltip 分享 tooltip 2 条评论 tooltip" [ref=e874] [cursor=pointer]:
+                  - generic [ref=e875]:
+                    - link [ref=e877]:
+                      - /url: /@estradadechaobr
+                    - link "Estrada de Chão" [ref=e880]:
+                      - /url: /@estradadechaobr
+                    - generic [ref=e881]: •
+                    - link "5年前" [ref=e883]:
+                      - /url: /post/UgxHYCEoeyIat-mUGk14AaABCQ
+                  - generic [ref=e884]:
+                    - generic [ref=e886]: LIVE AGORA!
+                    - generic [ref=e887]:
+                      - group
+                  - generic [ref=e893]:
+                    - generic [ref=e894]:
+                      - link "为这个帖子点赞，已有 54 人点赞" [ref=e896]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                        - generic [ref=e900]:
+                          - img
+                      - tooltip "tooltip"
+                    - generic "54 次赞" [ref=e904]: "54"
+                    - generic [ref=e905]:
+                      - link "不喜欢这个帖子" [ref=e907]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                        - generic [ref=e911]:
+                          - img
+                      - tooltip "tooltip"
+                    - generic [ref=e916]:
+                      - button "分享" [ref=e918]:
+                        - generic [ref=e922]:
+                          - img
+                      - tooltip "tooltip"
+                    - generic [ref=e927]:
+                      - link "2 条评论" [ref=e929]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252Fpost%252FUgxHYCEoeyIat-mUGk14AaABCQ&hl=zh-CN
+                        - generic [ref=e933]:
+                          - img
+                        - generic [ref=e934]: "2"
+                      - tooltip "tooltip"
+                - link "Estrada de Chão • 5年前 Alguém gostaria de saber de algum conteúdo especifico, ou tem alguma dúvida que eu posso ajudar? Conte comigo!!! 为这个帖子点赞，已有 24 人点赞 tooltip 24 次赞 不喜欢这个帖子 tooltip 分享 tooltip 20 条评论 tooltip" [ref=e939] [cursor=pointer]:
+                  - generic [ref=e940]:
+                    - link [ref=e942]:
+                      - /url: /@estradadechaobr
+                    - link "Estrada de Chão" [ref=e945]:
+                      - /url: /@estradadechaobr
+                    - generic [ref=e946]: •
+                    - link "5年前" [ref=e948]:
+                      - /url: /post/Ugy8kwA4JsrtRbbFPdZ4AaABCQ
+                  - generic [ref=e949]:
+                    - generic [ref=e951]: Alguém gostaria de saber de algum conteúdo especifico, ou tem alguma dúvida que eu posso ajudar? Conte comigo!!!
+                    - generic:
+                      - group
+                  - generic [ref=e954]:
+                    - generic [ref=e955]:
+                      - link "为这个帖子点赞，已有 24 人点赞" [ref=e957]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                        - generic [ref=e961]:
+                          - img
+                      - tooltip "tooltip"
+                    - generic "24 次赞" [ref=e965]: "24"
+                    - generic [ref=e966]:
+                      - link "不喜欢这个帖子" [ref=e968]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                        - generic [ref=e972]:
+                          - img
+                      - tooltip "tooltip"
+                    - generic [ref=e977]:
+                      - button "分享" [ref=e979]:
+                        - generic [ref=e983]:
+                          - img
+                      - tooltip "tooltip"
+                    - generic [ref=e988]:
+                      - link "20 条评论" [ref=e990]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252Fpost%252FUgy8kwA4JsrtRbbFPdZ4AaABCQ&hl=zh-CN
+                        - generic [ref=e994]:
+                          - img
+                        - generic [ref=e995]: "20"
+                      - tooltip "tooltip"
+              - button "下一页" [ref=e1001] [cursor=pointer]:
+                - generic [ref=e1005]:
+                  - img
+      - text: •
+  - dialog [active] [ref=e1009]:
+    - generic [ref=e1010]:
+      - generic [ref=e1013]:
+        - heading "Estrada de Chão" [level=2] [ref=e1015]:
+          - generic "Estrada de Chão" [ref=e1016]
+        - button "关闭" [ref=e1020] [cursor=pointer]:
+          - generic [ref=e1024]:
+            - img
+      - generic [ref=e1034]:
+        - generic [ref=e1036]: 说明
+        - generic [ref=e1037]: Canal sobre o Agronegócio e suas nuances. Pedro Maia e Geraldo Rodrigues (Love Orgânicos) Aqui falamos de tudo sobre o AGRO! - Notícias de mercado - Análises - Dicas técnicas - Discussões Vem com a gente!
+        - generic [ref=e1038]:
+          - generic [ref=e1040]: 链接
+          - generic [ref=e1043]:
+            - generic [ref=e1044]: Aprenda a plantar hortaliças
+            - link "metodoterrarica.com.br/vendas-mtr" [ref=e1046] [cursor=pointer]:
+              - /url: https://www.youtube.com/redirect?event=channel_description&redir_token=QUFFLUhqbXRtRG82TUVmbl9yZGZEUzZWYU1uQVNfWVkzZ3xBQ3Jtc0tsTHd3a0JnYm9QWXpyMlV5NHlVd21LamUzX18xMjFOTjBPYzRFenU1MGlNZm85bGdKa1dnekg5RjlkTzRWMHNzb0dKbTlnLTRyUW9Rb1hLM1VGSDVMYTVpSHJDUlhFbGU5QkszdmxNUldCd0ltbjNlTQ&q=https%3A%2F%2Fmetodoterrarica.com.br%2Fvendas-mtr%2F
+        - generic [ref=e1047]:
+          - generic [ref=e1049]: 更多信息
+          - table [ref=e1050]:
+            - rowgroup [ref=e1051]:
+              - row "需登录才能查看电子邮件地址" [ref=e1052]:
+                - cell [ref=e1053]:
+                  - generic [ref=e1056]:
+                    - img
+                - cell "需登录才能查看电子邮件地址" [ref=e1057]:
+                  - generic [ref=e1060]:
+                    - text: 需
+                    - link "登录" [ref=e1061] [cursor=pointer]:
+                      - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F%2540estradadechaobr&hl=zh-CN
+                    - text: 才能查看电子邮件地址
+              - row "www.youtube.com/@estradadechaobr" [ref=e1062]:
+                - cell [ref=e1063]:
+                  - generic [ref=e1066]:
+                    - img
+                - cell "www.youtube.com/@estradadechaobr" [ref=e1067]:
+                  - link "www.youtube.com/@estradadechaobr" [ref=e1068] [cursor=pointer]:
+                    - /url: http://www.youtube.com/@estradadechaobr
+              - row "巴西" [ref=e1069]:
+                - cell [ref=e1070]:
+                  - generic [ref=e1073]:
+                    - img
+                - cell "巴西" [ref=e1074]
+              - row "2019年7月24日注册" [ref=e1075]:
+                - cell [ref=e1076]:
+                  - generic [ref=e1079]:
+                    - img
+                - cell "2019年7月24日注册" [ref=e1080]:
+                  - generic [ref=e1082]: 2019年7月24日注册
+              - row "22.4万位订阅者" [ref=e1083]:
+                - cell [ref=e1084]:
+                  - generic [ref=e1087]:
+                    - img
+                - cell "22.4万位订阅者" [ref=e1088]
+              - row "1,087 个视频" [ref=e1089]:
+                - cell [ref=e1090]:
+                  - generic [ref=e1093]:
+                    - img
+                - cell "1,087 个视频" [ref=e1094]
+              - row "14,447,720次观看" [ref=e1095]:
+                - cell [ref=e1096]:
+                  - generic [ref=e1099]:
+                    - img
+                - cell "14,447,720次观看" [ref=e1100]
+        - button "分享频道" [ref=e1105] [cursor=pointer]:
+          - generic [ref=e1109]:
+            - img
+          - generic [ref=e1110]: 分享频道

@@ -1,0 +1,196 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - button "导视" [ref=e9] [cursor=pointer]:
+          - generic [ref=e12]:
+            - img
+        - link "YouTube 首页" [ref=e14] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e19]:
+            - img
+        - button "跳过导航" [ref=e23] [cursor=pointer]:
+          - generic [ref=e24]: 跳过导航
+      - generic [ref=e28]:
+        - search [ref=e29]:
+          - generic [ref=e30]:
+            - combobox "搜索" [expanded] [ref=e33]
+            - button "Search" [ref=e34] [cursor=pointer]:
+              - generic [ref=e37]:
+                - img
+        - generic [ref=e39]:
+          - button "通过语音搜索内容" [ref=e41] [cursor=pointer]:
+            - generic [ref=e45]:
+              - img
+          - tooltip "tooltip"
+      - generic [ref=e50]:
+        - button "设置" [ref=e55] [cursor=pointer]:
+          - generic [ref=e58]:
+            - img
+        - link "登录" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fchannel%252FUCkAS8ZwCY34DY5hXTwAOyhw%252Fvideos&hl=zh-CN&ec=65620
+          - generic [ref=e65]:
+            - img
+          - generic [ref=e66]: 登录
+  - navigation [ref=e70]:
+    - generic [ref=e71]:
+      - link "首页" [ref=e73] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e76]:
+          - img
+        - generic [ref=e77]: 首页
+      - link "Shorts" [ref=e79] [cursor=pointer]:
+        - /url: /shorts/
+        - generic [ref=e82]:
+          - img
+        - generic [ref=e83]: Shorts
+      - link "订阅" [ref=e85] [cursor=pointer]:
+        - /url: /feed/subscriptions
+        - generic [ref=e88]:
+          - img
+        - generic [ref=e89]: 订阅
+      - link "我" [ref=e91] [cursor=pointer]:
+        - /url: /feed/you
+        - generic [ref=e94]:
+          - img
+        - generic [ref=e95]: 我
+  - generic [ref=e96]:
+    - main [ref=e97]:
+      - generic [ref=e104]:
+        - generic [ref=e120]:
+          - heading "Gaby Azevedo- Trader" [level=1] [ref=e122]
+          - generic [ref=e123]:
+            - group [ref=e124]:
+              - generic [ref=e125]: "@gabriellyfernandesdeazevedo"
+            - generic [ref=e126]: •
+            - group [ref=e127]:
+              - generic "1,240位订阅者" [ref=e128]: 1240位订阅者
+              - generic [ref=e129]: •
+              - generic [ref=e130]: 8 个视频
+          - generic [ref=e132] [cursor=pointer]:
+            - generic [ref=e133]: Esse canal tem a finalidade de explanar ideias, estrategias, observações e analises gráficas do mercado financeiro, especialmente de day trade em mini-indice e mini-dolar.
+            - button "说明。Esse canal tem a finalidade de explanar ideias, estrategias,…点按即可了解详情。" [ref=e134]:
+              - generic [ref=e135]: …更多
+          - button "订阅" [ref=e139] [cursor=pointer]:
+            - generic [ref=e140]: 订阅
+        - tablist [ref=e147]:
+          - tablist [ref=e151]:
+            - tab "首页" [ref=e152] [cursor=pointer]:
+              - generic [ref=e153]: 首页
+            - tab "视频" [selected] [ref=e154] [cursor=pointer]:
+              - generic [ref=e155]: 视频
+            - tab "Shorts" [ref=e156] [cursor=pointer]:
+              - generic [ref=e157]: Shorts
+            - button "搜索" [ref=e161] [cursor=pointer]:
+              - generic [ref=e164]:
+                - img
+      - generic [ref=e171]:
+        - generic [ref=e175] [cursor=pointer]:
+          - link [ref=e176]:
+            - /url: /watch?v=dFAYxLFUw1U
+            - generic [ref=e183]: 3:57
+          - generic [ref=e185]:
+            - generic [ref=e186]:
+              - heading "Trader- Como operar COMPRADO e VENDIDO (para iniciantes) 📈🚀 3分钟57秒钟" [level=3] [ref=e187]:
+                - link "Trader- Como operar COMPRADO e VENDIDO (para iniciantes) 📈🚀 3分钟57秒钟" [ref=e188]:
+                  - /url: /watch?v=dFAYxLFUw1U
+                  - text: Trader- Como operar COMPRADO e VENDIDO (para iniciantes) 📈🚀
+              - group [ref=e191]:
+                - generic [ref=e192]: 1273次观看
+                - generic [ref=e193]: •
+                - generic [ref=e194]: 3年前
+            - button "其他操作" [ref=e197]:
+              - generic [ref=e201]:
+                - img
+        - generic [ref=e208] [cursor=pointer]:
+          - link [ref=e209]:
+            - /url: /watch?v=cr70l86PE-Q
+            - generic [ref=e216]: 3:03
+          - generic [ref=e218]:
+            - generic [ref=e219]:
+              - heading "Heberson e Jackeline- 13/04/2018 3分钟3秒钟" [level=3] [ref=e220]:
+                - link "Heberson e Jackeline- 13/04/2018 3分钟3秒钟" [ref=e221]:
+                  - /url: /watch?v=cr70l86PE-Q
+                  - text: Heberson e Jackeline- 13/04/2018
+              - group [ref=e224]:
+                - generic [ref=e225]: 307次观看
+                - generic [ref=e226]: •
+                - generic [ref=e227]: 8年前
+            - button "其他操作" [ref=e230]:
+              - generic [ref=e234]:
+                - img
+        - generic [ref=e241] [cursor=pointer]:
+          - link [ref=e242]:
+            - /url: /watch?v=c9O86315mTw
+            - generic [ref=e249]: 3:24
+          - generic [ref=e251]:
+            - generic [ref=e252]:
+              - heading "Weverson e Keren - GABY FOTOGRAFIAS 3分钟24秒钟" [level=3] [ref=e253]:
+                - link "Weverson e Keren - GABY FOTOGRAFIAS 3分钟24秒钟" [ref=e254]:
+                  - /url: /watch?v=c9O86315mTw
+                  - text: Weverson e Keren - GABY FOTOGRAFIAS
+              - group [ref=e257]:
+                - generic [ref=e258]: 181次观看
+                - generic [ref=e259]: •
+                - generic [ref=e260]: 8年前
+            - button "其他操作" [ref=e263]:
+              - generic [ref=e267]:
+                - img
+        - generic [ref=e274] [cursor=pointer]:
+          - link [ref=e275]:
+            - /url: /watch?v=VjmRz7ls4KE
+            - generic [ref=e282]: 1:08
+          - generic [ref=e284]:
+            - generic [ref=e285]:
+              - heading "Gaby Fotografias 1分钟8秒钟" [level=3] [ref=e286]:
+                - link "Gaby Fotografias 1分钟8秒钟" [ref=e287]:
+                  - /url: /watch?v=VjmRz7ls4KE
+                  - text: Gaby Fotografias
+              - group [ref=e290]:
+                - generic [ref=e291]: 140次观看
+                - generic [ref=e292]: •
+                - generic [ref=e293]: 8年前
+            - button "其他操作" [ref=e296]:
+              - generic [ref=e300]:
+                - img
+        - generic [ref=e307] [cursor=pointer]:
+          - link [ref=e308]:
+            - /url: /watch?v=wyxUeDBr8ys
+            - generic [ref=e314]:
+              - generic [ref=e317]:
+                - img
+              - generic [ref=e318]: 4:41
+          - generic [ref=e320]:
+            - generic [ref=e321]:
+              - heading "The dove landed on my heart - A pomba pousou em meu coração 4分钟41秒钟" [level=3] [ref=e322]:
+                - link "The dove landed on my heart - A pomba pousou em meu coração 4分钟41秒钟" [ref=e323]:
+                  - /url: /watch?v=wyxUeDBr8ys
+                  - text: The dove landed on my heart - A pomba pousou em meu coração
+              - group [ref=e326]:
+                - generic [ref=e327]: 291次观看
+                - generic [ref=e328]: •
+                - generic [ref=e329]: 11年前
+            - button "其他操作" [ref=e332]:
+              - generic [ref=e336]:
+                - img
+        - generic [ref=e343] [cursor=pointer]:
+          - link [ref=e344]:
+            - /url: /watch?v=TYlmi7c2xVI
+            - generic [ref=e350]:
+              - generic [ref=e353]:
+                - img
+              - generic [ref=e354]: 2:20
+          - generic [ref=e356]:
+            - generic [ref=e357]:
+              - heading "Well over all - Bem mais que tudo - Gideon Josiah Haynes 2分钟20秒钟" [level=3] [ref=e358]:
+                - link "Well over all - Bem mais que tudo - Gideon Josiah Haynes 2分钟20秒钟" [ref=e359]:
+                  - /url: /watch?v=TYlmi7c2xVI
+                  - text: Well over all - Bem mais que tudo - Gideon Josiah Haynes
+              - group [ref=e362]:
+                - generic [ref=e363]: 154次观看
+                - generic [ref=e364]: •
+                - generic [ref=e365]: 11年前
+            - button "其他操作" [ref=e368]:
+              - generic [ref=e372]:
+                - img
+    - text: •

@@ -1,0 +1,158 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - button "导视" [ref=e9] [cursor=pointer]
+        - link "YouTube 首页" [ref=e12] [cursor=pointer]:
+          - /url: /
+        - button "跳过导航" [ref=e19] [cursor=pointer]:
+          - generic [ref=e20]: 跳过导航
+      - generic [ref=e24]:
+        - search [ref=e25]:
+          - generic [ref=e26]:
+            - combobox "搜索" [expanded] [ref=e29]
+            - button "Search" [ref=e30] [cursor=pointer]
+        - generic [ref=e33]:
+          - button "通过语音搜索内容" [ref=e35] [cursor=pointer]
+          - tooltip "tooltip"
+      - generic [ref=e42]:
+        - button "设置" [ref=e47] [cursor=pointer]
+        - link "登录" [ref=e51] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fchannel%252FUCjc35jjWhVDtw3SirKN_WhA%252Fabout&hl=zh-CN&ec=65620
+          - generic [ref=e54]: 登录
+  - navigation [ref=e58]
+  - main [ref=e60]:
+    - generic [ref=e67]:
+      - generic [ref=e83]:
+        - heading "Rod Postal" [level=1] [ref=e85]
+        - generic [ref=e86]:
+          - group [ref=e87]:
+            - generic [ref=e88]: "@rodpostal"
+          - generic [ref=e89]: •
+          - group [ref=e90]:
+            - generic "4.07万位订阅者" [ref=e91]
+            - generic [ref=e92]: •
+            - generic [ref=e93]: 593 个视频
+        - generic [ref=e95] [cursor=pointer]:
+          - generic [ref=e96]: Maquiador e influencer!
+          - button "说明。Maquiador e influencer!…点按即可了解详情。" [ref=e97]:
+            - generic [ref=e98]: …更多
+        - button "订阅" [ref=e102] [cursor=pointer]:
+          - generic [ref=e103]: 订阅
+      - tablist [ref=e110]:
+        - tablist [ref=e114]:
+          - tab "首页" [selected] [ref=e115] [cursor=pointer]:
+            - generic [ref=e116]: 首页
+          - tab "视频" [ref=e117] [cursor=pointer]:
+            - generic [ref=e118]: 视频
+          - tab "Shorts" [ref=e119] [cursor=pointer]:
+            - generic [ref=e120]: Shorts
+          - button "搜索" [ref=e124] [cursor=pointer]
+    - generic [ref=e132]:
+      - generic [ref=e135]:
+        - generic [ref=e136]:
+          - heading "Shorts" [level=2] [ref=e140]:
+            - generic [ref=e142]: Shorts
+          - button "其他操作" [ref=e146] [cursor=pointer]
+        - generic [ref=e149]:
+          - generic [ref=e152]:
+            - generic [ref=e154]:
+              - link [ref=e155] [cursor=pointer]:
+                - /url: /shorts/ZQEJgE7cJ-M
+              - generic [ref=e159] [cursor=pointer]:
+                - 'link "LÁPIS E MÁSCARA VERDE! 💚 #maquiagem #vizzela #vizzela #mascara" [ref=e160]':
+                  - /url: /shorts/ZQEJgE7cJ-M
+                - generic [ref=e161]: 1349次观看
+              - button "其他操作" [ref=e163] [cursor=pointer]
+            - generic [ref=e170]:
+              - link [ref=e171] [cursor=pointer]:
+                - /url: /shorts/w0eirrbU8ow
+              - generic [ref=e175] [cursor=pointer]:
+                - 'link "BLUSH VERMELHO! 🔥 #maquiagem #blush #beleza" [ref=e176]':
+                  - /url: /shorts/w0eirrbU8ow
+                - generic [ref=e177]: 4160次观看
+              - button "其他操作" [ref=e179] [cursor=pointer]
+            - generic [ref=e186]:
+              - link [ref=e187] [cursor=pointer]:
+                - /url: /shorts/U6N9Mf4rpm0
+              - generic [ref=e191] [cursor=pointer]:
+                - 'link "UNHAS COM PIERCING 🤘 #unhas #nails" [ref=e192]':
+                  - /url: /shorts/U6N9Mf4rpm0
+                - generic [ref=e193]: 3076次观看
+              - button "其他操作" [ref=e195] [cursor=pointer]
+            - generic [ref=e202]:
+              - link [ref=e203] [cursor=pointer]:
+                - /url: /shorts/9aCQSZ_LbNE
+              - generic [ref=e207] [cursor=pointer]:
+                - 'link "BLUSH EM CREME VS EM PÓ 🔥 #maquiagem #blush #tutorial" [ref=e208]':
+                  - /url: /shorts/9aCQSZ_LbNE
+                - generic [ref=e209]: 4163次观看
+              - button "其他操作" [ref=e211] [cursor=pointer]
+            - generic [ref=e218]:
+              - link [ref=e219] [cursor=pointer]:
+                - /url: /shorts/qcg0bE6sUaM
+              - generic [ref=e223] [cursor=pointer]:
+                - 'link "GLOSS BT GLAZE DE BRUNA TAVARES! #maquiagem #brunatavares #resenha #gloss" [ref=e224]':
+                  - /url: /shorts/qcg0bE6sUaM
+                - generic [ref=e225]: 2061次观看
+              - button "其他操作" [ref=e227] [cursor=pointer]
+            - generic [ref=e234]:
+              - link [ref=e235] [cursor=pointer]:
+                - /url: /shorts/bw0mxedIuEM
+              - generic [ref=e239] [cursor=pointer]:
+                - 'link "PERFUME MANCHA??? 🤔 #maquiagem #makeup #perfume #kabeauty" [ref=e240]':
+                  - /url: /shorts/bw0mxedIuEM
+                - generic [ref=e241]: 1.4万次观看
+              - button "其他操作" [ref=e243] [cursor=pointer]
+          - button "下一批" [ref=e251] [cursor=pointer]
+      - generic [ref=e260]:
+        - heading "视频" [level=2] [ref=e263]:
+          - link "视频" [ref=e266] [cursor=pointer]:
+            - /url: /@rodpostal/videos?view=0&sort=dd&shelf_id=2
+            - generic [ref=e267]: 视频
+        - generic [ref=e272]:
+          - generic [ref=e274] [cursor=pointer]:
+            - link [ref=e275]:
+              - /url: /watch?v=-GUtS3AC58E
+              - generic [ref=e282]: 11:27
+            - generic [ref=e284]:
+              - generic [ref=e285]:
+                - heading "3 lugares para comer em Porto Alegre! 11分钟27秒钟" [level=3] [ref=e286]:
+                  - link "3 lugares para comer em Porto Alegre! 11分钟27秒钟" [ref=e287]:
+                    - /url: /watch?v=-GUtS3AC58E
+                    - text: 3 lugares para comer em Porto Alegre!
+                - group [ref=e290]:
+                  - generic [ref=e291]: 251次观看
+                  - generic [ref=e292]: •
+                  - generic [ref=e293]: 9个月前
+              - button "其他操作" [ref=e296]
+          - generic [ref=e303] [cursor=pointer]:
+            - link [ref=e304]:
+              - /url: /watch?v=2UlKH2qz11Q
+              - generic [ref=e311]: 34:32
+            - generic [ref=e313]:
+              - generic [ref=e314]:
+                - heading "experiência completa na serra gaúcha! pontos turísticos de Gramado! 34分钟" [level=3] [ref=e315]:
+                  - link "experiência completa na serra gaúcha! pontos turísticos de Gramado! 34分钟" [ref=e316]:
+                    - /url: /watch?v=2UlKH2qz11Q
+                    - text: experiência completa na serra gaúcha! pontos turísticos de Gramado!
+                - group [ref=e319]:
+                  - generic [ref=e320]: 310次观看
+                  - generic [ref=e321]: •
+                  - generic [ref=e322]: 10个月前
+              - button "其他操作" [ref=e325]
+          - generic [ref=e332] [cursor=pointer]:
+            - link [ref=e333]:
+              - /url: /watch?v=Yw_oOZRUr1k
+              - generic [ref=e340]: 22:43
+            - generic [ref=e342]:
+              - generic [ref=e343]:
+                - heading "Fui para a andy’s party no rio grande do sul 22分钟" [level=3] [ref=e344]:
+                  - link "Fui para a andy’s party no rio grande do sul 22分钟" [ref=e345]:
+                    - /url: /watch?v=Yw_oOZRUr1k
+                    - text: Fui para a andy’s party no rio grande do sul
+                - group [ref=e348]:
+                  - generic [ref=e349]: 254次观看
+                  - generic [ref=e350]: •
+                  - generic [ref=e351]: 11个月前
+              - button "其他操作" [ref=e354]

@@ -1,0 +1,171 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - button "导视" [ref=e9] [cursor=pointer]
+        - link "YouTube 首页" [ref=e12] [cursor=pointer]:
+          - /url: /
+        - button "跳过导航" [ref=e19] [cursor=pointer]:
+          - generic [ref=e20]: 跳过导航
+      - generic [ref=e24]:
+        - search [ref=e25]:
+          - generic [ref=e26]:
+            - combobox "搜索" [expanded] [ref=e29]
+            - button "Search" [ref=e30] [cursor=pointer]
+        - generic [ref=e33]:
+          - button "通过语音搜索内容" [ref=e35] [cursor=pointer]
+          - tooltip "tooltip"
+      - generic [ref=e42]:
+        - button "设置" [ref=e47] [cursor=pointer]
+        - link "登录" [ref=e51] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fchannel%252FUCkAS8ZwCY34DY5hXTwAOyhw%252Fabout&hl=zh-CN&ec=65620
+          - generic [ref=e54]: 登录
+  - navigation [ref=e58]
+  - main [ref=e60]:
+    - generic [ref=e67]:
+      - generic [ref=e83]:
+        - heading "Gaby Azevedo- Trader" [level=1] [ref=e85]
+        - generic [ref=e86]:
+          - group [ref=e87]:
+            - generic [ref=e88]: "@gabriellyfernandesdeazevedo"
+          - generic [ref=e89]: •
+          - group [ref=e90]:
+            - generic "1,240位订阅者" [ref=e91]: 1240位订阅者
+            - generic [ref=e92]: •
+            - generic [ref=e93]: 8 个视频
+        - generic [ref=e95] [cursor=pointer]:
+          - generic [ref=e96]: Esse canal tem a finalidade de explanar ideias, estrategias, observações e analises gráficas do mercado financeiro, especialmente de day trade em mini-indice e mini-dolar.
+          - button "说明。Esse canal tem a finalidade de explanar ideias, estrategias,…点按即可了解详情。" [ref=e97]:
+            - generic [ref=e98]: …更多
+        - button "订阅" [ref=e102] [cursor=pointer]:
+          - generic [ref=e103]: 订阅
+      - tablist [ref=e110]:
+        - tablist [ref=e114]:
+          - tab "首页" [selected] [ref=e115] [cursor=pointer]:
+            - generic [ref=e116]: 首页
+          - tab "视频" [ref=e117] [cursor=pointer]:
+            - generic [ref=e118]: 视频
+          - tab "Shorts" [ref=e119] [cursor=pointer]:
+            - generic [ref=e120]: Shorts
+          - button "搜索" [ref=e124] [cursor=pointer]
+    - generic [ref=e132]:
+      - generic [ref=e136]:
+        - heading "视频" [level=2] [ref=e139]:
+          - link "视频" [ref=e142] [cursor=pointer]:
+            - /url: /@gabriellyfernandesdeazevedo/videos?view=0&sort=dd&shelf_id=2
+            - generic [ref=e143]: 视频
+        - generic [ref=e145]:
+          - generic [ref=e148]:
+            - generic [ref=e150] [cursor=pointer]:
+              - link [ref=e151]:
+                - /url: /watch?v=dFAYxLFUw1U
+                - generic [ref=e158]: 3:57
+              - generic [ref=e160]:
+                - generic [ref=e161]:
+                  - heading "Trader- Como operar COMPRADO e VENDIDO (para iniciantes) 📈🚀 3分钟57秒钟" [level=3] [ref=e162]:
+                    - link "Trader- Como operar COMPRADO e VENDIDO (para iniciantes) 📈🚀 3分钟57秒钟" [ref=e163]:
+                      - /url: /watch?v=dFAYxLFUw1U
+                      - text: Trader- Como operar COMPRADO e VENDIDO (para iniciantes) 📈🚀
+                  - group [ref=e166]:
+                    - generic [ref=e167]: 1273次观看
+                    - generic [ref=e168]: •
+                    - generic [ref=e169]: 3年前
+                - button "其他操作" [ref=e172]
+            - generic [ref=e179] [cursor=pointer]:
+              - link [ref=e180]:
+                - /url: /watch?v=cr70l86PE-Q
+                - generic [ref=e187]: 3:03
+              - generic [ref=e189]:
+                - generic [ref=e190]:
+                  - heading "Heberson e Jackeline- 13/04/2018 3分钟3秒钟" [level=3] [ref=e191]:
+                    - link "Heberson e Jackeline- 13/04/2018 3分钟3秒钟" [ref=e192]:
+                      - /url: /watch?v=cr70l86PE-Q
+                      - text: Heberson e Jackeline- 13/04/2018
+                  - group [ref=e195]:
+                    - generic [ref=e196]: 307次观看
+                    - generic [ref=e197]: •
+                    - generic [ref=e198]: 8年前
+                - button "其他操作" [ref=e201]
+            - generic [ref=e208] [cursor=pointer]:
+              - link [ref=e209]:
+                - /url: /watch?v=c9O86315mTw
+                - generic [ref=e216]: 3:24
+              - generic [ref=e218]:
+                - generic [ref=e219]:
+                  - heading "Weverson e Keren - GABY FOTOGRAFIAS 3分钟24秒钟" [level=3] [ref=e220]:
+                    - link "Weverson e Keren - GABY FOTOGRAFIAS 3分钟24秒钟" [ref=e221]:
+                      - /url: /watch?v=c9O86315mTw
+                      - text: Weverson e Keren - GABY FOTOGRAFIAS
+                  - group [ref=e224]:
+                    - generic [ref=e225]: 181次观看
+                    - generic [ref=e226]: •
+                    - generic [ref=e227]: 8年前
+                - button "其他操作" [ref=e230]
+            - generic [ref=e237] [cursor=pointer]:
+              - link [ref=e238]:
+                - /url: /watch?v=VjmRz7ls4KE
+                - generic [ref=e245]: 1:08
+              - generic [ref=e247]:
+                - generic [ref=e248]:
+                  - heading "Gaby Fotografias 1分钟8秒钟" [level=3] [ref=e249]:
+                    - link "Gaby Fotografias 1分钟8秒钟" [ref=e250]:
+                      - /url: /watch?v=VjmRz7ls4KE
+                      - text: Gaby Fotografias
+                  - group [ref=e253]:
+                    - generic [ref=e254]: 140次观看
+                    - generic [ref=e255]: •
+                    - generic [ref=e256]: 8年前
+                - button "其他操作" [ref=e259]
+            - generic [ref=e266] [cursor=pointer]:
+              - link [ref=e267]:
+                - /url: /watch?v=wyxUeDBr8ys
+                - generic [ref=e275]: 4:41
+              - generic [ref=e277]:
+                - generic [ref=e278]:
+                  - heading "The dove landed on my heart - A pomba pousou em meu coração 4分钟41秒钟" [level=3] [ref=e279]:
+                    - link "The dove landed on my heart - A pomba pousou em meu coração 4分钟41秒钟" [ref=e280]:
+                      - /url: /watch?v=wyxUeDBr8ys
+                      - text: The dove landed on my heart - A pomba pousou em meu coração
+                  - group [ref=e283]:
+                    - generic [ref=e284]: 291次观看
+                    - generic [ref=e285]: •
+                    - generic [ref=e286]: 11年前
+                - button "其他操作" [ref=e289]
+            - generic [ref=e296] [cursor=pointer]:
+              - link [ref=e297]:
+                - /url: /watch?v=TYlmi7c2xVI
+                - generic [ref=e305]: 2:20
+              - generic [ref=e307]:
+                - generic [ref=e308]:
+                  - heading "Well over all - Bem mais que tudo - Gideon Josiah Haynes 2分钟20秒钟" [level=3] [ref=e309]:
+                    - link "Well over all - Bem mais que tudo - Gideon Josiah Haynes 2分钟20秒钟" [ref=e310]:
+                      - /url: /watch?v=TYlmi7c2xVI
+                      - text: Well over all - Bem mais que tudo - Gideon Josiah Haynes
+                  - group [ref=e313]:
+                    - generic [ref=e314]: 154次观看
+                    - generic [ref=e315]: •
+                    - generic [ref=e316]: 11年前
+                - button "其他操作" [ref=e319]
+          - button "下一页" [ref=e327] [cursor=pointer]
+      - generic [ref=e335]:
+        - generic [ref=e336]:
+          - heading "Shorts" [level=2] [ref=e340]:
+            - generic [ref=e342]: Shorts
+          - button "其他操作" [ref=e346] [cursor=pointer]
+        - generic [ref=e352]:
+          - generic [ref=e354]:
+            - link [ref=e355] [cursor=pointer]:
+              - /url: /shorts/p5M3HEiU2RE
+            - generic [ref=e359] [cursor=pointer]:
+              - 'link "Venda no mini dólar- 75 reais operando pelo celular- #daytrade #trader" [ref=e360]':
+                - /url: /shorts/p5M3HEiU2RE
+              - generic [ref=e361]: 7329次观看
+            - button "其他操作" [ref=e363] [cursor=pointer]
+          - generic [ref=e370]:
+            - link [ref=e371] [cursor=pointer]:
+              - /url: /shorts/60UqgIWgYjE
+            - generic [ref=e375] [cursor=pointer]:
+              - link "Operando pelo celular- trader B3- 54 reais no índice @eugabycabralv" [ref=e376]:
+                - /url: /shorts/60UqgIWgYjE
+              - generic [ref=e377]: 31万次观看
+            - button "其他操作" [ref=e379] [cursor=pointer]

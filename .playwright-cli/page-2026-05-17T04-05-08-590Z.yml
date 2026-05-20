@@ -1,0 +1,385 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - button "导视" [ref=e9] [cursor=pointer]:
+          - generic [ref=e12]:
+            - img
+        - link "YouTube 首页" [ref=e14] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e19]:
+            - img
+        - button "跳过导航" [ref=e23] [cursor=pointer]:
+          - generic [ref=e24]: 跳过导航
+      - generic [ref=e28]:
+        - search [ref=e29]:
+          - generic [ref=e30]:
+            - combobox "搜索" [expanded] [ref=e33]
+            - button "Search" [ref=e34] [cursor=pointer]:
+              - generic [ref=e37]:
+                - img
+        - generic [ref=e39]:
+          - button "通过语音搜索内容" [ref=e41] [cursor=pointer]
+          - tooltip "tooltip"
+      - generic [ref=e48]:
+        - button "设置" [ref=e53] [cursor=pointer]
+        - link "登录" [ref=e57] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fchannel%252FUCFCSSS7nDiG3oDt9lIX_-9g%252Fabout&hl=zh-CN&ec=65620
+          - generic [ref=e60]: 登录
+  - navigation [ref=e64]
+  - main [ref=e66]:
+    - generic [ref=e73]:
+      - generic [ref=e89]:
+        - heading "Ketlyn Geovana ♡" [level=1] [ref=e91]
+        - generic [ref=e92]:
+          - group [ref=e93]:
+            - generic [ref=e94]: "@ketlyngeovana2284"
+          - generic [ref=e95]: •
+          - group [ref=e96]:
+            - generic "1,400位订阅者" [ref=e97]: 1400位订阅者
+            - generic [ref=e98]: •
+            - generic [ref=e99]: 652 个视频
+        - generic [ref=e101] [cursor=pointer]:
+          - generic [ref=e102]: bem vindos 💖
+          - button "说明。bem vindos 💖…点按即可了解详情。" [ref=e103]:
+            - generic [ref=e104]: …更多
+        - generic [ref=e106]:
+          - link "tiktok.com/@ketlyngeovanna93?_t=8clWFKfNK2Y&_r=1" [ref=e109] [cursor=pointer]:
+            - /url: https://www.youtube.com/redirect?event=channel_header&redir_token=QUFFLUhqbkk5Mk4ybnluOWVUWDh3dFZPc3Yzd2dKZHVpZ3xBQ3Jtc0tscG9IcWxIN0k5ajNMUC1iYmQzNVRxcXRZNy1KTGlwOUkzT25mUFRXd2pLWW9vWUxBb0pFUmg0THZuLXhnN252ZDNNNlQ3cklIZUFIZ21ucGJLMUdjM3ZZVm1nekZwMDR2X3lyNGsyTXdxQXZyLWROZw&q=https%3A%2F%2Fwww.tiktok.com%2F%40ketlyngeovanna93%3F_t%3D8clWFKfNK2Y%26_r%3D1
+          - button "和另外 1 个链接" [ref=e112] [cursor=pointer]
+        - generic [ref=e113]:
+          - button "订阅" [ref=e116] [cursor=pointer]:
+            - generic [ref=e117]: 订阅
+          - button "加入此频道" [ref=e123] [cursor=pointer]:
+            - generic [ref=e126]: 加入
+      - tablist [ref=e133]:
+        - tablist [ref=e137]:
+          - tab "首页" [selected] [ref=e138] [cursor=pointer]:
+            - generic [ref=e139]: 首页
+          - tab "视频" [ref=e140] [cursor=pointer]:
+            - generic [ref=e141]: 视频
+          - tab "Shorts" [ref=e142] [cursor=pointer]:
+            - generic [ref=e143]: Shorts
+          - tab "播放列表" [ref=e144] [cursor=pointer]:
+            - generic [ref=e145]: 播放列表
+          - tab "帖子" [ref=e146] [cursor=pointer]:
+            - generic [ref=e147]: 帖子
+          - button "搜索" [ref=e151] [cursor=pointer]:
+            - generic [ref=e154]:
+              - img
+    - generic [ref=e161]:
+      - generic [ref=e165]:
+        - heading "视频" [level=2] [ref=e168]:
+          - link "视频" [ref=e171] [cursor=pointer]:
+            - /url: /@ketlyngeovana2284/videos?view=0&sort=dd&shelf_id=1
+            - generic [ref=e172]: 视频
+        - generic [ref=e174]:
+          - generic [ref=e177]:
+            - generic [ref=e179] [cursor=pointer]:
+              - link [ref=e180]:
+                - /url: /watch?v=8JtF2E8amiI
+                - generic [ref=e187]: 13:02
+              - generic [ref=e189]:
+                - generic [ref=e190]:
+                  - heading "COMPRINHAS NA SHOPEE 🧡 13分钟2秒钟" [level=3] [ref=e191]:
+                    - link "COMPRINHAS NA SHOPEE 🧡 13分钟2秒钟" [ref=e192]:
+                      - /url: /watch?v=8JtF2E8amiI
+                      - text: COMPRINHAS NA SHOPEE 🧡
+                  - group [ref=e195]:
+                    - generic [ref=e196]: 36次观看
+                    - generic [ref=e197]: •
+                    - generic [ref=e198]: 16小时前
+                - button "其他操作" [ref=e201]
+            - generic [ref=e208] [cursor=pointer]:
+              - link [ref=e209]:
+                - /url: /watch?v=WRw9Mb-CEeE
+                - generic [ref=e216]: 14:53
+              - generic [ref=e218]:
+                - generic [ref=e219]:
+                  - heading "VLOG - DIAS DAS MÃES + COMPRINHAS 🛍 14分钟53秒钟" [level=3] [ref=e220]:
+                    - link "VLOG - DIAS DAS MÃES + COMPRINHAS 🛍 14分钟53秒钟" [ref=e221]:
+                      - /url: /watch?v=WRw9Mb-CEeE
+                      - text: VLOG - DIAS DAS MÃES + COMPRINHAS 🛍
+                  - group [ref=e224]:
+                    - generic [ref=e225]: 49次观看
+                    - generic [ref=e226]: •
+                    - generic [ref=e227]: 2天前
+                - button "其他操作" [ref=e230]
+            - generic [ref=e237] [cursor=pointer]:
+              - link [ref=e238]:
+                - /url: /watch?v=aMbvQ_I1cOM
+                - generic [ref=e245]: 16:19
+              - generic [ref=e247]:
+                - generic [ref=e248]:
+                  - heading "VLOG - DENTISTA + TRABALHO + COMPRINHAS 🛍 16分钟" [level=3] [ref=e249]:
+                    - link "VLOG - DENTISTA + TRABALHO + COMPRINHAS 🛍 16分钟" [ref=e250]:
+                      - /url: /watch?v=aMbvQ_I1cOM
+                      - text: VLOG - DENTISTA + TRABALHO + COMPRINHAS 🛍
+                  - group [ref=e253]:
+                    - generic [ref=e254]: 77次观看
+                    - generic [ref=e255]: •
+                    - generic [ref=e256]: 4天前
+                - button "其他操作" [ref=e259]
+            - generic [ref=e266] [cursor=pointer]:
+              - link [ref=e267]:
+                - /url: /watch?v=Ec7nYIlh5Mw
+                - generic [ref=e274]: 17:26
+              - generic [ref=e276]:
+                - generic [ref=e277]:
+                  - heading "VLOG - ROTINA + TREINOS 17分钟" [level=3] [ref=e278]:
+                    - link "VLOG - ROTINA + TREINOS 17分钟" [ref=e279]:
+                      - /url: /watch?v=Ec7nYIlh5Mw
+                      - text: VLOG - ROTINA + TREINOS
+                  - group [ref=e282]:
+                    - generic [ref=e283]: 141次观看
+                    - generic [ref=e284]: •
+                    - generic [ref=e285]: 6天前
+                - button "其他操作" [ref=e288]
+            - generic [ref=e295] [cursor=pointer]:
+              - link [ref=e296]:
+                - /url: /watch?v=SRdMolC1FpI
+                - generic [ref=e303]: 19:46
+              - generic [ref=e305]:
+                - generic [ref=e306]:
+                  - heading "VLOG - TRABALHO + TREINOS/ ANIVERSÁRIO DELA 💖 19分钟" [level=3] [ref=e307]:
+                    - link "VLOG - TRABALHO + TREINOS/ ANIVERSÁRIO DELA 💖 19分钟" [ref=e308]:
+                      - /url: /watch?v=SRdMolC1FpI
+                      - text: VLOG - TRABALHO + TREINOS/ ANIVERSÁRIO DELA 💖
+                  - group [ref=e311]:
+                    - generic [ref=e312]: 90次观看
+                    - generic [ref=e313]: •
+                    - generic [ref=e314]: 10天前
+                - button "其他操作" [ref=e317]
+            - generic [ref=e324] [cursor=pointer]:
+              - link [ref=e325]:
+                - /url: /watch?v=YLeHHXepkZA
+                - generic [ref=e332]: 19:13
+              - generic [ref=e334]:
+                - generic [ref=e335]:
+                  - heading "VLOG - ROTINA + NOVO AMBIENTE DE TRABALHO 🎬 19分钟" [level=3] [ref=e336]:
+                    - link "VLOG - ROTINA + NOVO AMBIENTE DE TRABALHO 🎬 19分钟" [ref=e337]:
+                      - /url: /watch?v=YLeHHXepkZA
+                      - text: VLOG - ROTINA + NOVO AMBIENTE DE TRABALHO 🎬
+                  - group [ref=e340]:
+                    - generic [ref=e341]: 75次观看
+                    - generic [ref=e342]: •
+                    - generic [ref=e343]: 2周前
+                - button "其他操作" [ref=e346]
+          - button "下一页" [ref=e354] [cursor=pointer]
+      - generic [ref=e362]:
+        - generic [ref=e363]:
+          - heading "Shorts" [level=2] [ref=e367]:
+            - generic [ref=e369]: Shorts
+          - button "其他操作" [ref=e373] [cursor=pointer]
+        - generic [ref=e376]:
+          - generic [ref=e379]:
+            - generic [ref=e381]:
+              - link [ref=e382] [cursor=pointer]:
+                - /url: /shorts/Gu9Bj1ng-3A
+              - generic [ref=e386] [cursor=pointer]:
+                - 'link "#shortsfeed #shortvideo #shortsviral #shorts #processodeemagrecimento #emagrecimento" [ref=e387]':
+                  - /url: /shorts/Gu9Bj1ng-3A
+                - generic [ref=e388]: 1158次观看
+              - button "其他操作" [ref=e390] [cursor=pointer]
+            - generic [ref=e397]:
+              - link [ref=e398] [cursor=pointer]:
+                - /url: /shorts/ftHMLvaTQhU
+              - generic [ref=e402] [cursor=pointer]:
+                - 'link "#shortsfeed #shortsviral #shortvideo #shorts" [ref=e403]':
+                  - /url: /shorts/ftHMLvaTQhU
+                - generic [ref=e404]: 466次观看
+              - button "其他操作" [ref=e406] [cursor=pointer]
+            - generic [ref=e413]:
+              - link [ref=e414] [cursor=pointer]:
+                - /url: /shorts/GnjnGRNcICM
+              - generic [ref=e418] [cursor=pointer]:
+                - 'link "#shortsfeed #shortsviral #shortvideo #shorts #trend" [ref=e419]':
+                  - /url: /shorts/GnjnGRNcICM
+                - generic [ref=e420]: 1409次观看
+              - button "其他操作" [ref=e422] [cursor=pointer]
+            - generic [ref=e429]:
+              - link [ref=e430] [cursor=pointer]:
+                - /url: /shorts/mc26tXcX-_o
+              - generic [ref=e434] [cursor=pointer]:
+                - 'link "#shortsfeed #shortsfeed #shorts #shortvideo" [ref=e435]':
+                  - /url: /shorts/mc26tXcX-_o
+                - generic [ref=e436]: 180次观看
+              - button "其他操作" [ref=e438] [cursor=pointer]
+            - generic [ref=e445]:
+              - link [ref=e446] [cursor=pointer]:
+                - /url: /shorts/YEHuMtlatDg
+              - generic [ref=e450] [cursor=pointer]:
+                - 'link "#15anos #shortsfeed #shortvideo #shortsviral #shorts" [ref=e451]':
+                  - /url: /shorts/YEHuMtlatDg
+                - generic [ref=e452]: 23次观看
+              - button "其他操作" [ref=e454] [cursor=pointer]
+            - generic [ref=e461]:
+              - link [ref=e462] [cursor=pointer]:
+                - /url: /shorts/lhKtqfIPtr8
+              - generic [ref=e466] [cursor=pointer]:
+                - 'link "#shortsfeed #shortsviral #shortvideo #shorts #treino" [ref=e467]':
+                  - /url: /shorts/lhKtqfIPtr8
+                - generic [ref=e468]: 1907次观看
+              - button "其他操作" [ref=e470] [cursor=pointer]
+          - button "下一批" [ref=e478] [cursor=pointer]
+      - generic [ref=e487]:
+        - heading "帖子" [level=2] [ref=e490]:
+          - link "帖子" [ref=e493] [cursor=pointer]:
+            - /url: /channel/UCFCSSS7nDiG3oDt9lIX_-9g/posts
+            - generic [ref=e494]: 帖子
+        - generic [ref=e496]:
+          - generic [ref=e499]:
+            - link [ref=e501] [cursor=pointer]:
+              - generic [ref=e502]:
+                - link [ref=e504]:
+                  - /url: /@ketlyngeovana2284
+                - link "Ketlyn Geovana ♡" [ref=e507]:
+                  - /url: /@ketlyngeovana2284
+                - generic [ref=e508]: •
+                - link "1年前" [ref=e510]:
+                  - /url: /post/Ugkx1qMmE9R9Z2MXZSZv3UXfQuq0QELSHfDv
+              - generic [ref=e511]:
+                - generic [ref=e513]: "Feliz aniversário para mim 🎉 Hoje eu escrevo para mim, Hoje eu desejo tudo de bom para mim, Hoje eu relembro os meus momentos, Hoje eu terei sentimentos, nem que seja por um só momento. Então eu nasci, cresci, chorei, sorri, caí e levantei, afinal, a vida é assim. Então, até hoje isso acontece. Todos os dias eu renasço, todos os dias eu cresço, todos os dias eu choro, todos os dias eu dou sorrisos, todos os dias eu caio e, o mais importante, todos os dias eu levanto! Todas as quedas são necessárias para levantarmos cada vez mais forte delas. Desejo para mim: Maturidade, para eu saber agir em todos os momentos. Esperança, para que eu saiba sempre esperar, pois coisas boas virão. Alegria, para que mesmo que ela falte eu saiba sorrir. Fé, para que eu possa acreditar que irei sempre me levantar independentemente de qualquer queda! Parabéns para mim 🎉"
+                - generic [ref=e514]:
+                  - group
+              - generic [ref=e520]:
+                - generic [ref=e521]:
+                  - link "为这个帖子点赞，已有 5 人点赞" [ref=e523]:
+                    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                  - tooltip "tooltip"
+                - generic "5 次赞" [ref=e529]: "5"
+                - generic [ref=e530]:
+                  - link "不喜欢这个帖子" [ref=e532]:
+                    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                  - tooltip "tooltip"
+                - generic [ref=e539]:
+                  - button "分享" [ref=e541]
+                  - tooltip "tooltip"
+                - generic [ref=e548]:
+                  - link "评论" [ref=e550]:
+                    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252Fpost%252FUgkx1qMmE9R9Z2MXZSZv3UXfQuq0QELSHfDv&hl=zh-CN
+                  - tooltip "tooltip"
+            - link "Ketlyn Geovana ♡ • 1年前 Somos 1000 inscritos Obrigadaaaa a cada um por acompanhar aqui gratidão pela vida de cada um logo mais teremos um vídeo de comemoração 🙏🏼🥹🎈🎉 为这个帖子点赞，已有 12 人点赞 tooltip 12 次赞 不喜欢这个帖子 tooltip 分享 tooltip 2 条评论 tooltip" [ref=e557] [cursor=pointer]:
+              - generic [ref=e558]:
+                - link [ref=e560]:
+                  - /url: /@ketlyngeovana2284
+                - link "Ketlyn Geovana ♡" [ref=e563]:
+                  - /url: /@ketlyngeovana2284
+                - generic [ref=e564]: •
+                - link "1年前" [ref=e566]:
+                  - /url: /post/UgkxhHajXTQSQBVger4hzPTLOxA20tMSUA0J
+              - generic [ref=e567]:
+                - generic [ref=e569]: Somos 1000 inscritos Obrigadaaaa a cada um por acompanhar aqui gratidão pela vida de cada um logo mais teremos um vídeo de comemoração 🙏🏼🥹🎈🎉
+                - generic [ref=e570]:
+                  - group
+              - generic [ref=e576]:
+                - generic [ref=e577]:
+                  - link "为这个帖子点赞，已有 12 人点赞" [ref=e579]:
+                    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                  - tooltip "tooltip"
+                - generic "12 次赞" [ref=e585]: "12"
+                - generic [ref=e586]:
+                  - link "不喜欢这个帖子" [ref=e588]:
+                    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                  - tooltip "tooltip"
+                - generic [ref=e595]:
+                  - button "分享" [ref=e597]
+                  - tooltip "tooltip"
+                - generic [ref=e604]:
+                  - link "2 条评论" [ref=e606]:
+                    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252Fpost%252FUgkxhHajXTQSQBVger4hzPTLOxA20tMSUA0J&hl=zh-CN
+                    - generic [ref=e609]: "2"
+                  - tooltip "tooltip"
+            - link "Ketlyn Geovana ♡ • 3年前 Façam perguntas vou responder aqui pra vocês 🫶🏻♥️👀 为这个帖子点赞，已有 3 人点赞 tooltip 3 次赞 不喜欢这个帖子 tooltip 分享 tooltip 4 条评论 tooltip" [ref=e614] [cursor=pointer]:
+              - generic [ref=e615]:
+                - link [ref=e617]:
+                  - /url: /@ketlyngeovana2284
+                - link "Ketlyn Geovana ♡" [ref=e620]:
+                  - /url: /@ketlyngeovana2284
+                - generic [ref=e621]: •
+                - link "3年前" [ref=e623]:
+                  - /url: /post/UgkxAzfAw2wk2p-7r3ydHkrfqqRCCsOAywvJ
+              - generic [ref=e624]:
+                - generic [ref=e626]: Façam perguntas vou responder aqui pra vocês 🫶🏻♥️👀
+                - generic [ref=e627]:
+                  - group
+              - generic [ref=e633]:
+                - generic [ref=e634]:
+                  - link "为这个帖子点赞，已有 3 人点赞" [ref=e636]:
+                    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                  - tooltip "tooltip"
+                - generic "3 次赞" [ref=e642]: "3"
+                - generic [ref=e643]:
+                  - link "不喜欢这个帖子" [ref=e645]:
+                    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                  - tooltip "tooltip"
+                - generic [ref=e652]:
+                  - button "分享" [ref=e654]
+                  - tooltip "tooltip"
+                - generic [ref=e661]:
+                  - link "4 条评论" [ref=e663]:
+                    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252Fpost%252FUgkxAzfAw2wk2p-7r3ydHkrfqqRCCsOAywvJ&hl=zh-CN
+                    - generic [ref=e666]: "4"
+                  - tooltip "tooltip"
+            - link "Ketlyn Geovana ♡ • 3年前 Hoje completamos 4 meses mais tarde sai vídeo no canal ❤️ 为这个帖子点赞，已有 7 人点赞 tooltip 7 次赞 不喜欢这个帖子 tooltip 分享 tooltip 2 条评论 tooltip" [ref=e671] [cursor=pointer]:
+              - generic [ref=e672]:
+                - link [ref=e674]:
+                  - /url: /@ketlyngeovana2284
+                - link "Ketlyn Geovana ♡" [ref=e677]:
+                  - /url: /@ketlyngeovana2284
+                - generic [ref=e678]: •
+                - link "3年前" [ref=e680]:
+                  - /url: /post/UgkxA3S5TXHgljEAG5Tf6pInsYs4luO0RqMn
+              - generic [ref=e681]:
+                - generic [ref=e683]: Hoje completamos 4 meses mais tarde sai vídeo no canal ❤️
+                - generic [ref=e684]:
+                  - group
+              - generic [ref=e690]:
+                - generic [ref=e691]:
+                  - link "为这个帖子点赞，已有 7 人点赞" [ref=e693]:
+                    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                  - tooltip "tooltip"
+                - generic "7 次赞" [ref=e699]: "7"
+                - generic [ref=e700]:
+                  - link "不喜欢这个帖子" [ref=e702]:
+                    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                  - tooltip "tooltip"
+                - generic [ref=e709]:
+                  - button "分享" [ref=e711]
+                  - tooltip "tooltip"
+                - generic [ref=e718]:
+                  - link "2 条评论" [ref=e720]:
+                    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252Fpost%252FUgkxA3S5TXHgljEAG5Tf6pInsYs4luO0RqMn&hl=zh-CN
+                    - generic [ref=e723]: "2"
+                  - tooltip "tooltip"
+            - link "Ketlyn Geovana ♡ • 3年前 2 meses do nosso amor 🍯💛 为这个帖子点赞，已有 9 人点赞 tooltip 9 次赞 不喜欢这个帖子 tooltip 分享 tooltip 评论 tooltip" [ref=e728] [cursor=pointer]:
+              - generic [ref=e729]:
+                - link [ref=e731]:
+                  - /url: /@ketlyngeovana2284
+                - link "Ketlyn Geovana ♡" [ref=e734]:
+                  - /url: /@ketlyngeovana2284
+                - generic [ref=e735]: •
+                - link "3年前" [ref=e737]:
+                  - /url: /post/Ugkx846kOAut-ego06MUOWTl3g_lzwgSqx7_
+              - generic [ref=e738]:
+                - generic [ref=e740]: 2 meses do nosso amor 🍯💛
+                - generic [ref=e741]:
+                  - group
+              - generic [ref=e747]:
+                - generic [ref=e748]:
+                  - link "为这个帖子点赞，已有 9 人点赞" [ref=e750]:
+                    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                  - tooltip "tooltip"
+                - generic "9 次赞" [ref=e756]: "9"
+                - generic [ref=e757]:
+                  - link "不喜欢这个帖子" [ref=e759]:
+                    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                  - tooltip "tooltip"
+                - generic [ref=e766]:
+                  - button "分享" [ref=e768]
+                  - tooltip "tooltip"
+                - generic [ref=e775]:
+                  - link "评论" [ref=e777]:
+                    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252Fpost%252FUgkx846kOAut-ego06MUOWTl3g_lzwgSqx7_&hl=zh-CN
+                  - tooltip "tooltip"
+          - button "下一页" [ref=e785] [cursor=pointer]

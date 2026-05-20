@@ -1,0 +1,45 @@
+# === Secrets (NEVER COMMIT) ===
+# Note: comments must be on their OWN line — gitignore does NOT support inline comments.
+chained_proxy_merge.yaml
+.env
+*.env
+*.secret
+*.credentials
+.envrc
+
+# === Build / runtime ===
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
+*.swp
+*.tmp
+
+# === Backup files ===
+*.bak
+*.bak.*
+*.backup
+results.db.bak*
+
+# === Logs ===
+*.log
+/tmp/*.log
+*.out
+
+# === Large data files ===
+results.db
+results.db-shm
+results.db-wal
+*.json.gz
+
+# === Experiment dumps (large, regeneratable) ===
+bfs_experiment_results.json
+bfs_experiment_v2_results.json
+bfs_validate_new_results.json
+expand_via_suggest_results.json
+long_term_research/v2_experiments/*_results.json
+
+# === Temporary test artifacts ===
+_ab_test_bank.py
+/tmp/yt_test.py

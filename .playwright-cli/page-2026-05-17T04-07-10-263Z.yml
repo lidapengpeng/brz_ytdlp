@@ -1,0 +1,355 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - button "导视" [ref=e9] [cursor=pointer]
+        - link "YouTube 首页" [ref=e12] [cursor=pointer]:
+          - /url: /
+        - button "跳过导航" [ref=e19] [cursor=pointer]:
+          - generic [ref=e20]: 跳过导航
+      - generic [ref=e24]:
+        - search [ref=e25]:
+          - generic [ref=e26]:
+            - combobox "搜索" [expanded] [ref=e29]
+            - button "Search" [ref=e30] [cursor=pointer]
+        - generic [ref=e33]:
+          - button "通过语音搜索内容" [ref=e35] [cursor=pointer]
+          - tooltip "tooltip"
+      - generic [ref=e42]:
+        - button "设置" [ref=e47] [cursor=pointer]
+        - link "登录" [ref=e51] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fchannel%252FUCONubdfhAL1WPL-7dE4-_Cw%252Fabout&hl=zh-CN&ec=65620
+          - generic [ref=e54]: 登录
+  - navigation [ref=e58]
+  - main [ref=e60]:
+    - generic [ref=e67]:
+      - generic [ref=e83]:
+        - heading "canal falido" [level=1] [ref=e85]
+        - generic [ref=e86]:
+          - group [ref=e87]:
+            - generic [ref=e88]: "@canalfalido555"
+          - generic [ref=e89]: •
+          - group [ref=e90]:
+            - generic "8,860位订阅者" [ref=e91]: 8860位订阅者
+            - generic [ref=e92]: •
+            - generic [ref=e93]: 37 个视频
+        - generic [ref=e95] [cursor=pointer]:
+          - generic [ref=e96]: ✨️ranking de melhores momentos de séries e filmes 🎬
+          - button "说明。✨️ranking de melhores momentos de séries e filmes 🎬…点按即可了解详情。" [ref=e97]:
+            - generic [ref=e98]: …更多
+        - generic [ref=e99]:
+          - button "订阅" [ref=e102] [cursor=pointer]:
+            - generic [ref=e103]: 订阅
+          - link "社区" [ref=e109] [cursor=pointer]:
+            - /url: /@canalfalido555/community
+            - generic [ref=e112]: 社区
+      - tablist [ref=e119]:
+        - tablist [ref=e123]:
+          - tab "Shorts" [selected] [ref=e124] [cursor=pointer]:
+            - generic [ref=e125]: Shorts
+          - button "搜索" [ref=e129] [cursor=pointer]
+    - generic [ref=e136]:
+      - tablist [ref=e139]:
+        - tab "最新" [selected] [ref=e143] [cursor=pointer]:
+          - generic [ref=e145]: 最新
+        - tab "最热门" [ref=e152] [cursor=pointer]:
+          - generic [ref=e154]: 最热门
+        - tab "最早" [ref=e161] [cursor=pointer]:
+          - generic [ref=e163]: 最早
+      - generic [ref=e167]:
+        - generic [ref=e171]:
+          - link [ref=e172] [cursor=pointer]:
+            - /url: /shorts/E1Q3nm-v5Mw
+          - generic [ref=e176] [cursor=pointer]:
+            - link "RANKING MOMENTOS ENGRAÇADOS DO PETER GRIFFIN" [ref=e177]:
+              - /url: /shorts/E1Q3nm-v5Mw
+            - generic [ref=e178]: 11万次观看
+          - button "其他操作" [ref=e180] [cursor=pointer]
+        - generic [ref=e189]:
+          - link [ref=e190] [cursor=pointer]:
+            - /url: /shorts/chJKX2bXtAo
+          - generic [ref=e194] [cursor=pointer]:
+            - link "RANKING MOMENTOS ENGRAÇADOS DE FAMILY GUY" [ref=e195]:
+              - /url: /shorts/chJKX2bXtAo
+            - generic [ref=e196]: 13万次观看
+          - button "其他操作" [ref=e198] [cursor=pointer]
+        - generic [ref=e207]:
+          - link [ref=e208] [cursor=pointer]:
+            - /url: /shorts/EevYsHjZmHM
+          - generic [ref=e212] [cursor=pointer]:
+            - link "Ranking momentos engraçados do Peter Griffin kkkkk" [ref=e213]:
+              - /url: /shorts/EevYsHjZmHM
+            - generic [ref=e214]: 6.4万次观看
+          - button "其他操作" [ref=e216] [cursor=pointer]
+        - generic [ref=e225]:
+          - link [ref=e226] [cursor=pointer]:
+            - /url: /shorts/WWCkQTrlWbc
+          - generic [ref=e230] [cursor=pointer]:
+            - link "Ranking de momentos engraçados do Peter Griffin kkkkkkkkkkkkkkkkk" [ref=e231]:
+              - /url: /shorts/WWCkQTrlWbc
+            - generic [ref=e232]: 3.8万次观看
+          - button "其他操作" [ref=e234] [cursor=pointer]
+        - generic [ref=e243]:
+          - link [ref=e244] [cursor=pointer]:
+            - /url: /shorts/T06x6AZsWDA
+          - generic [ref=e248] [cursor=pointer]:
+            - link "Ranking Momentos Engraçados do Stewie kkkkk" [ref=e249]:
+              - /url: /shorts/T06x6AZsWDA
+            - generic [ref=e250]: 18万次观看
+          - button "其他操作" [ref=e252] [cursor=pointer]
+        - generic [ref=e261]:
+          - link [ref=e262] [cursor=pointer]:
+            - /url: /shorts/3E2r5jrQY90
+          - generic [ref=e266] [cursor=pointer]:
+            - link "Ranking Momentos Engraçados do Stewie kkkk" [ref=e267]:
+              - /url: /shorts/3E2r5jrQY90
+            - generic [ref=e268]: 2.4万次观看
+          - button "其他操作" [ref=e270] [cursor=pointer]
+        - generic [ref=e279]:
+          - link [ref=e280] [cursor=pointer]:
+            - /url: /shorts/6ek3iyuRNxY
+          - generic [ref=e284] [cursor=pointer]:
+            - link "Ranking momentos engraçados do Peter Griffin" [ref=e285]:
+              - /url: /shorts/6ek3iyuRNxY
+            - generic [ref=e286]: 17万次观看
+          - button "其他操作" [ref=e288] [cursor=pointer]
+        - generic [ref=e297]:
+          - link [ref=e298] [cursor=pointer]:
+            - /url: /shorts/aCWKeMzm0qs
+          - generic [ref=e302] [cursor=pointer]:
+            - link "Ranking de momentos engraçados do Peter Griffin kkkkk" [ref=e303]:
+              - /url: /shorts/aCWKeMzm0qs
+            - generic [ref=e304]: 6.3万次观看
+          - button "其他操作" [ref=e306] [cursor=pointer]
+        - generic [ref=e315]:
+          - link [ref=e316] [cursor=pointer]:
+            - /url: /shorts/M8vLoxMhpDU
+          - generic [ref=e320] [cursor=pointer]:
+            - link "Ranking de momentos engraçados do Brian kkkkk" [ref=e321]:
+              - /url: /shorts/M8vLoxMhpDU
+            - generic [ref=e322]: 4.9万次观看
+          - button "其他操作" [ref=e324] [cursor=pointer]
+        - generic [ref=e333]:
+          - link [ref=e334] [cursor=pointer]:
+            - /url: /shorts/NizVc0AJZUg
+          - generic [ref=e338] [cursor=pointer]:
+            - link "Ranking de momentos engraçados de Family Guy" [ref=e339]:
+              - /url: /shorts/NizVc0AJZUg
+            - generic [ref=e340]: 3.1万次观看
+          - button "其他操作" [ref=e342] [cursor=pointer]
+        - generic [ref=e351]:
+          - link [ref=e352] [cursor=pointer]:
+            - /url: /shorts/-FY6fbE85uM
+          - generic [ref=e356] [cursor=pointer]:
+            - link "Ranking de momentos engraçados do Peter Griffin" [ref=e357]:
+              - /url: /shorts/-FY6fbE85uM
+            - generic [ref=e358]: 3.6万次观看
+          - button "其他操作" [ref=e360] [cursor=pointer]
+        - generic [ref=e369]:
+          - link [ref=e370] [cursor=pointer]:
+            - /url: /shorts/g1gfcqZ-Wcc
+          - generic [ref=e374] [cursor=pointer]:
+            - link "Ranking de momentos engraçados do Stewie kkkkk" [ref=e375]:
+              - /url: /shorts/g1gfcqZ-Wcc
+            - generic [ref=e376]: 6万次观看
+          - button "其他操作" [ref=e378] [cursor=pointer]
+        - generic [ref=e387]:
+          - link [ref=e388] [cursor=pointer]:
+            - /url: /shorts/Glmpjh8e-C0
+          - generic [ref=e392] [cursor=pointer]:
+            - link "Ranking de momentos engraçados do Peter Griffin" [ref=e393]:
+              - /url: /shorts/Glmpjh8e-C0
+            - generic [ref=e394]: 6.5万次观看
+          - button "其他操作" [ref=e396] [cursor=pointer]
+        - generic [ref=e405]:
+          - link [ref=e406] [cursor=pointer]:
+            - /url: /shorts/-9fvgqpgUUc
+          - generic [ref=e410] [cursor=pointer]:
+            - link "Ranking de momentos aleatórios de Family guy kkkk" [ref=e411]:
+              - /url: /shorts/-9fvgqpgUUc
+            - generic [ref=e412]: 3.9万次观看
+          - button "其他操作" [ref=e414] [cursor=pointer]
+        - generic [ref=e423]:
+          - link [ref=e424] [cursor=pointer]:
+            - /url: /shorts/aluv4td_cnw
+          - generic [ref=e428] [cursor=pointer]:
+            - link "Ranking de momentos aleatórios do Peter Griffin kkkkk" [ref=e429]:
+              - /url: /shorts/aluv4td_cnw
+            - generic [ref=e430]: 32万次观看
+          - button "其他操作" [ref=e432] [cursor=pointer]
+        - generic [ref=e441]:
+          - link [ref=e442] [cursor=pointer]:
+            - /url: /shorts/NXykkGO0ZVM
+          - generic [ref=e446] [cursor=pointer]:
+            - link "Ranking momentos engraçados do Peter Griffin" [ref=e447]:
+              - /url: /shorts/NXykkGO0ZVM
+            - generic [ref=e448]: 9.8万次观看
+          - button "其他操作" [ref=e450] [cursor=pointer]
+        - generic [ref=e459]:
+          - link [ref=e460] [cursor=pointer]:
+            - /url: /shorts/YiWpxapXY4U
+          - generic [ref=e464] [cursor=pointer]:
+            - link "Ranking momentos engraçados do Brian kkkkk" [ref=e465]:
+              - /url: /shorts/YiWpxapXY4U
+            - generic [ref=e466]: 14万次观看
+          - button "其他操作" [ref=e468] [cursor=pointer]
+        - generic [ref=e477]:
+          - link [ref=e478] [cursor=pointer]:
+            - /url: /shorts/cIzRy44JaGA
+          - generic [ref=e482] [cursor=pointer]:
+            - link "ranking momentos engraçados do Stewie kkkkk" [ref=e483]:
+              - /url: /shorts/cIzRy44JaGA
+            - generic [ref=e484]: 11万次观看
+          - button "其他操作" [ref=e486] [cursor=pointer]
+        - generic [ref=e495]:
+          - link [ref=e496] [cursor=pointer]:
+            - /url: /shorts/7cEzmi5eMWw
+          - generic [ref=e500] [cursor=pointer]:
+            - link "ranking momentos engraçados do Peter" [ref=e501]:
+              - /url: /shorts/7cEzmi5eMWw
+            - generic [ref=e502]: 4.7万次观看
+          - button "其他操作" [ref=e504] [cursor=pointer]
+        - generic [ref=e513]:
+          - link [ref=e514] [cursor=pointer]:
+            - /url: /shorts/AgNWAFlJBhg
+          - generic [ref=e518] [cursor=pointer]:
+            - link "ranking de momentos engraçados do Stewie" [ref=e519]:
+              - /url: /shorts/AgNWAFlJBhg
+            - generic [ref=e520]: 1万次观看
+          - button "其他操作" [ref=e522] [cursor=pointer]
+        - generic [ref=e531]:
+          - link [ref=e532] [cursor=pointer]:
+            - /url: /shorts/OKGWnOEHFSU
+          - generic [ref=e536] [cursor=pointer]:
+            - link "ranking de momentos engraçados do Stewie" [ref=e537]:
+              - /url: /shorts/OKGWnOEHFSU
+            - generic [ref=e538]: 6万次观看
+          - button "其他操作" [ref=e540] [cursor=pointer]
+        - generic [ref=e549]:
+          - link [ref=e550] [cursor=pointer]:
+            - /url: /shorts/imewqool6Xg
+          - generic [ref=e554] [cursor=pointer]:
+            - link "Ranking de momentos engraçados do Peter" [ref=e555]:
+              - /url: /shorts/imewqool6Xg
+            - generic [ref=e556]: 8.2万次观看
+          - button "其他操作" [ref=e558] [cursor=pointer]
+        - generic [ref=e567]:
+          - link [ref=e568] [cursor=pointer]:
+            - /url: /shorts/4aOt4IWNfF8
+          - generic [ref=e572] [cursor=pointer]:
+            - 'link "ranking fora de contexto do gumball #ranking #gumball #shorts" [ref=e573]':
+              - /url: /shorts/4aOt4IWNfF8
+            - generic [ref=e574]: 1万次观看
+          - button "其他操作" [ref=e576] [cursor=pointer]
+        - generic [ref=e585]:
+          - link [ref=e586] [cursor=pointer]:
+            - /url: /shorts/AGPHODYk5qo
+          - generic [ref=e590] [cursor=pointer]:
+            - 'link "ranking de momentos engraçados do stewie #ranking #shorts" [ref=e591]':
+              - /url: /shorts/AGPHODYk5qo
+            - generic [ref=e592]: 13万次观看
+          - button "其他操作" [ref=e594] [cursor=pointer]
+        - generic [ref=e603]:
+          - link [ref=e604] [cursor=pointer]:
+            - /url: /shorts/tCvENyfEhKI
+          - generic [ref=e608] [cursor=pointer]:
+            - 'link "ranking de momentos engraçados do quagmire #ranking #humor #shorts" [ref=e609]':
+              - /url: /shorts/tCvENyfEhKI
+            - generic [ref=e610]: 4.8万次观看
+          - button "其他操作" [ref=e612] [cursor=pointer]
+        - generic [ref=e621]:
+          - link [ref=e622] [cursor=pointer]:
+            - /url: /shorts/Ggqu-OtODeQ
+          - generic [ref=e626] [cursor=pointer]:
+            - 'link "ranking de momentos engraçados do stewie #ranking #humor #shorts" [ref=e627]':
+              - /url: /shorts/Ggqu-OtODeQ
+            - generic [ref=e628]: 2.2万次观看
+          - button "其他操作" [ref=e630] [cursor=pointer]
+        - generic [ref=e639]:
+          - link [ref=e640] [cursor=pointer]:
+            - /url: /shorts/shRcKpPkIIo
+          - generic [ref=e644] [cursor=pointer]:
+            - 'link "ranking de momentos engraçados da família da pesada #ranking #humor #shorts" [ref=e645]':
+              - /url: /shorts/shRcKpPkIIo
+            - generic [ref=e646]: 3.2万次观看
+          - button "其他操作" [ref=e648] [cursor=pointer]
+        - generic [ref=e657]:
+          - link [ref=e658] [cursor=pointer]:
+            - /url: /shorts/4Z_1aQqk5TE
+          - generic [ref=e662] [cursor=pointer]:
+            - 'link "ranking de momentos engraçados da Meg kkkkk #ranking #humor #shorts" [ref=e663]':
+              - /url: /shorts/4Z_1aQqk5TE
+            - generic [ref=e664]: 39万次观看
+          - button "其他操作" [ref=e666] [cursor=pointer]
+        - generic [ref=e675]:
+          - link [ref=e676] [cursor=pointer]:
+            - /url: /shorts/WaVh76NK7U8
+          - generic [ref=e680] [cursor=pointer]:
+            - 'link "ranking de momentos engraçados do peter #ranking #humor #shorts" [ref=e681]':
+              - /url: /shorts/WaVh76NK7U8
+            - generic [ref=e682]: 5.3万次观看
+          - button "其他操作" [ref=e684] [cursor=pointer]
+        - generic [ref=e693]:
+          - link [ref=e694] [cursor=pointer]:
+            - /url: /shorts/lQO5nqI3XeQ
+          - generic [ref=e698] [cursor=pointer]:
+            - 'link "ranking de momentos engraçados do peter kkkkk #ranking #humor #shorts" [ref=e699]':
+              - /url: /shorts/lQO5nqI3XeQ
+            - generic [ref=e700]: 34万次观看
+          - button "其他操作" [ref=e702] [cursor=pointer]
+        - generic [ref=e711]:
+          - link [ref=e712] [cursor=pointer]:
+            - /url: /shorts/oqI4Krkk8_o
+          - generic [ref=e716] [cursor=pointer]:
+            - 'link "ranking de momentos engraçados do stewie kkkkk #ranking #humor #shorts" [ref=e717]':
+              - /url: /shorts/oqI4Krkk8_o
+            - generic [ref=e718]: 5.1万次观看
+          - button "其他操作" [ref=e720] [cursor=pointer]
+        - generic [ref=e729]:
+          - link [ref=e730] [cursor=pointer]:
+            - /url: /shorts/mGedpqa6ZDU
+          - generic [ref=e734] [cursor=pointer]:
+            - 'link "ranking momentos engraçados do peter kkkkk #ranking #humor #memes #familyguy #shorts" [ref=e735]':
+              - /url: /shorts/mGedpqa6ZDU
+            - generic [ref=e736]: 26万次观看
+          - button "其他操作" [ref=e738] [cursor=pointer]
+        - generic [ref=e747]:
+          - link [ref=e748] [cursor=pointer]:
+            - /url: /shorts/JhDb4hU2AM8
+          - generic [ref=e752] [cursor=pointer]:
+            - 'link "ranking de momentos engraçados do quagmire kkkkk #ranking #humor #shorts" [ref=e753]':
+              - /url: /shorts/JhDb4hU2AM8
+            - generic [ref=e754]: 476万次观看
+          - button "其他操作" [ref=e756] [cursor=pointer]
+        - generic [ref=e765]:
+          - link [ref=e766] [cursor=pointer]:
+            - /url: /shorts/y8-R2DnKCDw
+          - generic [ref=e770] [cursor=pointer]:
+            - 'link "ranking de momentos engraçados do stewie #memes #ranking #shorts" [ref=e771]':
+              - /url: /shorts/y8-R2DnKCDw
+            - generic [ref=e772]: 6.5万次观看
+          - button "其他操作" [ref=e774] [cursor=pointer]
+        - generic [ref=e783]:
+          - link [ref=e784] [cursor=pointer]:
+            - /url: /shorts/PG6vrgDUT-4
+          - generic [ref=e788] [cursor=pointer]:
+            - 'link "ranking momentos engraçados do peter #ranking #memes #shorts" [ref=e789]':
+              - /url: /shorts/PG6vrgDUT-4
+            - generic [ref=e790]: 4万次观看
+          - button "其他操作" [ref=e792] [cursor=pointer]
+        - generic [ref=e801]:
+          - link [ref=e802] [cursor=pointer]:
+            - /url: /shorts/cekLRzxI2ds
+          - generic [ref=e806] [cursor=pointer]:
+            - 'link "você está terminando comigo mais eu sou..... #engraçado #memes #humor #shorts" [ref=e807]':
+              - /url: /shorts/cekLRzxI2ds
+            - generic [ref=e808]: 7382次观看
+          - button "其他操作" [ref=e810] [cursor=pointer]
+        - generic [ref=e819]:
+          - link [ref=e820] [cursor=pointer]:
+            - /url: /shorts/D9mdX0Z3-8k
+          - generic [ref=e824] [cursor=pointer]:
+            - 'link "você está terminando comigo mais eu sou.... #engraçado #memes #shorts" [ref=e825]':
+              - /url: /shorts/D9mdX0Z3-8k
+            - generic [ref=e826]: 3.3万次观看
+          - button "其他操作" [ref=e828] [cursor=pointer]

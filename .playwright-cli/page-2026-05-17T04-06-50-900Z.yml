@@ -1,0 +1,181 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - button "导视" [ref=e9] [cursor=pointer]
+        - link "YouTube 首页" [ref=e12] [cursor=pointer]:
+          - /url: /
+        - button "跳过导航" [ref=e19] [cursor=pointer]:
+          - generic [ref=e20]: 跳过导航
+      - generic [ref=e24]:
+        - search [ref=e25]:
+          - generic [ref=e26]:
+            - combobox "搜索" [expanded] [ref=e29]
+            - button "Search" [ref=e30] [cursor=pointer]
+        - generic [ref=e33]:
+          - button "通过语音搜索内容" [ref=e35] [cursor=pointer]
+          - tooltip "tooltip"
+      - generic [ref=e42]:
+        - button "设置" [ref=e47] [cursor=pointer]
+        - link "登录" [ref=e51] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fchannel%252FUCJmh73kPiGhN2xzvUsbNCBg%252Fabout&hl=zh-CN&ec=65620
+          - generic [ref=e54]: 登录
+  - navigation [ref=e58]
+  - main [ref=e60]:
+    - generic [ref=e67]:
+      - generic [ref=e83]:
+        - heading "Joyce Lopes" [level=1] [ref=e85]
+        - generic [ref=e86]:
+          - group [ref=e87]:
+            - generic [ref=e88]: "@joyacioli"
+          - generic [ref=e89]: •
+          - group [ref=e90]:
+            - generic "8.82万位订阅者" [ref=e91]
+            - generic [ref=e92]: •
+            - generic [ref=e93]: 17 个视频
+        - generic [ref=e95] [cursor=pointer]:
+          - generic [ref=e96]: As definições de gateira foram atualizadas
+          - button "说明。As definições de gateira foram atualizadas…点按即可了解详情。" [ref=e97]:
+            - generic [ref=e98]: …更多
+        - button "订阅" [ref=e102] [cursor=pointer]:
+          - generic [ref=e103]: 订阅
+      - tablist [ref=e110]:
+        - tablist [ref=e114]:
+          - tab "首页" [selected] [ref=e115] [cursor=pointer]:
+            - generic [ref=e116]: 首页
+          - tab "视频" [ref=e117] [cursor=pointer]:
+            - generic [ref=e118]: 视频
+          - tab "Shorts" [ref=e119] [cursor=pointer]:
+            - generic [ref=e120]: Shorts
+          - tab "播放列表" [ref=e121] [cursor=pointer]:
+            - generic [ref=e122]: 播放列表
+          - button "搜索" [ref=e126] [cursor=pointer]
+    - generic [ref=e134]:
+      - generic [ref=e138]:
+        - heading "视频" [level=2] [ref=e141]:
+          - link "视频" [ref=e144] [cursor=pointer]:
+            - /url: /@joyacioli/videos?view=0&sort=dd&shelf_id=1
+            - generic [ref=e145]: 视频
+        - generic [ref=e147]:
+          - generic [ref=e150]:
+            - generic [ref=e152] [cursor=pointer]:
+              - link [ref=e153]:
+                - /url: /watch?v=lqrSIsHTfBs
+                - generic [ref=e160]: 8:05
+              - generic [ref=e162]:
+                - generic [ref=e163]:
+                  - 'heading "DIY: CAMA ECOLÓGICA FÁCIL 8分钟5秒钟" [level=3] [ref=e164]':
+                    - 'link "DIY: CAMA ECOLÓGICA FÁCIL 8分钟5秒钟" [ref=e165]':
+                      - /url: /watch?v=lqrSIsHTfBs
+                      - text: "DIY: CAMA ECOLÓGICA FÁCIL"
+                  - group [ref=e168]:
+                    - generic [ref=e169]: 7630次观看
+                    - generic [ref=e170]: •
+                    - generic [ref=e171]: 4年前
+                - button "其他操作" [ref=e174]
+            - generic [ref=e181] [cursor=pointer]:
+              - link [ref=e182]:
+                - /url: /watch?v=ers-42uRYxI&pp=0gcJCQQLAYcqIYzv
+                - generic [ref=e189]: 8:26
+              - generic [ref=e191]:
+                - generic [ref=e192]:
+                  - heading "A QUANTIDADE IDEAL DE ÁGUA PARA O SEU GATO 8分钟26秒钟" [level=3] [ref=e193]:
+                    - link "A QUANTIDADE IDEAL DE ÁGUA PARA O SEU GATO 8分钟26秒钟" [ref=e194]:
+                      - /url: /watch?v=ers-42uRYxI&pp=0gcJCQQLAYcqIYzv
+                      - text: A QUANTIDADE IDEAL DE ÁGUA PARA O SEU GATO
+                  - group [ref=e197]:
+                    - generic [ref=e198]: 1万次观看
+                    - generic [ref=e199]: •
+                    - generic [ref=e200]: 6年前
+                - button "其他操作" [ref=e203]
+            - generic [ref=e210] [cursor=pointer]:
+              - link [ref=e211]:
+                - /url: /watch?v=05RuwDXJGZ0
+                - generic [ref=e218]: 10:24
+              - generic [ref=e220]:
+                - generic [ref=e221]:
+                  - heading "COMO ESCOLHER A RAÇÃO DO SEU GATO 10分钟24秒钟" [level=3] [ref=e222]:
+                    - link "COMO ESCOLHER A RAÇÃO DO SEU GATO 10分钟24秒钟" [ref=e223]:
+                      - /url: /watch?v=05RuwDXJGZ0
+                      - text: COMO ESCOLHER A RAÇÃO DO SEU GATO
+                  - group [ref=e226]:
+                    - generic [ref=e227]: 1.5万次观看
+                    - generic [ref=e228]: •
+                    - generic [ref=e229]: 6年前
+                - button "其他操作" [ref=e232]
+            - generic [ref=e239] [cursor=pointer]:
+              - link [ref=e240]:
+                - /url: /watch?v=OjVA4zgjEUo&pp=0gcJCQQLAYcqIYzv
+                - generic [ref=e247]: 12:02
+              - generic [ref=e249]:
+                - generic [ref=e250]:
+                  - heading "COMO PASSEAR COM SEU GATINHO 12分钟2秒钟" [level=3] [ref=e251]:
+                    - link "COMO PASSEAR COM SEU GATINHO 12分钟2秒钟" [ref=e252]:
+                      - /url: /watch?v=OjVA4zgjEUo&pp=0gcJCQQLAYcqIYzv
+                      - text: COMO PASSEAR COM SEU GATINHO
+                  - group [ref=e255]:
+                    - generic [ref=e256]: 10万次观看
+                    - generic [ref=e257]: •
+                    - generic [ref=e258]: 6年前
+                - button "其他操作" [ref=e261]
+            - generic [ref=e268] [cursor=pointer]:
+              - link [ref=e269]:
+                - /url: /watch?v=deDwZSc5P8k
+                - generic [ref=e276]: 9:57
+              - generic [ref=e278]:
+                - generic [ref=e279]:
+                  - heading "COMO MELHORAR O COMPORTAMENTO DO SEU GATO 9分钟57秒钟" [level=3] [ref=e280]:
+                    - link "COMO MELHORAR O COMPORTAMENTO DO SEU GATO 9分钟57秒钟" [ref=e281]:
+                      - /url: /watch?v=deDwZSc5P8k
+                      - text: COMO MELHORAR O COMPORTAMENTO DO SEU GATO
+                  - group [ref=e284]:
+                    - generic [ref=e285]: 1.2万次观看
+                    - generic [ref=e286]: •
+                    - generic [ref=e287]: 6年前
+                - button "其他操作" [ref=e290]
+            - generic [ref=e297] [cursor=pointer]:
+              - link [ref=e298]:
+                - /url: /watch?v=WlaCwv67F1U
+                - generic [ref=e305]: 5:17
+              - generic [ref=e307]:
+                - generic [ref=e308]:
+                  - 'heading "AGORA VAI? TEMOS NOVIDADES: NOVOS VOLUNTÁRIOS! 5分钟17秒钟" [level=3] [ref=e309]':
+                    - 'link "AGORA VAI? TEMOS NOVIDADES: NOVOS VOLUNTÁRIOS! 5分钟17秒钟" [ref=e310]':
+                      - /url: /watch?v=WlaCwv67F1U
+                      - text: "AGORA VAI? TEMOS NOVIDADES: NOVOS VOLUNTÁRIOS!"
+                  - group [ref=e313]:
+                    - generic [ref=e314]: 4030次观看
+                    - generic [ref=e315]: •
+                    - generic [ref=e316]: 6年前
+                - button "其他操作" [ref=e319]
+          - button "下一页" [ref=e327] [cursor=pointer]
+      - generic [ref=e335]:
+        - generic [ref=e336]:
+          - heading "Shorts" [level=2] [ref=e340]:
+            - generic [ref=e342]: Shorts
+          - button "其他操作" [ref=e346] [cursor=pointer]
+        - generic [ref=e352]:
+          - generic [ref=e354]:
+            - link [ref=e355] [cursor=pointer]:
+              - /url: /shorts/-0VGn6d-YyU
+            - generic [ref=e359] [cursor=pointer]:
+              - link "O que você acha de quem abandona seu animal?" [ref=e360]:
+                - /url: /shorts/-0VGn6d-YyU
+              - generic [ref=e361]: 1430次观看
+            - button "其他操作" [ref=e363] [cursor=pointer]
+          - generic [ref=e370]:
+            - link [ref=e371] [cursor=pointer]:
+              - /url: /shorts/5DiHc6zy1oE
+            - generic [ref=e375] [cursor=pointer]:
+              - link "Que tipo de gateira é você?" [ref=e376]:
+                - /url: /shorts/5DiHc6zy1oE
+              - generic [ref=e377]: 3647次观看
+            - button "其他操作" [ref=e379] [cursor=pointer]
+          - generic [ref=e386]:
+            - link [ref=e387] [cursor=pointer]:
+              - /url: /shorts/2DDoOKY4yx4
+            - generic [ref=e391] [cursor=pointer]:
+              - link "Amora e Francisco - 45 dias" [ref=e392]:
+                - /url: /shorts/2DDoOKY4yx4
+              - generic [ref=e393]: 1万次观看
+            - button "其他操作" [ref=e395] [cursor=pointer]

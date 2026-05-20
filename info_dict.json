@@ -1,0 +1,100 @@
+{
+  "id": "UCr4ARxgElIO21GWfIraZezg",
+  "channel": "Garena Free Fire Brasil",
+  "channel_id": "UCr4ARxgElIO21GWfIraZezg",
+  "title": "Garena Free Fire Brasil",
+  "availability": null,
+  "channel_follower_count": 10200000,
+  "description": "YouTube oficial Garena Free Fire Brasil, o jogo mobile de tiro e sobreviv\u00eancia. \n#SuaBatalhaSeuEstilo\nBaixe no iOS e Android\nhttp://freefire.com.br/\n",
+  "tags": [
+    "free fire",
+    "free fire news",
+    "jogo free fire",
+    "garena",
+    "free fire br",
+    "free fire c\u00f3digo",
+    "codiguin",
+    "download free fire",
+    "recarga free fire",
+    "free fire max",
+    "free fire diamantes",
+    "baixar free fire",
+    "free fire codiguin",
+    "not\u00edcias free fire",
+    "calend\u00e1rio free fire",
+    "eventos free fire",
+    "lbff",
+    "pro league free fire",
+    "liga free fire",
+    "garena free fire",
+    "free fire brasil"
+  ],
+  "thumbnails": [
+    {
+      "url": "https://yt3.googleusercontent.com/hcTJz22UmSBL0r6iVOkp_9CG2GRBbTp-qiq_C0YFBTmyn0UUmJM5U9pMF9GQ9B8nLfhe14Sby38=s900-c-k-c0x00ffffff-no-rj",
+      "height": 900,
+      "width": 900
+    },
+    {
+      "url": "https://yt3.googleusercontent.com/hcTJz22UmSBL0r6iVOkp_9CG2GRBbTp-qiq_C0YFBTmyn0UUmJM5U9pMF9GQ9B8nLfhe14Sby38=s0",
+      "id": "avatar_uncropped",
+      "preference": 1
+    },
+    {
+      "url": "https://yt3.googleusercontent.com/O99TNU7goB1DQIfp1SO6LavbOPvUdVpW93HyZPJkUndQanr7i5z_M6ir9sowrjHQ9Ahi_ebv=w1060-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+      "height": 175,
+      "width": 1060,
+      "preference": -10
+    },
+    {
+      "url": "https://yt3.googleusercontent.com/O99TNU7goB1DQIfp1SO6LavbOPvUdVpW93HyZPJkUndQanr7i5z_M6ir9sowrjHQ9Ahi_ebv=w1138-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+      "height": 188,
+      "width": 1138,
+      "preference": -10
+    },
+    {
+      "url": "https://yt3.googleusercontent.com/O99TNU7goB1DQIfp1SO6LavbOPvUdVpW93HyZPJkUndQanr7i5z_M6ir9sowrjHQ9Ahi_ebv=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+      "height": 283,
+      "width": 1707,
+      "preference": -10
+    },
+    {
+      "url": "https://yt3.googleusercontent.com/O99TNU7goB1DQIfp1SO6LavbOPvUdVpW93HyZPJkUndQanr7i5z_M6ir9sowrjHQ9Ahi_ebv=w2120-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+      "height": 351,
+      "width": 2120,
+      "preference": -10
+    },
+    {
+      "url": "https://yt3.googleusercontent.com/O99TNU7goB1DQIfp1SO6LavbOPvUdVpW93HyZPJkUndQanr7i5z_M6ir9sowrjHQ9Ahi_ebv=w2276-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+      "height": 377,
+      "width": 2276,
+      "preference": -10
+    },
+    {
+      "url": "https://yt3.googleusercontent.com/O99TNU7goB1DQIfp1SO6LavbOPvUdVpW93HyZPJkUndQanr7i5z_M6ir9sowrjHQ9Ahi_ebv=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+      "height": 424,
+      "width": 2560,
+      "preference": -10
+    },
+    {
+      "url": "https://yt3.googleusercontent.com/O99TNU7goB1DQIfp1SO6LavbOPvUdVpW93HyZPJkUndQanr7i5z_M6ir9sowrjHQ9Ahi_ebv=s0",
+      "id": "banner_uncropped",
+      "preference": -5
+    }
+  ],
+  "uploader_id": "@GarenaFreeFireBrasil",
+  "uploader_url": "https://www.youtube.com/@GarenaFreeFireBrasil",
+  "modified_date": null,
+  "view_count": null,
+  "playlist_count": null,
+  "uploader": "Garena Free Fire Brasil",
+  "channel_url": "https://www.youtube.com/channel/UCr4ARxgElIO21GWfIraZezg",
+  "_type": "playlist",
+  "entries": [],
+  "webpage_url": "https://www.youtube.com/channel/UCr4ARxgElIO21GWfIraZezg/about",
+  "original_url": "https://www.youtube.com/channel/UCr4ARxgElIO21GWfIraZezg/about",
+  "webpage_url_basename": "about",
+  "webpage_url_domain": "youtube.com",
+  "extractor": "youtube:tab",
+  "extractor_key": "YoutubeTab"
+}

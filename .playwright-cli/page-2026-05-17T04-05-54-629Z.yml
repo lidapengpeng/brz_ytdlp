@@ -1,0 +1,217 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - button "导视" [ref=e9] [cursor=pointer]
+        - link "YouTube 首页" [ref=e12] [cursor=pointer]:
+          - /url: /
+        - button "跳过导航" [ref=e19] [cursor=pointer]:
+          - generic [ref=e20]: 跳过导航
+      - generic [ref=e24]:
+        - search [ref=e25]:
+          - generic [ref=e26]:
+            - combobox "搜索" [expanded] [ref=e29]
+            - button "Search" [ref=e30] [cursor=pointer]
+        - generic [ref=e33]:
+          - button "通过语音搜索内容" [ref=e35] [cursor=pointer]
+          - tooltip "tooltip"
+      - generic [ref=e42]:
+        - button "设置" [ref=e47] [cursor=pointer]
+        - link "登录" [ref=e51] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fchannel%252FUC-tvKLGE-Sl3_iOvxN27ZAA%252Fabout&hl=zh-CN&ec=65620
+          - generic [ref=e54]: 登录
+  - navigation [ref=e58]
+  - main [ref=e60]:
+    - generic [ref=e67]:
+      - generic [ref=e83]:
+        - heading "Marcos Orlandini" [level=1] [ref=e85]
+        - generic [ref=e86]:
+          - group [ref=e87]:
+            - generic [ref=e88]: "@marcosorlandiniimoveis"
+          - generic [ref=e89]: •
+          - group [ref=e90]:
+            - generic "1.1万位订阅者" [ref=e91]
+            - generic [ref=e92]: •
+            - generic [ref=e93]: 165 个视频
+        - generic [ref=e95] [cursor=pointer]:
+          - generic [ref=e96]: Olá, meu nome é Marcos Orlandini, sou especialista em soluções juridicas e investimentos imobiliários.
+          - button "说明。Olá, meu nome é Marcos Orlandini, sou especialista em solu…点按即可了解详情。" [ref=e97]:
+            - generic [ref=e98]: …更多
+        - generic [ref=e100]:
+          - link "instagram.com/mporlandini" [ref=e103] [cursor=pointer]:
+            - /url: https://www.youtube.com/redirect?event=channel_header&redir_token=QUFFLUhqbmdFM0ZZekhqa0dyTVZlcEVNQnAwNXJOd2k1d3xBQ3Jtc0tsYmktZTVTMHdCTktzRTd0UlpsMXgzbXNWMkkxQVJNWDNrcEtfNEU3cEh5RGNMb3ppOEFDa25oREVvZno1VTY3dnA4d1lHVEdLQ2dibHVDMC1MNTNUelJrVFl0Y3JEbThhRXh2TUc3UVIwS2RDWW4tOA&q=https%3A%2F%2Fwww.instagram.com%2Fmporlandini
+          - button "和另外 2 个链接" [ref=e106] [cursor=pointer]
+        - generic [ref=e107]:
+          - button "订阅" [ref=e110] [cursor=pointer]:
+            - generic [ref=e111]: 订阅
+          - link "社区" [ref=e117] [cursor=pointer]:
+            - /url: /@marcosorlandiniimoveis/community
+            - generic [ref=e120]: 社区
+      - tablist [ref=e127]:
+        - tablist [ref=e131]:
+          - tab "首页" [selected] [ref=e132] [cursor=pointer]:
+            - generic [ref=e133]: 首页
+          - tab "视频" [ref=e134] [cursor=pointer]:
+            - generic [ref=e135]: 视频
+          - tab "Shorts" [ref=e136] [cursor=pointer]:
+            - generic [ref=e137]: Shorts
+          - tab "播放列表" [ref=e138] [cursor=pointer]:
+            - generic [ref=e139]: 播放列表
+          - tab "帖子" [ref=e140] [cursor=pointer]:
+            - generic [ref=e141]: 帖子
+          - button "搜索" [ref=e145] [cursor=pointer]
+    - generic [ref=e153]:
+      - generic [ref=e156]:
+        - generic [ref=e157]:
+          - heading "Shorts" [level=2] [ref=e161]:
+            - generic [ref=e163]: Shorts
+          - button "其他操作" [ref=e167] [cursor=pointer]
+        - generic [ref=e170]:
+          - generic [ref=e173]:
+            - generic [ref=e175]:
+              - link [ref=e176] [cursor=pointer]:
+                - /url: /shorts/4Z7ryGCvF3A
+              - generic [ref=e180] [cursor=pointer]:
+                - 'link "O que acham dessa chácara ? #santacatarina #natureza #viagem #sitioavenda" [ref=e181]':
+                  - /url: /shorts/4Z7ryGCvF3A
+                - generic [ref=e182]: 1308次观看
+              - button "其他操作" [ref=e184] [cursor=pointer]
+            - generic [ref=e191]:
+              - link [ref=e192] [cursor=pointer]:
+                - /url: /shorts/CCDsVWEbyuk
+              - generic [ref=e196] [cursor=pointer]:
+                - link "6,5 Hectares em Águas Mornas! 🤯 (Preço INACREDITÁVEL)" [ref=e197]:
+                  - /url: /shorts/CCDsVWEbyuk
+                - generic [ref=e198]: 1842次观看
+              - button "其他操作" [ref=e200] [cursor=pointer]
+            - generic [ref=e207]:
+              - link [ref=e208] [cursor=pointer]:
+                - /url: /shorts/HSGA845kMUo
+              - generic [ref=e212] [cursor=pointer]:
+                - 'link "O que acham desse tipo de imóvel ? #santacatarina #sitio #natureza" [ref=e213]':
+                  - /url: /shorts/HSGA845kMUo
+                - generic [ref=e214]: 2953次观看
+              - button "其他操作" [ref=e216] [cursor=pointer]
+            - generic [ref=e223]:
+              - link [ref=e224] [cursor=pointer]:
+                - /url: /shorts/fjLNIfvK_O4
+              - generic [ref=e228] [cursor=pointer]:
+                - 'link "ABAIXOU O VALOR! BARBADAAA! #santacatarina #sitio #natureza" [ref=e229]':
+                  - /url: /shorts/fjLNIfvK_O4
+                - generic [ref=e230]: 2152次观看
+              - button "其他操作" [ref=e232] [cursor=pointer]
+            - generic [ref=e239]:
+              - link [ref=e240] [cursor=pointer]:
+                - /url: /shorts/sL2TL0NCjOo
+              - generic [ref=e244] [cursor=pointer]:
+                - 'link "CHÁCARA EM ÁGUAS MORNAS - SANTA CATARINA #santacatarina #natureza #vidanocampo #sitio" [ref=e245]':
+                  - /url: /shorts/sL2TL0NCjOo
+                - generic [ref=e246]: 2134次观看
+              - button "其他操作" [ref=e248] [cursor=pointer]
+            - generic [ref=e255]:
+              - link [ref=e256] [cursor=pointer]:
+                - /url: /shorts/AI3yInBiWJo
+              - generic [ref=e260] [cursor=pointer]:
+                - link "E ai, teria coragem de se mudar para uma casa assim?" [ref=e261]:
+                  - /url: /shorts/AI3yInBiWJo
+                - generic [ref=e262]: 2220次观看
+              - button "其他操作" [ref=e264] [cursor=pointer]
+          - button "下一批" [ref=e272] [cursor=pointer]
+      - generic [ref=e281]:
+        - heading "视频" [level=2] [ref=e284]:
+          - link "视频" [ref=e287] [cursor=pointer]:
+            - /url: /@marcosorlandiniimoveis/videos?view=0&sort=dd&shelf_id=2
+            - generic [ref=e288]: 视频
+        - generic [ref=e290]:
+          - generic [ref=e293]:
+            - generic [ref=e295] [cursor=pointer]:
+              - link [ref=e296]:
+                - /url: /watch?v=WvSPRmZPrvk
+                - generic [ref=e303]: 23:45
+              - generic [ref=e305]:
+                - generic [ref=e306]:
+                  - heading "SÍTIO INCRÍVEL EM RANCHO QUEIMADO - SC | MUITA PASTAGEM | RICO EM ÁGUA | 4.8 HECTARES 23分钟" [level=3] [ref=e307]:
+                    - link "SÍTIO INCRÍVEL EM RANCHO QUEIMADO - SC | MUITA PASTAGEM | RICO EM ÁGUA | 4.8 HECTARES 23分钟" [ref=e308]:
+                      - /url: /watch?v=WvSPRmZPrvk
+                      - text: SÍTIO INCRÍVEL EM RANCHO QUEIMADO - SC | MUITA PASTAGEM | RICO EM ÁGUA | 4.8 HECTARES
+                  - group [ref=e311]:
+                    - generic [ref=e312]: 3825次观看
+                    - generic [ref=e313]: •
+                    - generic [ref=e314]: 1天前
+                - button "其他操作" [ref=e317]
+            - generic [ref=e324] [cursor=pointer]:
+              - link [ref=e325]:
+                - /url: /watch?v=ARuggYq9R_w
+                - generic [ref=e332]: 11:26
+              - generic [ref=e334]:
+                - generic [ref=e335]:
+                  - heading "CHÁCARA COM 9500M² COM UMA VISTA ESPETACULAR EM SANTO AMARO DA IMPERATRIZ - SC | NASCENTE. 11分钟26秒钟" [level=3] [ref=e336]:
+                    - link "CHÁCARA COM 9500M² COM UMA VISTA ESPETACULAR EM SANTO AMARO DA IMPERATRIZ - SC | NASCENTE. 11分钟26秒钟" [ref=e337]:
+                      - /url: /watch?v=ARuggYq9R_w
+                      - text: CHÁCARA COM 9500M² COM UMA VISTA ESPETACULAR EM SANTO AMARO DA IMPERATRIZ - SC | NASCENTE.
+                  - group [ref=e340]:
+                    - generic [ref=e341]: 2429次观看
+                    - generic [ref=e342]: •
+                    - generic [ref=e343]: 3天前
+                - button "其他操作" [ref=e346]
+            - generic [ref=e353] [cursor=pointer]:
+              - link [ref=e354]:
+                - /url: /watch?v=8atSyxDWqG8
+                - generic [ref=e361]: 19:21
+              - generic [ref=e363]:
+                - generic [ref=e364]:
+                  - heading "CHÁCARA INCRIVEL EM ÁGUAS MORNAS - SC | RIACHO COM CACHOEIRINHA | PASTAGEM | POMAR RICO! 19分钟" [level=3] [ref=e365]:
+                    - link "CHÁCARA INCRIVEL EM ÁGUAS MORNAS - SC | RIACHO COM CACHOEIRINHA | PASTAGEM | POMAR RICO! 19分钟" [ref=e366]:
+                      - /url: /watch?v=8atSyxDWqG8
+                      - text: CHÁCARA INCRIVEL EM ÁGUAS MORNAS - SC | RIACHO COM CACHOEIRINHA | PASTAGEM | POMAR RICO!
+                  - group [ref=e369]:
+                    - generic [ref=e370]: 3142次观看
+                    - generic [ref=e371]: •
+                    - generic [ref=e372]: 4天前
+                - button "其他操作" [ref=e375]
+            - generic [ref=e382] [cursor=pointer]:
+              - link [ref=e383]:
+                - /url: /watch?v=c-MgXe5mF2U
+                - generic [ref=e390]: 19:40
+              - generic [ref=e392]:
+                - generic [ref=e393]:
+                  - heading "SÍTIO COM CASA COLONIAL ALEMÃ NA CIDADE DE ÁGUAS MORNAS - SC | RICO EM ÁGUA | ÁREA DE PLANTIO! 19分钟" [level=3] [ref=e394]:
+                    - link "SÍTIO COM CASA COLONIAL ALEMÃ NA CIDADE DE ÁGUAS MORNAS - SC | RICO EM ÁGUA | ÁREA DE PLANTIO! 19分钟" [ref=e395]:
+                      - /url: /watch?v=c-MgXe5mF2U
+                      - text: SÍTIO COM CASA COLONIAL ALEMÃ NA CIDADE DE ÁGUAS MORNAS - SC | RICO EM ÁGUA | ÁREA DE PLANTIO!
+                  - group [ref=e398]:
+                    - generic [ref=e399]: 3723次观看
+                    - generic [ref=e400]: •
+                    - generic [ref=e401]: 6天前
+                - button "其他操作" [ref=e404]
+            - generic [ref=e411] [cursor=pointer]:
+              - link [ref=e412]:
+                - /url: /watch?v=1ABQ5_fsX9M
+                - generic [ref=e419]: 21:11
+              - generic [ref=e421]:
+                - generic [ref=e422]:
+                  - heading "CHÁCARA DOS SONHOS EM SANTA CATARINA - PORTEIRA FECHADA! ALTO PADRÃO. 21分钟" [level=3] [ref=e423]:
+                    - link "CHÁCARA DOS SONHOS EM SANTA CATARINA - PORTEIRA FECHADA! ALTO PADRÃO. 21分钟" [ref=e424]:
+                      - /url: /watch?v=1ABQ5_fsX9M
+                      - text: CHÁCARA DOS SONHOS EM SANTA CATARINA - PORTEIRA FECHADA! ALTO PADRÃO.
+                  - group [ref=e427]:
+                    - generic [ref=e428]: 2831次观看
+                    - generic [ref=e429]: •
+                    - generic [ref=e430]: 8天前
+                - button "其他操作" [ref=e433]
+            - generic [ref=e440] [cursor=pointer]:
+              - link [ref=e441]:
+                - /url: /watch?v=U1dAqgp35cM
+                - generic [ref=e448]: 16:30
+              - generic [ref=e450]:
+                - generic [ref=e451]:
+                  - heading "CHÁCARA PRONTA EM ÁGUAS MORNAS - SC - VARIAS CABANAS - PRONTA PARA O AIRBNB! 13.000M² 16分钟" [level=3] [ref=e452]:
+                    - link "CHÁCARA PRONTA EM ÁGUAS MORNAS - SC - VARIAS CABANAS - PRONTA PARA O AIRBNB! 13.000M² 16分钟" [ref=e453]:
+                      - /url: /watch?v=U1dAqgp35cM
+                      - text: CHÁCARA PRONTA EM ÁGUAS MORNAS - SC - VARIAS CABANAS - PRONTA PARA O AIRBNB! 13.000M²
+                  - group [ref=e456]:
+                    - generic [ref=e457]: 2208次观看
+                    - generic [ref=e458]: •
+                    - generic [ref=e459]: 9天前
+                - button "其他操作" [ref=e462]
+          - button "下一页" [ref=e470] [cursor=pointer]

@@ -1,0 +1,586 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - button "导视" [ref=e9] [cursor=pointer]:
+          - generic [ref=e12]:
+            - img
+        - link "YouTube 首页" [ref=e14] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e19]:
+            - img
+        - button "跳过导航" [ref=e23] [cursor=pointer]:
+          - generic [ref=e24]: 跳过导航
+      - generic [ref=e28]:
+        - search [ref=e29]:
+          - generic [ref=e30]:
+            - combobox "搜索" [expanded] [ref=e33]
+            - button "Search" [ref=e34] [cursor=pointer]:
+              - generic [ref=e37]:
+                - img
+        - generic [ref=e39]:
+          - button "通过语音搜索内容" [ref=e41] [cursor=pointer]:
+            - generic [ref=e45]:
+              - img
+          - tooltip "tooltip"
+      - generic [ref=e50]:
+        - button "设置" [ref=e55] [cursor=pointer]:
+          - generic [ref=e58]:
+            - img
+        - link "登录" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fchannel%252FUC-tvKLGE-Sl3_iOvxN27ZAA%252Fvideos&hl=zh-CN&ec=65620
+          - generic [ref=e65]:
+            - img
+          - generic [ref=e66]: 登录
+  - navigation [ref=e70]:
+    - generic [ref=e71]:
+      - link "首页" [ref=e73] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e76]:
+          - img
+        - generic [ref=e77]: 首页
+      - link "Shorts" [ref=e79] [cursor=pointer]:
+        - /url: /shorts/
+        - generic [ref=e82]:
+          - img
+        - generic [ref=e83]: Shorts
+      - link "订阅" [ref=e85] [cursor=pointer]:
+        - /url: /feed/subscriptions
+        - generic [ref=e88]:
+          - img
+        - generic [ref=e89]: 订阅
+      - link "我" [ref=e91] [cursor=pointer]:
+        - /url: /feed/you
+        - generic [ref=e94]:
+          - img
+        - generic [ref=e95]: 我
+  - generic [ref=e96]:
+    - main [ref=e97]:
+      - generic [ref=e104]:
+        - generic [ref=e120]:
+          - heading "Marcos Orlandini" [level=1] [ref=e122]
+          - generic [ref=e123]:
+            - group [ref=e124]:
+              - generic [ref=e125]: "@marcosorlandiniimoveis"
+            - generic [ref=e126]: •
+            - group [ref=e127]:
+              - generic "1.1万位订阅者" [ref=e128]
+              - generic [ref=e129]: •
+              - generic [ref=e130]: 165 个视频
+          - generic [ref=e132] [cursor=pointer]:
+            - generic [ref=e133]: Olá, meu nome é Marcos Orlandini, sou especialista em soluções juridicas e investimentos imobiliários.
+            - button "说明。Olá, meu nome é Marcos Orlandini, sou especialista em solu…点按即可了解详情。" [ref=e134]:
+              - generic [ref=e135]: …更多
+          - generic [ref=e137]:
+            - link "instagram.com/mporlandini" [ref=e140] [cursor=pointer]:
+              - /url: https://www.youtube.com/redirect?event=channel_header&redir_token=QUFFLUhqbjBBQ2d5OFE0RUNyYXFuS2dKRjFCX0prR2gzd3xBQ3Jtc0tsNnZod1NoY3hmY09QZnZvWG45X0V3UmZaeVlHbGlPc0VmdHlaY2pJVkU3Z3JLWHJ0NlBGRTNaVTZsUmhWOTd2VldaSXdGWWFqZFZzWlJYTHpzam4xUkwza1BnX1NyNVVwOURZY25ZdmpQY1F3RWpLdw&q=https%3A%2F%2Fwww.instagram.com%2Fmporlandini
+            - button "和另外 2 个链接" [ref=e143] [cursor=pointer]
+          - generic [ref=e144]:
+            - button "订阅" [ref=e147] [cursor=pointer]:
+              - generic [ref=e148]: 订阅
+            - link "社区" [ref=e154] [cursor=pointer]:
+              - /url: /@marcosorlandiniimoveis/community
+              - generic [ref=e158]:
+                - img
+              - generic [ref=e159]: 社区
+        - tablist [ref=e166]:
+          - tablist [ref=e170]:
+            - tab "首页" [ref=e171] [cursor=pointer]:
+              - generic [ref=e172]: 首页
+            - tab "视频" [selected] [ref=e173] [cursor=pointer]:
+              - generic [ref=e174]: 视频
+            - tab "Shorts" [ref=e175] [cursor=pointer]:
+              - generic [ref=e176]: Shorts
+            - tab "播放列表" [ref=e177] [cursor=pointer]:
+              - generic [ref=e178]: 播放列表
+            - tab "帖子" [ref=e179] [cursor=pointer]:
+              - generic [ref=e180]: 帖子
+            - button "搜索" [ref=e184] [cursor=pointer]:
+              - generic [ref=e187]:
+                - img
+      - generic [ref=e193]:
+        - tablist [ref=e196]:
+          - tab "最新" [selected] [ref=e200] [cursor=pointer]:
+            - generic [ref=e202]: 最新
+          - tab "最热门" [ref=e209] [cursor=pointer]:
+            - generic [ref=e211]: 最热门
+          - tab "最早" [ref=e218] [cursor=pointer]:
+            - generic [ref=e220]: 最早
+        - generic [ref=e224]:
+          - generic [ref=e228] [cursor=pointer]:
+            - link [ref=e229]:
+              - /url: /watch?v=WvSPRmZPrvk
+              - generic [ref=e236]: 23:45
+            - generic [ref=e238]:
+              - generic [ref=e239]:
+                - heading "SÍTIO INCRÍVEL EM RANCHO QUEIMADO - SC | MUITA PASTAGEM | RICO EM ÁGUA | 4.8 HECTARES 23分钟" [level=3] [ref=e240]:
+                  - link "SÍTIO INCRÍVEL EM RANCHO QUEIMADO - SC | MUITA PASTAGEM | RICO EM ÁGUA | 4.8 HECTARES 23分钟" [ref=e241]:
+                    - /url: /watch?v=WvSPRmZPrvk
+                    - text: SÍTIO INCRÍVEL EM RANCHO QUEIMADO - SC | MUITA PASTAGEM | RICO EM ÁGUA | 4.8 HECTARES
+                - group [ref=e244]:
+                  - generic [ref=e245]: 3823次观看
+                  - generic [ref=e246]: •
+                  - generic [ref=e247]: 1天前
+              - button "其他操作" [ref=e250]:
+                - generic [ref=e254]:
+                  - img
+          - generic [ref=e261] [cursor=pointer]:
+            - link [ref=e262]:
+              - /url: /watch?v=ARuggYq9R_w
+              - generic [ref=e269]: 11:26
+            - generic [ref=e271]:
+              - generic [ref=e272]:
+                - heading "CHÁCARA COM 9500M² COM UMA VISTA ESPETACULAR EM SANTO AMARO DA IMPERATRIZ - SC | NASCENTE. 11分钟26秒钟" [level=3] [ref=e273]:
+                  - link "CHÁCARA COM 9500M² COM UMA VISTA ESPETACULAR EM SANTO AMARO DA IMPERATRIZ - SC | NASCENTE. 11分钟26秒钟" [ref=e274]:
+                    - /url: /watch?v=ARuggYq9R_w
+                    - text: CHÁCARA COM 9500M² COM UMA VISTA ESPETACULAR EM SANTO AMARO DA IMPERATRIZ - SC | NASCENTE.
+                - group [ref=e277]:
+                  - generic [ref=e278]: 2432次观看
+                  - generic [ref=e279]: •
+                  - generic [ref=e280]: 3天前
+              - button "其他操作" [ref=e283]:
+                - generic [ref=e287]:
+                  - img
+          - generic [ref=e294] [cursor=pointer]:
+            - link [ref=e295]:
+              - /url: /watch?v=8atSyxDWqG8&pp=0gcJCQQLAYcqIYzv
+              - generic [ref=e302]: 19:21
+            - generic [ref=e304]:
+              - generic [ref=e305]:
+                - heading "CHÁCARA INCRIVEL EM ÁGUAS MORNAS - SC | RIACHO COM CACHOEIRINHA | PASTAGEM | POMAR RICO! 19分钟" [level=3] [ref=e306]:
+                  - link "CHÁCARA INCRIVEL EM ÁGUAS MORNAS - SC | RIACHO COM CACHOEIRINHA | PASTAGEM | POMAR RICO! 19分钟" [ref=e307]:
+                    - /url: /watch?v=8atSyxDWqG8&pp=0gcJCQQLAYcqIYzv
+                    - text: CHÁCARA INCRIVEL EM ÁGUAS MORNAS - SC | RIACHO COM CACHOEIRINHA | PASTAGEM | POMAR RICO!
+                - group [ref=e310]:
+                  - generic [ref=e311]: 3147次观看
+                  - generic [ref=e312]: •
+                  - generic [ref=e313]: 4天前
+              - button "其他操作" [ref=e316]:
+                - generic [ref=e320]:
+                  - img
+          - generic [ref=e327] [cursor=pointer]:
+            - link [ref=e328]:
+              - /url: /watch?v=c-MgXe5mF2U
+              - generic [ref=e335]: 19:40
+            - generic [ref=e337]:
+              - generic [ref=e338]:
+                - heading "SÍTIO COM CASA COLONIAL ALEMÃ NA CIDADE DE ÁGUAS MORNAS - SC | RICO EM ÁGUA | ÁREA DE PLANTIO! 19分钟" [level=3] [ref=e339]:
+                  - link "SÍTIO COM CASA COLONIAL ALEMÃ NA CIDADE DE ÁGUAS MORNAS - SC | RICO EM ÁGUA | ÁREA DE PLANTIO! 19分钟" [ref=e340]:
+                    - /url: /watch?v=c-MgXe5mF2U
+                    - text: SÍTIO COM CASA COLONIAL ALEMÃ NA CIDADE DE ÁGUAS MORNAS - SC | RICO EM ÁGUA | ÁREA DE PLANTIO!
+                - group [ref=e343]:
+                  - generic [ref=e344]: 3738次观看
+                  - generic [ref=e345]: •
+                  - generic [ref=e346]: 6天前
+              - button "其他操作" [ref=e349]:
+                - generic [ref=e353]:
+                  - img
+          - generic [ref=e360] [cursor=pointer]:
+            - link [ref=e361]:
+              - /url: /watch?v=1ABQ5_fsX9M
+              - generic [ref=e368]: 21:11
+            - generic [ref=e370]:
+              - generic [ref=e371]:
+                - heading "CHÁCARA DOS SONHOS EM SANTA CATARINA - PORTEIRA FECHADA! ALTO PADRÃO. 21分钟" [level=3] [ref=e372]:
+                  - link "CHÁCARA DOS SONHOS EM SANTA CATARINA - PORTEIRA FECHADA! ALTO PADRÃO. 21分钟" [ref=e373]:
+                    - /url: /watch?v=1ABQ5_fsX9M
+                    - text: CHÁCARA DOS SONHOS EM SANTA CATARINA - PORTEIRA FECHADA! ALTO PADRÃO.
+                - group [ref=e376]:
+                  - generic [ref=e377]: 2828次观看
+                  - generic [ref=e378]: •
+                  - generic [ref=e379]: 8天前
+              - button "其他操作" [ref=e382]:
+                - generic [ref=e386]:
+                  - img
+          - generic [ref=e393] [cursor=pointer]:
+            - link [ref=e394]:
+              - /url: /watch?v=U1dAqgp35cM&pp=0gcJCQQLAYcqIYzv
+              - generic [ref=e401]: 16:30
+            - generic [ref=e403]:
+              - generic [ref=e404]:
+                - heading "CHÁCARA PRONTA EM ÁGUAS MORNAS - SC - VARIAS CABANAS - PRONTA PARA O AIRBNB! 13.000M² 16分钟" [level=3] [ref=e405]:
+                  - link "CHÁCARA PRONTA EM ÁGUAS MORNAS - SC - VARIAS CABANAS - PRONTA PARA O AIRBNB! 13.000M² 16分钟" [ref=e406]:
+                    - /url: /watch?v=U1dAqgp35cM&pp=0gcJCQQLAYcqIYzv
+                    - text: CHÁCARA PRONTA EM ÁGUAS MORNAS - SC - VARIAS CABANAS - PRONTA PARA O AIRBNB! 13.000M²
+                - group [ref=e409]:
+                  - generic [ref=e410]: 2211次观看
+                  - generic [ref=e411]: •
+                  - generic [ref=e412]: 9天前
+              - button "其他操作" [ref=e415]:
+                - generic [ref=e419]:
+                  - img
+          - generic [ref=e426] [cursor=pointer]:
+            - link [ref=e427]:
+              - /url: /watch?v=qTW6-0FXQ9U
+              - generic [ref=e434]: 27:47
+            - generic [ref=e436]:
+              - generic [ref=e437]:
+                - heading "LINDO SITIO EM RIO NOVO, ÁGUAS MORNAS - SANTA CATARINA | CACHOEIRA - PLANTAÇÃO PINUS - 24 HECATRES 27分钟" [level=3] [ref=e438]:
+                  - link "LINDO SITIO EM RIO NOVO, ÁGUAS MORNAS - SANTA CATARINA | CACHOEIRA - PLANTAÇÃO PINUS - 24 HECATRES 27分钟" [ref=e439]:
+                    - /url: /watch?v=qTW6-0FXQ9U
+                    - text: LINDO SITIO EM RIO NOVO, ÁGUAS MORNAS - SANTA CATARINA | CACHOEIRA - PLANTAÇÃO PINUS - 24 HECATRES
+                - group [ref=e442]:
+                  - generic [ref=e443]: 4674次观看
+                  - generic [ref=e444]: •
+                  - generic [ref=e445]: 12天前
+              - button "其他操作" [ref=e448]:
+                - generic [ref=e452]:
+                  - img
+          - generic [ref=e459] [cursor=pointer]:
+            - link [ref=e460]:
+              - /url: /watch?v=prpWBqkNmb0
+              - generic [ref=e467]: 19:16
+            - generic [ref=e469]:
+              - generic [ref=e470]:
+                - heading "SÍTIO A VENDA - CASA GERMANICA ANTIGA - PROXIMO A PRAÇA DE RANCHO QUEIMADO - SC | 20 HECTARES 19分钟" [level=3] [ref=e471]:
+                  - link "SÍTIO A VENDA - CASA GERMANICA ANTIGA - PROXIMO A PRAÇA DE RANCHO QUEIMADO - SC | 20 HECTARES 19分钟" [ref=e472]:
+                    - /url: /watch?v=prpWBqkNmb0
+                    - text: SÍTIO A VENDA - CASA GERMANICA ANTIGA - PROXIMO A PRAÇA DE RANCHO QUEIMADO - SC | 20 HECTARES
+                - group [ref=e475]:
+                  - generic [ref=e476]: 4651次观看
+                  - generic [ref=e477]: •
+                  - generic [ref=e478]: 2周前
+              - button "其他操作" [ref=e481]:
+                - generic [ref=e485]:
+                  - img
+          - generic [ref=e492] [cursor=pointer]:
+            - link [ref=e493]:
+              - /url: /watch?v=C8ah0oDcSDQ
+              - generic [ref=e500]: 8:15
+            - generic [ref=e502]:
+              - generic [ref=e503]:
+                - heading "OPORTUNIDADE! TERRENO A VENDA EM ÁGUAS MORNAS - SC | ANTIGA USINA - R$ 370 MIL 8分钟15秒钟" [level=3] [ref=e504]:
+                  - link "OPORTUNIDADE! TERRENO A VENDA EM ÁGUAS MORNAS - SC | ANTIGA USINA - R$ 370 MIL 8分钟15秒钟" [ref=e505]:
+                    - /url: /watch?v=C8ah0oDcSDQ
+                    - text: OPORTUNIDADE! TERRENO A VENDA EM ÁGUAS MORNAS - SC | ANTIGA USINA - R$ 370 MIL
+                - group [ref=e508]:
+                  - generic [ref=e509]: 3089次观看
+                  - generic [ref=e510]: •
+                  - generic [ref=e511]: 2周前
+              - button "其他操作" [ref=e514]:
+                - generic [ref=e518]:
+                  - img
+          - generic [ref=e525] [cursor=pointer]:
+            - link [ref=e526]:
+              - /url: /watch?v=bWYlpD5WI7Y
+              - generic [ref=e533]: 16:52
+            - generic [ref=e535]:
+              - generic [ref=e536]:
+                - heading "CHÁCARA COM LINDA CASA DE CAMPO EM RANCHO QUEIMADO - SERRA CATARINENSE | A VENDA! 3 HECTARES 16分钟" [level=3] [ref=e537]:
+                  - link "CHÁCARA COM LINDA CASA DE CAMPO EM RANCHO QUEIMADO - SERRA CATARINENSE | A VENDA! 3 HECTARES 16分钟" [ref=e538]:
+                    - /url: /watch?v=bWYlpD5WI7Y
+                    - text: CHÁCARA COM LINDA CASA DE CAMPO EM RANCHO QUEIMADO - SERRA CATARINENSE | A VENDA! 3 HECTARES
+                - group [ref=e541]:
+                  - generic [ref=e542]: 5761次观看
+                  - generic [ref=e543]: •
+                  - generic [ref=e544]: 3周前
+              - button "其他操作" [ref=e547]:
+                - generic [ref=e551]:
+                  - img
+          - generic [ref=e558] [cursor=pointer]:
+            - link [ref=e559]:
+              - /url: /watch?v=4RDyW2LKzwg
+              - generic [ref=e566]: 30:42
+            - generic [ref=e568]:
+              - generic [ref=e569]:
+                - heading "SÍTIO A VENDA EM SÃO PEDRO DE ALCÂNTARA 4 HA - RIACHOS - ESTRUTURA COMPLETA! 30分钟" [level=3] [ref=e570]:
+                  - link "SÍTIO A VENDA EM SÃO PEDRO DE ALCÂNTARA 4 HA - RIACHOS - ESTRUTURA COMPLETA! 30分钟" [ref=e571]:
+                    - /url: /watch?v=4RDyW2LKzwg
+                    - text: SÍTIO A VENDA EM SÃO PEDRO DE ALCÂNTARA 4 HA - RIACHOS - ESTRUTURA COMPLETA!
+                - group [ref=e574]:
+                  - generic [ref=e575]: 8252次观看
+                  - generic [ref=e576]: •
+                  - generic [ref=e577]: 3周前
+              - button "其他操作" [ref=e580]:
+                - generic [ref=e584]:
+                  - img
+          - generic [ref=e591] [cursor=pointer]:
+            - link [ref=e592]:
+              - /url: /watch?v=yeTdks8y31U
+              - generic [ref=e599]: 19:35
+            - generic [ref=e601]:
+              - generic [ref=e602]:
+                - heading "LINDO SÍTIO COM 57 HECTARES NO CORAÇÃO DE SÃO BONIFÁCIO - SC| PASTAGEM | RICO EM ÁGUA!R$2.3 MILHÕES 19分钟" [level=3] [ref=e603]:
+                  - link "LINDO SÍTIO COM 57 HECTARES NO CORAÇÃO DE SÃO BONIFÁCIO - SC| PASTAGEM | RICO EM ÁGUA!R$2.3 MILHÕES 19分钟" [ref=e604]:
+                    - /url: /watch?v=yeTdks8y31U
+                    - text: LINDO SÍTIO COM 57 HECTARES NO CORAÇÃO DE SÃO BONIFÁCIO - SC| PASTAGEM | RICO EM ÁGUA!R$2.3 MILHÕES
+                - group [ref=e607]:
+                  - generic [ref=e608]: 3375次观看
+                  - generic [ref=e609]: •
+                  - generic [ref=e610]: 1个月前
+              - button "其他操作" [ref=e613]:
+                - generic [ref=e617]:
+                  - img
+          - generic [ref=e624] [cursor=pointer]:
+            - link [ref=e625]:
+              - /url: /watch?v=d9CURJoenpo
+              - generic [ref=e632]: 14:05
+            - generic [ref=e634]:
+              - generic [ref=e635]:
+                - heading "SÍTIO EXTRADORDINÁRIO EM SANTO AMARO DA IMPERATRIZ - SC | CHALÉ ORIENTAL | LAGO | CASA | R$ 1.6 MI 14分钟5秒钟" [level=3] [ref=e636]:
+                  - link "SÍTIO EXTRADORDINÁRIO EM SANTO AMARO DA IMPERATRIZ - SC | CHALÉ ORIENTAL | LAGO | CASA | R$ 1.6 MI 14分钟5秒钟" [ref=e637]:
+                    - /url: /watch?v=d9CURJoenpo
+                    - text: SÍTIO EXTRADORDINÁRIO EM SANTO AMARO DA IMPERATRIZ - SC | CHALÉ ORIENTAL | LAGO | CASA | R$ 1.6 MI
+                - group [ref=e640]:
+                  - generic [ref=e641]: 5708次观看
+                  - generic [ref=e642]: •
+                  - generic [ref=e643]: 1个月前
+              - button "其他操作" [ref=e646]:
+                - generic [ref=e650]:
+                  - img
+          - generic [ref=e657] [cursor=pointer]:
+            - link [ref=e658]:
+              - /url: /watch?v=sYhfbMrXrrY
+              - generic [ref=e665]: 19:05
+            - generic [ref=e667]:
+              - generic [ref=e668]:
+                - heading "A VISTA MAIS LINDA DE ÁGUAS MORNAS - REFUGIO NAS MONTANHAS COM DUAS CASAS E AREA DE 4.4 HECTARES 19分钟" [level=3] [ref=e669]:
+                  - link "A VISTA MAIS LINDA DE ÁGUAS MORNAS - REFUGIO NAS MONTANHAS COM DUAS CASAS E AREA DE 4.4 HECTARES 19分钟" [ref=e670]:
+                    - /url: /watch?v=sYhfbMrXrrY
+                    - text: A VISTA MAIS LINDA DE ÁGUAS MORNAS - REFUGIO NAS MONTANHAS COM DUAS CASAS E AREA DE 4.4 HECTARES
+                - group [ref=e673]:
+                  - generic [ref=e674]: 5525次观看
+                  - generic [ref=e675]: •
+                  - generic [ref=e676]: 1个月前
+              - button "其他操作" [ref=e679]:
+                - generic [ref=e683]:
+                  - img
+          - generic [ref=e690] [cursor=pointer]:
+            - link [ref=e691]:
+              - /url: /watch?v=A5U1FdtYfTA
+              - generic [ref=e698]: 21:39
+            - generic [ref=e700]:
+              - generic [ref=e701]:
+                - heading "O REFÚGIO DOS SEUS SONHOS - SÍTIO A VENDA EM ÁGUAS MORNAS - SC 11.4 HECTARES 21分钟" [level=3] [ref=e702]:
+                  - link "O REFÚGIO DOS SEUS SONHOS - SÍTIO A VENDA EM ÁGUAS MORNAS - SC 11.4 HECTARES 21分钟" [ref=e703]:
+                    - /url: /watch?v=A5U1FdtYfTA
+                    - text: O REFÚGIO DOS SEUS SONHOS - SÍTIO A VENDA EM ÁGUAS MORNAS - SC 11.4 HECTARES
+                - group [ref=e706]:
+                  - generic [ref=e707]: 7607次观看
+                  - generic [ref=e708]: •
+                  - generic [ref=e709]: 1个月前
+              - button "其他操作" [ref=e712]:
+                - generic [ref=e716]:
+                  - img
+          - generic [ref=e723] [cursor=pointer]:
+            - link [ref=e724]:
+              - /url: /watch?v=SRnOmdIUeNY
+              - generic [ref=e731]: 19:07
+            - generic [ref=e733]:
+              - generic [ref=e734]:
+                - heading "CHÁCARA A VENDA EM SANTA CATARINA - AÇUDE - CASA TODA EM ANGELIM PEDRA! 19分钟" [level=3] [ref=e735]:
+                  - link "CHÁCARA A VENDA EM SANTA CATARINA - AÇUDE - CASA TODA EM ANGELIM PEDRA! 19分钟" [ref=e736]:
+                    - /url: /watch?v=SRnOmdIUeNY
+                    - text: CHÁCARA A VENDA EM SANTA CATARINA - AÇUDE - CASA TODA EM ANGELIM PEDRA!
+                - group [ref=e739]:
+                  - generic [ref=e740]: 4267次观看
+                  - generic [ref=e741]: •
+                  - generic [ref=e742]: 1个月前
+              - button "其他操作" [ref=e745]:
+                - generic [ref=e749]:
+                  - img
+          - generic [ref=e756] [cursor=pointer]:
+            - link [ref=e757]:
+              - /url: /watch?v=tbdoHomb6So
+              - generic [ref=e764]: 13:35
+            - generic [ref=e766]:
+              - generic [ref=e767]:
+                - heading "O Refúgio Perfeito! Chácara com muita Segurança e natureza em Santo Amaro da Imperatriz 13分钟35秒钟" [level=3] [ref=e768]:
+                  - link "O Refúgio Perfeito! Chácara com muita Segurança e natureza em Santo Amaro da Imperatriz 13分钟35秒钟" [ref=e769]:
+                    - /url: /watch?v=tbdoHomb6So
+                    - text: O Refúgio Perfeito! Chácara com muita Segurança e natureza em Santo Amaro da Imperatriz
+                - group [ref=e772]:
+                  - generic [ref=e773]: 5800次观看
+                  - generic [ref=e774]: •
+                  - generic [ref=e775]: 1个月前
+              - button "其他操作" [ref=e778]:
+                - generic [ref=e782]:
+                  - img
+          - generic [ref=e789] [cursor=pointer]:
+            - link [ref=e790]:
+              - /url: /watch?v=4hFh76r_Tjs&pp=0gcJCQQLAYcqIYzv
+              - generic [ref=e797]: 11:52
+            - generic [ref=e799]:
+              - generic [ref=e800]:
+                - heading "TERRENO COM 2 HECTARES EM ÁREA NOBRE DE ÁGUAS MORNAS - SC | RIACHO, ÁREAS PARA CONSTRUÇÃO! 11分钟52秒钟" [level=3] [ref=e801]:
+                  - link "TERRENO COM 2 HECTARES EM ÁREA NOBRE DE ÁGUAS MORNAS - SC | RIACHO, ÁREAS PARA CONSTRUÇÃO! 11分钟52秒钟" [ref=e802]:
+                    - /url: /watch?v=4hFh76r_Tjs&pp=0gcJCQQLAYcqIYzv
+                    - text: TERRENO COM 2 HECTARES EM ÁREA NOBRE DE ÁGUAS MORNAS - SC | RIACHO, ÁREAS PARA CONSTRUÇÃO!
+                - group [ref=e805]:
+                  - generic [ref=e806]: 3680次观看
+                  - generic [ref=e807]: •
+                  - generic [ref=e808]: 1个月前
+              - button "其他操作" [ref=e811]:
+                - generic [ref=e815]:
+                  - img
+          - generic [ref=e822] [cursor=pointer]:
+            - link [ref=e823]:
+              - /url: /watch?v=-Bp8gl2i2HE
+              - generic [ref=e830]: 21:26
+            - generic [ref=e832]:
+              - generic [ref=e833]:
+                - heading "SÍTIO DOS SONHOS A VENDA EM ÁGUAS MORNAS - SC 21分钟" [level=3] [ref=e834]:
+                  - link "SÍTIO DOS SONHOS A VENDA EM ÁGUAS MORNAS - SC 21分钟" [ref=e835]:
+                    - /url: /watch?v=-Bp8gl2i2HE
+                    - text: SÍTIO DOS SONHOS A VENDA EM ÁGUAS MORNAS - SC
+                - group [ref=e838]:
+                  - generic [ref=e839]: 8722次观看
+                  - generic [ref=e840]: •
+                  - generic [ref=e841]: 1个月前
+              - button "其他操作" [ref=e844]:
+                - generic [ref=e848]:
+                  - img
+          - generic [ref=e855] [cursor=pointer]:
+            - link [ref=e856]:
+              - /url: /watch?v=V8QuHRnsiUU
+              - generic [ref=e863]: 8:05
+            - generic [ref=e865]:
+              - generic [ref=e866]:
+                - heading "CHÁCARA DE LUXO EM SANTO AMARO DA IMPERATRIZ - SC 8分钟5秒钟" [level=3] [ref=e867]:
+                  - link "CHÁCARA DE LUXO EM SANTO AMARO DA IMPERATRIZ - SC 8分钟5秒钟" [ref=e868]:
+                    - /url: /watch?v=V8QuHRnsiUU
+                    - text: CHÁCARA DE LUXO EM SANTO AMARO DA IMPERATRIZ - SC
+                - group [ref=e871]:
+                  - generic [ref=e872]: 3742次观看
+                  - generic [ref=e873]: •
+                  - generic [ref=e874]: 1个月前
+              - button "其他操作" [ref=e877]:
+                - generic [ref=e881]:
+                  - img
+          - generic [ref=e888] [cursor=pointer]:
+            - link [ref=e889]:
+              - /url: /watch?v=Sd-RMPd87qE
+              - generic [ref=e896]: 21:33
+            - generic [ref=e898]:
+              - generic [ref=e899]:
+                - heading "CHÁCARA EM ÁGUAS MORNAS - SC | RICA E ÁGUA E NATUREZA! - ÓTIMO ACESSO! 21分钟" [level=3] [ref=e900]:
+                  - link "CHÁCARA EM ÁGUAS MORNAS - SC | RICA E ÁGUA E NATUREZA! - ÓTIMO ACESSO! 21分钟" [ref=e901]:
+                    - /url: /watch?v=Sd-RMPd87qE
+                    - text: CHÁCARA EM ÁGUAS MORNAS - SC | RICA E ÁGUA E NATUREZA! - ÓTIMO ACESSO!
+                - group [ref=e904]:
+                  - generic [ref=e905]: 4831次观看
+                  - generic [ref=e906]: •
+                  - generic [ref=e907]: 1个月前
+              - button "其他操作" [ref=e910]:
+                - generic [ref=e914]:
+                  - img
+          - generic [ref=e921] [cursor=pointer]:
+            - link [ref=e922]:
+              - /url: /watch?v=mgs8yVmSH2c
+              - generic [ref=e929]: 15:13
+            - generic [ref=e931]:
+              - generic [ref=e932]:
+                - heading "CHÁCARA ENCANTADORA EM SANTO AMARO DA IMPERATRIZ - SC | AÇUDE E UMA NATUREZA IMCOMPARÁVEL! 15分钟" [level=3] [ref=e933]:
+                  - link "CHÁCARA ENCANTADORA EM SANTO AMARO DA IMPERATRIZ - SC | AÇUDE E UMA NATUREZA IMCOMPARÁVEL! 15分钟" [ref=e934]:
+                    - /url: /watch?v=mgs8yVmSH2c
+                    - text: CHÁCARA ENCANTADORA EM SANTO AMARO DA IMPERATRIZ - SC | AÇUDE E UMA NATUREZA IMCOMPARÁVEL!
+                - group [ref=e937]:
+                  - generic [ref=e938]: 8864次观看
+                  - generic [ref=e939]: •
+                  - generic [ref=e940]: 2个月前
+              - button "其他操作" [ref=e943]:
+                - generic [ref=e947]:
+                  - img
+          - generic [ref=e954] [cursor=pointer]:
+            - link [ref=e955]:
+              - /url: /watch?v=IEOkTCziJ2A
+              - generic [ref=e962]: 12:56
+            - generic [ref=e964]:
+              - generic [ref=e965]:
+                - heading "CHÁCARA BEM LOCALIZADA EM SANTO AMARO DA IMPERATRIZ - SC | POTENCIAL INCRÍVEL - R$ 560 MIL 12分钟56秒钟" [level=3] [ref=e966]:
+                  - link "CHÁCARA BEM LOCALIZADA EM SANTO AMARO DA IMPERATRIZ - SC | POTENCIAL INCRÍVEL - R$ 560 MIL 12分钟56秒钟" [ref=e967]:
+                    - /url: /watch?v=IEOkTCziJ2A
+                    - text: CHÁCARA BEM LOCALIZADA EM SANTO AMARO DA IMPERATRIZ - SC | POTENCIAL INCRÍVEL - R$ 560 MIL
+                - group [ref=e970]:
+                  - generic [ref=e971]: 6345次观看
+                  - generic [ref=e972]: •
+                  - generic [ref=e973]: 2个月前
+              - button "其他操作" [ref=e976]:
+                - generic [ref=e980]:
+                  - img
+          - generic [ref=e987] [cursor=pointer]:
+            - link [ref=e988]:
+              - /url: /watch?v=sWMYkmkyhrs
+              - generic [ref=e995]: 29:42
+            - generic [ref=e997]:
+              - generic [ref=e998]:
+                - heading "CHÁCARA DOS SONHOS EM ÁGUAS MORNAS - SC | LAGO GIGANTE | CABANAS | NASCENTES | QUADRAS ESPORTIVAS! 29分钟" [level=3] [ref=e999]:
+                  - link "CHÁCARA DOS SONHOS EM ÁGUAS MORNAS - SC | LAGO GIGANTE | CABANAS | NASCENTES | QUADRAS ESPORTIVAS! 29分钟" [ref=e1000]:
+                    - /url: /watch?v=sWMYkmkyhrs
+                    - text: CHÁCARA DOS SONHOS EM ÁGUAS MORNAS - SC | LAGO GIGANTE | CABANAS | NASCENTES | QUADRAS ESPORTIVAS!
+                - group [ref=e1003]:
+                  - generic [ref=e1004]: 3864次观看
+                  - generic [ref=e1005]: •
+                  - generic [ref=e1006]: 2个月前
+              - button "其他操作" [ref=e1009]:
+                - generic [ref=e1013]:
+                  - img
+          - generic [ref=e1020] [cursor=pointer]:
+            - link [ref=e1021]:
+              - /url: /watch?v=j8ZaQrWzIr8
+              - generic [ref=e1028]: 14:09
+            - generic [ref=e1030]:
+              - generic [ref=e1031]:
+                - heading "CHÁCARA COM MORADA DE ALTO PADRÃO EM SANTO AMARO DA IMPERATRIZ | SANTA CATARINA! 14分钟9秒钟" [level=3] [ref=e1032]:
+                  - link "CHÁCARA COM MORADA DE ALTO PADRÃO EM SANTO AMARO DA IMPERATRIZ | SANTA CATARINA! 14分钟9秒钟" [ref=e1033]:
+                    - /url: /watch?v=j8ZaQrWzIr8
+                    - text: CHÁCARA COM MORADA DE ALTO PADRÃO EM SANTO AMARO DA IMPERATRIZ | SANTA CATARINA!
+                - group [ref=e1036]:
+                  - generic [ref=e1037]: 9097次观看
+                  - generic [ref=e1038]: •
+                  - generic [ref=e1039]: 2个月前
+              - button "其他操作" [ref=e1042]:
+                - generic [ref=e1046]:
+                  - img
+          - generic [ref=e1053] [cursor=pointer]:
+            - link [ref=e1054]:
+              - /url: /watch?v=o6keT9YEryU
+              - generic [ref=e1061]: 18:39
+            - generic [ref=e1063]:
+              - generic [ref=e1064]:
+                - heading "CHÁCARA EM CONDOMINIO FECHADO | SANTO AMARO DA IMPERATRIZ - SANTA CATARINA! 18分钟" [level=3] [ref=e1065]:
+                  - link "CHÁCARA EM CONDOMINIO FECHADO | SANTO AMARO DA IMPERATRIZ - SANTA CATARINA! 18分钟" [ref=e1066]:
+                    - /url: /watch?v=o6keT9YEryU
+                    - text: CHÁCARA EM CONDOMINIO FECHADO | SANTO AMARO DA IMPERATRIZ - SANTA CATARINA!
+                - group [ref=e1069]:
+                  - generic [ref=e1070]: 5305次观看
+                  - generic [ref=e1071]: •
+                  - generic [ref=e1072]: 2个月前
+              - button "其他操作" [ref=e1075]:
+                - generic [ref=e1079]:
+                  - img
+          - generic [ref=e1086] [cursor=pointer]:
+            - link [ref=e1087]:
+              - /url: /watch?v=7uYOjICOzMU
+              - generic [ref=e1094]: 12:16
+            - generic [ref=e1096]:
+              - generic [ref=e1097]:
+                - heading "CHÁCARA A VENDA EM SANTO AMARO DA IMPERATRIZ - SC | RIO CRISTALINO | PISCINA NATURAL | CABANAS 12分钟16秒钟" [level=3] [ref=e1098]:
+                  - link "CHÁCARA A VENDA EM SANTO AMARO DA IMPERATRIZ - SC | RIO CRISTALINO | PISCINA NATURAL | CABANAS 12分钟16秒钟" [ref=e1099]:
+                    - /url: /watch?v=7uYOjICOzMU
+                    - text: CHÁCARA A VENDA EM SANTO AMARO DA IMPERATRIZ - SC | RIO CRISTALINO | PISCINA NATURAL | CABANAS
+                - group [ref=e1102]:
+                  - generic [ref=e1103]: 1万次观看
+                  - generic [ref=e1104]: •
+                  - generic [ref=e1105]: 2个月前
+              - button "其他操作" [ref=e1108]:
+                - generic [ref=e1112]:
+                  - img
+          - generic [ref=e1119] [cursor=pointer]:
+            - link [ref=e1120]:
+              - /url: /watch?v=k_9MHtQfmQQ
+              - generic [ref=e1127]: 11:20
+            - generic [ref=e1129]:
+              - generic [ref=e1130]:
+                - heading "CHÁCARA EM ÁGUAS MORNAS - SC | CABANA NAS MONTANHAS | RIACHO | AÇUDE | JARDIM DE INVERNO | 5000M² 11分钟20秒钟" [level=3] [ref=e1131]:
+                  - link "CHÁCARA EM ÁGUAS MORNAS - SC | CABANA NAS MONTANHAS | RIACHO | AÇUDE | JARDIM DE INVERNO | 5000M² 11分钟20秒钟" [ref=e1132]:
+                    - /url: /watch?v=k_9MHtQfmQQ
+                    - text: CHÁCARA EM ÁGUAS MORNAS - SC | CABANA NAS MONTANHAS | RIACHO | AÇUDE | JARDIM DE INVERNO | 5000M²
+                - group [ref=e1135]:
+                  - generic [ref=e1136]: 5646次观看
+                  - generic [ref=e1137]: •
+                  - generic [ref=e1138]: 2个月前
+              - button "其他操作" [ref=e1141]:
+                - generic [ref=e1145]:
+                  - img
+    - text: •

@@ -1,0 +1,419 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - button "导视" [ref=e9] [cursor=pointer]
+        - link "YouTube 首页" [ref=e12] [cursor=pointer]:
+          - /url: /
+        - button "跳过导航" [ref=e19] [cursor=pointer]:
+          - generic [ref=e20]: 跳过导航
+      - generic [ref=e24]:
+        - search [ref=e25]:
+          - generic [ref=e26]:
+            - combobox "搜索" [expanded] [ref=e29]
+            - button "Search" [ref=e30] [cursor=pointer]
+        - generic [ref=e33]:
+          - button "通过语音搜索内容" [ref=e35] [cursor=pointer]
+          - tooltip "tooltip"
+      - generic [ref=e42]:
+        - button "设置" [ref=e47] [cursor=pointer]
+        - link "登录" [ref=e51] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fchannel%252FUCS9a_eBLqdYiA_3mJWXc6dw%252Fabout&hl=zh-CN&ec=65620
+          - generic [ref=e54]: 登录
+  - navigation [ref=e58]
+  - main [ref=e60]:
+    - generic [ref=e67]:
+      - generic [ref=e83]:
+        - heading "REGINALDO PORTILHO" [level=1] [ref=e85]
+        - generic [ref=e86]:
+          - group [ref=e87]:
+            - generic [ref=e88]: "@reginaldo_portilho"
+          - generic [ref=e89]: •
+          - group [ref=e90]:
+            - generic "1.52万位订阅者" [ref=e91]
+            - generic [ref=e92]: •
+            - generic [ref=e93]: 163 个视频
+        - generic [ref=e95] [cursor=pointer]:
+          - generic [ref=e96]: Sou apaixonado por Volkswagens e por aqui compartilho essa paixão!
+          - button "说明。Sou apaixonado por Volkswagens e por aqui compartilho essa p…点按即可了解详情。" [ref=e97]:
+            - generic [ref=e98]: …更多
+        - generic [ref=e100]:
+          - link "instagram.com/quadradospower" [ref=e103] [cursor=pointer]:
+            - /url: https://www.youtube.com/redirect?event=channel_header&redir_token=QUFFLUhqbmVVSjQ1TTdvR2JodXBQVWhfZTd4YVB4a0d1UXxBQ3Jtc0tsZHFEMklhNFJpTHVRdHg4RUZkbXFmWGxCWTdnSkdXVnJ2WFhuU3FXcnpySDdJcVZMQkxIbU5vXzBzdl9MekY5VEg1d3JnWjNvTWFyaUQ3NmVfeFhPS2RyT3BqNWlQcDNseEhJYU9XNHVPOVdaakNaRQ&q=https%3A%2F%2Fwww.instagram.com%2Fquadradospower%2F
+          - button "和另外 1 个链接" [ref=e106] [cursor=pointer]
+        - button "订阅" [ref=e110] [cursor=pointer]:
+          - generic [ref=e111]: 订阅
+      - tablist [ref=e118]:
+        - tablist [ref=e122]:
+          - tab "首页" [selected] [ref=e123] [cursor=pointer]:
+            - generic [ref=e124]: 首页
+          - tab "视频" [ref=e125] [cursor=pointer]:
+            - generic [ref=e126]: 视频
+          - tab "Shorts" [ref=e127] [cursor=pointer]:
+            - generic [ref=e128]: Shorts
+          - tab "播放列表" [ref=e129] [cursor=pointer]:
+            - generic [ref=e130]: 播放列表
+          - tab "帖子" [ref=e131] [cursor=pointer]:
+            - generic [ref=e132]: 帖子
+          - button "搜索" [ref=e136] [cursor=pointer]
+    - generic [ref=e144]:
+      - generic [ref=e148]:
+        - heading "视频" [level=2] [ref=e151]:
+          - link "视频" [ref=e154] [cursor=pointer]:
+            - /url: /@reginaldo_portilho/videos?view=0&sort=dd&shelf_id=2
+            - generic [ref=e155]: 视频
+        - generic [ref=e157]:
+          - generic [ref=e160]:
+            - generic [ref=e162] [cursor=pointer]:
+              - link [ref=e163]:
+                - /url: /watch?v=Eyz5Wc3_8dE
+                - generic [ref=e170]: 41:29
+              - generic [ref=e172]:
+                - generic [ref=e173]:
+                  - heading "😱 PINTAMOS O MOTOR DO GOL QUADRADO | CHT 1995 | 10 ANOS parado | Project car 41分钟" [level=3] [ref=e174]:
+                    - link "😱 PINTAMOS O MOTOR DO GOL QUADRADO | CHT 1995 | 10 ANOS parado | Project car 41分钟" [ref=e175]:
+                      - /url: /watch?v=Eyz5Wc3_8dE
+                      - text: 😱 PINTAMOS O MOTOR DO GOL QUADRADO | CHT 1995 | 10 ANOS parado | Project car
+                  - group [ref=e178]:
+                    - generic [ref=e179]: 921次观看
+                    - generic [ref=e180]: •
+                    - generic [ref=e181]: 1个月前
+                - button "其他操作" [ref=e184]
+            - generic [ref=e191] [cursor=pointer]:
+              - link [ref=e192]:
+                - /url: /watch?v=NowFe-yT2us
+                - generic [ref=e199]: 12:48
+              - generic [ref=e201]:
+                - generic [ref=e202]:
+                  - heading "😱 QUE RARIDADE! Você COMPRARIA esse GOL GTI? | Golzinho quadrado | Project car 12分钟48秒钟" [level=3] [ref=e203]:
+                    - link "😱 QUE RARIDADE! Você COMPRARIA esse GOL GTI? | Golzinho quadrado | Project car 12分钟48秒钟" [ref=e204]:
+                      - /url: /watch?v=NowFe-yT2us
+                      - text: 😱 QUE RARIDADE! Você COMPRARIA esse GOL GTI? | Golzinho quadrado | Project car
+                  - group [ref=e207]:
+                    - generic [ref=e208]: 969次观看
+                    - generic [ref=e209]: •
+                    - generic [ref=e210]: 1个月前
+                - button "其他操作" [ref=e213]
+            - generic [ref=e220] [cursor=pointer]:
+              - link [ref=e221]:
+                - /url: /watch?v=XirpQKNfClE
+                - generic [ref=e228]: 13:02
+              - generic [ref=e230]:
+                - generic [ref=e231]:
+                  - heading "😱 FIZ ISSO MESMO? Comprei um Gol GTI Cinza Nimbus? | PROJECT CAR | Golzinho quadrado 13分钟2秒钟" [level=3] [ref=e232]:
+                    - link "😱 FIZ ISSO MESMO? Comprei um Gol GTI Cinza Nimbus? | PROJECT CAR | Golzinho quadrado 13分钟2秒钟" [ref=e233]:
+                      - /url: /watch?v=XirpQKNfClE
+                      - text: 😱 FIZ ISSO MESMO? Comprei um Gol GTI Cinza Nimbus? | PROJECT CAR | Golzinho quadrado
+                  - group [ref=e236]:
+                    - generic [ref=e237]: 744次观看
+                    - generic [ref=e238]: •
+                    - generic [ref=e239]: 2个月前
+                - button "其他操作" [ref=e242]
+            - generic [ref=e249] [cursor=pointer]:
+              - link [ref=e250]:
+                - /url: /watch?v=hrEwYggGl2A&pp=0gcJCQQLAYcqIYzv
+                - generic [ref=e257]: 34:10
+              - generic [ref=e259]:
+                - generic [ref=e260]:
+                  - heading "Encontramos um gol GTI raro cheio de formigas! Será que vamos comprar? 34分钟" [level=3] [ref=e261]:
+                    - link "Encontramos um gol GTI raro cheio de formigas! Será que vamos comprar? 34分钟" [ref=e262]:
+                      - /url: /watch?v=hrEwYggGl2A&pp=0gcJCQQLAYcqIYzv
+                      - text: Encontramos um gol GTI raro cheio de formigas! Será que vamos comprar?
+                  - group [ref=e265]:
+                    - generic [ref=e266]: 1198次观看
+                    - generic [ref=e267]: •
+                    - generic [ref=e268]: 2个月前
+                - button "其他操作" [ref=e271]
+            - generic [ref=e278] [cursor=pointer]:
+              - link [ref=e279]:
+                - /url: /watch?v=9I2T9bYAH9A
+                - generic [ref=e286]: 13:32
+              - generic [ref=e288]:
+                - generic [ref=e289]:
+                  - heading "😨 BATEU FORTE! Saveiro Super Surf G3 vai precisar de peças novas! Project car 13分钟32秒钟" [level=3] [ref=e290]:
+                    - link "😨 BATEU FORTE! Saveiro Super Surf G3 vai precisar de peças novas! Project car 13分钟32秒钟" [ref=e291]:
+                      - /url: /watch?v=9I2T9bYAH9A
+                      - text: 😨 BATEU FORTE! Saveiro Super Surf G3 vai precisar de peças novas! Project car
+                  - group [ref=e294]:
+                    - generic [ref=e295]: 627次观看
+                    - generic [ref=e296]: •
+                    - generic [ref=e297]: 2个月前
+                - button "其他操作" [ref=e300]
+            - generic [ref=e307] [cursor=pointer]:
+              - link [ref=e308]:
+                - /url: /watch?v=9V-i_5MakqE
+                - generic [ref=e315]: 19:00
+              - generic [ref=e317]:
+                - generic [ref=e318]:
+                  - heading "Aplicamos EPÓXI na SAVEIRO QUADRADA 1997 19分钟" [level=3] [ref=e319]:
+                    - link "Aplicamos EPÓXI na SAVEIRO QUADRADA 1997 19分钟" [ref=e320]:
+                      - /url: /watch?v=9V-i_5MakqE
+                      - text: Aplicamos EPÓXI na SAVEIRO QUADRADA 1997
+                  - group [ref=e323]:
+                    - generic [ref=e324]: 572次观看
+                    - generic [ref=e325]: •
+                    - generic [ref=e326]: 2个月前
+                - button "其他操作" [ref=e329]
+          - button "下一页" [ref=e337] [cursor=pointer]
+      - generic [ref=e345]:
+        - generic [ref=e346]:
+          - heading "Shorts" [level=2] [ref=e350]:
+            - generic [ref=e352]: Shorts
+          - button "其他操作" [ref=e356] [cursor=pointer]
+        - generic [ref=e359]:
+          - generic [ref=e362]:
+            - generic [ref=e364]:
+              - link [ref=e365] [cursor=pointer]:
+                - /url: /shorts/or-eqMiAkS8
+              - generic [ref=e369] [cursor=pointer]:
+                - link "GOL QUADRADO + MANTAS TOROFLEX😱 Project car" [ref=e370]:
+                  - /url: /shorts/or-eqMiAkS8
+                - generic [ref=e371]: 1609次观看
+              - button "其他操作" [ref=e373] [cursor=pointer]
+            - generic [ref=e380]:
+              - link [ref=e381] [cursor=pointer]:
+                - /url: /shorts/1GMtukogmJE
+              - generic [ref=e385] [cursor=pointer]:
+                - link "HÁ 10 ANOS ABANDONADO | Project car de um Gol quadrado CHT 1995" [ref=e386]:
+                  - /url: /shorts/1GMtukogmJE
+                - generic [ref=e387]: 1556次观看
+              - button "其他操作" [ref=e389] [cursor=pointer]
+            - generic [ref=e396]:
+              - link [ref=e397] [cursor=pointer]:
+                - /url: /shorts/Gu35DuLfY0k
+              - generic [ref=e401] [cursor=pointer]:
+                - 'link "#golquadradoclub #golquadradoturbo #gol" [ref=e402]':
+                  - /url: /shorts/Gu35DuLfY0k
+                - generic [ref=e403]: 7999次观看
+              - button "其他操作" [ref=e405] [cursor=pointer]
+            - generic [ref=e412]:
+              - link [ref=e413] [cursor=pointer]:
+                - /url: /shorts/BR63gfpEbcY
+              - generic [ref=e417] [cursor=pointer]:
+                - 'link "Você sonha ou tem metas? #golquadrado #turbo #volkswagen" [ref=e418]':
+                  - /url: /shorts/BR63gfpEbcY
+                - generic [ref=e419]: 1213次观看
+              - button "其他操作" [ref=e421] [cursor=pointer]
+            - generic [ref=e428]:
+              - link [ref=e429] [cursor=pointer]:
+                - /url: /shorts/eJBwgwbi8RM
+              - generic [ref=e433] [cursor=pointer]:
+                - link "Restaura ou vende o SANTANAO? 🤷🏻‍♂️" [ref=e434]:
+                  - /url: /shorts/eJBwgwbi8RM
+                - generic [ref=e435]: 6169次观看
+              - button "其他操作" [ref=e437] [cursor=pointer]
+            - generic [ref=e444]:
+              - link [ref=e445] [cursor=pointer]:
+                - /url: /shorts/UuYAP1r3r78
+              - generic [ref=e449] [cursor=pointer]:
+                - 'link "Em breve solto o vídeo completo do cash tanque do Golzão #volkswagen #turbo #golquadrado" [ref=e450]':
+                  - /url: /shorts/UuYAP1r3r78
+                - generic [ref=e451]: 3564次观看
+              - button "其他操作" [ref=e453] [cursor=pointer]
+          - button "下一批" [ref=e461] [cursor=pointer]
+      - generic [ref=e470]:
+        - heading "帖子" [level=2] [ref=e473]:
+          - link "帖子" [ref=e476] [cursor=pointer]:
+            - /url: /channel/UCS9a_eBLqdYiA_3mJWXc6dw/posts
+            - generic [ref=e477]: 帖子
+        - generic [ref=e479]:
+          - generic [ref=e482]:
+            - 'link "REGINALDO PORTILHO • 3个月前 Vocês PREFEREM a SAVEIRO... Pra quem curte uma Saveiro Quadrada: https://youtu.be/188c4KZK354 39 票 立即投票 为这个帖子点赞，已有 6 人点赞 tooltip 6 次赞 不喜欢这个帖子 tooltip 分享 tooltip 评论 tooltip" [ref=e484] [cursor=pointer]':
+              - generic [ref=e485]:
+                - link [ref=e487]:
+                  - /url: /@reginaldo_portilho
+                - link "REGINALDO PORTILHO" [ref=e490]:
+                  - /url: /@reginaldo_portilho
+                - generic [ref=e491]: •
+                - link "3个月前" [ref=e493]:
+                  - /url: /post/UgkxAxV8CXsrJqlcmh2Tl9chXjpZsHzxV3bV
+              - generic [ref=e494]:
+                - generic [ref=e496]:
+                  - text: "Vocês PREFEREM a SAVEIRO... Pra quem curte uma Saveiro Quadrada:"
+                  - link "https://youtu.be/188c4KZK354" [ref=e497]:
+                    - /url: /watch?v=188c4KZK354
+                - generic [ref=e498]:
+                  - generic [ref=e499]: 39 票
+                  - link "立即投票" [ref=e503]:
+                    - /url: /post/UgkxAxV8CXsrJqlcmh2Tl9chXjpZsHzxV3bV
+                    - generic [ref=e504]: 立即投票
+              - generic [ref=e510]:
+                - generic [ref=e511]:
+                  - link "为这个帖子点赞，已有 6 人点赞" [ref=e513]:
+                    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                  - tooltip "tooltip"
+                - generic "6 次赞" [ref=e519]: "6"
+                - generic [ref=e520]:
+                  - link "不喜欢这个帖子" [ref=e522]:
+                    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                  - tooltip "tooltip"
+                - generic [ref=e529]:
+                  - button "分享" [ref=e531]
+                  - tooltip "tooltip"
+                - generic [ref=e538]:
+                  - link "评论" [ref=e540]:
+                    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252Fpost%252FUgkxAxV8CXsrJqlcmh2Tl9chXjpZsHzxV3bV&hl=zh-CN
+                  - tooltip "tooltip"
+            - 'link "REGINALDO PORTILHO • 3个月前 Só quem assistiu sabe em qual carro estamos trabalhando! VÍDEO COMPLETO: https://youtu.be/0usrkzhz74I?si=KrBJg... 31 票 立即投票 为这个帖子点赞，已有 5 人点赞 tooltip 5 次赞 不喜欢这个帖子 tooltip 分享 tooltip 1 条评论 tooltip" [ref=e547] [cursor=pointer]':
+              - generic [ref=e548]:
+                - link [ref=e550]:
+                  - /url: /@reginaldo_portilho
+                - link "REGINALDO PORTILHO" [ref=e553]:
+                  - /url: /@reginaldo_portilho
+                - generic [ref=e554]: •
+                - link "3个月前" [ref=e556]:
+                  - /url: /post/Ugkx3cf0URb2-wLA9ANDWZnc2q_CuF6L6ePB
+              - generic [ref=e557]:
+                - generic [ref=e559]:
+                  - text: "Só quem assistiu sabe em qual carro estamos trabalhando! VÍDEO COMPLETO:"
+                  - link "https://youtu.be/0usrkzhz74I?si=KrBJg..." [ref=e560]:
+                    - /url: /watch?v=0usrkzhz74I
+                - generic [ref=e561]:
+                  - generic [ref=e562]: 31 票
+                  - link "立即投票" [ref=e566]:
+                    - /url: /post/Ugkx3cf0URb2-wLA9ANDWZnc2q_CuF6L6ePB
+                    - generic [ref=e567]: 立即投票
+              - generic [ref=e573]:
+                - generic [ref=e574]:
+                  - link "为这个帖子点赞，已有 5 人点赞" [ref=e576]:
+                    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                  - tooltip "tooltip"
+                - generic "5 次赞" [ref=e582]: "5"
+                - generic [ref=e583]:
+                  - link "不喜欢这个帖子" [ref=e585]:
+                    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                  - tooltip "tooltip"
+                - generic [ref=e592]:
+                  - button "分享" [ref=e594]
+                  - tooltip "tooltip"
+                - generic [ref=e601]:
+                  - link "1 条评论" [ref=e603]:
+                    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252Fpost%252FUgkx3cf0URb2-wLA9ANDWZnc2q_CuF6L6ePB&hl=zh-CN
+                    - generic [ref=e606]: "1"
+                  - tooltip "tooltip"
+            - link "REGINALDO PORTILHO • 1年前 Chegou o momento de curtir o projeto ⚒️🙏❤️ 为这个帖子点赞，已有 82 人点赞 tooltip 82 次赞 不喜欢这个帖子 tooltip 分享 tooltip 2 条评论 tooltip" [ref=e611] [cursor=pointer]:
+              - generic [ref=e612]:
+                - link [ref=e614]:
+                  - /url: /@reginaldo_portilho
+                - link "REGINALDO PORTILHO" [ref=e617]:
+                  - /url: /@reginaldo_portilho
+                - generic [ref=e618]: •
+                - link "1年前" [ref=e620]:
+                  - /url: /post/UgkxtlrtDHJnrGyNCqb6ywhEhG4Q0Uisc4Ly
+              - generic [ref=e621]:
+                - generic [ref=e623]: Chegou o momento de curtir o projeto ⚒️🙏❤️
+                - generic [ref=e624]:
+                  - group
+              - generic [ref=e632]:
+                - generic [ref=e633]:
+                  - link "为这个帖子点赞，已有 82 人点赞" [ref=e635]:
+                    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                  - tooltip "tooltip"
+                - generic "82 次赞" [ref=e641]: "82"
+                - generic [ref=e642]:
+                  - link "不喜欢这个帖子" [ref=e644]:
+                    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                  - tooltip "tooltip"
+                - generic [ref=e651]:
+                  - button "分享" [ref=e653]
+                  - tooltip "tooltip"
+                - generic [ref=e660]:
+                  - link "2 条评论" [ref=e662]:
+                    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252Fpost%252FUgkxtlrtDHJnrGyNCqb6ywhEhG4Q0Uisc4Ly&hl=zh-CN
+                    - generic [ref=e665]: "2"
+                  - tooltip "tooltip"
+            - link "REGINALDO PORTILHO • 2年前 Fala galera, blz? Hoje às 18 horas tem vídeo da Saveiro SUMMER RARA! 😍🛠😬 为这个帖子点赞，已有 106 人点赞 tooltip 106 次赞 不喜欢这个帖子 tooltip 分享 tooltip 评论 tooltip" [ref=e670] [cursor=pointer]:
+              - generic [ref=e671]:
+                - link [ref=e673]:
+                  - /url: /@reginaldo_portilho
+                - link "REGINALDO PORTILHO" [ref=e676]:
+                  - /url: /@reginaldo_portilho
+                - generic [ref=e677]: •
+                - link "2年前" [ref=e679]:
+                  - /url: /post/UgkxE1xMGl--AChlCnQYVGq-rA33Dmt_HSbs
+              - generic [ref=e680]:
+                - generic [ref=e682]: Fala galera, blz? Hoje às 18 horas tem vídeo da Saveiro SUMMER RARA! 😍🛠😬
+                - generic [ref=e683]:
+                  - group
+              - generic [ref=e689]:
+                - generic [ref=e690]:
+                  - link "为这个帖子点赞，已有 106 人点赞" [ref=e692]:
+                    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                  - tooltip "tooltip"
+                - generic "106 次赞" [ref=e698]: "106"
+                - generic [ref=e699]:
+                  - link "不喜欢这个帖子" [ref=e701]:
+                    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                  - tooltip "tooltip"
+                - generic [ref=e708]:
+                  - button "分享" [ref=e710]
+                  - tooltip "tooltip"
+                - generic [ref=e717]:
+                  - link "评论" [ref=e719]:
+                    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252Fpost%252FUgkxE1xMGl--AChlCnQYVGq-rA33Dmt_HSbs&hl=zh-CN
+                  - tooltip "tooltip"
+            - link "REGINALDO PORTILHO • 2年前 Estou em dúvidas sobre o próximo vídeo, me ajudem aí? 🛠️🤔 407 票 立即投票 为这个帖子点赞，已有 59 人点赞 tooltip 59 次赞 不喜欢这个帖子 tooltip 分享 tooltip 评论 tooltip" [ref=e726] [cursor=pointer]:
+              - generic [ref=e727]:
+                - link [ref=e729]:
+                  - /url: /@reginaldo_portilho
+                - link "REGINALDO PORTILHO" [ref=e732]:
+                  - /url: /@reginaldo_portilho
+                - generic [ref=e733]: •
+                - link "2年前" [ref=e735]:
+                  - /url: /post/Ugkx39Y6q4BTluRK6_w9ZQOsE5jlJ4M9C_Ov
+              - generic [ref=e736]:
+                - generic [ref=e738]: Estou em dúvidas sobre o próximo vídeo, me ajudem aí? 🛠️🤔
+                - generic [ref=e739]:
+                  - generic [ref=e740]: 407 票
+                  - link "立即投票" [ref=e744]:
+                    - /url: /post/Ugkx39Y6q4BTluRK6_w9ZQOsE5jlJ4M9C_Ov
+                    - generic [ref=e745]: 立即投票
+              - generic [ref=e751]:
+                - generic [ref=e752]:
+                  - link "为这个帖子点赞，已有 59 人点赞" [ref=e754]:
+                    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                  - tooltip "tooltip"
+                - generic "59 次赞" [ref=e760]: "59"
+                - generic [ref=e761]:
+                  - link "不喜欢这个帖子" [ref=e763]:
+                    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                  - tooltip "tooltip"
+                - generic [ref=e770]:
+                  - button "分享" [ref=e772]
+                  - tooltip "tooltip"
+                - generic [ref=e779]:
+                  - link "评论" [ref=e781]:
+                    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252Fpost%252FUgkx39Y6q4BTluRK6_w9ZQOsE5jlJ4M9C_Ov&hl=zh-CN
+                  - tooltip "tooltip"
+            - link "REGINALDO PORTILHO • 2年前 12 anos parado! Eai, já assistiu ou ainda vai assistir o vídeo do Voyage GLS 12 ANOS sem funcionar? 🛠😅Hoje meio dia no canal 🔥🛠️🔥 为这个帖子点赞，已有 66 人点赞 tooltip 66 次赞 不喜欢这个帖子 tooltip 分享 tooltip 2 条评论 tooltip" [ref=e788] [cursor=pointer]:
+              - generic [ref=e789]:
+                - link [ref=e791]:
+                  - /url: /@reginaldo_portilho
+                - link "REGINALDO PORTILHO" [ref=e794]:
+                  - /url: /@reginaldo_portilho
+                - generic [ref=e795]: •
+                - link "2年前" [ref=e797]:
+                  - /url: /post/UgkxvElXu6z_J8CBG3rbYm3YxW67gxFkjZAQ
+              - generic [ref=e798]:
+                - generic [ref=e800]: 12 anos parado! Eai, já assistiu ou ainda vai assistir o vídeo do Voyage GLS 12 ANOS sem funcionar? 🛠😅Hoje meio dia no canal 🔥🛠️🔥
+                - generic [ref=e801]:
+                  - group
+              - generic [ref=e809]:
+                - generic [ref=e810]:
+                  - link "为这个帖子点赞，已有 66 人点赞" [ref=e812]:
+                    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                  - tooltip "tooltip"
+                - generic "66 次赞" [ref=e818]: "66"
+                - generic [ref=e819]:
+                  - link "不喜欢这个帖子" [ref=e821]:
+                    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252F&hl=zh-CN
+                  - tooltip "tooltip"
+                - generic [ref=e828]:
+                  - button "分享" [ref=e830]
+                  - tooltip "tooltip"
+                - generic [ref=e837]:
+                  - link "2 条评论" [ref=e839]:
+                    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3D%252Fpost%252FUgkxvElXu6z_J8CBG3rbYm3YxW67gxFkjZAQ&hl=zh-CN
+                    - generic [ref=e842]: "2"
+                  - tooltip "tooltip"
+          - button "下一页" [ref=e848] [cursor=pointer]

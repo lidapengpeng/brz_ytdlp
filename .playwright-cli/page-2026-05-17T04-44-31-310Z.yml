@@ -1,0 +1,107 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - button "导视" [ref=e9] [cursor=pointer]:
+          - generic [ref=e12]:
+            - img
+        - link "YouTube 首页" [ref=e14] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e19]:
+            - img
+        - button "跳过导航" [ref=e23] [cursor=pointer]:
+          - generic [ref=e24]: 跳过导航
+      - generic [ref=e28]:
+        - search [ref=e29]:
+          - generic [ref=e30]:
+            - combobox "搜索" [expanded] [ref=e33]
+            - button "Search" [ref=e34] [cursor=pointer]:
+              - generic [ref=e37]:
+                - img
+        - generic [ref=e39]:
+          - button "通过语音搜索内容" [ref=e41] [cursor=pointer]:
+            - generic [ref=e45]:
+              - img
+          - tooltip "tooltip"
+      - generic [ref=e50]:
+        - button "设置" [ref=e55] [cursor=pointer]:
+          - generic [ref=e58]:
+            - img
+        - link "登录" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fchannel%252FUC59enR3mGEs9ZDUKjgARCIA%252Fvideos&hl=zh-CN&ec=65620
+          - generic [ref=e65]:
+            - img
+          - generic [ref=e66]: 登录
+  - navigation [ref=e70]:
+    - generic [ref=e71]:
+      - link "首页" [ref=e73] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e76]:
+          - img
+        - generic [ref=e77]: 首页
+      - link "Shorts" [ref=e79] [cursor=pointer]:
+        - /url: /shorts/
+        - generic [ref=e82]:
+          - img
+        - generic [ref=e83]: Shorts
+      - link "订阅" [ref=e85] [cursor=pointer]:
+        - /url: /feed/subscriptions
+        - generic [ref=e88]:
+          - img
+        - generic [ref=e89]: 订阅
+      - link "我" [ref=e91] [cursor=pointer]:
+        - /url: /feed/you
+        - generic [ref=e94]:
+          - img
+        - generic [ref=e95]: 我
+  - generic [ref=e96]:
+    - main [ref=e97]:
+      - generic [ref=e104]:
+        - generic [ref=e120]:
+          - heading "Banda Diesel" [level=1] [ref=e122]
+          - generic [ref=e123]:
+            - group [ref=e124]:
+              - generic [ref=e125]: "@BandaDiesel"
+            - generic [ref=e126]: •
+            - group [ref=e127]:
+              - generic "1,070位订阅者" [ref=e128]: 1070位订阅者
+              - generic [ref=e129]: •
+              - generic [ref=e130]: 2 个视频
+          - generic [ref=e132] [cursor=pointer]:
+            - generic [ref=e133]: Diesel - Belo Horizonte - Brasil
+            - button "说明。Diesel - Belo Horizonte - Brasil…点按即可了解详情。" [ref=e134]:
+              - generic [ref=e135]: …更多
+          - link "instagram.com/dieselreunion?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" [ref=e140] [cursor=pointer]:
+            - /url: https://www.youtube.com/redirect?event=channel_header&redir_token=QUFFLUhqbFI2Y2dmT0d6RE5xTVh5Wm5vcHVPMnRGUmxEZ3xBQ3Jtc0trQWozcHExZ1Fub1FrQko2LW5Ob3BuNGUtUDJWSk9oNDIwWUEyRTZFMFFaQ2laV1BQcjJKWXplLU54cHQyeU5zb2ctbng5UEZVVjV0SkJYUWNZc1AwQV9JcFZnWDhUZW12T25TZXJRakpSLXFUcHVmMA&q=https%3A%2F%2Fwww.instagram.com%2Fdieselreunion%3Futm_source%3Dig_web_button_share_sheet%26igsh%3DZDNlZDc0MzIxNw%3D%3D
+          - button "订阅" [ref=e144] [cursor=pointer]:
+            - generic [ref=e145]: 订阅
+        - tablist [ref=e152]:
+          - tablist [ref=e156]:
+            - tab "视频" [selected] [ref=e157] [cursor=pointer]:
+              - generic [ref=e158]: 视频
+            - tab "Shorts" [ref=e159] [cursor=pointer]:
+              - generic [ref=e160]: Shorts
+            - button "搜索" [ref=e164] [cursor=pointer]:
+              - generic [ref=e167]:
+                - img
+      - generic [ref=e178] [cursor=pointer]:
+        - link [ref=e179]:
+          - /url: /watch?v=e3qzwHQmWNs&pp=0gcJCQQLAYcqIYzv
+          - generic [ref=e185]:
+            - generic [ref=e188]:
+              - img
+            - generic [ref=e189]: 1:30:27
+        - generic [ref=e191]:
+          - generic [ref=e192]:
+            - heading "Diesel (Banda) ao Vivo | Show completo em Belo Horizonte 1小时30分钟" [level=3] [ref=e193]:
+              - link "Diesel (Banda) ao Vivo | Show completo em Belo Horizonte 1小时30分钟" [ref=e194]:
+                - /url: /watch?v=e3qzwHQmWNs&pp=0gcJCQQLAYcqIYzv
+                - text: Diesel (Banda) ao Vivo | Show completo em Belo Horizonte
+            - group [ref=e197]:
+              - generic [ref=e198]: 2.7万次观看
+              - generic [ref=e199]: •
+              - generic [ref=e200]: 11个月前
+          - button "其他操作" [ref=e203]:
+            - generic [ref=e207]:
+              - img
+    - text: •

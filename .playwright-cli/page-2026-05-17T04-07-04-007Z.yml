@@ -1,0 +1,211 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - button "导视" [ref=e9] [cursor=pointer]:
+            - generic [ref=e12]:
+              - img
+          - link "YouTube 首页" [ref=e14] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e19]:
+              - img
+          - button "跳过导航" [ref=e23] [cursor=pointer]:
+            - generic [ref=e24]: 跳过导航
+        - generic [ref=e28]:
+          - search [ref=e29]:
+            - generic [ref=e30]:
+              - combobox "搜索" [expanded] [ref=e33]
+              - button "Search" [ref=e34] [cursor=pointer]:
+                - generic [ref=e37]:
+                  - img
+          - generic [ref=e39]:
+            - button "通过语音搜索内容" [ref=e41] [cursor=pointer]:
+              - generic [ref=e45]:
+                - img
+            - tooltip "tooltip"
+        - generic [ref=e50]:
+          - button "设置" [ref=e55] [cursor=pointer]:
+            - generic [ref=e58]:
+              - img
+          - link "登录" [ref=e61] [cursor=pointer]:
+            - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fchannel%252FUCoNE6jXS4DZS060WJY9s96w%252Fabout&hl=zh-CN&ec=65620
+            - generic [ref=e65]:
+              - img
+            - generic [ref=e66]: 登录
+    - navigation [ref=e70]:
+      - generic [ref=e71]:
+        - link "首页" [ref=e73] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e76]:
+            - img
+          - generic [ref=e77]: 首页
+        - link "Shorts" [ref=e79] [cursor=pointer]:
+          - /url: /shorts/
+          - generic [ref=e82]:
+            - img
+          - generic [ref=e83]: Shorts
+        - link "订阅" [ref=e85] [cursor=pointer]:
+          - /url: /feed/subscriptions
+          - generic [ref=e88]:
+            - img
+          - generic [ref=e89]: 订阅
+        - link "我" [ref=e91] [cursor=pointer]:
+          - /url: /feed/you
+          - generic [ref=e94]:
+            - img
+          - generic [ref=e95]: 我
+    - generic [ref=e96]:
+      - main [ref=e97]:
+        - generic [ref=e104]:
+          - generic [ref=e120]:
+            - heading "Victor Hugo | Vendas" [level=1] [ref=e122]
+            - generic [ref=e123]:
+              - group [ref=e124]:
+                - generic [ref=e125]: "@vhambulante"
+              - generic [ref=e126]: •
+              - group [ref=e127]:
+                - generic "2,110位订阅者" [ref=e128]: 2110位订阅者
+                - generic [ref=e129]: •
+                - generic [ref=e130]: 105 个视频
+            - generic [ref=e132] [cursor=pointer]:
+              - generic [ref=e133]: 🚦Te ensino sobre empreendedorismo e vendas na rua de forma realista 👇🏻
+              - button "说明。🚦Te ensino sobre empreendedorismo e vendas na rua de form…点按即可了解详情。" [ref=e134]:
+                - generic [ref=e135]: …更多
+            - button "订阅" [ref=e139] [cursor=pointer]:
+              - generic [ref=e140]: 订阅
+          - tablist [ref=e147]:
+            - tablist [ref=e151]:
+              - tab "首页" [selected] [ref=e152] [cursor=pointer]:
+                - generic [ref=e153]: 首页
+              - tab "Shorts" [ref=e154] [cursor=pointer]:
+                - generic [ref=e155]: Shorts
+              - tab "播放列表" [ref=e156] [cursor=pointer]:
+                - generic [ref=e157]: 播放列表
+              - tab "帖子" [ref=e158] [cursor=pointer]:
+                - generic [ref=e159]: 帖子
+              - button "搜索" [ref=e163] [cursor=pointer]:
+                - generic [ref=e166]:
+                  - img
+        - generic [ref=e176]:
+          - generic [ref=e177]:
+            - generic [ref=e181]:
+              - img
+            - heading "Shorts" [level=2] [ref=e183]:
+              - generic [ref=e185]: Shorts
+            - button "其他操作" [ref=e189] [cursor=pointer]:
+              - generic [ref=e192]:
+                - img
+          - generic [ref=e194]:
+            - generic [ref=e197]:
+              - generic [ref=e199]:
+                - link [ref=e200] [cursor=pointer]:
+                  - /url: /shorts/nyhw79DBm3o
+                - generic [ref=e204] [cursor=pointer]:
+                  - 'link "Me segue ✅ #vendas #empreendedor" [ref=e205]':
+                    - /url: /shorts/nyhw79DBm3o
+                  - generic [ref=e206]: 1239次观看
+                - button "其他操作" [ref=e208] [cursor=pointer]:
+                  - generic [ref=e212]:
+                    - img
+              - generic [ref=e217]:
+                - link [ref=e218] [cursor=pointer]:
+                  - /url: /shorts/oUMl5pbkfpc
+                - generic [ref=e222] [cursor=pointer]:
+                  - 'link "ME SEGUE ✅ #vendas #empreendedor" [ref=e223]':
+                    - /url: /shorts/oUMl5pbkfpc
+                  - generic [ref=e224]: 1018次观看
+                - button "其他操作" [ref=e226] [cursor=pointer]:
+                  - generic [ref=e230]:
+                    - img
+              - generic [ref=e235]:
+                - link [ref=e236] [cursor=pointer]:
+                  - /url: /shorts/8-6vtoATAHA
+                - generic [ref=e240] [cursor=pointer]:
+                  - 'link "ME SEGUE ✅ #vendas #empreendedor" [ref=e241]':
+                    - /url: /shorts/8-6vtoATAHA
+                  - generic [ref=e242]: 1904次观看
+                - button "其他操作" [ref=e244] [cursor=pointer]:
+                  - generic [ref=e248]:
+                    - img
+              - generic [ref=e253]:
+                - link [ref=e254] [cursor=pointer]:
+                  - /url: /shorts/CgL14TYt_kk
+                - generic [ref=e258] [cursor=pointer]:
+                  - 'link "Rotina de um Vendedor de Rua #vendas" [ref=e259]':
+                    - /url: /shorts/CgL14TYt_kk
+                  - generic [ref=e260]: 48次观看
+                - button "其他操作" [ref=e262] [cursor=pointer]:
+                  - generic [ref=e266]:
+                    - img
+              - generic [ref=e271]:
+                - link [ref=e272] [cursor=pointer]:
+                  - /url: /shorts/9gIMFZpTt8w
+                - generic [ref=e276] [cursor=pointer]:
+                  - 'link "Me segue ✅ #vendas #empreendedor" [ref=e277]':
+                    - /url: /shorts/9gIMFZpTt8w
+                  - generic [ref=e278]: 68次观看
+                - button "其他操作" [ref=e280] [cursor=pointer]:
+                  - generic [ref=e284]:
+                    - img
+              - generic [ref=e289]:
+                - link [ref=e290] [cursor=pointer]:
+                  - /url: /shorts/r3SjbZf8t7Y
+                - generic [ref=e294] [cursor=pointer]:
+                  - 'link "Use a rua como ponte para seu objetivo ✅ #vendas" [ref=e295]':
+                    - /url: /shorts/r3SjbZf8t7Y
+                  - generic [ref=e296]: 1071次观看
+                - button "其他操作" [ref=e298] [cursor=pointer]:
+                  - generic [ref=e302]:
+                    - img
+            - button "下一批" [ref=e308] [cursor=pointer]:
+              - generic [ref=e312]:
+                - img
+      - text: •
+  - dialog [active] [ref=e316]:
+    - generic [ref=e317]:
+      - generic [ref=e320]:
+        - heading "Victor Hugo | Vendas" [level=2] [ref=e322]:
+          - generic "Victor Hugo | Vendas" [ref=e323]
+        - button "关闭" [ref=e327] [cursor=pointer]:
+          - generic [ref=e331]:
+            - img
+      - generic [ref=e341]:
+        - generic [ref=e343]: 说明
+        - generic [ref=e344]: 🚦Te ensino sobre empreendedorismo e vendas na rua de forma realista 👇🏻
+        - generic [ref=e345]:
+          - generic [ref=e347]: 更多信息
+          - table [ref=e348]:
+            - rowgroup [ref=e349]:
+              - row "www.youtube.com/@vhambulante" [ref=e350]:
+                - cell [ref=e351]:
+                  - generic [ref=e354]:
+                    - img
+                - cell "www.youtube.com/@vhambulante" [ref=e355]:
+                  - link "www.youtube.com/@vhambulante" [ref=e356] [cursor=pointer]:
+                    - /url: http://www.youtube.com/@vhambulante
+              - row "2020年7月26日注册" [ref=e357]:
+                - cell [ref=e358]:
+                  - generic [ref=e361]:
+                    - img
+                - cell "2020年7月26日注册" [ref=e362]:
+                  - generic [ref=e364]: 2020年7月26日注册
+              - row "2110位订阅者" [ref=e365]:
+                - cell [ref=e366]:
+                  - generic [ref=e369]:
+                    - img
+                - cell "2110位订阅者" [ref=e370]
+              - row "105 个视频" [ref=e371]:
+                - cell [ref=e372]:
+                  - generic [ref=e375]:
+                    - img
+                - cell "105 个视频" [ref=e376]
+              - row "564,671次观看" [ref=e377]:
+                - cell [ref=e378]:
+                  - generic [ref=e381]:
+                    - img
+                - cell "564,671次观看" [ref=e382]
+        - button "分享频道" [ref=e387] [cursor=pointer]:
+          - generic [ref=e391]:
+            - img
+          - generic [ref=e392]: 分享频道

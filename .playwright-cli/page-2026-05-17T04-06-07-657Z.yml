@@ -1,0 +1,215 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - button "导视" [ref=e9] [cursor=pointer]:
+            - generic [ref=e12]:
+              - img
+          - link "YouTube 首页" [ref=e14] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e19]:
+              - img
+          - button "跳过导航" [ref=e23] [cursor=pointer]:
+            - generic [ref=e24]: 跳过导航
+        - generic [ref=e28]:
+          - search [ref=e29]:
+            - generic [ref=e30]:
+              - combobox "搜索" [expanded] [ref=e33]
+              - button "Search" [ref=e34] [cursor=pointer]:
+                - generic [ref=e37]:
+                  - img
+          - generic [ref=e39]:
+            - button "通过语音搜索内容" [ref=e41] [cursor=pointer]:
+              - generic [ref=e45]:
+                - img
+            - tooltip "tooltip"
+        - generic [ref=e50]:
+          - button "设置" [ref=e55] [cursor=pointer]:
+            - generic [ref=e58]:
+              - img
+          - link "登录" [ref=e61] [cursor=pointer]:
+            - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fchannel%252FUCsTamDvCt4j2v5mrlzqYS7Q%252Fabout&hl=zh-CN&ec=65620
+            - generic [ref=e65]:
+              - img
+            - generic [ref=e66]: 登录
+    - navigation [ref=e70]:
+      - generic [ref=e71]:
+        - link "首页" [ref=e73] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e76]:
+            - img
+          - generic [ref=e77]: 首页
+        - link "Shorts" [ref=e79] [cursor=pointer]:
+          - /url: /shorts/
+          - generic [ref=e82]:
+            - img
+          - generic [ref=e83]: Shorts
+        - link "订阅" [ref=e85] [cursor=pointer]:
+          - /url: /feed/subscriptions
+          - generic [ref=e88]:
+            - img
+          - generic [ref=e89]: 订阅
+        - link "我" [ref=e91] [cursor=pointer]:
+          - /url: /feed/you
+          - generic [ref=e94]:
+            - img
+          - generic [ref=e95]: 我
+    - generic [ref=e96]:
+      - main [ref=e97]:
+        - generic [ref=e104]:
+          - generic [ref=e120]:
+            - heading "Corre Brasilis" [level=1] [ref=e122]
+            - generic [ref=e123]:
+              - group [ref=e124]:
+                - generic [ref=e125]: "@CorreBrasilis"
+              - generic [ref=e126]: •
+              - group [ref=e127]:
+                - generic "2,420位订阅者" [ref=e128]: 2420位订阅者
+                - generic [ref=e129]: •
+                - generic [ref=e130]: 111 个视频
+            - generic [ref=e132] [cursor=pointer]:
+              - generic [ref=e133]: Corre Brasilis é o seu canal de vídeos curtos, flagras e memes do cotidiano brasileiro! 🇧🇷
+              - button "说明。Corre Brasilis é o seu canal de vídeos curtos, flagras e m…点按即可了解详情。" [ref=e134]:
+                - generic [ref=e135]: …更多
+            - generic [ref=e136]:
+              - button "订阅" [ref=e139] [cursor=pointer]:
+                - generic [ref=e140]: 订阅
+              - link "社区" [ref=e146] [cursor=pointer]:
+                - /url: /@CorreBrasilis/community
+                - generic [ref=e150]:
+                  - img
+                - generic [ref=e151]: 社区
+          - tablist [ref=e158]:
+            - tablist [ref=e162]:
+              - tab "首页" [selected] [ref=e163] [cursor=pointer]:
+                - generic [ref=e164]: 首页
+              - tab "Shorts" [ref=e165] [cursor=pointer]:
+                - generic [ref=e166]: Shorts
+              - tab "帖子" [ref=e167] [cursor=pointer]:
+                - generic [ref=e168]: 帖子
+              - button "搜索" [ref=e172] [cursor=pointer]:
+                - generic [ref=e175]:
+                  - img
+        - generic [ref=e185]:
+          - generic [ref=e186]:
+            - generic [ref=e190]:
+              - img
+            - heading "Shorts" [level=2] [ref=e192]:
+              - generic [ref=e194]: Shorts
+            - button "其他操作" [ref=e198] [cursor=pointer]:
+              - generic [ref=e201]:
+                - img
+          - generic [ref=e203]:
+            - generic [ref=e206]:
+              - generic [ref=e208]:
+                - link [ref=e209] [cursor=pointer]:
+                  - /url: /shorts/GmFcie1lyZc
+                - generic [ref=e213] [cursor=pointer]:
+                  - link "O argentino não aguentou o pré-Carnaval 🔥🎭" [ref=e214]:
+                    - /url: /shorts/GmFcie1lyZc
+                  - generic [ref=e215]: 2922次观看
+                - button "其他操作" [ref=e217] [cursor=pointer]:
+                  - generic [ref=e221]:
+                    - img
+              - generic [ref=e226]:
+                - link [ref=e227] [cursor=pointer]:
+                  - /url: /shorts/-l1PP3Xky4k
+                - generic [ref=e231] [cursor=pointer]:
+                  - link "Toda família tem esse Natal 🧑‍🎄" [ref=e232]:
+                    - /url: /shorts/-l1PP3Xky4k
+                  - generic [ref=e233]: 2134次观看
+                - button "其他操作" [ref=e235] [cursor=pointer]:
+                  - generic [ref=e239]:
+                    - img
+              - generic [ref=e244]:
+                - link [ref=e245] [cursor=pointer]:
+                  - /url: /shorts/y94k-8nUraE
+                - generic [ref=e249] [cursor=pointer]:
+                  - link "Depois de um dia puxado, só isso aqui salva ❤️" [ref=e250]:
+                    - /url: /shorts/y94k-8nUraE
+                  - generic [ref=e251]: 3564次观看
+                - button "其他操作" [ref=e253] [cursor=pointer]:
+                  - generic [ref=e257]:
+                    - img
+              - generic [ref=e262]:
+                - link [ref=e263] [cursor=pointer]:
+                  - /url: /shorts/08xkZ86YpJY
+                - generic [ref=e267] [cursor=pointer]:
+                  - link "Era pra ser só uma brincadeira no palco 😆" [ref=e268]:
+                    - /url: /shorts/08xkZ86YpJY
+                  - generic [ref=e269]: 9671次观看
+                - button "其他操作" [ref=e271] [cursor=pointer]:
+                  - generic [ref=e275]:
+                    - img
+              - generic [ref=e280]:
+                - link [ref=e281] [cursor=pointer]:
+                  - /url: /shorts/S_1RMLTW9Pg
+                - generic [ref=e285] [cursor=pointer]:
+                  - link "Yoko NÃO APROVOU a bebida 😂💙🥤" [ref=e286]:
+                    - /url: /shorts/S_1RMLTW9Pg
+                  - generic [ref=e287]: 1583次观看
+                - button "其他操作" [ref=e289] [cursor=pointer]:
+                  - generic [ref=e293]:
+                    - img
+              - generic [ref=e298]:
+                - link [ref=e299] [cursor=pointer]:
+                  - /url: /shorts/AePtWuUXs_U
+                - generic [ref=e303] [cursor=pointer]:
+                  - link "A cura da tristeza do véi 😂🥃" [ref=e304]:
+                    - /url: /shorts/AePtWuUXs_U
+                  - generic [ref=e305]: 2790次观看
+                - button "其他操作" [ref=e307] [cursor=pointer]:
+                  - generic [ref=e311]:
+                    - img
+            - button "下一批" [ref=e317] [cursor=pointer]:
+              - generic [ref=e321]:
+                - img
+      - text: •
+  - dialog [active] [ref=e325]:
+    - generic [ref=e326]:
+      - generic [ref=e329]:
+        - heading "Corre Brasilis" [level=2] [ref=e331]:
+          - generic "Corre Brasilis" [ref=e332]
+        - button "关闭" [ref=e336] [cursor=pointer]:
+          - generic [ref=e340]:
+            - img
+      - generic [ref=e350]:
+        - generic [ref=e352]: 说明
+        - generic [ref=e353]: "Corre Brasilis é o seu canal de vídeos curtos, flagras e memes do cotidiano brasileiro! 🇧🇷 Aqui você encontra: ✅ Momentos engraçados e inusitados ✅ Situações reais do dia a dia no Brasil ✅ Memes e vídeos virais 🔔 Inscreva-se e ative o sininho para não perder nenhum vídeo! #memesbr #videoscurtos #flagrabr #correbrasilis"
+        - generic [ref=e354]:
+          - generic [ref=e356]: 更多信息
+          - table [ref=e357]:
+            - rowgroup [ref=e358]:
+              - row "www.youtube.com/@CorreBrasilis" [ref=e359]:
+                - cell [ref=e360]:
+                  - generic [ref=e363]:
+                    - img
+                - cell "www.youtube.com/@CorreBrasilis" [ref=e364]:
+                  - link "www.youtube.com/@CorreBrasilis" [ref=e365] [cursor=pointer]:
+                    - /url: http://www.youtube.com/@CorreBrasilis
+              - row "2025年8月12日注册" [ref=e366]:
+                - cell [ref=e367]:
+                  - generic [ref=e370]:
+                    - img
+                - cell "2025年8月12日注册" [ref=e371]:
+                  - generic [ref=e373]: 2025年8月12日注册
+              - row "2420位订阅者" [ref=e374]:
+                - cell [ref=e375]:
+                  - generic [ref=e378]:
+                    - img
+                - cell "2420位订阅者" [ref=e379]
+              - row "111 个视频" [ref=e380]:
+                - cell [ref=e381]:
+                  - generic [ref=e384]:
+                    - img
+                - cell "111 个视频" [ref=e385]
+              - row "2,830,417次观看" [ref=e386]:
+                - cell [ref=e387]:
+                  - generic [ref=e390]:
+                    - img
+                - cell "2,830,417次观看" [ref=e391]
+        - button "分享频道" [ref=e396] [cursor=pointer]:
+          - generic [ref=e400]:
+            - img
+          - generic [ref=e401]: 分享频道
