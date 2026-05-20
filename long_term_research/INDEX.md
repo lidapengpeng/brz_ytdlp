@@ -1,25 +1,29 @@
 # Long-Term Research Index — `brz_ytdlp` 700K BR YouTube 抓取项目
 
-> 日期: 2026-05-19
+> 日期: 2026-05-20（last updated）
 > 文件夹: `/Users/dapeng/Desktop/word/brz_ytdlp/long_term_research/`
 > 目的: 长期专项调研档案，每个主题对应一个文档，可持续迭代细化
 
 ---
 
-## 项目当前状态快照（2026-05-19）
+## 项目当前状态快照（2026-05-20）
 
 | 维度 | 现状 |
 |---|---|
-| DB 中 eligibles | ~59,000 |
+| DB 中 eligibles | ~182,000 |
+| DB 中 rejected | ~207,000 |
+| Known cid 总量（dedup pool） | **~389,000** |
 | 目标 | 700,000 |
-| 完成度 | **8.4%** |
-| 当前 sustained eligible rate | **4.86 e/s**（单 IP，已修 shuffle bug 后）|
-| 历史峰值 | 9.77 e/s (DB ~10K 时期) |
-| 主要瓶颈 | per-IP token bucket（YouTube guest ~1000 req/hr）+ dedup overlap 81% |
+| 完成度 | **~26%** |
+| 当前 sustained eligible rate | **0.3-0.5 e/s**（结构性 dedup 上限，95%+ 重叠率）|
+| 历史峰值 | 6.96 e/s（DB ~50K 时期）|
+| 主要瓶颈 | **YouTube 算法图谱探完**（search + watchEndpoint + related 已饱和），需开**算法外**新源 |
+
+> 路径 §05/§06（YouTube 内部 query/BFS）已被基本耗尽 → 焦点转移到 §09（Instagram bio 反向 discovery）
 
 ---
 
-## 4 个长期研究方向
+## 5 个长期研究方向
 
 ### 📘 [05 — Query Bank 多样性](05_query_bank_diversity.md)
 **问题**: 当前 36K queries 是字母后缀变体（`X` + `X canal` + `X brasil` + `X oficial`）的笛卡尔积，**91% 是冗余变体**，造成 81% dedup 重叠率。
@@ -91,19 +95,45 @@
 
 ---
 
+### 📘 [09 — Instagram-Driven Discovery（BR 创作者 bio 反向）](09_instagram_discovery.md)
+**问题**: YouTube 内部 discovery 已耗尽（389K known, dedup 95%+，e/s 跌至 0.3-0.5）。需要**算法外**新源。
+
+**核心洞察**:
+- 巴西是 IG 全球第二大市场（134M Reels 月活），**BR 创作者 IG 优先级 ≥ YouTube**
+- Bio link 经济：**75%+ BR IG 创作者**有 YouTube/Linktree/Beacons 直链
+- IG → YouTube **反向 discovery** = 全新 cid pool（DB 几乎无重叠）
+
+**4 阶段路线**:
+- **Phase 0 (零成本)**: Wikipedia BR YouTubers + Linktree public HTML → **1-3K new**（本周）
+- **Phase 1 ($20/mo)**: 单 IG 账号 + instagrapi 扫 1-3K mega creators bio → **10-30K new**
+- **Phase 2 ($50-100/mo)**: 多账号 follower BFS → **30-50K new**
+- **Phase 3 ($200-300/mo)**: 10-20 账号 production farm → **50-150K new**
+
+**风险**: IG 账号 7-14 天会被 flag，需 warm-up + cooldown 策略；Apify ($0.30/1000 profiles) 为一次性 shortcut 备选
+
+**预期收益**: **30-150K NEW BR eligibles**（视投入深度）—— 路径 §05/§06 之后最大未探边界
+
+**集成成本**: 独立 `ig_discovery/` 模块 + `ig.db`（与主 `results.db` 解耦），bridge 脚本喂 ch_queue
+
+---
+
 ## 综合优先级矩阵（ROI 排序）
 
 | # | 主题 | 工程量 | 收益 | 何时做 |
 |---|---|---|---|---|
-| **6** | BFS Discovery | **低**（~70 行）| **中-高**（25-35K 新 eligibles）| **本周** |
-| **5** | Query Bank 扩充 | 中（脚本 + 重组）| 中（dedup 81→50%）| **本周** |
-| **8** | IPv6 /64 VPS rotation | 中-高（VPS + 部署）| **极高**（+15-30 e/s）| **2-3 周内** |
-| **7** | Cookie Pool | 高（账号 + Playwright + maint）| 中（2x，预期 +5 e/s）| 6+ 后（Plan B）|
+| **9** | Instagram Discovery (Phase 0) | **低**（~200 行，零依赖）| **中**（1-3K 新源，验证路径）| **本周** ⭐ |
+| **9** | Instagram Discovery (Phase 1) | 中（单账号 + instagrapi）| **高**（10-30K 新 eligibles）| **下周** |
+| **8** | IPv6 /64 VPS rotation | 中-高（VPS + 部署）| 中（+5-10 e/s，但 dedup 仍是瓶颈）| 看 §09 结果 |
+| **9** | Instagram Discovery (Phase 2-3) | 高（多账号 farm）| **极高**（50-150K 新）| 3-4 周后 |
+| **7** | Cookie Pool | 高（账号 + Playwright + maint）| 低（被 dedup 限制，4x quota 无用）| 不推荐 |
+| ~~6~~ | ~~BFS Discovery~~ | ~~已落地~~ | ~~已耗尽~~ | ✅ 完成 |
+| ~~5~~ | ~~Query Bank 扩充~~ | ~~已落地~~ | ~~已耗尽~~ | ✅ 完成 |
 
-**建议落地顺序**:
-1. **本周**: 跑 BFS（§06）+ 扩 query bank（§05 §5.1 quick wins）—— 单 IP 上 e/s 从 4.86 推到 ~8-10
-2. **2-3 周**: 部署 1-3 台 Hetzner VPS + TREVORproxy（§08）—— 突破 30 e/s aggregate
-3. **6 周+**: 如果还需要更多，考虑 cookie pool（§07）
+**建议落地顺序**（**重大调整 2026-05-20**）:
+1. **本周**: §09 Phase 0 spike —— Wikipedia + Linktree 验证 IG 路径可行性（0 成本）
+2. **下周**: 看 Phase 0 结果决策。若 hit rate >30% → 开 Phase 1 单账号
+3. **3-4 周**: 看 Phase 1 ROI 决策是否扩到 Phase 2/3 farm
+4. **备选**: 若 §09 完全不通，回退 §08 VPS 多 IP（但 dedup 仍限制收益）
 
 ---
 
@@ -127,7 +157,7 @@
 
 ---
 
-## 4 文档的共同结构（便于查找）
+## 5 文档的共同结构（便于查找）
 
 每个调研文档都遵循：
 
@@ -160,8 +190,9 @@
 | 06_bfs_discovery | 566 | 27 KB | 读 yt-dlp 源码 + 41 seed 实测 |
 | 07_cookie_pool | 1015 | 45 KB | yt-dlp issues + Playwright PoC |
 | 08_ipv6_vps_rotation | 682 | 29 KB | TREVORproxy/smart-ipv6 源码对比 |
-| **Total** | **2,708** | **128 KB** | 4 agent × ~10 min 并行 |
+| 09_instagram_discovery | 703 | 28 KB | instagrapi/Apify 调研 + 法律 precedent 综合 |
+| **Total** | **3,411** | **156 KB** | 5 agent × ~10 min 并行 |
 
 ---
 
-*Index v1 — 2026-05-19。后续每次落地一项调研建议后回来更新此页 "调研→实施" 状态。*
+*Index v2 — 2026-05-20。增加 §09 Instagram 方向；§05/§06 标记为已落地。后续每次落地一项调研建议后回来更新此页 "调研→实施" 状态。*

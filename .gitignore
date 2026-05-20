@@ -33,6 +33,13 @@ results.db-shm
 results.db-wal
 *.json.gz
 
+# === ig_discovery data store ===
+# Linktree fetch results, IG bio dumps, follower lists.
+data/
+data/ig.db
+data/ig.db-shm
+data/ig.db-wal
+
 # === Experiment dumps (large, regeneratable) ===
 bfs_experiment_results.json
 bfs_experiment_v2_results.json
